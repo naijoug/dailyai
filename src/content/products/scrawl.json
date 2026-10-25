@@ -1,0 +1,18 @@
+{
+  "id": "scrawl",
+  "name": "Scrawl",
+  "aliases": [],
+  "url": "https://scrawl.kitlangton.com",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Mac 应用（Homebrew cask / zip；",
+  "oneLinerEn": "Mac app (Homebrew cask / zip;",
+  "score": 4,
+  "firstSeen": "2026-10-25",
+  "updated": "2026-10-25",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

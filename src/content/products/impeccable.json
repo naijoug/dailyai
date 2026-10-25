@@ -1,0 +1,19 @@
+{
+  "id": "impeccable",
+  "name": "Impeccable",
+  "aliases": [],
+  "url": "https://impeccable.style",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "npx impeccable install 安装，再跑 /impeccable init 把产品事实写入 PRODUCT.md。",
+  "oneLinerEn": "install with npx impeccable install, then /impeccable init writes durable product truth in",
+  "score": 4,
+  "firstSeen": "2026-10-25",
+  "updated": "2026-10-25",
+  "tags": [
+    "Models",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

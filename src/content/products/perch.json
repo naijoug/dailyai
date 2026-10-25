@@ -1,0 +1,18 @@
+{
+  "id": "perch",
+  "name": "Perch",
+  "aliases": [],
+  "url": "https://perchfocus.com",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Apple Silicon 免费 beta——把已有 Claude Code 会话迁过来，所有会话/PR/链接一处看清，只在 Claude、审阅人或 CI 等你时提醒。",
+  "oneLinerEn": "free beta for Apple Silicon — bring existing Claude Code sessions over, see every session/",
+  "score": 4,
+  "firstSeen": "2026-10-25",
+  "updated": "2026-10-25",
+  "tags": [
+    "Models",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

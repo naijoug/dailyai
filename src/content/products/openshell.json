@@ -1,0 +1,20 @@
+{
+  "id": "openshell",
+  "name": "OpenShell",
+  "aliases": [],
+  "url": "https://docs.nvidia.com/openshell/latest/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Apache-2.0，面向大规模自治 Agent——每个 Agent 跑在隔离沙箱里，内核层强制文件、系统调用和网络策略；",
+  "oneLinerEn": "Apache-2.0 runtime for fleets of autonomous agents — each agent runs in an isolated sandbo",
+  "score": 5,
+  "firstSeen": "2026-10-25",
+  "updated": "2026-10-25",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source",
+    "Products"
+  ],
+  "rankings": []
+}

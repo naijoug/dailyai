@@ -1,0 +1,17 @@
+{
+  "id": "adrs4ai",
+  "name": "ADRs for AI",
+  "aliases": [],
+  "url": "https://adrs.systems",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "起步仓库含 ADR/seed 模板、收件箱协议和任务配方；",
+  "oneLinerEn": "starter repo with ADR/seed templates, inbox protocol and task-runner recipes;",
+  "score": 3,
+  "firstSeen": "2026-10-25",
+  "updated": "2026-10-25",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}
