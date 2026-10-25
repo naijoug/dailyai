@@ -173,21 +173,27 @@ const sections = [
     const now = performance.now(); const dt = Math.min(now - last, CFG.tickMs * 4); last = now;
     const active = document.visibilityState === 'visible' && document.hasFocus() && Date.now() - lastInput < CFG.idleMs;
     const vh = innerHeight; const st = load();
+    // 严格串行：只有文档顺序中最靠上的可见未读条目累计停留并转圈，其余可见未读条目保持 0。
+    const vis: { t: Tr; top: number }[] = [];
     for (const t of trs) {
       const id = t.li.dataset.id!; const unread = !st.read[id];
-      if (!unread || manualUnread.has(id)) { if (t.acc) { t.acc = 0; } paintRing(t, false); continue; }
+      if (!unread || manualUnread.has(id)) { t.acc = 0; paintRing(t, false); continue; }
       const r = t.li.getBoundingClientRect();
       const visH = Math.max(0, Math.min(r.bottom, vh) - Math.max(r.top, 0));
       const enough = r.height > 0 && (visH / r.height >= CFG.visibleRatio || visH >= vh * CFG.visibleRatio);
-      if (enough) {
-        t.out = 0;
-        if (active) { t.acc += dt / 1000; if (t.acc >= t.req) { t.acc = t.req; paintRing(t, true); autoRead(t.li); continue; } }
-      } else {
+      if (enough) { t.out = 0; vis.push({ t, top: r.top + scrollY }); }
+      else {
         if (!t.out) t.out = Date.now();
         else if (t.acc && Date.now() - t.out > CFG.outResetMs) t.acc = 0;
+        paintRing(t, true);
       }
-      paintRing(t, true);
     }
+    vis.sort((x, y) => x.top - y.top);
+    vis.forEach(({ t }, i) => {
+      if (i > 0) { t.acc = 0; paintRing(t, true); return; }
+      if (active) { t.acc += dt / 1000; if (t.acc >= t.req) { t.acc = t.req; paintRing(t, true); autoRead(t.li); return; } }
+      paintRing(t, true);
+    });
   }, CFG.tickMs);
   // 变暗与已读解耦：刚标已读的条目保持明亮，离开视口后才加 dim；页面加载时已读条目直接 dim。
   { const st = load(); items.forEach((li) => li.classList.toggle('dim', !!st.read[li.dataset.id!])); }
