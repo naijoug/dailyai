@@ -1,0 +1,17 @@
+{
+  "id": "tibosay",
+  "name": "TiboSay（Tibo 说）",
+  "aliases": [],
+  "url": "https://tibosay.com/zh",
+  "category": "其他",
+  "region": "cn",
+  "oneLiner": "V2EX 分享创造新作，自动归档 @thsottiaux 每次重置推文（标出全员重置/储备重置），给出累计次数、平均间隔、最长等待和重置热力图；",
+  "oneLinerEn": "new on V2EX's Share & Create — it auto-archives every @thsottiaux reset post (tagged full ",
+  "score": 3,
+  "firstSeen": "2026-10-25",
+  "updated": "2026-10-25",
+  "tags": [
+    "Chinese Community"
+  ],
+  "rankings": []
+}

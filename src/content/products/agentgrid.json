@@ -1,0 +1,19 @@
+{
+  "id": "agentgrid",
+  "name": "AgentGrid.io",
+  "aliases": [],
+  "url": "https://agentgrid.io",
+  "category": "办公",
+  "region": "global",
+  "oneLiner": "YC 投资；",
+  "oneLinerEn": "YC-backed;",
+  "score": 3,
+  "firstSeen": "2026-10-25",
+  "updated": "2026-10-25",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Products"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "nanbeige",
+  "name": "Nanbeige4.3-33B",
+  "aliases": [],
+  "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "BOSS直聘开源的 33B Agent 模型，Nanbeige4.3 系列的旗舰「教师模型」。",
+  "oneLinerEn": "BOSS Zhipin's open-weight 33B agent model, built as the flagship \"teacher\" for the Nanbeige4.3 series.",
+  "score": 4,
+  "firstSeen": "2026-10-25",
+  "updated": "2026-10-25",
+  "tags": [
+    "Models",
+    "Agents",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

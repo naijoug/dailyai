@@ -1,0 +1,17 @@
+{
+  "id": "indra-ocr",
+  "name": "Indra OCR",
+  "aliases": [],
+  "url": "https://www.datalab.to/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "pip install indra-ocr 即可把 PDF 和图片转成 markdown、纯文本或带框选、版面标签和阅读顺序的 JSON；",
+  "oneLinerEn": "pip install indra-ocr turns PDFs and images into markdown, text or JSON with boxes, layout",
+  "score": 4,
+  "firstSeen": "2026-10-25",
+  "updated": "2026-10-25",
+  "tags": [
+    "Open Source"
+  ],
+  "rankings": []
+}

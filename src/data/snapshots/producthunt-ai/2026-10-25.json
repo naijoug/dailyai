@@ -7,14 +7,38 @@
  "metric": "Feed 顺序（不是排名）",
  "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
  "period": "2026-10-25",
- "fetched": "2026-10-25T01:38:01.610Z",
+ "fetched": "2026-10-25T13:30:17.445Z",
  "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
  "rows": [
   {
-   "name": "sideOS.ai",
-   "url": "https://www.producthunt.com/products/sideos-ai",
-   "value": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
+   "name": "Moli by Lexmount",
+   "url": "https://www.producthunt.com/products/lexmount-browser",
+   "value": "The fastest headless browser for agents and harnesses Discussion | Link",
+   "date": "2026-10-12"
+  },
+  {
+   "name": "Specsight",
+   "url": "https://www.producthunt.com/products/specsight",
+   "value": "Product observability for teams shipping fast with AI Discussion | Link",
+   "date": "2026-10-18"
+  },
+  {
+   "name": "Llama Windows",
+   "url": "https://www.producthunt.com/products/llama-windows",
+   "value": "One local AI server for all your Windows apps Discussion | Link",
    "date": "2026-10-23"
+  },
+  {
+   "name": "Yourcast 2.0",
+   "url": "https://www.producthunt.com/products/yourcast",
+   "value": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
+   "date": "2026-10-24"
+  },
+  {
+   "name": "AgentGrid.io",
+   "url": "https://www.producthunt.com/products/agentgrid-io",
+   "value": "Shared workspace for humans and agents Discussion | Link",
+   "date": "2026-10-24"
   },
   {
    "name": "Basedash Scheduled CSV Exports",
@@ -29,10 +53,10 @@
    "date": "2026-10-22"
   },
   {
-   "name": "Context Engine",
-   "url": "https://www.producthunt.com/products/context-engine-2",
-   "value": "One memory for your AI agents and human team members. Discussion | Link",
-   "date": "2026-10-19"
+   "name": "sideOS.ai",
+   "url": "https://www.producthunt.com/products/sideos-ai",
+   "value": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
+   "date": "2026-10-23"
   },
   {
    "name": "Monish",
@@ -47,16 +71,40 @@
    "date": "2026-10-22"
   },
   {
+   "name": "ElevenLabs Realtime",
+   "url": "https://www.producthunt.com/products/realtime-max-mini",
+   "value": "Realtime voice agent models with 570ms to first audio Discussion | Link",
+   "date": "2026-10-20"
+  },
+  {
+   "name": "Peras",
+   "url": "https://www.producthunt.com/products/peras",
+   "value": "Pause Claude Code and Codex before they burn your week Discussion | Link",
+   "date": "2026-10-22"
+  },
+  {
+   "name": "Termi Protocol",
+   "url": "https://www.producthunt.com/products/termi-protocol",
+   "value": "Watch AI agents code in 3D and hand off the work Discussion | Link",
+   "date": "2026-10-22"
+  },
+  {
    "name": "Polylane for Cloudflare",
    "url": "https://www.producthunt.com/products/polylane",
    "value": "An AI on-call engineer for your Cloudflare apps Discussion | Link",
    "date": "2026-10-21"
   },
   {
-   "name": "Ovren Live Preview",
-   "url": "https://www.producthunt.com/products/ovren",
-   "value": "See your product change live before it ships Discussion | Link",
-   "date": "2026-10-08"
+   "name": "Inyon",
+   "url": "https://www.producthunt.com/products/inyon",
+   "value": "Answer your coding agents from your phone Discussion | Link",
+   "date": "2026-10-16"
+  },
+  {
+   "name": "MOVO AI",
+   "url": "https://www.producthunt.com/products/movo-ai",
+   "value": "The world's first long-form video agent for mobile Discussion | Link",
+   "date": "2026-09-18"
   },
   {
    "name": "Dots Phone",
@@ -71,46 +119,10 @@
    "date": "2026-10-22"
   },
   {
-   "name": "Termi Protocol",
-   "url": "https://www.producthunt.com/products/termi-protocol",
-   "value": "Watch AI agents code in 3D and hand off the work Discussion | Link",
-   "date": "2026-10-22"
-  },
-  {
-   "name": "Peras",
-   "url": "https://www.producthunt.com/products/peras",
-   "value": "Pause Claude Code and Codex before they burn your week Discussion | Link",
-   "date": "2026-10-22"
-  },
-  {
-   "name": "Inyon",
-   "url": "https://www.producthunt.com/products/inyon",
-   "value": "Answer your coding agents from your phone Discussion | Link",
-   "date": "2026-10-16"
-  },
-  {
    "name": "Gerty",
    "url": "https://www.producthunt.com/products/gerty",
    "value": "Private ChatGPT alternative that sets itself up on your Mac Discussion | Link",
    "date": "2026-10-22"
-  },
-  {
-   "name": "DotMD",
-   "url": "https://www.producthunt.com/products/dotmd-3",
-   "value": "Review your AI agent's Markdown specs like a pull request Discussion | Link",
-   "date": "2026-10-20"
-  },
-  {
-   "name": "FLUX 3 Max",
-   "url": "https://www.producthunt.com/products/fal-ai",
-   "value": "fal’s FLUX 3 Max: 10-second AI video in about 12 seconds Discussion | Link",
-   "date": "2026-10-19"
-  },
-  {
-   "name": "ElevenLabs Realtime",
-   "url": "https://www.producthunt.com/products/realtime-max-mini",
-   "value": "Realtime voice agent models with 570ms to first audio Discussion | Link",
-   "date": "2026-10-20"
   },
   {
    "name": "Cloudflare Clairic",
@@ -119,10 +131,28 @@
    "date": "2026-10-20"
   },
   {
-   "name": "MOVO AI",
-   "url": "https://www.producthunt.com/products/movo-ai",
-   "value": "The world's first long-form video agent for mobile Discussion | Link",
-   "date": "2026-09-18"
+   "name": "Ovren Live Preview",
+   "url": "https://www.producthunt.com/products/ovren",
+   "value": "See your product change live before it ships Discussion | Link",
+   "date": "2026-10-08"
+  },
+  {
+   "name": "FLUX 3 Max",
+   "url": "https://www.producthunt.com/products/fal-ai",
+   "value": "fal’s FLUX 3 Max: 10-second AI video in about 12 seconds Discussion | Link",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "Context Engine",
+   "url": "https://www.producthunt.com/products/context-engine-2",
+   "value": "One memory for your AI agents and human team members. Discussion | Link",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "DotMD",
+   "url": "https://www.producthunt.com/products/dotmd-3",
+   "value": "Review your AI agent's Markdown specs like a pull request Discussion | Link",
+   "date": "2026-10-20"
   },
   {
    "name": "Bloblings",
@@ -131,64 +161,34 @@
    "date": "2026-10-22"
   },
   {
-   "name": "Claude Duet",
-   "url": "https://www.producthunt.com/products/claude",
-   "value": "Proactive agent that understands what needs your attention Discussion | Link",
-   "date": "2026-10-21"
-  },
-  {
-   "name": "Kugel Ear",
-   "url": "https://www.producthunt.com/products/kugelaudio",
-   "value": "Speech-to-text that only asks when it's unsure Discussion | Link",
-   "date": "2026-10-21"
-  },
-  {
-   "name": "Whiteboard",
-   "url": "https://www.producthunt.com/products/whiteboard-5",
-   "value": "the open-source IDE for thoughtful software design Discussion | Link",
+   "name": "Causo",
+   "url": "https://www.producthunt.com/products/causo",
+   "value": "Find leads beyond database filters with AI research & MCP Discussion | Link",
    "date": "2026-10-19"
   },
   {
-   "name": "Agentic CleanSlop",
-   "url": "https://www.producthunt.com/products/cleanslop",
-   "value": "Authenticate, scan and fix your app from your agent Discussion | Link",
-   "date": "2026-10-21"
+   "name": "CutBay",
+   "url": "https://www.producthunt.com/products/cutbay",
+   "value": "AI Video Agent: Turn Anything into Videos via Chat Discussion | Link",
+   "date": "2026-10-09"
   },
   {
-   "name": "Mercury 3",
-   "url": "https://www.producthunt.com/products/mercury-412",
-   "value": "The diffusion LLM that scaled 40x without slowing down Discussion | Link",
-   "date": "2026-10-21"
+   "name": "heal.dev",
+   "url": "https://www.producthunt.com/products/heal-dev",
+   "value": "Find bugs and vulnerabilities code review misses Discussion | Link",
+   "date": "2026-10-01"
   },
   {
-   "name": "Mistral Voxtral 3",
-   "url": "https://www.producthunt.com/products/mistral-7b",
-   "value": "Mistral’s speech models for transcription, TTS and agents Discussion | Link",
-   "date": "2026-10-20"
-  },
-  {
-   "name": "Notif",
-   "url": "https://www.producthunt.com/products/notif-2",
-   "value": "AI for your Apple Reminders Discussion | Link",
-   "date": "2026-10-20"
+   "name": "Playad",
+   "url": "https://www.producthunt.com/products/playad",
+   "value": "Hire your AI Marketing Team Discussion | Link",
+   "date": "2026-10-12"
   },
   {
    "name": "Concierge by Juniors AI",
    "url": "https://www.producthunt.com/products/concierge-by-juniors-ai",
    "value": "Omni-channel AI-first customer support (6 months free) Discussion | Link",
    "date": "2026-10-11"
-  },
-  {
-   "name": "DeepCell",
-   "url": "https://www.producthunt.com/products/deepcell",
-   "value": "Your deadline survival kit for office work Discussion | Link",
-   "date": "2026-10-20"
-  },
-  {
-   "name": "Tetriz Engg Intelligence + Connectors",
-   "url": "https://www.producthunt.com/products/tetriz-engg-intelligence-connectors",
-   "value": "Connect coding sessions to PRs, issues, quality, and ROI Discussion | Link",
-   "date": "2026-10-21"
   }
  ]
 }
