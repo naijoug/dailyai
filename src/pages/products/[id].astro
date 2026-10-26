@@ -58,7 +58,7 @@ const host = p.url.replace(/^https?:\/\/(www\.)?/, '');
   <nav class="pager"><I tag="a" href={url('/products/')} k="p.all" /><I tag="a" href={url('/products/#models')} k="p.models" /></nav>
 </Base>
 <script>
-  import { load, save } from '../../lib/store';
+  import { load, save, isRead, isFav, ratingOf, markRead, markFav, markRating, onStore } from '../../lib/store';
   import { setFav, setRead, setStars, starKeys } from '../../lib/icons';
   import { getLang, onLang } from '../../lib/i18n';
   const art = document.querySelector<HTMLElement>('.pdetail')!;
@@ -67,23 +67,23 @@ const host = p.url.replace(/^https?:\/\/(www\.)?/, '');
   const dsum = () => (art.querySelector(`.dsum [data-l=${getLang()}]`) || art.querySelector('.dsum'))!.textContent || '';
   const upd = () => {
     const st = load();
-    const fav = !!st.fav[k]; const fb = meta.querySelector('[data-act=fav]')!;
+    const fav = isFav(st, k); const fb = meta.querySelector('[data-act=fav]')!;
     setFav(fb, fav);
-    setRead(meta.querySelector('[data-act=read]')!, !!st.read[k], 'seen');
-    const rt = st.rating[k] || 0;
+    setRead(meta.querySelector('[data-act=read]')!, isRead(st, k), 'seen');
+    const rt = ratingOf(st, k);
     setStars(meta, rt);
   };
   starKeys(meta);
   meta.addEventListener('click', (e) => {
     const b = (e.target as HTMLElement).closest('button'); if (!b) return;
     const st = load();
-    if (b.dataset.star) { const n = Number(b.dataset.star); if (st.rating[k] === n) delete st.rating[k]; else st.rating[k] = n; }
-    else if (b.dataset.act === 'read') { if (st.read[k]) delete st.read[k]; else st.read[k] = Date.now(); }
+    if (b.dataset.star) { const n = Number(b.dataset.star); markRating(st, k, ratingOf(st, k) === n ? null : n); }
+    else if (b.dataset.act === 'read') markRead(st, k, !isRead(st, k));
     else if (b.dataset.act === 'fav') {
-      if (st.fav[k]) delete st.fav[k];
-      else st.fav[k] = { id: k, day: art.dataset.first!, html: `<p><strong>${art.querySelector('h1')!.textContent}</strong>: ${dsum()}</p>`, text: dsum(), score: Number(art.dataset.score) || undefined, ts: Date.now() };
+      if (isFav(st, k)) markFav(st, k, null);
+      else markFav(st, k, { id: k, day: art.dataset.first!, html: `<p><strong>${art.querySelector('h1')!.textContent}</strong>: ${dsum()}</p>`, text: dsum(), score: Number(art.dataset.score) || undefined });
     }
     save(st); upd();
   });
-  upd(); onLang(upd);
+  upd(); onLang(upd); onStore(upd);
 </script>

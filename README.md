@@ -7,7 +7,7 @@
 - **X AI 热点**（`type: x-ai`）：「AI 热点」与「有趣用法和干货」
 - **科技速递**（`type: tech`）：新产品 / 开源、科技新闻、中文社区
 
-功能：首页按时间倒序（可按类型筛选）、`/x-ai`、`/tech` 分区页、`/tags/<标签>`、文章页、`/rss.xml`、Pagefind 全文搜索（`/search`），浅色 / 深色模式，以及 `/codex-reset`（Codex 全球用量重置的非官方估计，见 `docs/codex-reset.md`）。
+功能：首页按时间倒序（可按类型筛选）、`/x-ai`、`/tech` 分区页、`/tags/<标签>`、文章页、`/rss.xml`、Pagefind 全文搜索（`/search`），浅色 / 深色模式，以及 `/codex-reset`（Codex 全球用量重置的非官方估计，见 `docs/codex-reset.md`）。设置里可以选「使用 GitHub 登录」，把已读和收藏同步到私密 Gist（见 `docs/github-sync-setup.md`）；没配 OAuth 时不显示登录按钮。
 
 ## 添加一篇文章
 

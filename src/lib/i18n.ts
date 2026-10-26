@@ -8,6 +8,8 @@ const en: Dict = {
   'nav.label': 'Main navigation', 'nav.home': 'Home', 'nav.products': 'Products', 'nav.reset': 'Reset', 'nav.tags': 'Tags', 'nav.search': 'Search', 'nav.favorites': 'Favorites',
   'theme.toggle': 'Toggle theme', 'theme.label': 'Theme', 'theme.light': 'Light', 'theme.dark': 'Dark',
   'set.open': 'Settings', 'set.title': 'Settings', 'set.close': 'Close',
+  'gh.account': 'Account', 'gh.signin': 'Sign in with GitHub', 'gh.signout': 'Sign out',
+  'gh.sync': 'Read state and favorites sync to a private Gist. Signing out keeps a copy in this browser.',
   'lang.label': 'Language', 'lang.en': 'English', 'lang.zh': '中文',
   'foot.text': 'Content from the daily digests', 'foot.rss': 'Subscribe via RSS',
   // home / gallery
@@ -33,7 +35,7 @@ const en: Dict = {
   // search
   'search.title': 'Search', 'search.ph': 'Search all digests…', 'search.zero': 'No results for “[SEARCH_TERM]”', 'search.many': '[COUNT] results for “[SEARCH_TERM]”', 'search.one': '1 result for “[SEARCH_TERM]”',
   // favorites
-  'fav.title': 'Favorites', 'fav.desc': 'Favorites, read state and ratings are stored only in this browser (localStorage). Export JSON to move them to another device.',
+  'fav.title': 'Favorites', 'fav.desc': 'Favorites, read state and ratings stay in this browser. Sign in with GitHub from Settings to sync them to a private Gist, or export JSON.',
   'fav.s.ts': 'By date favorited', 'fav.s.mine': 'By my rating', 'fav.s.ai': 'By AI score', 'fav.s.day': 'By date', 'sort': 'Sort',
   'fav.export': 'Export JSON', 'fav.import': 'Import JSON', 'fav.empty': 'No favorites yet. Click the bookmark icon under an item on a day page, or on a product page.',
   'fav.stat': '{f} favorites · {r} read · {m} rated', 'fav.product': 'Product page', 'fav.source': '{day} source', 'fav.gp': 'Products · {n}', 'fav.gi': 'Items · {n}',
@@ -76,6 +78,8 @@ const zh: Dict = {
   'nav.label': '主导航', 'nav.home': '首页', 'nav.products': '产品', 'nav.reset': '重置', 'nav.tags': '标签', 'nav.search': '搜索', 'nav.favorites': '收藏',
   'theme.toggle': '切换深浅色', 'theme.label': '主题', 'theme.light': '浅色', 'theme.dark': '深色',
   'set.open': '设置', 'set.title': '设置', 'set.close': '关闭',
+  'gh.account': '账号', 'gh.signin': '使用 GitHub 登录', 'gh.signout': '退出',
+  'gh.sync': '已读和收藏会同步到一个私密 Gist。退出后，这台浏览器里的副本还在。',
   'lang.label': '语言', 'lang.en': 'English', 'lang.zh': '中文',
   'foot.text': '内容来自每日汇总', 'foot.rss': '订阅 RSS',
   'home.intro': '每天一页：X 上的 AI Hot 与 Tech 速递。共 {n} 天。', 'home.daily': '▦ 每日', 'home.search': '⌕ 搜索',
@@ -95,7 +99,7 @@ const zh: Dict = {
   'tags.title': '标签', 'tag.title': '标签：{tag}', 'days': '共 {n} 天', 'days.one': '共 1 天',
   'tag.Models': '模型', 'tag.Agents': 'Agent', 'tag.Dev Tools': '编程工具', 'tag.Open Source': '开源', 'tag.Products': '产品', 'tag.Research': '研究', 'tag.Industry': '行业', 'tag.Security': '安全', 'tag.Chinese Community': '中文社区',
   'search.title': '全文搜索', 'search.ph': '搜索全部汇总…', 'search.zero': '没有找到“[SEARCH_TERM]”的结果', 'search.many': '找到 [COUNT] 条“[SEARCH_TERM]”的结果', 'search.one': '找到 1 条“[SEARCH_TERM]”的结果',
-  'fav.title': '收藏', 'fav.desc': '收藏、已读和个人评分只保存在这台设备的浏览器里（localStorage）。换设备时可以导出 JSON 再导入。',
+  'fav.title': '收藏', 'fav.desc': '收藏、已读和个人评分保存在这台浏览器里。可以在设置里用 GitHub 登录，同步到一个私密 Gist，也可以导出 JSON。',
   'fav.s.ts': '按收藏时间', 'fav.s.mine': '按我的评分', 'fav.s.ai': '按 AI 评分', 'fav.s.day': '按日期', 'sort': '排序',
   'fav.export': '导出 JSON', 'fav.import': '导入 JSON', 'fav.empty': '还没有收藏。在每日页面点条目下方的书签图标，或在产品页点书签图标即可。',
   'fav.stat': '{f} 条收藏 · {r} 条已读 · {m} 条已评分', 'fav.product': '产品页', 'fav.source': '{day} 原文', 'fav.gp': '产品 · {n}', 'fav.gi': '条目 · {n}',

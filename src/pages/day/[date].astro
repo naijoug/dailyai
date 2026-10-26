@@ -52,7 +52,7 @@ const sections = [
   </nav>
 </Base>
 <script>
-  import { load, save } from '../../lib/store';
+  import { load, save, isRead, isFav, ratingOf, markRead, markFav, markRating, onStore } from '../../lib/store';
   import { favBtn, readBtn, setFav, setRead, starsHtml, setStars, starKeys } from '../../lib/icons';
   import { tt, onLang } from '../../lib/i18n';
   const art = document.querySelector<HTMLElement>('article.day')!;
@@ -89,11 +89,11 @@ const sections = [
     let r = 0;
     for (const li of items) {
       const id = li.dataset.id!;
-      const isRead = !!st.read[id]; if (isRead) r++;
-      li.classList.toggle('read', isRead);
-      setRead(li.querySelector('[data-act=read]')!, isRead);
-      setFav(li.querySelector('[data-act=fav]')!, !!st.fav[id]);
-      const rt = st.rating[id] || 0;
+      const read = isRead(st, id); if (read) r++;
+      li.classList.toggle('read', read);
+      setRead(li.querySelector('[data-act=read]')!, read);
+      setFav(li.querySelector('[data-act=fav]')!, isFav(st, id));
+      const rt = ratingOf(st, id);
       setStars(li, rt);
     }
     prog.textContent = tt('prog', { r, t: total });
@@ -109,13 +109,13 @@ const sections = [
     meta.addEventListener('click', (e) => {
       const b = (e.target as HTMLElement).closest('button'); if (!b) return;
       const st = load(); const id = li.dataset.id!;
-      if (b.dataset.star) { const n = Number(b.dataset.star); if (st.rating[id] === n) delete st.rating[id]; else st.rating[id] = n; }
-      else if (b.dataset.act === 'read') { if (st.read[id]) { delete st.read[id]; manualUnread.add(id); li.classList.remove('dim'); } else { st.read[id] = Date.now(); if (art.classList.contains('hideread')) li.classList.add('keep'); } }
+      if (b.dataset.star) { const n = Number(b.dataset.star); markRating(st, id, ratingOf(st, id) === n ? null : n); }
+      else if (b.dataset.act === 'read') { if (isRead(st, id)) { markRead(st, id, false); manualUnread.add(id); li.classList.remove('dim'); } else { markRead(st, id, true); if (art.classList.contains('hideread')) li.classList.add('keep'); } }
       else if (b.dataset.act === 'fav') {
-        if (st.fav[id]) delete st.fav[id];
+        if (isFav(st, id)) markFav(st, id, null);
         else {
           const t = li.querySelector('.itext')!; const trd = li.querySelector<HTMLElement>('details.itr'); const trb = trd?.querySelector('.itr-body');
-          st.fav[id] = { id, day, html: t.innerHTML, text: (t.textContent || '').trim(), score: Number(li.dataset.score) || undefined, ts: Date.now(), ...(trd && trb ? { tr: { lang: trd.dataset.tlang as 'en' | 'zh', html: trb.innerHTML } } : {}) };
+          markFav(st, id, { id, day, html: t.innerHTML, text: (t.textContent || '').trim(), score: Number(li.dataset.score) || undefined, ...(trd && trb ? { tr: { lang: trd.dataset.tlang as 'en' | 'zh', html: trb.innerHTML } } : {}) });
         }
       }
       save(st); upd();
@@ -123,7 +123,7 @@ const sections = [
     li.querySelector('.itext')!.addEventListener('click', (e) => {
       if (!(e.target as HTMLElement).closest('a')) return;
       const st = load(); const id = li.dataset.id!;
-      if (!st.read[id]) { st.read[id] = Date.now(); save(st); upd(); }
+      if (!isRead(st, id)) { markRead(st, id, true); save(st); upd(); }
     });
   }
   const hide = art.querySelector<HTMLInputElement>('[data-hideread]')!;
@@ -154,8 +154,8 @@ const sections = [
   });
   const autoRead = (li: HTMLElement) => {
     const id = li.dataset.id!; if (manualUnread.has(id)) return;
-    const st = load(); if (st.read[id]) return;
-    st.read[id] = Date.now(); save(st);
+    const st = load(); if (isRead(st, id)) return;
+    markRead(st, id, true); save(st);
     if (art.classList.contains('hideread')) li.classList.add('keep');
     upd();
   };
@@ -176,7 +176,7 @@ const sections = [
     // 严格串行：只有文档顺序中最靠上的可见未读条目累计停留并转圈，其余可见未读条目保持 0。
     const vis: { t: Tr; top: number }[] = [];
     for (const t of trs) {
-      const id = t.li.dataset.id!; const unread = !st.read[id];
+      const id = t.li.dataset.id!; const unread = !isRead(st, id);
       if (!unread || manualUnread.has(id)) { t.acc = 0; paintRing(t, false); continue; }
       const r = t.li.getBoundingClientRect();
       const visH = Math.max(0, Math.min(r.bottom, vh) - Math.max(r.top, 0));
@@ -196,7 +196,8 @@ const sections = [
     });
   }, CFG.tickMs);
   // 变暗与已读解耦：刚标已读的条目保持明亮，离开视口后才加 dim；页面加载时已读条目直接 dim。
-  { const st = load(); items.forEach((li) => li.classList.toggle('dim', !!st.read[li.dataset.id!])); }
+  { const st = load(); items.forEach((li) => li.classList.toggle('dim', isRead(st, li.dataset.id!))); }
+  onStore(upd);
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver((ents) => {
       for (const e of ents) if (!e.isIntersecting) (e.target as HTMLElement).classList.toggle('dim', (e.target as HTMLElement).classList.contains('read'));

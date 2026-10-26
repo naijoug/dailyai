@@ -72,6 +72,18 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
                   <button type="button" data-settheme="light" aria-pressed="false" data-i18n="theme.light">{t('theme.light')}</button><button type="button" data-settheme="dark" aria-pressed="false" data-i18n="theme.dark">{t('theme.dark')}</button>
                 </span>
               </div>
+              <div class="setf gh-row" id="gh-row" hidden>
+                <div class="setf-row">
+                  <span class="setk" id="gh-acc-l" data-i18n="gh.account">{t('gh.account')}</span>
+                  <button type="button" class="gh-btn" id="gh-signin" data-i18n="gh.signin">{t('gh.signin')}</button>
+                  <span class="gh-user" id="gh-user" hidden>
+                    <img id="gh-avatar" alt="" width="20" height="20" hidden />
+                    <span id="gh-login"></span>
+                    <button type="button" class="gh-btn" id="gh-signout" data-i18n="gh.signout">{t('gh.signout')}</button>
+                  </span>
+                </div>
+                <p class="muted setnote" data-i18n="gh.sync">{t('gh.sync')}</p>
+              </div>
             </div>
           </div>
         </div>
@@ -85,6 +97,7 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
     import { applyI18n, setLang, updateSwitcher, getLang, tt, onLang } from '../lib/i18n';
     import { syncTr } from '../lib/icons';
     import { applyTz, getPref, setPref, effectiveZone, offsetAt, offsetLabel, COMMON_ZONES, OFFSETS, onTz } from '../lib/tz';
+    import { bootGithub, configured as ghConfigured, getSession } from '../lib/github-sync';
     if (getLang() !== 'en') applyI18n();
     updateSwitcher();
     applyTz();
@@ -161,9 +174,27 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
       try { localStorage.setItem('theme', next); } catch {}
       paintTheme();
     }));
+    const ghRow = document.getElementById('gh-row') as HTMLElement;
+    const ghSign = document.getElementById('gh-signin') as HTMLButtonElement;
+    const ghUser = document.getElementById('gh-user') as HTMLElement;
+    const ghAvatar = document.getElementById('gh-avatar') as HTMLImageElement;
+    const ghLogin = document.getElementById('gh-login') as HTMLElement;
+    const paintGh = () => {
+      if (!ghConfigured) { ghRow.hidden = true; return; }
+      ghRow.hidden = false;
+      const s = getSession();
+      const on = !!s;
+      ghSign.hidden = on;
+      ghUser.hidden = !on;
+      ghLogin.textContent = s?.login || '…';
+      if (on && s?.avatar) { ghAvatar.src = s.avatar; ghAvatar.hidden = false; }
+      else { ghAvatar.removeAttribute('src'); ghAvatar.hidden = true; }
+    };
+    paintGh();
+    bootGithub({ onChange: paintGh, signIn: ghSign, signOut: document.getElementById('gh-signout') });
     const gear = document.getElementById('settings') as HTMLButtonElement;
     const setpop = document.getElementById('setpop') as HTMLElement;
-    const openSet = () => { fillSetTz(); paintTheme(); setpop.hidden = false; gear.setAttribute('aria-expanded', 'true'); setpop.focus(); };
+    const openSet = () => { fillSetTz(); paintTheme(); paintGh(); setpop.hidden = false; gear.setAttribute('aria-expanded', 'true'); setpop.focus(); };
     const closeSet = (refocus = true) => { if (setpop.hidden) return; setpop.hidden = true; gear.setAttribute('aria-expanded', 'false'); if (refocus) gear.focus(); };
     document.addEventListener('click', (e) => {
       const t = e.target as Node;
@@ -223,6 +254,14 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
   .setpop .langsw button.on { background:rgba(201,106,75,.14); color:#c96a4b; }
   [data-theme=dark] .setpop .langsw button.on { background:rgba(224,163,138,.16); color:#e0a38a; }
   .setpop select:focus-visible, .setpop button:focus-visible, .setp-x:focus-visible { outline:2px solid #c96a4b; outline-offset:1px; }
+  .setpop [hidden] { display:none !important; }
+  .gh-row .setf-row { flex-wrap:wrap; }
+  .gh-btn { background:none; border:1px solid var(--line); color:var(--fg); border-radius:7px; cursor:pointer; font:inherit; font-size:12px; line-height:1.3; padding:6px 10px; }
+  .gh-btn:hover { color:#c96a4b; border-color:rgba(201,106,75,.45); }
+  [data-theme=dark] .gh-btn:hover { color:#e0a38a; border-color:rgba(224,163,138,.45); }
+  .gh-user { display:inline-flex; align-items:center; gap:8px; min-width:0; }
+  .gh-user img { width:20px; height:20px; border-radius:50%; }
+  #gh-login { font-size:12.5px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:9em; }
   .brand { font-weight:700; font-size:18px; color: var(--fg); }
   nav { display:flex; gap:14px; align-items:center; flex-wrap:wrap; font-size:15px; }
   nav a { color: var(--muted); } nav a.on { color: var(--fg); font-weight:600; }
