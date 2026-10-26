@@ -19,6 +19,7 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
   <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
   <link rel="preload" href={url('/fonts/fira-code-latin.woff2')} as="font" type="font/woff2" crossorigin />
   <style is:inline set:html={`@font-face{font-family:'Fira Code';font-style:normal;font-weight:300 700;font-display:swap;src:url(${url('/fonts/fira-code-latin.woff2')}) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Fira Code';font-style:normal;font-weight:300 700;font-display:swap;src:url(${url('/fonts/fira-code-latin-ext.woff2')}) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}`} />
+  <slot name="head" />
   <link rel="alternate" type="application/rss+xml" title="Daily AI" href={url('/rss.xml')} />
   <script is:inline>
     (function(){try{var l=localStorage.getItem('dailyai:lang');if(l!=='zh')l='en';var h=document.documentElement;h.setAttribute('data-lang',l);if(l==='zh'){h.lang='zh-CN';h.classList.add('i18n-wait');setTimeout(function(){h.classList.remove('i18n-wait')},2500);}}catch(e){}})();
@@ -388,6 +389,7 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
   details.itr::details-content { flex:0 0 100%; order:20; min-width:0; }
   details.itr:not([open])::details-content { display:none; }
   .imeta .ibtn[data-act=read] { order:9; }
+  .imeta .alink { order:7; color:var(--muted); } .imeta .alink:hover { color:var(--fg); }
   .itr-body { flex:0 0 100%; order:20; margin:6px 0 2px 4px; padding:2px 0 2px 12px; border-left:2px solid color-mix(in srgb, var(--accent) 35%, transparent); color:var(--muted); font-size:.93em; line-height:1.75; }
   [data-theme=dark] .itr-body { color:#b4b4b4; }
   .itr-body > :first-child { margin-top:0; } .itr-body > :last-child { margin-bottom:0; } .itr-body p { margin:.4em 0; }

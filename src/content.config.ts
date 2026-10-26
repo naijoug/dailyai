@@ -18,6 +18,8 @@ const posts = defineCollection({
     daySummary: z.string().optional(),
     daySummaryEn: z.string().optional(),
     products: z.array(z.string()).default([]),
+    // 'index:articleId'，条目链接到 /article/<id>/ 详情页（docs/articles.md）
+    articles: z.array(z.string()).default([]),
   }),
 });
 const ranking = z.object({
@@ -37,4 +39,12 @@ const products = defineCollection({
     mentionExclude: z.array(z.string()).default([]), matchNames: z.array(z.string()).optional(), rankings: z.array(ranking).default([]),
   }),
 });
-export const collections = { posts, products };
+const articles = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/articles' }),
+  schema: z.object({
+    title: z.string(), author: z.string(), handle: z.string().optional(), source_url: z.string().url(),
+    published: z.coerce.date(), lang: z.enum(['en', 'zh']), day: z.string(), item: z.string().optional(),
+    title_tr: z.string().optional(),
+  }),
+});
+export const collections = { posts, products, articles };

@@ -1,0 +1,72 @@
+---
+// 爆款长文详情页：原文逐段 + 默认折叠的译文（docs/articles.md）
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import I from '../../components/I.astro';
+import L from '../../components/L.astro';
+import { url } from '../../lib/posts';
+import { t, iattr } from '../../lib/i18n';
+import { GLOBE } from '../../lib/icons';
+export async function getStaticPaths() {
+  return (await getCollection('articles')).map((a) => ({ params: { id: a.id }, props: { a } }));
+}
+const { a } = Astro.props;
+const { Content } = await render(a);
+const d = a.data;
+const trLang = d.lang === 'en' ? 'zh' : 'en';
+const pub = d.published.toISOString().slice(0, 10);
+const itemHref = d.item ? url(`/day/${d.day}/#${d.item}`) : url(`/day/${d.day}/`);
+const who = d.handle ? `${d.author} (@${d.handle})` : d.author;
+---
+<Base title={d.title} description={`${d.title} — ${d.author}`}>
+  <meta slot="head" name="robots" content="noindex" />
+  <article class="artp" data-tlang={trLang}>
+    <nav class="crumb muted"><a href={url(`/day/${d.day}/`)}><I k="art.day" a={{ d: d.day }} /></a> / <I k="art.crumb" /></nav>
+    <h1 lang={d.lang === 'zh' ? 'zh-CN' : undefined}>{d.title}</h1>
+    {d.title_tr && <p class="atitle-tr muted" lang={trLang === 'zh' ? 'zh-CN' : undefined}>{d.title_tr}</p>}
+    <div class="ameta muted">
+      <I k="art.by" a={{ a: who }} />
+      <span>· <I k="art.published" /> <time datetime={d.published.toISOString()}>{pub}</time></span>
+      <span>· <a href={d.source_url} target="_blank" rel="noopener"><I k="art.source" /> ↗</a></span>
+      <button type="button" class="ibtn icob atoggle" data-tall aria-pressed="false" {...iattr({ title: 'art.toggle', 'aria-label': 'art.toggle' })} set:html={GLOBE} />
+    </div>
+    <aside class="abanner">
+      <strong><I k="art.banner.label" /></strong>
+      <p><I k="art.banner" a={{ a: who }} /> <a href={d.source_url} target="_blank" rel="noopener">{d.source_url}</a></p>
+    </aside>
+    <div class="abody" lang={d.lang === 'zh' ? 'zh-CN' : 'en'}><Content /></div>
+    <p class="aback muted"><a href={itemHref}>← <I k="art.day" a={{ d: d.day }} /></a></p>
+  </article>
+</Base>
+<style is:global>
+  .artp h1 { margin:.3em 0 .1em; line-height:1.3; }
+  .artp .atitle-tr { margin:0 0 .6em; }
+  .artp .crumb { font-size:13px; }
+  .ameta { display:flex; flex-wrap:wrap; align-items:center; gap:4px 8px; font-size:13px; }
+  .ameta .atoggle { margin-left:auto; }
+  .atoggle.on { color:#c96a4b; } [data-theme=dark] .atoggle.on { color:#e0a38a; }
+  .abanner { margin:14px 0 22px; padding:10px 14px; border:1px solid color-mix(in srgb, var(--accent) 45%, transparent); border-left:4px solid var(--accent); border-radius:8px; background:color-mix(in srgb, var(--accent) 7%, transparent); font-size:13.5px; }
+  .abanner p { margin:.3em 0 0; } .abanner a { word-break:break-all; text-decoration:underline; }
+  .abody { line-height:1.8; }
+  .abody img { max-width:100%; height:auto; }
+  .abody pre { overflow-x:auto; }
+  .abody details.atr { display:flex; flex-wrap:wrap; align-items:flex-start; margin:-.6em 0 1em; }
+  .abody details.atr > summary { order:0; width:26px; height:24px; }
+  .abody details.atr::details-content { flex:0 0 100%; }
+  .abody details.atr > .itr-body { margin-top:2px; }
+  .aback { margin-top:2em; font-size:13px; }
+</style>
+<script>
+  import { tt, onLang } from '../../lib/i18n';
+  import { syncTr } from '../../lib/icons';
+  const btn = document.querySelector<HTMLElement>('[data-tall]')!;
+  const all = () => [...document.querySelectorAll<HTMLDetailsElement>('.abody details.itr')];
+  const paint = () => {
+    const on = all().length > 0 && all().every((d) => d.open);
+    btn.classList.toggle('on', on); btn.setAttribute('aria-pressed', String(on));
+    const l = tt(on ? 'art.toggle.hide' : 'art.toggle'); btn.title = l; btn.setAttribute('aria-label', l);
+  };
+  btn.addEventListener('click', () => { const open = !all().every((d) => d.open); all().forEach((d) => { d.open = open; }); syncTr(); paint(); });
+  document.addEventListener('toggle', () => paint(), true);
+  onLang(paint); paint();
+</script>

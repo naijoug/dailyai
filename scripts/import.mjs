@@ -59,6 +59,8 @@ const DAYSUM_RE = /^\s*(?:>\s*)?(?:\*\*)?(?:日摘要|DAY_SUMMARY)(?:\*\*)?\s*[:
 // 英文日摘要：必须顶格（不接受 `>` 前缀，以免误吞条目下面的英文译文引用）
 const DAYSUM_EN_RE = /^\s*(?:\*\*)?(?:Day summary|Summary|DAY_SUMMARY_EN)(?:\*\*)?\s*[:：]\s*(.+?)\s*$/i;
 // 译文引用：条目下方的 `> [en] …` / `> [zh] …`，或紧贴条目行（无空行）的 `> …`
+// 文章详情页链接：条目行里的 `[A:article-id]` → frontmatter articles（见 docs/articles.md）
+const ART_RE = /\s*\[A:([a-z0-9][a-z0-9-]*)\]/gi;
 const TR_MARK_RE = /^\s*>\s*\[(?:en|zh)\]/i;
 const CJK_RE = /[\u4e00-\u9fff]/g;
 const isZhText = (t) => ((t.match(CJK_RE) || []).length / Math.max(1, t.replace(/\s/g, '').length)) > 0.2;
@@ -70,6 +72,7 @@ function extractMeta(body) {
   let lastItem = null; // 最近一条条目（用于挂译文）
   const scores = [];
   const lines = [];
+  const arts = []; // 'index:articleId'
   const prods = []; // { index, line, slug?, category?, region?, inSection }
   let section = '';
   for (let line of body.split('\n')) {
@@ -81,6 +84,8 @@ function extractMeta(body) {
     if (!/^\s*>/.test(line)) lastItem = null;
     const h = line.match(/^##\s+(.+?)\s*$/); if (h) section = h[1];
     if (ITEM_RE.test(line)) {
+      const am = [...line.matchAll(ART_RE)];
+      if (am.length) { line = line.replace(ART_RE, ''); for (const a of am) arts.push(`${scores.length + 1}:${a[1]}`); }
       const marks = [...line.matchAll(PROD_RE)];
       if (marks.length) line = line.replace(PROD_RE, '');
       const m = line.match(SCORE_RE);
@@ -96,7 +101,7 @@ function extractMeta(body) {
       lines.push(line);
     } else lines.push(line);
   }
-  return { body: lines.join('\n').replace(/\n{3,}/g, '\n\n').trim() + '\n', daySummary, daySummaryEn, scores, prods };
+  return { body: lines.join('\n').replace(/\n{3,}/g, '\n\n').trim() + '\n', daySummary, daySummaryEn, scores, prods, arts };
 }
 
 function clean(src, type) {
@@ -213,7 +218,7 @@ function importFile(file, forcedType) {
   const type = detectType(file, forcedType);
   const src = fs.readFileSync(file, 'utf8');
   const cleaned = clean(src, type);
-  const { body, daySummary, daySummaryEn, scores, prods } = extractMeta(cleaned.body);
+  const { body, daySummary, daySummaryEn, scores, prods, arts } = extractMeta(cleaned.body);
   const products = prods.length ? loadProducts() : []; const aliases = prods.length ? loadAliases() : {};
   const prodRefs = [...new Set(prods.map((pr) => { const id = registerProduct(pr, `${Y}-${M}-${D}`, products, aliases); return id ? `${pr.index}:${id}` : null; }).filter(Boolean))];
   const coverage = cleaned.coverage;
@@ -237,6 +242,7 @@ function importFile(file, forcedType) {
     daySummary ? `daySummary: ${yq(daySummary)}` : null,
     daySummaryEn ? `daySummaryEn: ${yq(daySummaryEn)}` : null,
     prodRefs.length ? `products: [${prodRefs.map(yq).join(', ')}]` : null,
+    arts.length ? `articles: [${arts.map(yq).join(', ')}]` : null,
     '---',
     '',
   ].filter((x) => x !== null).join('\n');

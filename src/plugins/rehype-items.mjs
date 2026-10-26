@@ -57,15 +57,36 @@ function trNode(tr) {
     el('div', { className: ['itr-body'], ...(tr.lang === 'zh' ? { lang: 'zh-CN' } : {}) }, tr.children),
   ]);
 }
+// 文章详情页图标（文档）
+const DOC = () => el('svg', { className: ['ic', 'ic-doc'], viewBox: '0 0 24 24', width: 16, height: 16, ariaHidden: 'true' }, [
+  el('path', { d: 'M6.5 3h7.5l4.5 4.5V20a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z' }, []), el('path', { d: 'M13.5 3v5h5' }, []),
+  el('path', { d: 'M8.5 12.5h7M8.5 16h7' }, []),
+]);
+// 文章：每个顶层 blockquote = 上一段原文的译文 → 默认折叠的 details.itr
+function articleTree(tree) {
+  walkLinks(tree);
+  const out = [];
+  for (const c of tree.children) {
+    if (c.type === 'element' && c.tagName === 'blockquote') {
+      const tr = takeTranslation(c);
+      if (tr.children.length) { const d = trNode(tr); d.properties.className = ['itr', 'atr']; out.push(d); continue; }
+    }
+    out.push(c);
+  }
+  tree.children = out;
+}
 export default function rehypeItems(opts = {}) {
   const base = (opts.base || '').replace(/\/$/, '');
   return (tree, file) => {
     const fp = file.path || file.history?.[0] || '';
+    if (/content[\\/]articles[\\/]/.test(fp)) return articleTree(tree);
     if (!/content[\\/]posts[\\/]/.test(fp)) return;
     const pid = path.basename(fp, '.md');
     const scores = file.data?.astro?.frontmatter?.scores || [];
     const prods = {};
     for (const t of file.data?.astro?.frontmatter?.products || []) { const [i, id] = String(t).split(':'); (prods[i] ||= []).push(id); }
+    const arts = {};
+    for (const t of file.data?.astro?.frontmatter?.articles || []) { const [i, id] = String(t).split(':'); (arts[i] ||= []).push(id); }
     walkLinks(tree);
     let n = 0;
     // 1) 紧跟在列表后（中间没有空行）的 blockquote → 挂到上一条的译文
@@ -103,6 +124,7 @@ export default function rehypeItems(opts = {}) {
         const meta = el('div', { className: ['imeta'] }, [
           s ? el('span', { className: ['ascore', `s${s}`], title: `AI score ${s}/5`, ariaLabel: `AI score ${s}/5`, dataI18nAttrs: JSON.stringify({ title: 'ai.score', 'aria-label': 'ai.score' }), dataI18nA: JSON.stringify({ n: s }) }, [txt(String(s))]) : txt(''),
           ...(prods[n] || []).map((id) => el('a', { className: ['ibtn', 'plink'], href: `${base}/products/${id}/`, dataI18n: 'plink', dataI18nA: JSON.stringify({ id }) }, [txt(`Product · ${id}`)])),
+          ...(arts[n] || []).map((id) => el('a', { className: ['ibtn', 'icob', 'alink'], href: `${base}/article/${id}/`, title: 'Read full article', ariaLabel: 'Read full article', dataI18nAttrs: JSON.stringify({ title: 'art.open', 'aria-label': 'art.open' }) }, [DOC()])),
           // 译文开关（地球图标）放进页脚行；展开后的译文块换行显示在页脚下方
           ...(tr && tr.children.length ? [trNode(tr)] : []),
         ]);
