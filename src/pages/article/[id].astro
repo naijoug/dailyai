@@ -28,6 +28,7 @@ const who = d.handle ? `${d.author} (@${d.handle})` : d.author;
       <I k="art.by" a={{ a: who }} />
       <span>· <I k="art.published" /> <time datetime={d.published.toISOString()}>{pub}</time></span>
       <span>· <a href={d.source_url} target="_blank" rel="noopener"><I k="art.source" /> ↗</a></span>
+      <button type="button" class="ibtn icob alay" data-tlay aria-pressed="false" {...iattr({ title: 'art.lay.sbs', 'aria-label': 'art.lay.sbs' })} set:html={'<svg class="ic" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="15" rx="1.5"/><path d="M12 4.5v15M6 9h3.5M6 12h3.5M14.5 9H18M14.5 12H18"/></svg>'} />
       <button type="button" class="ibtn icob atoggle" data-tall aria-pressed="false" {...iattr({ title: 'art.toggle', 'aria-label': 'art.toggle' })} set:html={GLOBE} />
     </div>
     <aside class="abanner">
@@ -43,7 +44,19 @@ const who = d.handle ? `${d.author} (@${d.handle})` : d.author;
   .artp .atitle-tr { margin:0 0 .6em; }
   .artp .crumb { font-size:13px; }
   .ameta { display:flex; flex-wrap:wrap; align-items:center; gap:4px 8px; font-size:13px; }
-  .ameta .atoggle { margin-left:auto; }
+  .ameta .alay { margin-left:auto; }
+  .alay.on { color:#c96a4b; } [data-theme=dark] .alay.on { color:#e0a38a; }
+  @media (max-width:767px) { .ameta .alay { display:none; } }
+  /* 左右对照：每段一行 grid，主文在左、另一语言在右，行高对齐；始终展开，隐藏地球 */
+  @media (min-width:768px) {
+    .artp.sbs .ameta .atoggle { display:none; }
+    .artp.sbs .abody .apara { display:grid; grid-template-columns:1fr 1fr; gap:0 28px; margin:0 0 1.1em; }
+    .artp.sbs .abody .apara > .atext { grid-column:1; }
+    .artp.sbs .abody .apara > details.atr { grid-column:2; display:block; margin:0; }
+    .artp.sbs .abody .apara > details.atr > .itr-body { margin:0; }
+    .artp.sbs .abody .apara > .atext > :first-child, .artp.sbs .abody .apara > .atext > .lic + * { margin-top:0; }
+    .artp.sbs .abody { max-width:none; }
+  }
   .atoggle.on { color:#c96a4b; } [data-theme=dark] .atoggle.on { color:#e0a38a; }
   .abanner { margin:14px 0 22px; padding:10px 14px; border:1px solid color-mix(in srgb, var(--accent) 45%, transparent); border-left:4px solid var(--accent); border-radius:8px; background:color-mix(in srgb, var(--accent) 7%, transparent); font-size:13.5px; }
   .abanner p { margin:.3em 0 0; } .abanner a { word-break:break-all; text-decoration:underline; }
@@ -70,6 +83,21 @@ const who = d.handle ? `${d.author} (@${d.handle})` : d.author;
     btn.classList.toggle('on', on); btn.setAttribute('aria-pressed', String(on));
     const l = tt(on ? 'art.toggle.hide' : 'art.toggle'); btn.title = l; btn.setAttribute('aria-label', l);
   };
+  // 版式：inline（逐段）/ sbs（左右对照），记在 localStorage；窄屏 CSS 回退为 inline
+  const art = document.querySelector<HTMLElement>('.artp')!; const lay = document.querySelector<HTMLElement>('[data-tlay]')!; const LK = 'dailyai:artlayout';
+  let saved: boolean[] | null = null;
+  const sbsOn = () => art.classList.contains('sbs') && matchMedia('(min-width:768px)').matches;
+  const paintLay = () => { const on = art.classList.contains('sbs'); lay.classList.toggle('on', on); lay.setAttribute('aria-pressed', String(on)); const l = tt(on ? 'art.lay.inline' : 'art.lay.sbs'); lay.title = l; lay.setAttribute('aria-label', l); };
+  const applyLay = () => {
+    if (sbsOn()) { if (!saved) saved = all().map((d) => d.open); all().forEach((d) => { d.open = true; }); }
+    else if (saved) { const s = saved; saved = null; all().forEach((d, i) => { d.open = s[i] ?? false; }); }
+    syncTr(); paint(); paintLay();
+  };
+  const setLay = (sbs: boolean) => { art.classList.toggle('sbs', sbs); try { localStorage.setItem(LK, sbs ? 'sbs' : 'inline'); } catch {} applyLay(); };
+  lay.addEventListener('click', () => setLay(!art.classList.contains('sbs')));
+  try { art.classList.toggle('sbs', localStorage.getItem(LK) === 'sbs'); } catch {}
+  matchMedia('(min-width:768px)').addEventListener('change', applyLay);
+  onLang(paintLay); applyLay();
   btn.addEventListener('click', () => { const open = !all().every((d) => d.open); all().forEach((d) => { d.open = open; }); syncTr(); paint(); });
   document.addEventListener('toggle', () => paint(), true);
   onLang(paint); paint();
