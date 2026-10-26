@@ -6,7 +6,9 @@ type Dict = Record<string, string>;
 const en: Dict = {
   'site.title': 'Daily AI · Daily AI digest',
   'nav.label': 'Main navigation', 'nav.home': 'Home', 'nav.products': 'Products', 'nav.reset': 'Reset', 'nav.tags': 'Tags', 'nav.search': 'Search', 'nav.favorites': 'Favorites',
-  'theme.toggle': 'Toggle theme', 'lang.label': 'Language', 'lang.en': 'English', 'lang.zh': '中文',
+  'theme.toggle': 'Toggle theme', 'theme.label': 'Theme', 'theme.light': 'Light', 'theme.dark': 'Dark',
+  'set.open': 'Settings', 'set.title': 'Settings', 'set.close': 'Close',
+  'lang.label': 'Language', 'lang.en': 'English', 'lang.zh': '中文',
   'foot.text': 'Content from the daily digests', 'foot.rss': 'Subscribe via RSS',
   // home / gallery
   'home.intro': 'One page per day: AI Hot and Tech digests from X. {n} days.', 'home.daily': '▦ Daily', 'home.search': '⌕ Search',
@@ -72,7 +74,9 @@ const en: Dict = {
 const zh: Dict = {
   'site.title': 'Daily AI · 每日 AI 动态',
   'nav.label': '主导航', 'nav.home': '首页', 'nav.products': '产品', 'nav.reset': '重置', 'nav.tags': '标签', 'nav.search': '搜索', 'nav.favorites': '收藏',
-  'theme.toggle': '切换深浅色', 'lang.label': '语言', 'lang.en': 'English', 'lang.zh': '中文',
+  'theme.toggle': '切换深浅色', 'theme.label': '主题', 'theme.light': '浅色', 'theme.dark': '深色',
+  'set.open': '设置', 'set.title': '设置', 'set.close': '关闭',
+  'lang.label': '语言', 'lang.en': 'English', 'lang.zh': '中文',
   'foot.text': '内容来自每日汇总', 'foot.rss': '订阅 RSS',
   'home.intro': '每天一页：X 上的 AI Hot 与 Tech 速递。共 {n} 天。', 'home.daily': '▦ 每日', 'home.search': '⌕ 搜索',
   'gallery.newTitle': '首次出现在这一天的产品', 'gallery.new': '今日新产品', 'gallery.topTitle': 'AI 评分 ≥4 的条目', 'gallery.top': '★ {n} 条高分',

@@ -46,11 +46,34 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
           <a href={url('/rss.xml')}>RSS</a>
         </nav>
         <div class="hctl">
-          <span class="langsw" role="group" data-i18n-attrs='{"aria-label":"lang.label"}' aria-label={t('lang.label')}>
-            <button type="button" data-setlang="en" aria-pressed="true" lang="en" title="English">EN</button><button type="button" data-setlang="zh" aria-pressed="false" lang="zh-CN" title="中文">中</button>
-          </span>
-          <button type="button" class="tzbtn tzpill tzv" data-tz-open data-tz-label aria-haspopup="dialog" aria-expanded="false">UTC+8</button>
-          <button id="theme" type="button" aria-label={t('theme.toggle')} title={t('theme.toggle')} data-i18n-attrs='{"aria-label":"theme.toggle","title":"theme.toggle"}'>◐</button>
+          <div class="setwrap">
+            <button type="button" id="settings" class="setbtn" aria-haspopup="dialog" aria-expanded="false" aria-controls="setpop" aria-label={t('set.open')} title={t('set.open')} data-i18n-attrs='{"aria-label":"set.open","title":"set.open"}'>
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.6-.22l-2.39.96a7.2 7.2 0 0 0-1.63-.94l-.36-2.54a.5.5 0 0 0-.5-.42h-3.84a.5.5 0 0 0-.5.42l-.36 2.54c-.58.23-1.12.54-1.63.94l-2.39-.96a.5.5 0 0 0-.6.22L2.71 8.84a.5.5 0 0 0 .12.64l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58a.5.5 0 0 0-.12.64l1.92 3.32c.13.23.4.32.6.22l2.39-.96c.5.4 1.05.71 1.63.94l.36 2.54c.05.24.26.42.5.42h3.84c.24 0 .45-.18.5-.42l.36-2.54c.58-.23 1.12-.54 1.63-.94l2.39.96c.23.1.47 0 .6-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58zM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7z"/></svg>
+            </button>
+            <div id="setpop" class="setpop" role="dialog" aria-modal="false" aria-labelledby="setpop-title" tabindex="-1" hidden>
+              <div class="setp-h">
+                <strong id="setpop-title" data-i18n="set.title">{t('set.title')}</strong>
+                <button type="button" class="setp-x" data-set-close aria-label={t('set.close')} title={t('set.close')} data-i18n-attrs='{"aria-label":"set.close","title":"set.close"}'>×</button>
+              </div>
+              <div class="setf setf-row">
+                <span class="setk" id="set-lang-l" data-i18n="lang.label">{t('lang.label')}</span>
+                <span class="langsw" role="group" aria-labelledby="set-lang-l">
+                  <button type="button" data-setlang="en" aria-pressed="true" lang="en" title="English">EN</button><button type="button" data-setlang="zh" aria-pressed="false" lang="zh-CN" title="中文">中</button>
+                </span>
+              </div>
+              <div class="setf">
+                <label class="setk" for="set-tz" data-i18n="tz.label">{t('tz.label')}</label>
+                <select id="set-tz"></select>
+              </div>
+              <p class="muted setnote" data-i18n="tz.note">{t('tz.note')}</p>
+              <div class="setf setf-row">
+                <span class="setk" id="set-theme-l" data-i18n="theme.label">{t('theme.label')}</span>
+                <span class="langsw" role="group" aria-labelledby="set-theme-l">
+                  <button type="button" data-settheme="light" aria-pressed="false" data-i18n="theme.light">{t('theme.light')}</button><button type="button" data-settheme="dark" aria-pressed="false" data-i18n="theme.dark">{t('theme.dark')}</button>
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -75,8 +98,8 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
       const l = zlabel(getPref());
       document.querySelectorAll<HTMLElement>('[data-tz-open]').forEach((b) => { const txt = tt('tz.btn', { z: b.textContent || l }); b.title = txt; b.setAttribute('aria-label', txt); });
     };
-    const fill = () => {
-      const cur = getPref(); const sel = pop!.querySelector('select')!; sel.innerHTML = '';
+    const fillSelect = (sel: HTMLSelectElement) => {
+      const cur = getPref(); sel.innerHTML = '';
       const opt = (v: string, text: string, parent: Element) => { const o = document.createElement('option'); o.value = v; o.textContent = text; if (v === cur) o.selected = true; parent.appendChild(o); };
       const browser = effectiveZone('auto').z || 'UTC';
       opt('auto', tt('tz.auto.cur', { z: `${browser} ${zlabel('auto')}` }), sel);
@@ -85,6 +108,9 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
       if (cur.startsWith('z:') && !COMMON_ZONES.includes(cur.slice(2))) opt(cur, `${cur.slice(2)} (${zlabel(cur)})`, g1);
       const g2 = document.createElement('optgroup'); g2.label = tt('tz.offsets'); sel.appendChild(g2);
       for (const m of OFFSETS) opt('o:' + m, offsetLabel(m), g2);
+    };
+    const fill = () => {
+      fillSelect(pop!.querySelector('select')!);
       pop!.querySelector('[data-tzp-title]')!.textContent = tt('tz.label');
       pop!.querySelector('[data-tzp-note]')!.textContent = tt('tz.note');
       pop!.setAttribute('aria-label', tt('tz.label'));
@@ -116,13 +142,36 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
     });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closePop(); });
     addEventListener('resize', place);
-    onTz(() => { paintBtns(); if (pop && !pop.hidden) fill(); }); onLang(() => { paintBtns(); if (pop && !pop.hidden) fill(); });
+    const setSel = document.getElementById('set-tz') as HTMLSelectElement;
+    const fillSetTz = () => fillSelect(setSel);
+    fillSetTz();
+    setSel.addEventListener('change', () => setPref(setSel.value));
+    onTz(() => { paintBtns(); if (pop && !pop.hidden) fill(); fillSetTz(); }); onLang(() => { paintBtns(); if (pop && !pop.hidden) fill(); fillSetTz(); });
     paintBtns();
     document.documentElement.classList.remove('i18n-wait');
     document.querySelectorAll<HTMLElement>('[data-setlang]').forEach((b) => b.addEventListener('click', () => { if (b.dataset.setlang !== getLang()) setLang(b.dataset.setlang as 'en' | 'zh'); }));
-  </script>
-  <script is:inline>
-    document.getElementById('theme').addEventListener('click',function(){var d=document.documentElement;var t=d.dataset.theme==='dark'?'light':'dark';d.dataset.theme=t;localStorage.setItem('theme',t);});
+    const paintTheme = () => {
+      const cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
+      document.querySelectorAll<HTMLElement>('[data-settheme]').forEach((b) => { const on = b.dataset.settheme === cur; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
+    };
+    paintTheme();
+    document.querySelectorAll<HTMLElement>('[data-settheme]').forEach((b) => b.addEventListener('click', () => {
+      const next = b.dataset.settheme === 'light' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = next;
+      try { localStorage.setItem('theme', next); } catch {}
+      paintTheme();
+    }));
+    const gear = document.getElementById('settings') as HTMLButtonElement;
+    const setpop = document.getElementById('setpop') as HTMLElement;
+    const openSet = () => { fillSetTz(); paintTheme(); setpop.hidden = false; gear.setAttribute('aria-expanded', 'true'); setpop.focus(); };
+    const closeSet = (refocus = true) => { if (setpop.hidden) return; setpop.hidden = true; gear.setAttribute('aria-expanded', 'false'); if (refocus) gear.focus(); };
+    document.addEventListener('click', (e) => {
+      const t = e.target as Node;
+      if (gear.contains(t)) { if (setpop.hidden) openSet(); else closeSet(false); return; }
+      if (!setpop.hidden && !setpop.contains(t)) closeSet(false);
+    });
+    document.addEventListener('keydown', (e) => { if (e.key !== 'Escape' || setpop.hidden) return; e.stopPropagation(); closeSet(); }, true);
+    setpop.querySelector('[data-set-close]')!.addEventListener('click', () => closeSet());
   </script>
 </body>
 </html>
@@ -151,11 +200,32 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
   .bar { display:flex; align-items:center; justify-content:space-between; min-height:56px; gap:12px; }
   .hright { display:flex; align-items:center; gap:14px; min-width:0; }
   .hctl { display:flex; align-items:center; gap:6px; flex:none; }
-  .hctl .langsw { margin-left:0; }
+  .setwrap { position:relative; }
+  .setbtn { display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; background:none; border:1px solid var(--line); color:var(--muted); border-radius:7px; cursor:pointer; padding:0; }
+  .setbtn:hover { background:var(--hover); color:var(--fg); }
+  .setbtn[aria-expanded=true] { background:rgba(201,106,75,.12); color:#c96a4b; border-color:rgba(201,106,75,.45); }
+  [data-theme=dark] .setbtn[aria-expanded=true] { background:rgba(224,163,138,.14); color:#e0a38a; border-color:rgba(224,163,138,.4); }
+  .setbtn:focus-visible { outline:2px solid #c96a4b; outline-offset:2px; }
+  .setpop { position:absolute; right:0; top:calc(100% + 6px); z-index:30; width:min(320px, calc(100vw - 24px)); background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:10px; padding:10px 12px 12px; box-shadow:0 8px 28px rgba(0,0,0,.16); font-size:13.5px; line-height:1.5; }
+  [data-theme=dark] .setpop { box-shadow:0 8px 28px rgba(0,0,0,.45); }
+  .setpop[hidden] { display:none; }
+  .setpop:focus { outline:none; }
+  .setp-h { display:flex; justify-content:space-between; align-items:center; gap:8px; }
+  .setp-h strong { font-size:13px; font-weight:650; }
+  .setp-x { background:none; border:none; color:var(--muted); font:inherit; font-size:18px; line-height:1; cursor:pointer; padding:0 4px; border-radius:4px; }
+  .setp-x:hover { color:var(--fg); }
+  .setf { margin-top:10px; }
+  .setf-row { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+  .setk { color:var(--muted); font-size:12.5px; }
+  .setpop select { width:100%; margin-top:4px; background:var(--bg); color:var(--fg); border:1px solid var(--line); border-radius:6px; padding:6px 8px; font:inherit; font-size:12.5px; }
+  .setnote { margin:6px 0 0; font-size:11.5px; line-height:1.5; }
+  .setpop .langsw { margin-left:0; flex:none; }
+  .setpop .langsw button.on { background:rgba(201,106,75,.14); color:#c96a4b; }
+  [data-theme=dark] .setpop .langsw button.on { background:rgba(224,163,138,.16); color:#e0a38a; }
+  .setpop select:focus-visible, .setpop button:focus-visible, .setp-x:focus-visible { outline:2px solid #c96a4b; outline-offset:1px; }
   .brand { font-weight:700; font-size:18px; color: var(--fg); }
   nav { display:flex; gap:14px; align-items:center; flex-wrap:wrap; font-size:15px; }
   nav a { color: var(--muted); } nav a.on { color: var(--fg); font-weight:600; }
-  #theme { background:none; border:1px solid var(--line); color:var(--fg); border-radius:6px; cursor:pointer; padding:2px 8px; }
   main { padding: 28px 20px 40px; }
   h1 { font-size: 26px; line-height:1.4; margin: 0 0 8px; }
   .muted { color: var(--muted); font-size: 14px; }
