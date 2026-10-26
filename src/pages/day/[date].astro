@@ -1,4 +1,5 @@
 ---
+import BL from '../../components/BL.astro';
 import { tagSlug } from '../../content.config';
 import I from '../../components/I.astro';
 import L from '../../components/L.astro';
@@ -24,7 +25,7 @@ const sections = [
   <article class="prose day" data-pagefind-body data-day={day.date} data-total={day.total} data-pids={day.pids.join(',')}>
     <p class="muted crumb"><a href={url('/')}>Daily AI</a> / <I k="day.crumb" /></p>
     <h1><DayTitle date={day.date} wd={day.wd} /></h1>
-    <p class="dsum"><L en={day.summaryEn} zh={day.summary} /></p>
+    <div class="dsum"><BL en={day.summaryEn} zh={day.summary} /></div>
     <div class="dbar" data-pagefind-ignore>
       <button type="button" class="tzbtn tzv" data-tz-open data-tz-label data-tz-at={`${day.date}T12:00:00+08:00`} aria-haspopup="dialog" aria-expanded="false">UTC+8</button>
       <I class="muted tzrest" k="day.meta" a={{ n: day.posts.length, t: day.total }} />
@@ -52,6 +53,7 @@ const sections = [
   </nav>
 </Base>
 <script>
+  import { origParts, applyBL } from '../../lib/bilang';
   import { load, save, isRead, isFav, ratingOf, markRead, markFav, markRating, onStore } from '../../lib/store';
   import { favBtn, readBtn, setFav, setRead, starsHtml, setStars, starKeys } from '../../lib/icons';
   import { tt, onLang } from '../../lib/i18n';
@@ -114,8 +116,9 @@ const sections = [
       else if (b.dataset.act === 'fav') {
         if (isFav(st, id)) markFav(st, id, null);
         else {
-          const t = li.querySelector('.itext')!; const trd = li.querySelector<HTMLElement>('details.itr'); const trb = trd?.querySelector('.itr-body');
-          markFav(st, id, { id, day, html: t.innerHTML, text: (t.textContent || '').trim(), score: Number(li.dataset.score) || undefined, ...(trd && trb ? { tr: { lang: trd.dataset.tlang as 'en' | 'zh', html: trb.innerHTML } } : {}) });
+          // 始终按原文方向存储（主文可能已按 UI 语言换成译文）
+          const o = origParts(li);
+          markFav(st, id, { id, day, html: o.html, text: o.text, score: Number(li.dataset.score) || undefined, ...(o.tr ? { tr: o.tr } : {}) });
         }
       }
       save(st); upd();
@@ -152,6 +155,8 @@ const sections = [
     li.dataset.readSeconds = req.toFixed(1); li.dataset.readUnits = String(units);
     return { li, req, acc: 0, out: 0, btn: li.querySelector('[data-act=read]') as HTMLElement };
   });
+  // 切换 UI 语言后主文换了语言 → 按当前可见主文重新计算停留时间
+  onLang(() => { applyBL(); for (const t of trs) { const units = unitsOf(t.li); t.req = Math.min(CFG.maxSec, Math.max(CFG.minSec, (units / CFG.wpm) * 60 * CFG.fraction)); t.li.dataset.readSeconds = t.req.toFixed(1); t.li.dataset.readUnits = String(units); } });
   const autoRead = (li: HTMLElement) => {
     const id = li.dataset.id!; if (manualUnread.has(id)) return;
     const st = load(); if (isRead(st, id)) return;

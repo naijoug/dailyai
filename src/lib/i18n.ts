@@ -1,5 +1,5 @@
 // 站点 UI 多语言（en 默认 / zh）。服务端渲染英文并带 data-i18n 标记，浏览器端按 localStorage `dailyai:lang` 切换。
-// 内容（条目正文）不随 UI 语言切换，只有界面文字切换。
+// 条目正文随 UI 语言显示原文或译文（见 bilang.ts），另一语言在地球图标折叠块里。
 export type Lang = 'en' | 'zh';
 export const LANG_KEY = 'dailyai:lang';
 type Dict = Record<string, string>;
@@ -29,6 +29,7 @@ const en: Dict = {
   'stars.group': 'My rating', 'star.rate': 'Rate {n}/5', 'star.clear': 'Rate {n}/5 · click again to clear', 'mine': 'My rating {n}/5',
   'ai.score': 'AI score {n}/5', 'plink': 'Product · {id}',
   'art.open': 'Read full article', 'art.crumb': 'Article', 'art.by': 'by {a}', 'art.source': 'Original source', 'art.banner': 'Original author: {a}. This page reproduces the original text with a translation for reading convenience; all rights belong to the author.', 'art.banner.label': 'Original author / original source', 'art.toggle': 'Show all translations', 'art.toggle.hide': 'Hide all translations', 'art.day': 'From the {d} digest', 'art.published': 'Published',
+  'bl.orig': 'Original', 'bl.tr': 'Translation', 'bl.l.en': 'English', 'bl.l.zh': 'Chinese',
   'tr.show.zh': 'Show 中文 translation', 'tr.hide.zh': 'Hide 中文 translation', 'tr.show.en': 'Show English translation', 'tr.hide.en': 'Hide English translation',
   // tags
   'tags.title': 'Tags', 'tag.title': 'Tag: {tag}', 'days': '{n} days', 'days.one': '1 day',
@@ -97,6 +98,7 @@ const zh: Dict = {
   'stars.group': '我的评分', 'star.rate': '评分 {n}/5', 'star.clear': '评分 {n}/5 · 再点清除', 'mine': '我的评分 {n}/5',
   'ai.score': 'AI 评分 {n}/5', 'plink': '产品 · {id}',
   'art.open': '阅读全文', 'art.crumb': '文章', 'art.by': '作者 {a}', 'art.source': '查看原文', 'art.banner': '原文作者：{a}。本页转载原文并附翻译，仅为方便阅读，版权归原作者所有。', 'art.banner.label': '原文作者 / 原文出处', 'art.toggle': '展开全部翻译', 'art.toggle.hide': '收起全部翻译', 'art.day': '来自 {d} 日报', 'art.published': '发布于',
+  'bl.orig': '原文', 'bl.tr': '译文', 'bl.l.en': 'English', 'bl.l.zh': '中文',
   'tr.show.zh': '显示中文翻译', 'tr.hide.zh': '收起中文翻译', 'tr.show.en': '显示英文翻译', 'tr.hide.en': '收起英文翻译',
   'tags.title': '标签', 'tag.title': '标签：{tag}', 'days': '共 {n} 天', 'days.one': '共 1 天',
   'tag.Models': '模型', 'tag.Agents': 'Agent', 'tag.Dev Tools': '编程工具', 'tag.Open Source': '开源', 'tag.Products': '产品', 'tag.Research': '研究', 'tag.Industry': '行业', 'tag.Security': '安全', 'tag.Chinese Community': '中文社区',

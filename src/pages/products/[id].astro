@@ -1,4 +1,5 @@
 ---
+import BL from '../../components/BL.astro';
 import Base from '../../layouts/Base.astro';
 import { url } from '../../lib/posts';
 import { favBtn, readBtn, starsHtml } from '../../lib/icons';
@@ -22,7 +23,7 @@ const host = p.url.replace(/^https?:\/\/(www\.)?/, '');
   <article class="prose pdetail" data-id={p.id} data-first={p.firstSeen} data-score={p.score || 0} data-pagefind-body>
     <p class="muted crumb"><I tag="a" href={url('/products/')} k="p.crumb" /> / <I k={`cat.${p.category}`} /></p>
     <h1>{p.name}</h1>
-    <p class="dsum"><L en={p.oneLinerEn} zh={p.oneLiner} /></p>
+    <div class="dsum"><BL en={p.oneLinerEn} zh={p.oneLiner} /></div>
     <div class="dbar" data-pagefind-ignore>
       <span class={`gbadge ${p.region === 'cn' ? 'tech' : ''}`}><I k={`region.${p.region}`} /></span>
       {p.maker && <span class="muted">{p.maker}</span>}

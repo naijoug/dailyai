@@ -1,4 +1,5 @@
 ---
+import BL from '../../components/BL.astro';
 import Base from '../../layouts/Base.astro';
 import I from '../../components/I.astro';
 import L from '../../components/L.astro';
@@ -93,8 +94,8 @@ const favicon = (u: string) => {
               {e.confirm?.url && <I tag="a" k="cr.propagated" href={e.confirm.url} target="_blank" rel="noopener noreferrer" />}
             </span>
           </div>
-          <blockquote class="cr-quote"><L en={e.quote.en} zh={e.quote.zh} /></blockquote>
-          {e.confirm?.quote?.en && <p class="cr-confirm"><L en={e.confirm.quote.en} zh={e.confirm.quote.zh} /></p>}
+          <blockquote class="cr-quote"><BL orig="en" en={e.quote.en} zh={e.quote.zh} /></blockquote>
+          {e.confirm?.quote?.en && <div class="cr-confirm"><BL orig="en" en={e.confirm.quote.en} zh={e.confirm.quote.zh} /></div>}
         </li>)}
       </ol>
     </section>

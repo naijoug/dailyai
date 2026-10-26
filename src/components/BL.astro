@@ -1,0 +1,17 @@
+---
+// 双语文本块（CSS 驱动，无闪烁）：主文 = UI 语言版本，地球图标展开另一语言；各块前有 原文/译文 图标。
+// orig = 原文语言。缺一种语言时只显示现有的那一种（带原文图标、无地球）。
+import { GLOBE } from '../lib/icons';
+import { ICON_O, ICON_T } from '../lib/bilang';
+import { t } from '../lib/i18n';
+const { en, zh, orig = 'zh', class: cls } = Astro.props as { en?: string; zh?: string; orig?: 'en' | 'zh'; class?: string };
+const both = !!(en && zh && en !== zh);
+const lic = (l: 'en' | 'zh', ui: 'en' | 'zh', force?: 'o') => { const k = force || (l === orig ? 'o' : 't'); const tl = `${t(k === 'o' ? 'bl.orig' : 'bl.tr', {}, ui)} · ${t('bl.l.' + l, {}, ui)}`; return `<span class="lic" data-k="${k}" data-ll="${l}" role="img" title="${tl}" aria-label="${tl}">${k === 'o' ? ICON_O : ICON_T}</span>`; };
+const one = (en || zh || '') as string; const oneL = en ? (zh ? orig : 'en') : 'zh';
+---
+{both ? (
+  <span class:list={['blx', cls]}>
+    <span data-l="en" lang="en"><Fragment set:html={lic('en', 'en')} />{en}</span><span data-l="zh" lang="zh-CN"><Fragment set:html={lic('zh', 'zh')} />{zh}</span>
+    <details class="itr blx-d" data-tlang="zh"><summary class="ibtn icob" title={t('tr.show.zh')} aria-label={t('tr.show.zh')} set:html={GLOBE} /><span class="itr-body"><span data-l="en" lang="zh-CN"><Fragment set:html={lic('zh', 'en')} />{zh}</span><span data-l="zh" lang="en"><Fragment set:html={lic('en', 'zh')} />{en}</span></span></details>
+  </span>
+) : <span class:list={['blx', cls]} lang={oneL === 'zh' ? 'zh-CN' : 'en'}><Fragment set:html={lic(oneL as 'en' | 'zh', 'en', 'o')} />{one}</span>}

@@ -54,8 +54,22 @@ function trNode(tr) {
   const lbl = LABEL[tr.lang];
   return el('details', { className: ['itr'], dataTlang: tr.lang }, [
     el('summary', { className: ['ibtn', 'icob'], title: lbl[0], ariaLabel: lbl[0], dataI18nAttrs: JSON.stringify({ title: `tr.show.${tr.lang}`, 'aria-label': `tr.show.${tr.lang}` }) }, [globe()]),
-    el('div', { className: ['itr-body'], ...(tr.lang === 'zh' ? { lang: 'zh-CN' } : {}) }, tr.children),
+    el('div', { className: ['itr-body'], lang: tr.lang === 'zh' ? 'zh-CN' : 'en' }, tr.children),
   ]);
+}
+// 原文 / 译文 标记图标（与 src/lib/bilang.ts 相同）；服务端按英文 UI 预排，tooltip 为英文，客户端按 UI 语言重写
+const LT = { o: 'Original', t: 'Translation' }; const LN = { en: 'English', zh: 'Chinese' };
+const ICO = {
+  o: () => el('svg', { className: ['ic', 'ic-or'], viewBox: '0 0 24 24', width: 13, height: 13, ariaHidden: 'true' }, [el('path', { d: 'M5 6.5h5v5c0 3.2-1.6 5.3-4.6 6' }, []), el('path', { d: 'M14 6.5h5v5c0 3.2-1.6 5.3-4.6 6' }, [])]),
+  t: () => el('svg', { className: ['ic', 'ic-tr'], viewBox: '0 0 24 24', width: 13, height: 13, ariaHidden: 'true' }, ['M3 5.5h9M7.5 3.5v2', 'M5 5.5c.6 3.2 2.6 5.8 5.5 7', 'M10 5.5c-.6 3.2-2.6 5.8-5.5 7', 'M12.5 21l4-9.5 4 9.5', 'M14 17.5h5'].map((d) => el('path', { d }, []))),
+};
+const lic = (k, l) => el('span', { className: ['lic'], dataK: k, dataLl: l, role: 'img', title: `${LT[k]} · ${LN[l]}`, ariaLabel: `${LT[k]} · ${LN[l]}` }, [ICO[k]()]);
+// 双语单元：主文槽 pri（children）+ 译文 tr。英文 UI 优先：原文为中文且有英文译文时交换。返回 { priChildren, priLang, tr, cur }
+function arrange(orig, olang, tr) {
+  if (tr && tr.children.length && olang !== 'en' && tr.lang === 'en') {
+    return { pri: [lic('t', 'en'), ...tr.children], priLang: 'en', tr: { lang: olang, children: [lic('o', olang), ...orig] }, cur: 'en' };
+  }
+  return { pri: [lic('o', olang), ...orig], priLang: olang, tr: tr && tr.children.length ? { lang: tr.lang, children: [lic('t', tr.lang), ...tr.children] } : null, cur: olang };
 }
 // 文章详情页图标（文档）
 const DOC = () => el('svg', { className: ['ic', 'ic-doc'], viewBox: '0 0 24 24', width: 16, height: 16, ariaHidden: 'true' }, [
@@ -69,6 +83,16 @@ function articleTree(tree) {
   for (const c of tree.children) {
     if (c.type === 'element' && c.tagName === 'blockquote') {
       const tr = takeTranslation(c);
+      while (out.length && out[out.length - 1].type === 'text' && !out[out.length - 1].value.trim()) out.pop();
+      const prev = out[out.length - 1];
+      if (tr.children.length && prev && prev.type === 'element' && prev.tagName !== 'div') {
+        out.pop();
+        const olang = tr.lang === 'zh' ? 'en' : 'zh';
+        const a = arrange([prev], olang, tr);
+        const d = trNode(a.tr); d.properties.className = ['itr', 'atr'];
+        out.push(el('div', { className: ['apara'], dataOl: olang, dataCur: a.cur }, [el('div', { className: ['atext', 'blp'], lang: a.priLang === 'zh' ? 'zh-CN' : 'en' }, a.pri), d]));
+        continue;
+      }
       if (tr.children.length) { const d = trNode(tr); d.properties.className = ['itr', 'atr']; out.push(d); continue; }
     }
     out.push(c);
@@ -118,9 +142,11 @@ export default function rehypeItems(opts = {}) {
         // 缩进写在条目内的 blockquote 同样当作译文
         let tr = trOf.get(li);
         if (!tr) { const bq = li.children.find((c) => c.type === 'element' && c.tagName === 'blockquote'); if (bq) { tr = takeTranslation(bq); li.children = li.children.filter((c) => c !== bq); } }
-        const plang = langOf(li.children.map(plain).join(''));
-        li.properties.dataLang = plang;
-        const body = el('div', { className: ['itext'], ...(plang === 'zh' ? { lang: 'zh-CN' } : {}) }, li.children);
+        // 原文语言：有 [zh]/[en] 译文标记时取其反，否则按文字推断
+        const plang = tr && tr.children.length ? (tr.lang === 'zh' ? 'en' : 'zh') : langOf(li.children.map(plain).join(''));
+        const a = arrange(li.children, plang, tr); tr = a.tr;
+        li.properties.dataLang = plang; li.properties.dataOl = plang; li.properties.dataCur = a.cur;
+        const body = el('div', { className: ['itext', 'blp'], lang: a.priLang === 'zh' ? 'zh-CN' : 'en' }, a.pri);
         const meta = el('div', { className: ['imeta'] }, [
           s ? el('span', { className: ['ascore', `s${s}`], title: `AI score ${s}/5`, ariaLabel: `AI score ${s}/5`, dataI18nAttrs: JSON.stringify({ title: 'ai.score', 'aria-label': 'ai.score' }), dataI18nA: JSON.stringify({ n: s }) }, [txt(String(s))]) : txt(''),
           ...(prods[n] || []).map((id) => el('a', { className: ['ibtn', 'plink'], href: `${base}/products/${id}/`, dataI18n: 'plink', dataI18nA: JSON.stringify({ id }) }, [txt(`Product · ${id}`)])),

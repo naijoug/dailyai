@@ -97,14 +97,16 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
   <script>
     import { applyI18n, setLang, updateSwitcher, getLang, tt, onLang } from '../lib/i18n';
     import { syncTr } from '../lib/icons';
+    import { applyBL } from '../lib/bilang';
     import { applyTz, getPref, setPref, effectiveZone, offsetAt, offsetLabel, COMMON_ZONES, OFFSETS, onTz } from '../lib/tz';
     import { bootGithub, configured as ghConfigured, getSession } from '../lib/github-sync';
     if (getLang() !== 'en') applyI18n();
+    applyBL(); syncTr();
     updateSwitcher();
     applyTz();
     // 译文开关（地球图标）：名称随开合状态与语言同步
     document.addEventListener('toggle', (e) => { const d = e.target as HTMLElement; if (d.matches?.('details.itr')) syncTr(d.parentElement!); }, true);
-    onLang(() => syncTr());
+    onLang(() => { applyBL(); syncTr(); });
     // ---- 时区弹层 ----
     let pop: HTMLElement | null = null; let anchor: HTMLElement | null = null;
     const zlabel = (p: string) => offsetLabel(offsetAt(Date.now(), p));
@@ -376,7 +378,17 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
   li.item:target { outline:2px solid var(--accent); }
   li.item.dim { opacity:.5; } li.item.dim:hover { opacity:1; }
   .hideread li.item.read:not(.keep) { display:none; }
-  .itext > :first-child { margin-top:0; } .itext > :last-child { margin-bottom:0; }
+  .itext > :first-child, .itext > .lic + * { margin-top:0; } .itext > :last-child { margin-bottom:0; }
+  /* 原文 / 译文 标记图标 */
+  .lic { float:left; display:inline-flex; align-items:center; justify-content:center; width:16px; height:1.5em; margin:0 5px 0 -2px; color:var(--muted); opacity:.75; cursor:help; }
+  .lic .ic { stroke-width:1.8; } .lic[data-k=t] { color:color-mix(in srgb, var(--accent) 75%, var(--muted)); }
+  .lic:hover { opacity:1; }
+  .itr-body > .lic + * { margin-top:0; }
+  .blx details.itr { display:inline; }
+  .blx details.itr > summary { display:inline-flex; vertical-align:middle; width:24px; height:22px; margin-left:2px; }
+  .blx details.itr::details-content { display:block; }
+  .blx .itr-body { display:block; margin:4px 0 2px; }
+  .blx .lic { float:none; display:inline-flex; vertical-align:-2px; height:auto; margin-right:4px; }
   /* ---- 译文折叠块（默认收起） ---- */
   /* 地球图标开关在页脚行内（details 不生成盒子，summary 即页脚的一个图标按钮）；展开的译文换行显示在页脚下方 */
   details.itr { display:contents; }
@@ -475,6 +487,7 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
   .pcard .pname { color:var(--fg); font-weight:650; font-size:16px; }
   .pcard .gmeta { margin:0; }
   .pcard .gsum { -webkit-line-clamp:2; }
+  .gsum:has(details[open]) { display:block; -webkit-line-clamp:unset; overflow:visible; }
   .rbadge { display:inline-block; border:1px solid var(--line); border-radius:4px; padding:0 6px; font-size:11.5px; line-height:19px; color:var(--fg); background:var(--prev); margin:0 4px 4px 0; white-space:nowrap; font-variant-numeric:tabular-nums; }
   .grow { font-size:12px; font-weight:600; font-variant-numeric:tabular-nums; }
   .grow.up, .rm.up { color:#2f9e63; } .grow.down, .rm.down { color:#d4405a; }

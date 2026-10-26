@@ -1,4 +1,5 @@
 ---
+import BL from '../../components/BL.astro';
 // 爆款长文详情页：原文逐段 + 默认折叠的译文（docs/articles.md）
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
@@ -22,8 +23,7 @@ const who = d.handle ? `${d.author} (@${d.handle})` : d.author;
   <meta slot="head" name="robots" content="noindex" />
   <article class="artp" data-tlang={trLang}>
     <nav class="crumb muted"><a href={url(`/day/${d.day}/`)}><I k="art.day" a={{ d: d.day }} /></a> / <I k="art.crumb" /></nav>
-    <h1 lang={d.lang === 'zh' ? 'zh-CN' : undefined}>{d.title}</h1>
-    {d.title_tr && <p class="atitle-tr muted" lang={trLang === 'zh' ? 'zh-CN' : undefined}>{d.title_tr}</p>}
+    <h1><BL orig={d.lang === 'zh' ? 'zh' : 'en'} en={d.lang === 'zh' ? d.title_tr : d.title} zh={d.lang === 'zh' ? d.title : d.title_tr} /></h1>
     <div class="ameta muted">
       <I k="art.by" a={{ a: who }} />
       <span>· <I k="art.published" /> <time datetime={d.published.toISOString()}>{pub}</time></span>
@@ -50,6 +50,8 @@ const who = d.handle ? `${d.author} (@${d.handle})` : d.author;
   .abody { line-height:1.8; }
   .abody img { max-width:100%; height:auto; }
   .abody pre { overflow-x:auto; }
+  .abody .apara > .atext > .lic { height:1.8em; }
+  .artp h1 .blx .itr-body { font-size:.55em; font-weight:400; line-height:1.5; }
   .abody details.atr { display:flex; flex-wrap:wrap; align-items:flex-start; margin:-.6em 0 1em; }
   .abody details.atr > summary { order:0; width:26px; height:24px; }
   .abody details.atr::details-content { flex:0 0 100%; }

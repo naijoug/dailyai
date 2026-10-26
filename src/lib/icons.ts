@@ -1,4 +1,5 @@
 import { tt } from './i18n';
+import { licHtml } from './bilang';
 // 内联 SVG 图标；状态（outline/filled）由 CSS 的 .on 控制
 export const BOOKMARK = '<svg class="ic ic-bm" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 3.5h12a1 1 0 0 1 1 1V21l-7-4.6L5 21V4.5a1 1 0 0 1 1-1z"/></svg>';
 export const CHECK = '<svg class="ic ic-ck" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle class="rtrack" cx="12" cy="12" r="10.6"/><circle class="ring" cx="12" cy="12" r="10.6" pathLength="100"/><circle class="rc" cx="12" cy="12" r="9"/><path class="tick" d="M8 12.4l2.8 2.8L16.2 9.6"/></svg>';
@@ -33,7 +34,7 @@ export function starKeys(root: Element) {
 export const GLOBE = '<svg class="ic ic-gl" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 1 0 0-18z"/><path d="M3 12h18"/><path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"/></svg>';
 export const trDetails = (lang: 'en' | 'zh', html: string) => {
   const l = tt('tr.show.' + lang).replace(/[<>&"]/g, '');
-  return `<details class="itr" data-tlang="${lang}"><summary class="ibtn icob" aria-label="${l}" title="${l}" data-i18n-attrs='{"title":"tr.show.${lang}","aria-label":"tr.show.${lang}"}'>${GLOBE}</summary><div class="itr-body"${lang === 'zh' ? ' lang="zh-CN"' : ''}>${html}</div></details>`;
+  return `<details class="itr" data-tlang="${lang}"><summary class="ibtn icob" aria-label="${l}" title="${l}" data-i18n-attrs='{"title":"tr.show.${lang}","aria-label":"tr.show.${lang}"}'>${GLOBE}</summary><div class="itr-body" lang="${lang === 'zh' ? 'zh-CN' : 'en'}">${licHtml('t', lang)}${html}</div></details>`;
 };
 // 按开合状态同步 summary 的名称（折叠=显示，展开=收起）
 export function syncTr(root: ParentNode = document) {

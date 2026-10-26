@@ -25,8 +25,9 @@ import { t, iattr } from '../lib/i18n';
   </article>
 </Base>
 <script>
+  import { applyBL, licHtml, guessLang } from '../lib/bilang';
   import { load, save, merge, activeFavs, isRead, ratingOf, markFav, onStore } from '../lib/store';
-  import { BOOKMARK, starsStatic, trDetails } from '../lib/icons';
+  import { BOOKMARK, starsStatic, trDetails, syncTr } from '../lib/icons';
   import { tt, applyI18n, onLang } from '../lib/i18n';
   const root = document.querySelector<HTMLElement>('.favpage')!;
   const base = root.dataset.base!;
@@ -46,8 +47,9 @@ import { t, iattr } from '../lib/i18n';
     const li = (f: typeof favs[number]) => {
       const mine = ratingOf(st, f.id);
       const link = isP(f) ? `<a class="ibtn" href="${base}/products/${esc(f.id.slice(8))}/">${tt('fav.product')}</a>` : `<a class="ibtn" href="${base}/day/${esc(f.day)}/#${esc(f.id)}">${tt('fav.source', { day: esc(f.day) })}</a>`;
-      return `<li class="item${isRead(st, f.id) ? ' read dim' : ''}" data-id="${esc(f.id)}">
-        <div class="itext">${f.html}</div>
+      const ol = f.tr ? (f.tr.lang === 'zh' ? 'en' : 'zh') : guessLang(f.text || '');
+      return `<li class="item${isRead(st, f.id) ? ' read dim' : ''}" data-id="${esc(f.id)}" data-ol="${ol}" data-cur="${ol}">
+        <div class="itext blp" lang="${ol === 'zh' ? 'zh-CN' : 'en'}">${licHtml('o', ol)}${f.html}</div>
         <div class="imeta">${f.score ? `<span class="ascore s${f.score}" title="${tt('ai.score', { n: f.score })}" aria-label="${tt('ai.score', { n: f.score })}">${f.score}</span>` : ''}
           ${starsStatic(mine)}
           ${link}
@@ -57,6 +59,7 @@ import { t, iattr } from '../lib/i18n';
     const prods = favs.filter(isP), items = favs.filter((f) => !isP(f));
     list.innerHTML = (prods.length ? `<div class="favgroup">${tt('fav.gp', { n: prods.length })}</div><ol class="items favs">${prods.map(li).join('')}</ol>` : '')
       + (items.length ? `<div class="favgroup">${tt('fav.gi', { n: items.length })}</div><ol class="items favs">${items.map(li).join('')}</ol>` : '');
+    applyBL(list); syncTr(list);
   }
   list.addEventListener('click', (e) => {
     const b = (e.target as HTMLElement).closest('[data-unfav]'); if (!b) return;
