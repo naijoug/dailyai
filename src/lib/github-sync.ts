@@ -163,7 +163,7 @@ function startLogin() {
   const state = randomState();
   sessionStorage.setItem(STATE_KEY, state);
   const url = `${githubWorkerUrl}/login?state=${state}&client_id=${encodeURIComponent(githubClientId)}`;
-  const pop = window.open(url, 'dailyai-oauth', 'popup,width=520,height=720');
+  const pop = window.open(url, 'dailyai', 'popup,width=520,height=720');
   if (!pop) location.assign(url);
 }
 async function accept(token: string, state: string) {

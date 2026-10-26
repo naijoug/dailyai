@@ -14,7 +14,7 @@ Client Secret 只放在 Cloudflare Worker 里，不要写进前端、不要提�
 | --- | --- |
 | Application name | Daily AI（任意） |
 | Homepage URL | `https://naijoug.github.io/dailyai/` |
-| Authorization callback URL | Worker 的 `/callback`。先随便填，部署 Worker 后改成真实地址，例如 `https://dailyai-oauth.<你的子域>.workers.dev/callback` |
+| Authorization callback URL | Worker 的 `/callback`。先随便填，部署 Worker 后改成真实地址，例如 `https://dailyai.<你的子域>.workers.dev/callback` |
 
 记下 **Client ID**。再 **Generate a new client secret**，记下 secret。secret 只在创建时显示一次。
 
