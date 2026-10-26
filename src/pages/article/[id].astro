@@ -52,6 +52,8 @@ const who = d.handle ? `${d.author} (@${d.handle})` : d.author;
   .abody pre { overflow-x:auto; }
   .abody .apara > .atext > .lic { height:1.8em; }
   .artp h1 .blx .itr-body { font-size:.55em; font-weight:400; line-height:1.5; }
+  /* 文章页只保留顶部一个地球开关：隐藏逐段与标题旁的地球按钮 */
+  .artp details.itr > summary { display:none !important; }
   .abody details.atr { display:flex; flex-wrap:wrap; align-items:flex-start; margin:-.6em 0 1em; }
   .abody details.atr > summary { order:0; width:26px; height:24px; }
   .abody details.atr::details-content { flex:0 0 100%; }
@@ -62,7 +64,7 @@ const who = d.handle ? `${d.author} (@${d.handle})` : d.author;
   import { tt, onLang } from '../../lib/i18n';
   import { syncTr } from '../../lib/icons';
   const btn = document.querySelector<HTMLElement>('[data-tall]')!;
-  const all = () => [...document.querySelectorAll<HTMLDetailsElement>('.abody details.itr')];
+  const all = () => [...document.querySelectorAll<HTMLDetailsElement>('.artp details.itr')];
   const paint = () => {
     const on = all().length > 0 && all().every((d) => d.open);
     btn.classList.toggle('on', on); btn.setAttribute('aria-pressed', String(on));
