@@ -1,0 +1,20 @@
+{
+  "id": "iphone-agent-harness",
+  "name": "iPhone Agent Harness",
+  "aliases": [],
+  "url": "https://igent.cc",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Harness 在 Safari（iOS / iPadOS 27+）里跑，读屏幕、调你自选的模型，再通过 ESP32 模拟蓝牙键鼠操控手机，和手机连同一 Wi-Fi；",
+  "oneLinerEn": "the harness runs in Safari (iOS / iPadOS 27+), reads the screen and talks to your chosen m",
+  "score": 4,
+  "firstSeen": "2026-10-26",
+  "updated": "2026-10-26",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

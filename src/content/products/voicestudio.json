@@ -1,0 +1,18 @@
+{
+  "id": "voicestudio",
+  "name": "VoiceStudio",
+  "aliases": [],
+  "url": "https://voicestudio.sh",
+  "category": "音频",
+  "region": "global",
+  "oneLiner": "默认 Electron 应用基于 k2-fsa/OmniVoice（也可换其他引擎），带时间轴视频配音、悬浮听写控件、本地 API 与面向 Agent 的 MCP、配方和监视文件夹",
+  "oneLinerEn": "Electron app powered by k2-fsa/OmniVoice by default (other engines optional), with timed v",
+  "score": 3,
+  "firstSeen": "2026-10-26",
+  "updated": "2026-10-26",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

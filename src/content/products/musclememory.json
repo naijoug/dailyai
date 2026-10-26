@@ -1,0 +1,19 @@
+{
+  "id": "musclememory",
+  "name": "MuscleMemory",
+  "aliases": [],
+  "url": "https://thewariend.com/musclememory",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "旁观 Claude Code / Codex 会话，任务以测试通过收尾时记下一条短技能（该改哪些文件、用哪条测试证明、要避开什么）；",
+  "oneLinerEn": "watches Claude Code / Codex sessions and, when a task ends with tests passing, stores a sh",
+  "score": 4,
+  "firstSeen": "2026-10-26",
+  "updated": "2026-10-26",
+  "tags": [
+    "Models",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

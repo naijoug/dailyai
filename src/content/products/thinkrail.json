@@ -1,0 +1,19 @@
+{
+  "id": "thinkrail",
+  "name": "ThinkRail",
+  "aliases": [],
+  "url": "https://thinkrail.ai/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "用独立 git worktree 工作区让 Agent 并行干活且不动你的主 checkout，自带 Monaco 工作台、终端和 diff，可同时开多个 pi 会话并显示实时 t",
+  "oneLinerEn": "isolated git-worktree workspaces so agents work in parallel without touching your checkout",
+  "score": 4,
+  "firstSeen": "2026-10-26",
+  "updated": "2026-10-26",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

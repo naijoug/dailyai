@@ -1,0 +1,223 @@
+{
+ "source": "hf",
+ "sourceName": "Hugging Face",
+ "kind": "feed",
+ "badge": "HF Spaces",
+ "list": "Trending Spaces",
+ "metric": "trendingScore 排序（API 顺序）",
+ "url": "https://huggingface.co/spaces?sort=trending",
+ "period": "2026-10-26",
+ "fetched": "2026-10-26T01:32:02.083Z",
+ "rows": [
+  {
+   "rank": 1,
+   "name": "glitchlab/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+   "url": "https://huggingface.co/spaces/glitchlab/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+   "value": "♥ 371",
+   "extra": "gradio"
+  },
+  {
+   "rank": 2,
+   "name": "kulkas2pintu/wan777",
+   "url": "https://huggingface.co/spaces/kulkas2pintu/wan777",
+   "value": "♥ 956",
+   "extra": "gradio"
+  },
+  {
+   "rank": 3,
+   "name": "fishpasters/uncensored-imageTOimage2Ref",
+   "url": "https://huggingface.co/spaces/fishpasters/uncensored-imageTOimage2Ref",
+   "value": "♥ 231",
+   "extra": "gradio"
+  },
+  {
+   "rank": 4,
+   "name": "hugging-apps/bfs-best-face-swap",
+   "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
+   "value": "♥ 515",
+   "extra": "gradio"
+  },
+  {
+   "rank": 5,
+   "name": "nvidia/simready-central",
+   "url": "https://huggingface.co/spaces/nvidia/simready-central",
+   "value": "♥ 106",
+   "extra": "docker"
+  },
+  {
+   "rank": 6,
+   "name": "black-forest-labs/flux-3-image-klein",
+   "url": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein",
+   "value": "♥ 219",
+   "extra": "gradio"
+  },
+  {
+   "rank": 7,
+   "name": "AST-1320/Qwen-2511-Plus-Flux.2-klein",
+   "url": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein",
+   "value": "♥ 249",
+   "extra": "gradio"
+  },
+  {
+   "rank": 8,
+   "name": "wank3r/minimax-h3",
+   "url": "https://huggingface.co/spaces/wank3r/minimax-h3",
+   "value": "♥ 184",
+   "extra": "gradio"
+  },
+  {
+   "rank": 9,
+   "name": "dlouapre/nlp-before-llms",
+   "url": "https://huggingface.co/spaces/dlouapre/nlp-before-llms",
+   "value": "♥ 88",
+   "extra": "docker"
+  },
+  {
+   "rank": 10,
+   "name": "multimodalart/jev-decision-index",
+   "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
+   "value": "♥ 808",
+   "extra": "static"
+  },
+  {
+   "rank": 11,
+   "name": "OpenMOSS-Team/MOSS-Image",
+   "url": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image",
+   "value": "♥ 161",
+   "extra": "gradio"
+  },
+  {
+   "rank": 12,
+   "name": "pollen-robotics/microduck-simulator",
+   "url": "https://huggingface.co/spaces/pollen-robotics/microduck-simulator",
+   "value": "♥ 716",
+   "extra": "docker"
+  },
+  {
+   "rank": 13,
+   "name": "hitman911/wan2-2-fp8da-aoti-preview-2c-finishing",
+   "url": "https://huggingface.co/spaces/hitman911/wan2-2-fp8da-aoti-preview-2c-finishing",
+   "value": "♥ 153",
+   "extra": "gradio"
+  },
+  {
+   "rank": 14,
+   "name": "HuggingFaceBio/Carbon-X-Release",
+   "url": "https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release",
+   "value": "♥ 55",
+   "extra": "static"
+  },
+  {
+   "rank": 15,
+   "name": "fishaudio/Drama-3",
+   "url": "https://huggingface.co/spaces/fishaudio/Drama-3",
+   "value": "♥ 138",
+   "extra": "gradio"
+  },
+  {
+   "rank": 16,
+   "name": "briaai/Fibo-2.0-editing",
+   "url": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing",
+   "value": "♥ 50",
+   "extra": "gradio"
+  },
+  {
+   "rank": 17,
+   "name": "vamo455/Omni-videos-custom-auto_prompt_high-quality",
+   "url": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality",
+   "value": "♥ 348",
+   "extra": "gradio"
+  },
+  {
+   "rank": 18,
+   "name": "Viggle/Qwen-Image-2.1-viggle-turbo",
+   "url": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo",
+   "value": "♥ 390",
+   "extra": "gradio"
+  },
+  {
+   "rank": 19,
+   "name": "microsoft/TRELLIS.2",
+   "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
+   "value": "♥ 2286",
+   "extra": "gradio"
+  },
+  {
+   "rank": 20,
+   "name": "Lynote/free-ai-humanizer",
+   "url": "https://huggingface.co/spaces/Lynote/free-ai-humanizer",
+   "value": "♥ 483",
+   "extra": "gradio"
+  },
+  {
+   "rank": 21,
+   "name": "selfit-camera/Omni-Image-Editor",
+   "url": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor",
+   "value": "♥ 2858",
+   "extra": "gradio"
+  },
+  {
+   "rank": 22,
+   "name": "JCisHERE/wan2-2-i2v-v3",
+   "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
+   "value": "♥ 64",
+   "extra": "gradio"
+  },
+  {
+   "rank": 23,
+   "name": "Aura1in/Krea-2-Turbo_v2",
+   "url": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2",
+   "value": "♥ 231",
+   "extra": "gradio"
+  },
+  {
+   "rank": 24,
+   "name": "baka999/MiniMax-H3-Turbo-Lora-UNCENSORED",
+   "url": "https://huggingface.co/spaces/baka999/MiniMax-H3-Turbo-Lora-UNCENSORED",
+   "value": "♥ 54",
+   "extra": "gradio"
+  },
+  {
+   "rank": 25,
+   "name": "Edisoneh/InfiniSplat2",
+   "url": "https://huggingface.co/spaces/Edisoneh/InfiniSplat2",
+   "value": "♥ 58",
+   "extra": "gradio"
+  },
+  {
+   "rank": 26,
+   "name": "rdata92/LTX-2.3-10Eros",
+   "url": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros",
+   "value": "♥ 103",
+   "extra": "gradio"
+  },
+  {
+   "rank": 27,
+   "name": "hugging-apps/qwen-qwen-image-2-1-turbo",
+   "url": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo",
+   "value": "♥ 146",
+   "extra": "gradio"
+  },
+  {
+   "rank": 28,
+   "name": "kogutt999/Pro-Realism-Edit-Studio",
+   "url": "https://huggingface.co/spaces/kogutt999/Pro-Realism-Edit-Studio",
+   "value": "♥ 92",
+   "extra": "gradio"
+  },
+  {
+   "rank": 29,
+   "name": "openbmb/MiniCPM-V-4.7-Demo",
+   "url": "https://huggingface.co/spaces/openbmb/MiniCPM-V-4.7-Demo",
+   "value": "♥ 59",
+   "extra": "gradio"
+  },
+  {
+   "rank": 30,
+   "name": "Qwen/Qwen-Image-2.1",
+   "url": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1",
+   "value": "♥ 474",
+   "extra": "gradio"
+  }
+ ]
+}
