@@ -1,0 +1,19 @@
+{
+  "id": "avp",
+  "name": "AVP",
+  "aliases": [],
+  "url": "https://avp.murmell.com/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "每个 Agent 开任务、写代码、落地，且每次落地都要在 main 的最新 head 上证明通过；",
+  "oneLinerEn": "each agent opens a task, writes and lands it, and every landing is proven against the exac",
+  "score": 4,
+  "firstSeen": "2026-10-26",
+  "updated": "2026-10-26",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

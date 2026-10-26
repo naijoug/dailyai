@@ -1,0 +1,18 @@
+{
+  "id": "proc-cli",
+  "name": "proc",
+  "aliases": [],
+  "url": "https://proc-cli.com/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "按端口、PID、名称或路径定位进程——proc kill :3000 结束监听 3000 端口的进程（先确认，--dry-run 可预览），proc :3000 显示名称/PID/",
+  "oneLinerEn": "target processes by port, PID, name or path — proc kill :3000 ends whatever listens on 300",
+  "score": 3,
+  "firstSeen": "2026-10-26",
+  "updated": "2026-10-26",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

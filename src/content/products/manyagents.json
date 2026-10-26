@@ -1,0 +1,19 @@
+{
+  "id": "manyagents",
+  "name": "ManyAgents",
+  "aliases": [],
+  "url": "https://manyagents.app",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "编排器把工作拆给多个 Agent，各自在独立 git worktree 里干活；",
+  "oneLinerEn": "an orchestrator splits your work across agents, each in its own git worktree;",
+  "score": 3,
+  "firstSeen": "2026-10-26",
+  "updated": "2026-10-26",
+  "tags": [
+    "Models",
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

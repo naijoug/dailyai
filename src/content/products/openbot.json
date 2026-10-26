@@ -1,0 +1,20 @@
+{
+  "id": "openbot",
+  "name": "OpenBot",
+  "aliases": [],
+  "url": "https://openbot.run/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "每个 Agent 有独立工作区和会话（Codex App Server、Claude Code，以及通过 ACP 接入的 Grok CLI、OpenCode、Gemini、Curs",
+  "oneLinerEn": "each agent gets its own workspace and session (Codex App Server, Claude Code, plus Grok CL",
+  "score": 3,
+  "firstSeen": "2026-10-26",
+  "updated": "2026-10-26",
+  "tags": [
+    "Models",
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "paperpilot",
+  "name": "PaperPilot",
+  "aliases": [],
+  "url": "https://usepaperpilot.com",
+  "category": "办公",
+  "region": "global",
+  "oneLiner": "同一个 Rust 核心提供 MCP 服务器（Codex、Claude Code、Kimi Code、Pi、Claude Desktop、Cursor 一行生成配置）、CLI、不上传",
+  "oneLinerEn": "one Rust core exposed as an MCP server (one-line config for Codex, Claude Code, Kimi Code,",
+  "score": 3,
+  "firstSeen": "2026-10-26",
+  "updated": "2026-10-26",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}
