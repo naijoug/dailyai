@@ -1,0 +1,330 @@
+---
+import Base from '../../layouts/Base.astro';
+import I from '../../components/I.astro';
+import L from '../../components/L.astro';
+import data from '../../data/codex-resets.json';
+import { t } from '../../lib/i18n';
+import { partsAt, labelAt } from '../../lib/tz';
+import {
+  predict, lastReset, challengeProgress, buildHeatmap, utcYmd,
+  formatCountdown, agoParts, formatWhenParts, mdLabel,
+} from '../../lib/codex-reset';
+import type { CodexData, CodexEvent, HeatDay } from '../../lib/codex-reset';
+
+const codex = data as CodexData;
+const now = Date.now();
+const pred = predict(codex.events, now, codex.challenge);
+const last = lastReset(codex.events, now);
+const prog = challengeProgress(codex.challenge, now);
+const whenUtc = (epoch: number) => formatWhenParts(partsAt(epoch, 'o:0'), labelAt(epoch, 'o:0'));
+const rem = pred.imminent ? 0 : Math.max(0, pred.at - now);
+const ago = last ? agoParts(now - Date.parse(last.at)) : null;
+const lastText = last ? t('cr.last', { ago: t(ago!.key, ago!.n != null ? { n: ago!.n } : {}) }) : t('cr.last.none');
+const heat = buildHeatmap(codex.events, now, utcYmd);
+const gCount = heat.cells.filter((c) => c.kind === 'global').length;
+const bCount = heat.cells.filter((c) => c.kind === 'banked').length;
+const eventsDesc = [...codex.events].sort((a, b) => Date.parse(b.at) - Date.parse(a.at) || b.id.localeCompare(a.id));
+const cellLabel = (c: HeatDay) => {
+  let s = mdLabel(c.m, c.d);
+  if (c.kind) s += ' · ' + t('cr.kind.' + c.kind);
+  if (c.today) s += ' · ' + t('cr.today');
+  return s;
+};
+const hostOf = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
+const letterOf = (name: string) => (name.match(/[A-Za-z0-9]/)?.[0] || '?').toUpperCase();
+const favicon = (u: string) => {
+  const host = hostOf(u);
+  return host ? `https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&sz=64` : '';
+};
+---
+<Base wide tkey="cr.title" description="Unofficial countdown to the next Codex global usage-limit reset, estimated from public posts.">
+  <article class="cr" data-pagefind-body>
+    <script is:inline>document.documentElement.classList.add('cr-wait');</script>
+    <noscript><style>html.cr-wait .cr-live{visibility:visible!important}</style></noscript>
+
+    <h1 class="ptitle"><span class="cr-mark" aria-hidden="true">↺</span> <I k="cr.title" /></h1>
+    <I tag="p" class="muted cr-intro" k="cr.intro" />
+
+    <section class="cr-hero" aria-labelledby="cr-next" data-pagefind-ignore>
+      <p class="cr-kicker" id="cr-next"><I k="cr.next" /></p>
+      <p class="cr-count cr-live" data-cr-count role="timer">{formatCountdown(rem)}</p>
+      <p class="cr-units"><I k="cr.units" /></p>
+      <p class="cr-soon cr-live" data-cr-soon hidden={!pred.imminent}><I k="cr.imminent" /></p>
+      <p class="cr-meta">
+        <span class="cr-badge cr-live" data-cr-conf data-level={pred.confidence}>{t('cr.conf.' + pred.confidence)}</span>
+        <time class="cr-when cr-live" data-cr-when datetime={new Date(pred.at).toISOString()}>{whenUtc(pred.at)}</time>
+      </p>
+      <p class="cr-basis cr-live" data-cr-basis>{t('cr.basis.' + pred.basis)}</p>
+      <p class="muted cr-last cr-live" data-cr-last>{lastText}</p>
+      <div class="cr-chal" data-cr-chal hidden={!prog.active}>
+        <div class="cr-chal-h">
+          <I k="cr.challenge" />
+          <span class="cr-live" data-cr-day>{prog.active ? t('cr.day', { n: prog.day, d: prog.total }) : ''}</span>
+        </div>
+        <div class="cr-track" data-cr-track role="progressbar" aria-valuemin="0" aria-valuemax={prog.total || 28} aria-valuenow={prog.day} aria-valuetext={prog.active ? t('cr.day', { n: prog.day, d: prog.total }) : undefined}>
+          <div class="cr-fill" data-cr-fill style={`width:${(prog.ratio * 100).toFixed(2)}%`}></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cr-block">
+      <h2 class="cr-sec"><I k="cr.evidence" /></h2>
+      <h3 class="cr-sub"><I k="cr.heat" /></h3>
+      <div class="cr-wdays" aria-hidden="true">
+        <I k="cr.wd.0" /><I k="cr.wd.1" /><I k="cr.wd.2" /><I k="cr.wd.3" /><I k="cr.wd.4" /><I k="cr.wd.5" /><I k="cr.wd.6" />
+      </div>
+      <div class="cr-heat cr-live" data-cr-heat data-pagefind-ignore>
+        {Array.from({ length: heat.pad }, () => <span class="cr-pad" aria-hidden="true"></span>)}
+        {heat.cells.map((c) => <span class:list={['cr-cell', c.kind, { today: c.today }]} title={cellLabel(c)} aria-label={cellLabel(c)}>{c.d}</span>)}
+      </div>
+      <p class="cr-legend">
+        <span><i class="cr-sw global" aria-hidden="true"></i> <I k="cr.legend.global" /></span>
+        <span><i class="cr-sw banked" aria-hidden="true"></i> <I k="cr.legend.banked" /></span>
+        <span><i class="cr-sw none" aria-hidden="true"></i> <I k="cr.legend.none" /></span>
+        <span class="muted cr-live" data-cr-heat-sum>{t('cr.heat.sum', { g: gCount, b: bCount })}</span>
+      </p>
+      <ol class="cr-cards">
+        {eventsDesc.map((e: CodexEvent) => <li class="cr-card">
+          <div class="cr-card-top">
+            <I class={`cr-kind ${e.kind}`} k={`cr.kind.${e.kind}`} />
+            <time class="cr-live" datetime={e.at} data-cr-abs={e.at}>{whenUtc(Date.parse(e.at))}</time>
+            <span class="cr-links">
+              <I tag="a" k="cr.post" href={e.url} target="_blank" rel="noopener noreferrer" />
+              {e.confirm?.url && <I tag="a" k="cr.propagated" href={e.confirm.url} target="_blank" rel="noopener noreferrer" />}
+            </span>
+          </div>
+          <blockquote class="cr-quote"><L en={e.quote.en} zh={e.quote.zh} /></blockquote>
+          {e.confirm?.quote?.en && <p class="cr-confirm"><L en={e.confirm.quote.en} zh={e.confirm.quote.zh} /></p>}
+        </li>)}
+      </ol>
+    </section>
+
+    <section class="cr-block">
+      <h2 class="cr-sec"><I k="cr.sites" /></h2>
+      <I tag="p" class="muted" k="cr.sites.sub" />
+      <div class="cr-sites">
+        {codex.sites.map((s) => <a class="cr-site" href={s.url} target="_blank" rel="noopener noreferrer">
+          <span class="cr-site-h">
+            <span class="cr-ico" data-letter={letterOf(s.name)} aria-hidden="true">
+              <img src={favicon(s.url)} alt="" width="18" height="18" loading="lazy" referrerpolicy="no-referrer" />
+            </span>
+            <span class="cr-site-name">{s.name}</span>
+          </span>
+          <L class="cr-site-desc" en={s.desc.en} zh={s.desc.zh} />
+          <span class="cr-tags">{s.tags.map((tag) => <L class="cr-tag" en={tag.en} zh={tag.zh} />)}</span>
+        </a>)}
+      </div>
+    </section>
+
+    <p class="cr-note"><I k="cr.disclaimer" /></p>
+  </article>
+</Base>
+
+<script>
+  import data from '../../data/codex-resets.json';
+  import {
+    predict, lastReset, challengeProgress, buildHeatmap,
+    formatCountdown, agoParts, formatWhenParts, mdLabel,
+  } from '../../lib/codex-reset';
+  import type { CodexData, Ymd } from '../../lib/codex-reset';
+  import { partsAt, labelAt, onTz, getPref } from '../../lib/tz';
+  import { tt, onLang, getLang } from '../../lib/i18n';
+
+  const codex = data as CodexData;
+  const ymd = (epoch: number): Ymd => {
+    const p = partsAt(epoch, getPref());
+    return { y: p.Y, m: p.M, d: p.D };
+  };
+  const when = (epoch: number) => formatWhenParts(partsAt(epoch, getPref()), labelAt(epoch, getPref()));
+  const countEl = document.querySelector<HTMLElement>('[data-cr-count]')!;
+  const soonEl = document.querySelector<HTMLElement>('[data-cr-soon]')!;
+  const confEl = document.querySelector<HTMLElement>('[data-cr-conf]')!;
+  const whenEl = document.querySelector<HTMLTimeElement>('[data-cr-when]')!;
+  const basisEl = document.querySelector<HTMLElement>('[data-cr-basis]')!;
+  const lastEl = document.querySelector<HTMLElement>('[data-cr-last]')!;
+  const chalEl = document.querySelector<HTMLElement>('[data-cr-chal]')!;
+  const dayEl = document.querySelector<HTMLElement>('[data-cr-day]')!;
+  const trackEl = document.querySelector<HTMLElement>('[data-cr-track]')!;
+  const fillEl = document.querySelector<HTMLElement>('[data-cr-fill]')!;
+  const heatEl = document.querySelector<HTMLElement>('[data-cr-heat]')!;
+  const sumEl = document.querySelector<HTMLElement>('[data-cr-heat-sum]')!;
+  let heatStamp = '';
+
+  document.querySelectorAll<HTMLImageElement>('.cr-ico img').forEach((img) => {
+    img.addEventListener('error', () => { img.hidden = true; });
+  });
+
+  function renderHeat(now: number) {
+    const { pad, cells } = buildHeatmap(codex.events, now, ymd);
+    const frag = document.createDocumentFragment();
+    for (let i = 0; i < pad; i++) {
+      const padEl = document.createElement('span');
+      padEl.className = 'cr-pad';
+      padEl.setAttribute('aria-hidden', 'true');
+      frag.appendChild(padEl);
+    }
+    let g = 0, b = 0;
+    for (const c of cells) {
+      if (c.kind === 'global') g++;
+      else if (c.kind === 'banked') b++;
+      const el = document.createElement('span');
+      el.className = `cr-cell${c.kind ? ' ' + c.kind : ''}${c.today ? ' today' : ''}`;
+      el.textContent = String(c.d);
+      let label = mdLabel(c.m, c.d);
+      if (c.kind) label += ' · ' + tt('cr.kind.' + c.kind);
+      if (c.today) label += ' · ' + tt('cr.today');
+      el.title = label;
+      el.setAttribute('aria-label', label);
+      frag.appendChild(el);
+    }
+    heatEl.replaceChildren(frag);
+    sumEl.textContent = tt('cr.heat.sum', { g, b });
+  }
+
+  function paint(forceHeat = false) {
+    const now = Date.now();
+    const pred = predict(codex.events, now, codex.challenge);
+    const ms = pred.imminent ? 0 : Math.max(0, pred.at - now);
+    const clock = formatCountdown(ms);
+    countEl.textContent = clock;
+    countEl.setAttribute('aria-label', pred.imminent ? tt('cr.imminent') : clock);
+    soonEl.hidden = !pred.imminent;
+    confEl.dataset.level = pred.confidence;
+    confEl.textContent = tt('cr.conf.' + pred.confidence);
+    whenEl.textContent = when(pred.at);
+    whenEl.dateTime = new Date(pred.at).toISOString();
+    basisEl.textContent = tt('cr.basis.' + pred.basis);
+    const lastEv = lastReset(codex.events, now);
+    if (lastEv) {
+      const ago = agoParts(now - Date.parse(lastEv.at));
+      lastEl.textContent = tt('cr.last', { ago: tt(ago.key, ago.n != null ? { n: ago.n } : {}) });
+    } else lastEl.textContent = tt('cr.last.none');
+    const progress = challengeProgress(codex.challenge, now);
+    chalEl.hidden = !progress.active;
+    if (progress.active) {
+      const dayText = tt('cr.day', { n: progress.day, d: progress.total });
+      dayEl.textContent = dayText;
+      fillEl.style.width = `${(progress.ratio * 100).toFixed(2)}%`;
+      trackEl.setAttribute('aria-valuenow', String(progress.day));
+      trackEl.setAttribute('aria-valuemax', String(progress.total));
+      trackEl.setAttribute('aria-valuetext', dayText);
+    }
+    document.querySelectorAll<HTMLTimeElement>('[data-cr-abs]').forEach((el) => {
+      const at = Date.parse(el.dataset.crAbs || '');
+      if (!Number.isNaN(at)) el.textContent = when(at);
+    });
+    const today = ymd(now);
+    const stamp = `${getPref()}|${getLang()}|${today.y}-${today.m}-${today.d}`;
+    if (forceHeat || stamp !== heatStamp) {
+      heatStamp = stamp;
+      renderHeat(now);
+    }
+  }
+
+  try { paint(true); }
+  finally { document.documentElement.classList.remove('cr-wait'); }
+  setInterval(() => paint(false), 1000);
+  onLang(() => paint(true));
+  onTz(() => paint(true));
+</script>
+
+<style is:global>
+  html.cr-wait .cr-live { visibility: hidden; }
+  .cr-mark { color: #c96a4b; font-weight: 500; }
+  [data-theme=dark] .cr-mark { color: #e0a38a; }
+  .cr-intro { max-width: 68ch; }
+  .cr-kicker { margin: 26px 0 0; font-size: 13px; font-weight: 650; color: var(--muted); }
+  .cr-count {
+    margin: 4px 0 0; font-size: clamp(36px, 7vw, 64px); font-weight: 600; line-height: 1.05;
+    letter-spacing: -0.04em; font-variant-numeric: tabular-nums; font-family: var(--font);
+  }
+  .cr-units { margin: 2px 0 0; color: var(--muted); font-size: 12px; letter-spacing: .12em; }
+  .cr-soon { margin: 8px 0 0; color: #c96a4b; font-weight: 650; }
+  [data-theme=dark] .cr-soon { color: #e0a38a; }
+  .cr-soon[hidden] { display: none; }
+  .cr-meta { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin: 12px 0 0; }
+  .cr-badge {
+    display: inline-block; border-radius: 999px; padding: 0 10px; line-height: 22px; font-size: 12px; font-weight: 650;
+    background: var(--chip); color: var(--muted);
+  }
+  .cr-badge[data-level="announced"] { background: rgba(201,106,75,.2); color: #9a4e34; }
+  .cr-badge[data-level="medium"] { background: rgba(201,106,75,.12); color: #b5654a; }
+  [data-theme=dark] .cr-badge[data-level="announced"] { background: rgba(224,163,138,.22); color: #f0c2b0; }
+  [data-theme=dark] .cr-badge[data-level="medium"] { background: rgba(224,163,138,.14); color: #e0a38a; }
+  .cr-when { color: #c96a4b; font-weight: 650; font-variant-numeric: tabular-nums; }
+  [data-theme=dark] .cr-when { color: #e0a38a; }
+  .cr-basis { margin: 8px 0 0; max-width: 68ch; color: var(--muted); font-size: 13.5px; line-height: 1.65; }
+  .cr-last { margin: 4px 0 0; }
+  .cr-chal { margin-top: 18px; max-width: 520px; }
+  .cr-chal[hidden] { display: none; }
+  .cr-chal-h { display: flex; justify-content: space-between; gap: 12px; font-size: 13px; font-weight: 650; margin-bottom: 6px; }
+  .cr-track { height: 8px; background: var(--chip); border-radius: 99px; overflow: hidden; }
+  .cr-fill { height: 100%; width: 0; background: #c96a4b; border-radius: inherit; }
+  [data-theme=dark] .cr-fill { background: #e0a38a; }
+  @media (prefers-reduced-motion: no-preference) { .cr-fill { transition: width .4s ease; } }
+  .cr-block { margin-top: 8px; }
+  .cr h2.cr-sec { font-size: 16px; font-weight: 650; margin: 36px 0 12px; border: none; padding: 0; }
+  .cr-sub { margin: 0 0 8px; font-size: 13px; font-weight: 650; color: var(--muted); }
+  .cr-wdays, .cr-heat { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; max-width: 364px; }
+  .cr-wdays { margin-bottom: 4px; font-size: 11px; color: var(--muted); text-align: center; }
+  .cr-cell, .cr-pad { aspect-ratio: 1; border-radius: 4px; }
+  .cr-cell {
+    display: flex; align-items: center; justify-content: center; font-size: 11px;
+    background: var(--prev); color: var(--muted); font-variant-numeric: tabular-nums;
+  }
+  .cr-cell.global { background: rgba(201,106,75,.78); color: #fff; }
+  .cr-cell.banked { background: rgba(201,106,75,.28); color: var(--fg); }
+  [data-theme=dark] .cr-cell.global { background: rgba(224,163,138,.72); color: #2a1610; }
+  [data-theme=dark] .cr-cell.banked { background: rgba(224,163,138,.28); }
+  .cr-cell.today { box-shadow: inset 0 0 0 1.5px var(--fg); }
+  .cr-legend { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin: 10px 0 0; font-size: 12.5px; color: var(--muted); max-width: 640px; }
+  .cr-sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 4px; }
+  .cr-sw.global { background: rgba(201,106,75,.78); }
+  .cr-sw.banked { background: rgba(201,106,75,.28); }
+  .cr-sw.none { background: var(--prev); box-shadow: inset 0 0 0 1px var(--line); }
+  [data-theme=dark] .cr-sw.global { background: rgba(224,163,138,.72); }
+  [data-theme=dark] .cr-sw.banked { background: rgba(224,163,138,.28); }
+  .cr-cards { list-style: none; padding: 0; margin: 18px 0 0; }
+  .cr-card { border: 1px solid var(--line); background: var(--card); border-radius: 10px; padding: 14px 16px; margin: 0 0 12px; }
+  .cr-card-top { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; font-size: 13px; }
+  .cr-card time { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .cr-links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 12px; }
+  .cr-kind { font-size: 11.5px; line-height: 20px; border-radius: 999px; padding: 0 8px; border: 1px solid transparent; font-weight: 650; }
+  .cr-kind.global { background: rgba(201,106,75,.18); color: #9a4e34; }
+  .cr-kind.banked { background: transparent; border-color: rgba(201,106,75,.5); color: #b5654a; }
+  .cr-kind.announce { background: var(--chip); color: var(--fg); }
+  .cr-kind.denied { background: var(--chip); color: var(--muted); }
+  .cr-kind.fix { background: transparent; border-style: dashed; border-color: rgba(201,106,75,.55); color: #b5654a; }
+  [data-theme=dark] .cr-kind.global { background: rgba(224,163,138,.18); color: #f0c2b0; }
+  [data-theme=dark] .cr-kind.banked, [data-theme=dark] .cr-kind.fix { color: #e0a38a; }
+  .cr-quote, .cr-confirm { white-space: pre-wrap; }
+  .cr-quote { margin: 10px 0 0; padding: 0 0 0 12px; border-left: 2px solid rgba(201,106,75,.45); font-style: normal; font-size: 14.5px; line-height: 1.7; }
+  .cr-confirm { margin: 8px 0 0; padding-left: 12px; color: var(--muted); font-size: 13.5px; line-height: 1.65; }
+  .cr-sites { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 14px; }
+  .cr-site {
+    display: flex; flex-direction: column; gap: 8px; min-height: 148px; min-width: 0;
+    padding: 16px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--fg);
+    box-shadow: 0 1px 2px rgba(0,0,0,.06);
+  }
+  .cr-site:hover { background: var(--hover); text-decoration: none; }
+  .cr-site:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .cr-site-h { display: flex; gap: 8px; align-items: center; min-width: 0; }
+  .cr-site-name { font-weight: 650; font-size: 15.5px; line-height: 1.35; }
+  .cr-ico {
+    position: relative; flex: none; width: 22px; height: 22px; border-radius: 5px; background: var(--chip);
+    display: inline-flex; align-items: center; justify-content: center; overflow: hidden;
+  }
+  .cr-ico::before { content: attr(data-letter); font-size: 11px; font-weight: 700; color: var(--muted); }
+  .cr-ico img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: var(--card); }
+  .cr-site-desc { font-size: 14px; line-height: 1.65; color: var(--fg); opacity: .88; }
+  .cr-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
+  .cr-tag { display: inline-block; background: var(--chip); color: var(--muted); border-radius: 999px; padding: 0 8px; font-size: 11.5px; line-height: 20px; }
+  .cr-note {
+    margin: 28px 0 0; padding: 12px 14px; border-left: 3px solid rgba(201,106,75,.55);
+    background: var(--prev); border-radius: 8px; color: var(--muted); font-size: 13.5px; line-height: 1.7;
+  }
+  @media (max-width: 720px) {
+    .cr-sites { grid-template-columns: 1fr; }
+    .cr-links { margin-left: 0; flex-basis: 100%; }
+  }
+</style>

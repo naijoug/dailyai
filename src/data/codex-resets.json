@@ -1,0 +1,460 @@
+{
+  "source": {
+    "name": "Tibo",
+    "handle": "thsottiaux",
+    "url": "https://x.com/thsottiaux"
+  },
+  "challenge": {
+    "start": "2026-10-05T00:00:00.000Z",
+    "days": 28
+  },
+  "events": [
+    {
+      "id": "2102254445082116335",
+      "at": "2026-09-22T04:31:32.000Z",
+      "kind": "announce",
+      "url": "https://x.com/thsottiaux/status/2102254445082116335",
+      "quote": {
+        "en": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon.",
+        "zh": "女士们、先生们……发动……你们的……引擎。快到周二了，我答应过周二会重置。另外还有些别的。回头见。"
+      }
+    },
+    {
+      "id": "2103637477760311522",
+      "at": "2026-09-26T00:07:13.000Z",
+      "kind": "global",
+      "url": "https://x.com/thsottiaux/status/2103637477760311522",
+      "quote": {
+        "en": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\n\nsorry about the brief disruption!\n\n(and yes we have a special spare codex when things are down to help us out)",
+        "zh": "哦对……我们恢复了，会给 Codex 和 ChatGPT Work 的所有付费用户重置用量上限。\n\n抱歉这次短暂中断。\n\n（是的，出故障时我们还有一台备用的 Codex 帮我们干活）"
+      }
+    },
+    {
+      "id": "2105672058269212820",
+      "at": "2026-10-01T14:51:54.000Z",
+      "kind": "denied",
+      "url": "https://x.com/thsottiaux/status/2105672058269212820",
+      "quote": {
+        "en": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset. I need to come up with something new fast.",
+        "zh": "因为你们主站点上的用量这会儿几乎没有上限，我没法真正给一次重置。我得快点想出点新的。"
+      }
+    },
+    {
+      "id": "2105843926221660585",
+      "at": "2026-10-02T02:14:51.000Z",
+      "kind": "announce",
+      "url": "https://x.com/thsottiaux/status/2105843926221660585",
+      "statedAt": "2026-10-02T17:00:00.000Z",
+      "quote": {
+        "en": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.",
+        "zh": "全球重置将于明天太平洋时间上午 10 点对所有付费 ChatGPT 账号生效。GPT-6.1 Sol 起步偏慢，抱歉；头两天流量冲高之后，现在已经回到预期速度。"
+      }
+    },
+    {
+      "id": "2106131810921136451",
+      "at": "2026-10-02T21:18:48.000Z",
+      "kind": "global",
+      "url": "https://x.com/thsottiaux/status/2106131810921136451",
+      "quote": {
+        "en": "Reset all propagated. Enjoy.",
+        "zh": "重置已全部推送。请享用。"
+      }
+    },
+    {
+      "id": "2106233145163141249",
+      "at": "2026-10-03T04:01:28.000Z",
+      "kind": "fix",
+      "url": "https://x.com/thsottiaux/status/2106233145163141249",
+      "quote": {
+        "en": "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier. Investigating and will make up for it",
+        "zh": "有反馈说 Pro 500 先前没有按预期拿到这次重置。正在查，会补上。"
+      }
+    },
+    {
+      "id": "2106845241357824205",
+      "at": "2026-10-04T20:33:43.000Z",
+      "kind": "announce",
+      "url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "quote": {
+        "en": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.",
+        "zh": "接下来 28 天，我们每天要么送出一项对大多数 Codex / Work 用户明显有用的改进，要么做一次完整重置。改进现在开始。"
+      }
+    },
+    {
+      "id": "2107913674593644711",
+      "at": "2026-10-07T19:19:17.000Z",
+      "kind": "banked",
+      "url": "https://x.com/thsottiaux/status/2107913674593644711",
+      "day": 3,
+      "quote": {
+        "en": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
+        "zh": "第 3 天 /\n\n大的是 Chat 里的 GPT-6，今天也顺便庆祝一下：Codex 和 ChatGPT Work 的活跃用户到了 4000 万的新高。\n\n正在把一次预存的重置写入所有付费账号。明天见。"
+      }
+    },
+    {
+      "id": "2109045220411351517",
+      "at": "2026-10-10T22:15:39.000Z",
+      "kind": "global",
+      "url": "https://x.com/thsottiaux/status/2109045220411351517",
+      "day": 6,
+      "quote": {
+        "en": "Day 6/ Reset",
+        "zh": "第 6 天 / 重置"
+      }
+    },
+    {
+      "id": "2109812216212099456",
+      "at": "2026-10-13T01:03:25.000Z",
+      "kind": "global",
+      "url": "https://x.com/thsottiaux/status/2109812216212099456",
+      "day": 8,
+      "quote": {
+        "en": "Day 8/ Reset",
+        "zh": "第 8 天 / 重置"
+      }
+    },
+    {
+      "id": "2110595484180214059",
+      "at": "2026-10-15T04:55:51.000Z",
+      "kind": "global",
+      "url": "https://x.com/thsottiaux/status/2110595484180214059",
+      "day": 10,
+      "quote": {
+        "en": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
+        "zh": "说我把重置按钮弄丢了，实在是夸张了。\n\n第 10 天 / 重置"
+      }
+    },
+    {
+      "id": "2111492673890824348",
+      "at": "2026-10-17T16:20:57.000Z",
+      "kind": "global",
+      "url": "https://x.com/thsottiaux/status/2111492673890824348",
+      "day": 13,
+      "quote": {
+        "en": "Day 13/ Le limit reset",
+        "zh": "第 13 天 / 额度重置"
+      }
+    },
+    {
+      "id": "2112432076767289678",
+      "at": "2026-10-20T06:33:48.000Z",
+      "kind": "global",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "day": 15,
+      "quote": {
+        "en": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+        "zh": "第 15 天 / 没关系，我们还在做……并且重置了。请享用。"
+      }
+    },
+    {
+      "id": "2112592264686149749",
+      "at": "2026-10-20T17:10:20.000Z",
+      "kind": "fix",
+      "url": "https://x.com/thsottiaux/status/2112592264686149749",
+      "quote": {
+        "en": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong.",
+        "zh": "有用户反馈，周末用量掉得比预期快。我们发现大约 4 万个账号的用量上限不一致：实际扣掉的用量和他们所选的方案对不上。我们正在逐一联系这些用户，问题已经修正。如果影响到你，我们会把额度加回你的账号。抱歉，这次是我们搞错了。"
+      }
+    },
+    {
+      "id": "2113162277688070445",
+      "at": "2026-10-22T06:55:22.000Z",
+      "kind": "global",
+      "url": "https://x.com/thsottiaux/status/2113162277688070445",
+      "day": 17,
+      "quote": {
+        "en": "Day 17/ Bet you thought we forgot, but no, it’s reset day today.\n\nAlso good time to remind you to get Daybreak Blue access, it only takes 15 mins and you don’t want to have to do it in the middle of an incident.",
+        "zh": "第 17 天 / 你大概以为我们忘了，并没有，今天就是重置日。\n\n也提醒一下去开通 Daybreak Blue，只要 15 分钟，别等到出事的时候才去办。"
+      }
+    },
+    {
+      "id": "2113492187770175603",
+      "at": "2026-10-23T04:46:19.000Z",
+      "kind": "global",
+      "url": "https://x.com/thsottiaux/status/2113492187770175603",
+      "day": 18,
+      "quote": {
+        "en": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex & work. But yes… that’s a reset!",
+        "zh": "第 18 天 / Decisions API 正式发布，OpenResponses 加入了 Linux 基金会，我们上线了一些性能改进，Uber 也在全面投入 Codex 和 Work。不过没错……这次也重置。"
+      }
+    },
+    {
+      "id": "2114200152701575656",
+      "at": "2026-10-25T03:39:31.000Z",
+      "kind": "global",
+      "url": "https://x.com/thsottiaux/status/2114200152701575656",
+      "day": 20,
+      "quote": {
+        "en": "Day 20/ Rest and reset",
+        "zh": "第 20 天 / 休息，并重置。"
+      },
+      "confirm": {
+        "id": "2114237083652882932",
+        "at": "2026-10-25T06:06:16.000Z",
+        "url": "https://x.com/thsottiaux/status/2114237083652882932",
+        "quote": {
+          "en": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too.",
+          "zh": "已经全部推送。明天好好用 Codex。这周也会很有意思。"
+        }
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "LimitTracker",
+      "url": "https://limittracker.com/",
+      "desc": {
+        "en": "Public Codex reset archive and a countdown you fill in from /status.",
+        "zh": "公开的 Codex 重置存档，以及用 /status 填写的个人倒计时。"
+      },
+      "tags": [
+        {
+          "en": "Codex",
+          "zh": "Codex"
+        },
+        {
+          "en": "archive",
+          "zh": "存档"
+        },
+        {
+          "en": "countdown",
+          "zh": "倒计时"
+        }
+      ]
+    },
+    {
+      "name": "Codex Resets Tracker",
+      "url": "https://codex-resets-tracker.com/",
+      "desc": {
+        "en": "Calendar of @thsottiaux resets, with a historical chance the next global lands soon.",
+        "zh": "按日历记录 @thsottiaux 的重置，并给出下一次全球重置的历史概率。"
+      },
+      "tags": [
+        {
+          "en": "Codex",
+          "zh": "Codex"
+        },
+        {
+          "en": "calendar",
+          "zh": "日历"
+        }
+      ]
+    },
+    {
+      "name": "OpenTheRank",
+      "url": "https://opentherank.com/codex-reset/",
+      "desc": {
+        "en": "“Will Codex reset today?” — a month-by-month calendar of recorded resets.",
+        "zh": "「今天 Codex 会重置吗？」按月展示已记录的重置日历。"
+      },
+      "tags": [
+        {
+          "en": "Codex",
+          "zh": "Codex"
+        },
+        {
+          "en": "calendar",
+          "zh": "日历"
+        }
+      ]
+    },
+    {
+      "name": "NextReset",
+      "url": "https://nextreset.ai/",
+      "desc": {
+        "en": "Codex reset forecast, source-linked history, and a timer you set from your account.",
+        "zh": "Codex 重置预测、带来源的历史，以及按账号时间自设的计时器。"
+      },
+      "tags": [
+        {
+          "en": "Codex",
+          "zh": "Codex"
+        },
+        {
+          "en": "forecast",
+          "zh": "预测"
+        }
+      ]
+    },
+    {
+      "name": "LimitReset",
+      "url": "https://limitreset.net/",
+      "desc": {
+        "en": "Cross-tool board: Codex announcements plus your own Claude, Cursor, and Gemini windows.",
+        "zh": "跨工具看板：Codex 的公告，以及你自己的 Claude、Cursor、Gemini 窗口。"
+      },
+      "tags": [
+        {
+          "en": "multi-tool",
+          "zh": "多工具"
+        },
+        {
+          "en": "alerts",
+          "zh": "提醒"
+        }
+      ]
+    },
+    {
+      "name": "TiboSay",
+      "url": "https://tibosay.com/zh",
+      "desc": {
+        "en": "Archives every @thsottiaux reset post, with a heatmap, interval stats, and npx tibosay.",
+        "zh": "归档 @thsottiaux 的每次重置帖，附热力图、间隔统计，以及 npx tibosay。"
+      },
+      "tags": [
+        {
+          "en": "Codex",
+          "zh": "Codex"
+        },
+        {
+          "en": "heatmap",
+          "zh": "热力图"
+        }
+      ]
+    },
+    {
+      "name": "Claude Resets",
+      "url": "https://claude-resets.com/",
+      "desc": {
+        "en": "Archive of Claude usage resets announced by Anthropic, separate from your /usage windows.",
+        "zh": "Anthropic 宣布的 Claude 用量重置存档，和你自己的 /usage 窗口是两回事。"
+      },
+      "tags": [
+        {
+          "en": "Claude",
+          "zh": "Claude"
+        },
+        {
+          "en": "archive",
+          "zh": "存档"
+        }
+      ]
+    },
+    {
+      "name": "SessionWatcher",
+      "url": "https://sessionwatcher.com/reset",
+      "desc": {
+        "en": "Mac menu bar and Windows taskbar countdowns for your Claude and Codex 5-hour and weekly limits.",
+        "zh": "在 Mac 菜单栏和 Windows 任务栏倒计时你的 Claude 与 Codex 5 小时及每周上限。"
+      },
+      "tags": [
+        {
+          "en": "menu bar",
+          "zh": "菜单栏"
+        },
+        {
+          "en": "local",
+          "zh": "本地"
+        }
+      ]
+    },
+    {
+      "name": "Tokaware",
+      "url": "https://tokaware.com/",
+      "desc": {
+        "en": "Team and personal view of Claude Code and Codex limits, with a countdown until each window returns.",
+        "zh": "团队和个人视角的 Claude Code 与 Codex 上限，并倒计时每个窗口何时恢复。"
+      },
+      "tags": [
+        {
+          "en": "team",
+          "zh": "团队"
+        },
+        {
+          "en": "limits",
+          "zh": "上限"
+        }
+      ]
+    },
+    {
+      "name": "Claude Usage",
+      "url": "https://www.claudeusage.dev/",
+      "desc": {
+        "en": "Plain-language guide to Claude’s 5-hour and weekly meters, and where each number comes from.",
+        "zh": "用直白的话说明 Claude 的 5 小时和每周用量，以及每个数字从哪来。"
+      },
+      "tags": [
+        {
+          "en": "Claude",
+          "zh": "Claude"
+        },
+        {
+          "en": "guide",
+          "zh": "说明"
+        }
+      ]
+    },
+    {
+      "name": "ccusage",
+      "url": "https://ccusage.com/",
+      "desc": {
+        "en": "Local CLI that totals tokens and estimated cost from Claude Code, Codex, and other agent logs.",
+        "zh": "本地 CLI，从 Claude Code、Codex 等 agent 日志汇总 token 和估算费用。"
+      },
+      "tags": [
+        {
+          "en": "CLI",
+          "zh": "CLI"
+        },
+        {
+          "en": "local",
+          "zh": "本地"
+        }
+      ]
+    },
+    {
+      "name": "Claude Code Usage Monitor",
+      "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "desc": {
+        "en": "Terminal monitor for live Claude Code usage, with burn-rate predictions and warnings.",
+        "zh": "在终端看 Claude Code 的实时用量，带消耗速度预测和预警。"
+      },
+      "tags": [
+        {
+          "en": "CLI",
+          "zh": "CLI"
+        },
+        {
+          "en": "Claude",
+          "zh": "Claude"
+        }
+      ]
+    },
+    {
+      "name": "CodexBar",
+      "url": "https://github.com/steipete/CodexBar",
+      "desc": {
+        "en": "macOS menu-bar meters for Codex and Claude Code usage, read from the local CLI session.",
+        "zh": "macOS 菜单栏里的 Codex 与 Claude Code 用量，直接读本机 CLI 会话。"
+      },
+      "tags": [
+        {
+          "en": "menu bar",
+          "zh": "菜单栏"
+        },
+        {
+          "en": "Codex",
+          "zh": "Codex"
+        }
+      ]
+    },
+    {
+      "name": "OpenAI Status",
+      "url": "https://status.openai.com/",
+      "desc": {
+        "en": "Official incident status for OpenAI services. Outages are not the same thing as a usage reset.",
+        "zh": "OpenAI 服务的官方故障状态。宕机和用量重置不是一回事。"
+      },
+      "tags": [
+        {
+          "en": "official",
+          "zh": "官方"
+        },
+        {
+          "en": "status",
+          "zh": "状态"
+        }
+      ]
+    }
+  ]
+}

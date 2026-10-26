@@ -5,7 +5,7 @@ export const LANG_KEY = 'dailyai:lang';
 type Dict = Record<string, string>;
 const en: Dict = {
   'site.title': 'Daily AI · Daily AI digest',
-  'nav.label': 'Main navigation', 'nav.home': 'Home', 'nav.products': 'Products', 'nav.tags': 'Tags', 'nav.search': 'Search', 'nav.favorites': 'Favorites',
+  'nav.label': 'Main navigation', 'nav.home': 'Home', 'nav.products': 'Products', 'nav.reset': 'Reset', 'nav.tags': 'Tags', 'nav.search': 'Search', 'nav.favorites': 'Favorites',
   'theme.toggle': 'Toggle theme', 'lang.label': 'Language', 'lang.en': 'English', 'lang.zh': '中文',
   'foot.text': 'Content from the daily digests', 'foot.rss': 'Subscribe via RSS',
   // home / gallery
@@ -50,10 +50,28 @@ const en: Dict = {
   'p.mentions': 'Mentioned on this site', 'p.nomentions': 'No daily digest item mentions it yet.', 'p.all': '← All products', 'p.models': 'Models →',
   'r.period': 'Data period {d}', 'r.published': 'Published {d}', 'r.manual': 'Manual snapshot', 'r.source': 'Source ↗', 'r.name': 'Name', 'r.summary': 'Summary', 'r.value': 'Value', 'r.mom': 'MoM', 'r.earlier': 'Earlier snapshots: {l}',
   'cat.对话助手': 'Assistants', 'cat.编程/Agent': 'Coding / Agents', 'cat.办公': 'Office', 'cat.图像': 'Image', 'cat.视频': 'Video', 'cat.音频': 'Audio', 'cat.搜索': 'Search', 'cat.研究': 'Research', 'cat.开发者平台': 'Dev Platforms', 'cat.其他': 'Other',
+  // codex reset
+  'cr.title': 'Codex reset',
+  'cr.intro': 'Countdown to the next predicted Codex global usage reset, from public posts by @thsottiaux.',
+  'cr.next': 'Next predicted reset', 'cr.units': 'd : h : m : s', 'cr.imminent': 'Any time now',
+  'cr.conf.announced': 'Announced', 'cr.conf.medium': 'Medium', 'cr.conf.low': 'Low',
+  'cr.basis.announce': 'An announcement named this time, and no global reset has been posted since.',
+  'cr.basis.challenge': 'In the 28-day challenge: last global reset plus the median of recent gaps, pulled toward 05:00 UTC.',
+  'cr.basis.history': 'Outside the challenge window: the median gap between global resets.',
+  'cr.last': 'Last reset {ago}', 'cr.last.none': 'No reset recorded yet',
+  'cr.ago.now': 'just now', 'cr.ago.m': '{n}m ago', 'cr.ago.h': '{n}h ago', 'cr.ago.d': '{n}d ago',
+  'cr.challenge': '28-day challenge', 'cr.day': 'Day {n} / {d}',
+  'cr.evidence': 'Evidence', 'cr.heat': 'Last 30 days', 'cr.heat.sum': '{g} global · {b} banked',
+  'cr.legend.global': 'Global', 'cr.legend.banked': 'Banked', 'cr.legend.none': 'No reset', 'cr.today': 'Today',
+  'cr.wd.0': 'Su', 'cr.wd.1': 'Mo', 'cr.wd.2': 'Tu', 'cr.wd.3': 'We', 'cr.wd.4': 'Th', 'cr.wd.5': 'Fr', 'cr.wd.6': 'Sa',
+  'cr.kind.global': 'global', 'cr.kind.banked': 'banked', 'cr.kind.announce': 'announce', 'cr.kind.denied': 'denied', 'cr.kind.fix': 'fix',
+  'cr.post': 'Post ↗', 'cr.propagated': 'Propagated ↗',
+  'cr.sites': 'Related sites', 'cr.sites.sub': 'Other public trackers and the official status page.',
+  'cr.disclaimer': 'Unofficial estimate from public posts, not an OpenAI schedule. Your personal 5-hour and weekly windows are separate — check them in Codex with /status.',
 };
 const zh: Dict = {
   'site.title': 'Daily AI · 每日 AI 动态',
-  'nav.label': '主导航', 'nav.home': '首页', 'nav.products': '产品', 'nav.tags': '标签', 'nav.search': '搜索', 'nav.favorites': '收藏',
+  'nav.label': '主导航', 'nav.home': '首页', 'nav.products': '产品', 'nav.reset': '重置', 'nav.tags': '标签', 'nav.search': '搜索', 'nav.favorites': '收藏',
   'theme.toggle': '切换深浅色', 'lang.label': '语言', 'lang.en': 'English', 'lang.zh': '中文',
   'foot.text': '内容来自每日汇总', 'foot.rss': '订阅 RSS',
   'home.intro': '每天一页：X 上的 AI Hot 与 Tech 速递。共 {n} 天。', 'home.daily': '▦ 每日', 'home.search': '⌕ 搜索',
@@ -91,6 +109,23 @@ const zh: Dict = {
   'p.mentions': '本站提到它的条目', 'p.nomentions': '每日速递里还没有提到它的条目。', 'p.all': '← 全部产品', 'p.models': '模型榜 →',
   'r.period': '数据期 {d}', 'r.published': '发布 {d}', 'r.manual': '手动快照', 'r.source': '来源 ↗', 'r.name': '名称', 'r.summary': '简介', 'r.value': '数值', 'r.mom': '环比', 'r.earlier': '历史快照：{l}',
   'cat.对话助手': '对话助手', 'cat.编程/Agent': '编程/Agent', 'cat.办公': '办公', 'cat.图像': '图像', 'cat.视频': '视频', 'cat.音频': '音频', 'cat.搜索': '搜索', 'cat.研究': '研究', 'cat.开发者平台': '开发者平台', 'cat.其他': '其他',
+  'cr.title': 'Codex 额度重置',
+  'cr.intro': '根据 @thsottiaux 的公开帖子，倒计时预计的下一次 Codex 全球用量重置。',
+  'cr.next': '预计下次重置', 'cr.units': '天 : 时 : 分 : 秒', 'cr.imminent': '随时可能',
+  'cr.conf.announced': '已宣布', 'cr.conf.medium': '中等', 'cr.conf.low': '较低',
+  'cr.basis.announce': '有预告写了这个时间，而且那之后还没有全球重置的帖子。',
+  'cr.basis.challenge': '28 天挑战期内：上次全球重置加上最近几次间隔的中位数，并向 UTC 05:00 靠拢。',
+  'cr.basis.history': '不在挑战窗口内：按历次全球重置的间隔中位数估计。',
+  'cr.last': '上次重置 {ago}', 'cr.last.none': '还没有记录到重置',
+  'cr.ago.now': '刚刚', 'cr.ago.m': '{n} 分钟前', 'cr.ago.h': '{n} 小时前', 'cr.ago.d': '{n} 天前',
+  'cr.challenge': '28 天挑战', 'cr.day': '第 {n} / {d} 天',
+  'cr.evidence': '依据', 'cr.heat': '近 30 天', 'cr.heat.sum': '{g} 天全球 · {b} 天预存',
+  'cr.legend.global': '全球重置', 'cr.legend.banked': '预存重置', 'cr.legend.none': '无重置', 'cr.today': '今天',
+  'cr.wd.0': '日', 'cr.wd.1': '一', 'cr.wd.2': '二', 'cr.wd.3': '三', 'cr.wd.4': '四', 'cr.wd.5': '五', 'cr.wd.6': '六',
+  'cr.kind.global': '全球', 'cr.kind.banked': '预存', 'cr.kind.announce': '预告', 'cr.kind.denied': '未重置', 'cr.kind.fix': '补正',
+  'cr.post': '帖子 ↗', 'cr.propagated': '已推送 ↗',
+  'cr.sites': '相关站点', 'cr.sites.sub': '其他公开追踪站，以及官方状态页。',
+  'cr.disclaimer': '非官方估计，依据是公开帖子，不是 OpenAI 的时间表。个人的 5 小时窗口和每周窗口是另一套，请在 Codex 里用 /status 查看。',
 };
 export const DICT: Record<Lang, Dict> = { en, zh };
 export type Args = Record<string, string | number | string[] | undefined>;

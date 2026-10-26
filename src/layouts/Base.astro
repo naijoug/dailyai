@@ -39,6 +39,7 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
         <nav class="mainnav" data-i18n-attrs='{"aria-label":"nav.label"}' aria-label={t('nav.label')}>
           <I tag="a" k="nav.home" href={url('/')} class={nav('/')} />
           <I tag="a" k="nav.products" href={url('/products/')} class={nav('/products/')} />
+          <I tag="a" k="nav.reset" href={url('/codex-reset/')} class={nav('/codex-reset/')} />
           <I tag="a" k="nav.tags" href={url('/tags/')} class={nav('/tags/')} />
           <I tag="a" k="nav.search" href={url('/search/')} class={nav('/search/')} />
           <I tag="a" k="nav.favorites" href={url('/favorites/')} class={nav('/favorites/')} />
