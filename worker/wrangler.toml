@@ -1,0 +1,7 @@
+name = "dailyai-oauth"
+main = "oauth.js"
+compatibility_date = "2026-10-01"
+
+# CLIENT_ID 和 CLIENT_SECRET 不要写进这个文件。
+# npx wrangler secret put CLIENT_ID
+# npx wrangler secret put CLIENT_SECRET

@@ -23,18 +23,18 @@ const { days, newByDay = {} } = Astro.props as { days: Day[]; newByDay?: Record<
   ))}
 </div>
 <script>
-  import { load } from '../lib/store';
+  import { load, onStore } from '../lib/store';
   import { tt, onLang } from '../lib/i18n';
-  const st = load();
   function paint() {
+    const st = load();
     document.querySelectorAll<HTMLElement>('.gcard').forEach((c) => {
       const pids = (c.dataset.pids || '').split(',');
       const read = Object.keys(st.read).filter((id) => pids.some((p) => id.startsWith(p + '-'))).length;
       const el = c.querySelector('[data-prog]')!;
       el.textContent = tt('prog', { r: read, t: c.dataset.total });
-      if (read) el.classList.add('on');
-      if (read >= Number(c.dataset.total)) c.classList.add('done');
+      el.classList.toggle('on', read > 0);
+      c.classList.toggle('done', read >= Number(c.dataset.total));
     });
   }
-  paint(); onLang(paint);
+  paint(); onLang(paint); onStore(paint);
 </script>

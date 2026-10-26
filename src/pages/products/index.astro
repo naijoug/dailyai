@@ -93,7 +93,7 @@ const sorted = [...products].sort((a, b) => (b.score || 0) - (a.score || 0) || a
   </div>
 </Base>
 <script>
-  import { load, save } from '../../lib/store';
+  import { load, save, isRead, isFav, ratingOf, markFav, onStore } from '../../lib/store';
   import { setFav, setRead, starsStatic } from '../../lib/icons';
   import { tt, getLang, onLang } from '../../lib/i18n';
   const tabs = document.querySelectorAll<HTMLButtonElement>('[data-tab]');
@@ -134,20 +134,20 @@ const sorted = [...products].sort((a, b) => (b.score || 0) - (a.score || 0) || a
     const st = load();
     for (const c of cards) {
       const k = KEY(c.dataset.id!);
-      const fav = !!st.fav[k]; const b = c.querySelector('[data-fav]')!;
+      const fav = isFav(st, k); const b = c.querySelector('[data-fav]')!;
       setFav(b, fav);
-      const r = st.rating[k];
-      c.querySelector('[data-mine]')!.innerHTML = starsStatic(r || 0) + (st.read[k] ? ` <span>${tt('p.seen')}</span>` : '');
-      c.classList.toggle('done', !!st.read[k]);
+      const r = ratingOf(st, k);
+      c.querySelector('[data-mine]')!.innerHTML = starsStatic(r || 0) + (isRead(st, k) ? ` <span>${tt('p.seen')}</span>` : '');
+      c.classList.toggle('done', isRead(st, k));
     }
   }
   grid.addEventListener('click', (e) => {
     const b = (e.target as HTMLElement).closest('[data-fav]'); if (!b) return;
     const c = b.closest<HTMLElement>('.pcard')!; const k = KEY(c.dataset.id!);
     const st = load();
-    if (st.fav[k]) delete st.fav[k];
-    else st.fav[k] = { id: k, day: c.dataset.first!, html: `<p><strong>${c.querySelector('.pname')!.textContent}</strong>: ${gs(c)}</p>`, text: gs(c), score: Number(c.dataset.score) || undefined, ts: Date.now() };
+    if (isFav(st, k)) markFav(st, k, null);
+    else markFav(st, k, { id: k, day: c.dataset.first!, html: `<p><strong>${c.querySelector('.pname')!.textContent}</strong>: ${gs(c)}</p>`, text: gs(c), score: Number(c.dataset.score) || undefined });
     save(st); paint();
   });
-  apply(); paint(); onLang(() => { apply(); paint(); });
+  apply(); paint(); onLang(() => { apply(); paint(); }); onStore(paint);
 </script>
