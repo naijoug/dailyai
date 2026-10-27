@@ -16,12 +16,22 @@
   "oneLiner": "月之暗面的 AI 助手与模型系列，覆盖网页对话、Kimi Work 办公与 API",
   "oneLinerEn": "Moonshot AI's assistant and model family, spanning web chat, Kimi Work and the API.",
   "score": 5,
-  "firstSeen": "2026-10-27",
+  "firstSeen": "2026-10-23",
   "updated": "2026-10-27",
   "tags": [
     "Models",
     "Products",
     "Chinese Community"
   ],
-  "rankings": []
+  "rankings": [],
+  "mentionExclude": [
+    "Kimi K3.1 Pro",
+    "Kimi K3.1",
+    "Kimi K3",
+    "Kimi K2.6",
+    "Kimi K2",
+    "Kimi Code",
+    "Kimi and DeepSeek models",
+    "Kimi 和 DeepSeek 模型"
+  ]
 }

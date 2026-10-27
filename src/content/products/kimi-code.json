@@ -9,10 +9,10 @@
   "category": "编程/Agent",
   "region": "cn",
   "maker": "Moonshot AI（月之暗面）",
-  "oneLiner": "月之暗面的终端编程 Agent",
-  "oneLinerEn": "Moonshot AI's terminal coding agent.",
+  "oneLiner": "月之暗面的 AI 编程 Agent，覆盖 CLI、VS Code 插件和桌面客户端",
+  "oneLinerEn": "Moonshot AI's coding agent across CLI, VS Code extension and desktop app.",
   "score": 3,
-  "firstSeen": "2026-10-27",
+  "firstSeen": "2026-10-23",
   "updated": "2026-10-27",
   "tags": [
     "Agents",

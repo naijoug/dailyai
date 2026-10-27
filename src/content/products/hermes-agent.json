@@ -2,7 +2,6 @@
   "id": "hermes-agent",
   "name": "Hermes Agent",
   "aliases": [
-    "Hermes",
     "Hermes Agent"
   ],
   "url": "https://hermes-agent.nousresearch.com",
@@ -15,11 +14,17 @@
   "oneLiner": "Nous Research 的开源自我进化 Agent：持久记忆、从经验自动生成技能，可部署在 VPS 或云端并通过 Telegram 等渠道对话",
   "oneLinerEn": "Nous Research's open-source self-improving agent with persistent memory and auto-generated skills, deployable on a VPS or the cloud and reachable via Telegram and other channels.",
   "score": 4,
-  "firstSeen": "2026-10-27",
+  "firstSeen": "2026-10-25",
   "updated": "2026-10-27",
   "tags": [
     "Agents",
     "Open Source"
   ],
-  "rankings": []
+  "rankings": [],
+  "matchNames": [
+    "Hermes Agent",
+    "hermes-agent",
+    "Hermes, OpenClaw",
+    "Hermes、OpenClaw"
+  ]
 }

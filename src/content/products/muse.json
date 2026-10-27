@@ -2,8 +2,7 @@
   "id": "muse",
   "name": "Muse",
   "aliases": [
-    "Meta Muse",
-    "Muse｜Meta"
+    "Meta Muse"
   ],
   "url": "https://ai.meta.com/muse/",
   "domains": [
@@ -15,11 +14,17 @@
   "oneLiner": "Meta 的个人 AI Agent：在专属安全云端虚拟机里替你跑浏览器、填表、连接应用，长期任务关掉 App 也会继续做",
   "oneLinerEn": "Meta's personal AI agent: runs in a dedicated secure cloud VM with its own browser, fills forms and works across your apps, and keeps going on long tasks after you close the app.",
   "score": 5,
-  "firstSeen": "2026-10-27",
+  "firstSeen": "2026-10-02",
   "updated": "2026-10-27",
   "tags": [
     "Agents",
     "Products"
   ],
-  "rankings": []
+  "rankings": [],
+  "mentionExclude": [
+    "Muse Spark Open",
+    "Muse Spark",
+    "Muse Code",
+    "Muse Secure VM"
+  ]
 }
