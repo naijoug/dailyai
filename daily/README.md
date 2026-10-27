@@ -9,7 +9,7 @@
 
 OpenAI 发布 GPT-6.1 Terra 并公布三项科学成果；Manus 公开 AI Native 组织实践，MiniMax 开源自托管 Agents API。
 
-🆕 今日新品：Entire、Moras、CorridorKey 2.0 +1
+🆕 今日新品：Codex、Dots、Kimi +17
 
 🎙 访谈与播客：Founder Park
 
