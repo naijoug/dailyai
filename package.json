@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
-    "import": "node scripts/import.mjs"
+    "import": "node scripts/import.mjs",
+    "export:md": "node scripts/export-md.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.3",

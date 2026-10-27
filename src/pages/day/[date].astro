@@ -10,6 +10,8 @@ import { render } from 'astro:content';
 import { url } from '../../lib/posts';
 import { allDays, hhmm, parseCov, covPlain } from '../../lib/days';
 import { rangeText } from '../../lib/tz';
+import { iattr } from '../../lib/i18n';
+const MD = 'https://github.com/naijoug/dailyai/blob/main/digests/';
 export async function getStaticPaths() {
   const days = await allDays();
   return days.map((d, i) => ({ params: { date: d.date }, props: { day: d, newer: days[i - 1], older: days[i + 1] } }));
@@ -30,6 +32,7 @@ const sections = [
       <button type="button" class="tzbtn tzv" data-tz-open data-tz-label data-tz-at={`${day.date}T12:00:00+08:00`} aria-haspopup="dialog" aria-expanded="false">UTC+8</button>
       <I class="muted tzrest" k="day.meta" a={{ n: day.posts.length, t: day.total }} />
       <span class="dprog" data-dprog>{t('prog', { r: 0, t: day.total })}</span>
+      <a class="mdlink" href={`${MD}${day.date.slice(0, 4)}/${day.date.slice(5, 7)}/${day.date}.md`} target="_blank" rel="noopener" {...iattr({ title: 'md.title' })}><I k="md.link" /> ↗</a>
       <label class="dhide"><input type="checkbox" data-hideread /> <I k="day.hide" /></label>
     </div>
     <I tag="p" class="allread muted" k="day.allread" data-allread data-pagefind-ignore hidden />
@@ -42,6 +45,7 @@ const sections = [
           <span class="tchip tzv" data-tz-hm={p.data.date.toISOString()} data-tz-day={day.date}>{hhmm(p.data.date)}</span><small class="tzdd tzv" data-tz-dd></small>
           {c ? <em><I class="cov-l" k="day.cov" /> <span class="cov-r tzv" data-tz-cov data-tz-cs={new Date(c.s).toISOString()} data-tz-ce={new Date(c.e).toISOString()} title={c.note || undefined}>{rangeText(c.s, c.e, 'o:480')}</span></em>
             : p.data.coverage ? <em>{covPlain(p.data.coverage)}</em> : null}
+          <a class="mdlink" href={`${MD}${day.date.slice(0, 4)}/${day.date.slice(5, 7)}/${p.id}.md`} target="_blank" rel="noopener" {...iattr({ title: 'md.title' })}><I k="md.link" /> ↗</a>
         </div>); })()}
         <div class="ebody"><Content /></div>
       </div>)}

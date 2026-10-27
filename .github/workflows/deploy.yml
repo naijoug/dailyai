@@ -20,6 +20,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npm run export:md   # 校验导出脚本可运行（digests/ 由 export-md.yml 提交）
       - run: npm run build
         env:
           PUBLIC_GITHUB_CLIENT_ID: ${{ vars.PUBLIC_GITHUB_CLIENT_ID }}

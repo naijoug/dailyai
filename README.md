@@ -15,10 +15,14 @@
 node scripts/import.mjs <源文件.md>   # 例如 /workspace/x-ai/summaries/2026-10-21-1315.md
 git add src/content/posts
 git commit -m "post: <id>"
-git push
+git pull --rebase -q && git push   # main 上可能有 digests/ 的自动提交
 ```
 
 推送到 `main` 后，GitHub Actions 会自动构建并部署到 Pages（见下方「部署」）。
+
+## Markdown 导出（digests/）
+
+`digests/` 是可直接在 GitHub 阅读的纯 Markdown 版本（[索引](digests/README.md)：按天 `digests/YYYY/MM/YYYY-MM-DD.md`、每期 `digests/YYYY/MM/<post-id>.md`、全文 `digests/articles/<id>.md`），由 `npm run export:md`（`scripts/export-md.mjs`）生成。**自动生成，不要手改、也不要在例行提交里手动提交**：`.github/workflows/export-md.yml` 会在 `src/content/**` 推送到 main 后重新导出并以 `chore(digests): ... [skip ci]` 提交，所以推送前先 `git pull --rebase`。
 
 ## 部署
 
