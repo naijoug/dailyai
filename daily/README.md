@@ -7,13 +7,13 @@
 
 ### 2026-10-27 · 星期二
 
-OpenAI 发布 GPT-6.1 Terra 并公布三项科学成果；Manus 公开 AI Native 组织实践，MiniMax 开源自托管 Agents API。
+OpenAI 发布 GPT-6.1 Terra 并称模型推翻指数时间假设，Anthropic 随即放出 Claude 独立署名的同结论论文；百度开源超长文档 OCR 模型 Unlimited OCR 2。
 
 🆕 今日新品：Entire、Moras、CorridorKey 2.0 +1
 
 🎙 访谈与播客：Founder Park
 
-AI Hot 13 · Tech 11 · 访谈/播客 1 · ⭐ 12 条高分
+AI Hot 21 · Tech 11 · 访谈/播客 1 · ⭐ 17 条高分
 
 [→ 查看当天详情](2026/10/2026-10-27.md)
 
