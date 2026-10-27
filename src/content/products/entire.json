@@ -1,0 +1,18 @@
+{
+  "id": "entire",
+  "name": "Entire",
+  "aliases": [],
+  "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "用「Trails」取代 PR 时间线，把每次推送后由 Agent 打分、可自定义的评测结果放在页面最上方；",
+  "oneLinerEn": "instead of the PR timeline, \"Trails\" puts agent-scored, customizable evals computed on eve",
+  "score": 4,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

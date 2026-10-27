@@ -1,0 +1,19 @@
+{
+  "id": "hob",
+  "name": "Hob",
+  "aliases": [],
+  "url": "https://hob.chat",
+  "category": "对话助手",
+  "region": "global",
+  "oneLiner": "像 Claude Cowork 一样处理你的文件，但在 Mac、Windows、Linux 上本地跑开放权重模型（Gemma 4、gpt-oss），首次安装自动为你的硬件挑最合适的",
+  "oneLinerEn": "it works on your files like Claude Cowork but runs open-weight models (Gemma 4, gpt-oss) l",
+  "score": 3,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Models",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

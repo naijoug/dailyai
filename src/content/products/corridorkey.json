@@ -1,0 +1,15 @@
+{
+  "id": "corridorkey",
+  "name": "CorridorKey 2.0",
+  "aliases": [],
+  "url": "https://corridorkey.com/",
+  "category": "视频",
+  "region": "global",
+  "oneLiner": "一键抠像，能预测半透明前景的真实颜色（解决「去混色」难题），原生支持 4K 以上 HDR 浮点色深、无闪烁、任意背景色，全部本地运行（Windows + NVIDIA GPU，附独",
+  "oneLinerEn": "one-click keys that predict the true color of semi-transparent foreground (the \"un-mixing\"",
+  "score": 3,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [],
+  "rankings": []
+}
