@@ -1,5 +1,7 @@
 # Daily AI
 
+📅 [Markdown 每日索引](daily/README.md)
+
 每日 AI 动态静态站：<https://naijoug.github.io/dailyai/>
 
 基于 Astro，内容来自两类中文汇总：
@@ -15,14 +17,14 @@
 node scripts/import.mjs <源文件.md>   # 例如 /workspace/x-ai/summaries/2026-10-21-1315.md
 git add src/content/posts
 git commit -m "post: <id>"
-git pull --rebase -q && git push   # main 上可能有 digests/ 的自动提交
+git pull --rebase -q && git push   # main 上可能有 daily/ 的自动提交
 ```
 
 推送到 `main` 后，GitHub Actions 会自动构建并部署到 Pages（见下方「部署」）。
 
-## Markdown 导出（digests/）
+## Markdown 导出（daily/）
 
-`digests/` 是可直接在 GitHub 阅读的纯 Markdown 版本（[索引](digests/README.md)：按天 `digests/YYYY/MM/YYYY-MM-DD.md`、每期 `digests/YYYY/MM/<post-id>.md`、全文 `digests/articles/<id>.md`），由 `npm run export:md`（`scripts/export-md.mjs`）生成。**自动生成，不要手改、也不要在例行提交里手动提交**：`.github/workflows/export-md.yml` 会在 `src/content/**` 推送到 main 后重新导出并以 `chore(digests): ... [skip ci]` 提交，所以推送前先 `git pull --rebase`。
+`daily/` 是可直接在 GitHub 阅读的纯 Markdown 版本：[每日索引](daily/README.md)（对应网站首页）、按天 `daily/YYYY/MM/YYYY-MM-DD.md`（中文为主的紧凑条目）、全文 `daily/articles/<id>.md`（双语）。由 `npm run export:md`（`scripts/export-md.mjs`）生成。**自动生成，不要手改、也不要手动提交**：`.github/workflows/export-md.yml` 会在 `src/content/**` 推送到 main 后重新导出并以 `chore(daily): ... [skip ci]` 提交，所以推送前先 `git pull --rebase`。
 
 ## 部署
 

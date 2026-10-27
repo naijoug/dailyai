@@ -11,7 +11,7 @@ import { url } from '../../lib/posts';
 import { allDays, hhmm, parseCov, covPlain } from '../../lib/days';
 import { rangeText } from '../../lib/tz';
 import { iattr } from '../../lib/i18n';
-const MD = 'https://github.com/naijoug/dailyai/blob/main/digests/';
+const MD = 'https://github.com/naijoug/dailyai/blob/main/daily/';
 export async function getStaticPaths() {
   const days = await allDays();
   return days.map((d, i) => ({ params: { date: d.date }, props: { day: d, newer: days[i - 1], older: days[i + 1] } }));
@@ -45,7 +45,6 @@ const sections = [
           <span class="tchip tzv" data-tz-hm={p.data.date.toISOString()} data-tz-day={day.date}>{hhmm(p.data.date)}</span><small class="tzdd tzv" data-tz-dd></small>
           {c ? <em><I class="cov-l" k="day.cov" /> <span class="cov-r tzv" data-tz-cov data-tz-cs={new Date(c.s).toISOString()} data-tz-ce={new Date(c.e).toISOString()} title={c.note || undefined}>{rangeText(c.s, c.e, 'o:480')}</span></em>
             : p.data.coverage ? <em>{covPlain(p.data.coverage)}</em> : null}
-          <a class="mdlink" href={`${MD}${day.date.slice(0, 4)}/${day.date.slice(5, 7)}/${p.id}.md`} target="_blank" rel="noopener" {...iattr({ title: 'md.title' })}><I k="md.link" /> ↗</a>
         </div>); })()}
         <div class="ebody"><Content /></div>
       </div>)}

@@ -46,4 +46,4 @@ First original paragraph.
 - 不要把任何密钥、关注列表或 X List ID 写进站点内容。
 
 
-> 注：顶层 `digests/` 是由 `scripts/export-md.mjs` 从 `src/content/` 自动生成的纯 Markdown 导出（GitHub Actions 在推送后自动提交），不要手改；只改 `src/content/` 即可。推送前先 `git pull --rebase`。
+> 注：顶层 `daily/` 是由 `scripts/export-md.mjs` 从 `src/content/` 自动生成的纯 Markdown 导出（GitHub Actions 在推送后自动提交），不要手改；只改 `src/content/` 即可。推送前先 `git pull --rebase`。

@@ -1,11 +1,12 @@
 name: Export Markdown digests
-# 内容变更推送到 main 后重新生成 digests/ 并提交（GITHUB_TOKEN 提交不会再次触发工作流；另有 paths 过滤与 [skip ci]）
+# 内容变更推送到 main 后重新生成 daily/ 并提交（GITHUB_TOKEN 提交不会再次触发工作流；另有 paths 过滤与 [skip ci]）
 on:
   push:
     branches: [main]
     paths:
       - 'src/content/posts/**'
       - 'src/content/articles/**'
+      - 'src/content/products/**'
       - 'scripts/export-md.mjs'
   workflow_dispatch:
 permissions:
@@ -25,15 +26,15 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/export-md.mjs
-      - name: Commit digests/ if changed
+      - name: Commit daily/ if changed
         run: |
-          git add -A digests
-          if git diff --cached --quiet; then echo "digests/ up to date"; exit 0; fi
+          git add -A daily
+          if git diff --cached --quiet; then echo "daily/ up to date"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git commit -q -m "chore(digests): sync markdown export [skip ci]"
+          git commit -q -m "chore(daily): sync markdown export [skip ci]"
           for i in 1 2 3; do
             git push origin HEAD:main && exit 0
-            git pull --rebase -q origin main && node scripts/export-md.mjs && git add -A digests && (git diff --cached --quiet || git commit -q --amend --no-edit)
+            git pull --rebase -q origin main && node scripts/export-md.mjs && git add -A daily && (git diff --cached --quiet || git commit -q --amend --no-edit)
           done
           exit 1
