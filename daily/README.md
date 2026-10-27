@@ -9,7 +9,7 @@
 
 OpenAI 发布 GPT-6.1 Terra 并公布三项科学成果；Manus 公开 AI Native 组织实践，MiniMax 开源自托管 Agents API。
 
-🆕 今日新品：Codex、Dots、Kimi +17
+🆕 今日新品：Entire、Moras、CorridorKey 2.0 +1
 
 🎙 访谈与播客：Founder Park
 
@@ -33,7 +33,7 @@ AI Hot 23 · Tech 26 · 访谈/播客 1 · ⭐ 23 条高分
 
 OpenAI 折扣抢 Anthropic 编程客户，Codex 第 20 天重置生效；晚间 BOSS直聘开源 Nanbeige4.3-33B，三星电视被曝靠 AI 截屏投广告。
 
-🆕 今日新品：OpenShell、Impeccable、Indra OCR +7
+🆕 今日新品：OpenClaw、OpenShell、Devin +10
 
 AI Hot 23 · Tech 24 · ⭐ 22 条高分
 
@@ -43,7 +43,7 @@ AI Hot 23 · Tech 24 · ⭐ 22 条高分
 
 Kimi K3.1 Pro 发布又陷推广争议；Brotli 漏洞扩至 HTTP 栈；Agent 工具扎堆，阮一峰称编程已面目全非。
 
-🆕 今日新品：AgentValley、Cindy、Corgi +6
+🆕 今日新品：AgentValley、Cindy、Corgi +7
 
 🎙 访谈与播客：42章经
 
@@ -55,7 +55,7 @@ AI Hot 23 · Tech 24 · 访谈/播客 1 · ⭐ 23 条高分
 
 Anthropic 捐出 Agent Skills，METR 揭 OpenAI 监控漏洞；OpenCode 曝 MCP 登录 RCE，pgrust 刷榜被扒。
 
-🆕 今日新品：EmbeddingGemma 2、MiniMax M3.1 Flash、Peras +5
+🆕 今日新品：Kimi、EmbeddingGemma 2、GitHub Copilot +8
 
 AI Hot 30 · Tech 26 · ⭐ 19 条高分
 
@@ -65,7 +65,7 @@ AI Hot 30 · Tech 26 · ⭐ 19 条高分
 
 PHP2Shell 被证实披露前已遭利用，LiteLLM 投毒、GitLab 满分漏洞接连；Claude Duet 发布，1Password 让 agent 免看密码登录。
 
-🆕 今日新品：1Password for Agents、Claude for Google Workspace、Cline +14
+🆕 今日新品：1Password for Agents、Claude for Google Workspace、Cline +15
 
 🎙 访谈与播客：The MAD Podcast
 
@@ -115,7 +115,7 @@ AI Hot 8 · Tech 22 · 访谈/播客 2 · ⭐ 6 条高分
 
 Claude Code 九成代码由 Claude 自写，DeepSeek V4.1 Flash 新版发布；PostgreSQL 19 因 AI 审出 bug 推迟。
 
-🆕 今日新品：Replit、WorkBuddy
+🆕 今日新品：Amp、Claude Cowork、Replit +1
 
 AI Hot 27 · Tech 23 · ⭐ 14 条高分
 
@@ -145,6 +145,8 @@ AI Hot 28 · Tech 25 · 访谈/播客 1 · ⭐ 14 条高分
 
 OpenCode 式编程工具与 Agent 上下文优化走热，XBOW 用 agent 做出 Chrome 利用链；Claude Code 新版与本地语义搜索值得关注。
 
+🆕 今日新品：OpenCode
+
 AI Hot 20 · Tech 26 · ⭐ 10 条高分
 
 [→ 查看当天详情](2026/10/2026-10-14.md)
@@ -152,6 +154,8 @@ AI Hot 20 · Tech 26 · ⭐ 10 条高分
 ### 2026-10-13 · 星期二
 
 Anthropic 公布反蒸馏成效，Gemini 4 Argon 临近上线；长任务 skill 与 Flash 模型横评是当天最实用的干货。
+
+🆕 今日新品：Google Antigravity
 
 🎙 访谈与播客：Training Data
 
@@ -173,7 +177,7 @@ AI Hot 10 · 访谈/播客 1 · ⭐ 2 条高分
 
 Claude Code 开放 Projects 并行云端线程，Codex 额度全球重置；子 agent 分流模型、/goal 等省额度技巧集中出现。
 
-🆕 今日新品：Cursor、Gemini、DeepSeek +1
+🆕 今日新品：Cursor、Gemini、DeepSeek +2
 
 AI Hot 18 · ⭐ 4 条高分
 
@@ -203,6 +207,8 @@ AI炼金术：ColaOS 橘子谈个人 Agent：token 成本降到获客成本以�
 
 Lenny's Podcast：负责 ChatGPT 与 Codex 的 Tibo Sottiaux 谈 DevDay 发布的常驻个人 Agent Dots
 
+🆕 今日新品：Codex
+
 🎙 访谈与播客：Lenny's Podcast
 
 访谈/播客 1
@@ -212,6 +218,8 @@ Lenny's Podcast：负责 ChatGPT 与 Codex 的 Tibo Sottiaux 谈 DevDay 发布�
 ### 2026-10-02 · 星期五
 
 晚点聊 LateTalk：晚点 AI 季报 26Q3：个人助理爆发、GPT-6 Astra 进入机器人、OpenAI 与 Anthropic 增速对比
+
+🆕 今日新品：Dots、Muse
 
 🎙 访谈与播客：晚点聊 LateTalk
 
