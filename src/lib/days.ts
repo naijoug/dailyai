@@ -1,4 +1,5 @@
 import { allPosts } from './posts';
+import { getCollection } from 'astro:content';
 export function heads(body = '', n = 3) {
   return body.split('\n').filter((l) => /^(\d+\.|[-*])\s/.test(l)).slice(0, n).map((l) =>
     l.replace(/^(\d+\.|[-*])\s+/, '').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/https?:\/\/\S+/g, '')
@@ -39,6 +40,10 @@ export async function allDays() {
   const posts = await allPosts();
   const map = new Map<string, typeof posts>();
   for (const p of posts) { const k = dayKey(p.data.date); if (!map.has(k)) map.set(k, []); map.get(k)!.push(p); }
+  // 访谈与播客按北京时间日期挂到当天；只有访谈的日子也生成日页
+  const ivAll = (await getCollection('interviews')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+  const ivMap = new Map<string, typeof ivAll>();
+  for (const iv of ivAll) { const k = dayKey(iv.data.date); if (!ivMap.has(k)) ivMap.set(k, []); ivMap.get(k)!.push(iv); if (!map.has(k)) map.set(k, []); }
   return [...map.entries()].sort((a, b) => (a[0] < b[0] ? 1 : -1)).map(([date, ps]) => {
     const asc = [...ps].sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
     const xai = asc.filter((p) => p.data.type === 'x-ai');
@@ -49,11 +54,14 @@ export async function allDays() {
     const countItems = (b = '') => b.split('\n').filter((l) => /^(\d+\.|[-*])\s/.test(l)).length;
     const nItems = (arr: typeof asc) => arr.reduce((s, p) => s + countItems(p.body), 0);
     const withSum = [...asc].reverse().find((p) => p.data.daySummary);
-    const summaryEn = withSum?.data.daySummaryEn || '';
-    const summary = withSum?.data.daySummary || [...heads(xai.at(-1)?.body, 1), ...heads(tech.at(-1)?.body, 1)].join('；');
+    const ivs = ivMap.get(date) || [];
+    const ivHead = ivs.length ? `${ivs[0].data.show}：${ivs[0].data.lang === 'zh' ? ivs[0].data.summary : ivs[0].data.summary_tr || ivs[0].data.summary}` : '';
+    const ivHeadEn = ivs.length ? `${ivs[0].data.show}: ${ivs[0].data.lang === 'en' ? ivs[0].data.summary : ivs[0].data.summary_tr || ivs[0].data.summary}` : '';
+    const summary = withSum?.data.daySummary || [...heads(xai.at(-1)?.body, 1), ...heads(tech.at(-1)?.body, 1)].join('；') || ivHead;
+    const summaryEn = withSum?.data.daySummaryEn || (asc.length ? '' : ivHeadEn);
     const allScores = asc.flatMap((p) => p.data.scores);
     const top = allScores.filter((x) => x >= 4).length;
-    return { date, summary, summaryEn, wd: wdIdx(date), total: nItems(asc), aiCount: nItems(xai), techCount: nItems(tech), top, pids: asc.map((p) => p.id), title: dayTitle(date), posts: asc, xai, tech, aiHeads: latest(xai), techHeads: latest(tech), tags, last: asc[asc.length - 1].data.date };
+    return { date, summary, summaryEn, wd: wdIdx(date), total: nItems(asc), aiCount: nItems(xai), techCount: nItems(tech), top, pids: asc.map((p) => p.id), title: dayTitle(date), posts: asc, xai, tech, ivs, ivCount: ivs.length, aiHeads: latest(xai), techHeads: latest(tech), tags, last: asc.length ? asc[asc.length - 1].data.date : ivs[0].data.date };
   });
 }
 export type Day = Awaited<ReturnType<typeof allDays>>[number];

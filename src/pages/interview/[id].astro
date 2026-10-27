@@ -1,0 +1,60 @@
+---
+// 访谈/播客详情页：要点 + 少量原话 + 原文链接（docs/interviews.md）；绝不转载全文
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import BL from '../../components/BL.astro';
+import I from '../../components/I.astro';
+import { url } from '../../lib/posts';
+import { iattr } from '../../lib/i18n';
+import { allInterviews, ivText, ivDay } from '../../lib/interviews';
+import { allProducts } from '../../lib/products';
+export async function getStaticPaths() {
+  return (await allInterviews()).map((iv) => ({ params: { id: iv.id }, props: { iv } }));
+}
+const { iv } = Astro.props;
+const { Content } = await render(iv);
+const d = iv.data;
+const day = ivDay(iv);
+const title = ivText(iv, 'title');
+const sum = ivText(iv, 'summary');
+const prods = (await allProducts()).filter((p) => d.products.includes(p.id));
+const host = d.url.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
+---
+<Base title={d.title} description={`${d.show} · ${d.summary_tr || d.summary}`}>
+  <article class="prose ivp" data-pagefind-body>
+    <nav class="crumb muted"><a href={url(`/day/${day}/#interviews`)}><I k="iv.day" a={{ d: day }} /></a> / <I k={`iv.kind.${d.kind}`} /></nav>
+    <h1><BL orig={d.lang} en={title.en} zh={title.zh} /></h1>
+    <div class="ivmeta">
+      <span class={`tlb tl-${d.kind === 'podcast' ? 'podcast' : 'interview'}`}><I k={`iv.kind.${d.kind}`} /></span>
+      <strong class="ivshow">{d.show}</strong>
+      <time class="muted" datetime={d.date.toISOString()}>{day}</time>
+      {d.duration && <span class="muted">· {d.duration}</span>}
+      {d.score && <span class={`ascore s${d.score}`} {...iattr({ title: 'ai.score', 'aria-label': 'ai.score' }, { n: d.score })}>{d.score}</span>}
+    </div>
+    {d.guests.length > 0 && <p class="ivguests muted"><I k="iv.guests" />: {d.guests.join(' · ')}{d.company && <> · {d.company}</>}</p>}
+    <div class="dsum"><BL orig={d.lang} en={sum.en} zh={sum.zh} /></div>
+    <aside class="abanner" data-pagefind-ignore>
+      <strong><I k="iv.banner.label" /></strong>
+      <p><I k="iv.banner" a={{ s: d.show }} /> <a href={d.url} target="_blank" rel="noopener">{d.url}</a></p>
+    </aside>
+    <p class="ivcta" data-pagefind-ignore><a class="ibtn ivgo" href={d.url} target="_blank" rel="noopener"><I k={d.kind === 'podcast' ? 'iv.listen' : 'iv.read'} /> · {host} ↗</a></p>
+    <div class="ivbody"><Content /></div>
+    {(prods.length > 0 || d.tags.length > 0) && <div class="dtags" data-pagefind-ignore>
+      {prods.map((p) => <a class="ibtn plink" href={url(`/products/${p.id}/`)}>{p.name}</a>)}
+      {d.tags.map((tg) => <I tag="span" class="chip" k={`tag.${tg}`} />)}
+    </div>}
+    <p class="aback muted"><a href={url(`/day/${day}/#interviews`)}>← <I k="iv.day" a={{ d: day }} /></a></p>
+  </article>
+</Base>
+<style is:global>
+  .ivp h1 { margin:.3em 0 .2em; line-height:1.3; }
+  .ivp .crumb { font-size:13px; }
+  .ivp h1 .blx .itr-body { font-size:.55em; font-weight:400; line-height:1.5; }
+  .ivmeta { display:flex; flex-wrap:wrap; align-items:center; gap:6px 10px; font-size:13.5px; }
+  .ivguests { font-size:13.5px; margin:.4em 0; }
+  .ivcta { margin:0 0 1em; } .ivgo { font-weight:600; }
+  .ivbody .items { padding-left:0; }
+  .ivp .abanner { margin:14px 0 14px; padding:10px 14px; border:1px solid color-mix(in srgb, var(--accent) 45%, transparent); border-left:4px solid var(--accent); border-radius:8px; background:color-mix(in srgb, var(--accent) 7%, transparent); font-size:13.5px; }
+  .ivp .abanner p { margin:.3em 0 0; } .ivp .abanner a { word-break:break-all; text-decoration:underline; }
+  .ivp .aback { margin-top:2em; font-size:13px; }
+</style>

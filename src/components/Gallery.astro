@@ -16,8 +16,9 @@ const { days, newByDay = {} } = Astro.props as { days: Day[]; newByDay?: Record<
       <div class="gfoot">
         {d.aiCount > 0 && <span class="gbadge x-ai">AI Hot {d.aiCount}</span>}
         {d.techCount > 0 && <span class="gbadge tech">Tech {d.techCount}</span>}
+        {d.ivCount > 0 && <span class="gbadge iv" {...ia('iv.count', { n: d.ivCount })}>{t('iv.count', { n: d.ivCount })}</span>}
         {d.top > 0 && <span class="gtop" {...iattr({ title: 'gallery.topTitle' })} {...ia('gallery.top', { n: d.top })}>{t('gallery.top', { n: d.top })}</span>}
-        <span class="gprog" data-prog>{t('prog', { r: 0, t: d.total })}</span>
+        {d.total > 0 && <span class="gprog" data-prog>{t('prog', { r: 0, t: d.total })}</span>}
       </div>
     </a>
   ))}
@@ -30,7 +31,7 @@ const { days, newByDay = {} } = Astro.props as { days: Day[]; newByDay?: Record<
     document.querySelectorAll<HTMLElement>('.gcard').forEach((c) => {
       const pids = (c.dataset.pids || '').split(',');
       const read = Object.keys(st.read).filter((id) => pids.some((p) => id.startsWith(p + '-'))).length;
-      const el = c.querySelector('[data-prog]')!;
+      const el = c.querySelector('[data-prog]'); if (!el) return;
       el.textContent = tt('prog', { r: read, t: c.dataset.total });
       el.classList.toggle('on', read > 0);
       c.classList.toggle('done', read >= Number(c.dataset.total));

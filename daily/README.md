@@ -9,9 +9,11 @@
 
 OpenAI 发布 GPT-6.1 Terra 并公布三项科学成果；Manus 公开 AI Native 组织实践，MiniMax 开源自托管 Agents API。
 
-🆕 今日新品：Entire、CorridorKey 2.0、Hob
+🆕 今日新品：Entire、Moras、CorridorKey 2.0 +1
 
-AI Hot 13 · Tech 11 · ⭐ 12 条高分
+🎙 访谈与播客：Founder Park
+
+AI Hot 13 · Tech 11 · 访谈/播客 1 · ⭐ 12 条高分
 
 [→ 查看当天详情](2026/10/2026-10-27.md)
 
@@ -21,7 +23,9 @@ Anthropic 递交 S-1，上半年营收 163 亿美元、净亏 807 亿；Claude �
 
 🆕 今日新品：AVP、iPhone Agent Harness、MuscleMemory +6
 
-AI Hot 23 · Tech 26 · ⭐ 23 条高分
+🎙 访谈与播客：The a16z Show
+
+AI Hot 23 · Tech 26 · 访谈/播客 1 · ⭐ 23 条高分
 
 [→ 查看当天详情](2026/10/2026-10-26.md)
 
@@ -41,7 +45,9 @@ Kimi K3.1 Pro 发布又陷推广争议；Brotli 漏洞扩至 HTTP 栈；Agent �
 
 🆕 今日新品：AgentValley、Cindy、Corgi +6
 
-AI Hot 23 · Tech 24 · ⭐ 23 条高分
+🎙 访谈与播客：42章经
+
+AI Hot 23 · Tech 24 · 访谈/播客 1 · ⭐ 23 条高分
 
 [→ 查看当天详情](2026/10/2026-10-24.md)
 
@@ -61,7 +67,9 @@ PHP2Shell 被证实披露前已遭利用，LiteLLM 投毒、GitLab 满分漏洞�
 
 🆕 今日新品：1Password for Agents、Claude for Google Workspace、Cline +14
 
-AI Hot 28 · Tech 27 · ⭐ 29 条高分
+🎙 访谈与播客：The MAD Podcast
+
+AI Hot 28 · Tech 27 · 访谈/播客 1 · ⭐ 29 条高分
 
 [→ 查看当天详情](2026/10/2026-10-22.md)
 
@@ -69,7 +77,9 @@ AI Hot 28 · Tech 27 · ⭐ 29 条高分
 
 PHP 爆 9.2 分 RCE 漏洞、eMudhra CA 私钥被秒破，TS 编译器移植 Rust；OpenAI 公开 agent 内部事故。
 
-AI Hot 20 · Tech 12 · ⭐ 24 条高分
+🎙 访谈与播客：Latent Space
+
+AI Hot 20 · Tech 12 · 访谈/播客 1 · ⭐ 24 条高分
 
 [→ 查看当天详情](2026/10/2026-10-21.md)
 
@@ -85,7 +95,9 @@ AI Hot 10 · ⭐ 5 条高分
 
 Linux 7.3 发布、MiniMax M3.1 Flash 提速降价；Harness 入门书与跨 Agent 迁移会话工具值得收藏。
 
-AI Hot 15 · Tech 26 · ⭐ 7 条高分
+🎙 访谈与播客：硅谷101
+
+AI Hot 15 · Tech 26 · 访谈/播客 1 · ⭐ 7 条高分
 
 [→ 查看当天详情](2026/10/2026-10-19.md)
 
@@ -93,7 +105,9 @@ AI Hot 15 · Tech 26 · ⭐ 7 条高分
 
 OpenAI API 现神秘新模型，Google 开源 Harness² 自动调 agent；Linux 7.2 中 AI 辅助提交激增。
 
-AI Hot 8 · Tech 22 · ⭐ 6 条高分
+🎙 访谈与播客：十字路口Crossing、Lenny's Podcast
+
+AI Hot 8 · Tech 22 · 访谈/播客 2 · ⭐ 6 条高分
 
 [→ 查看当天详情](2026/10/2026-10-18.md)
 
@@ -121,7 +135,9 @@ AI Hot 8 · Tech 26 · ⭐ 10 条高分
 
 OpenCode 2.0 大改版，Anthropic Q3 收入 168 亿美元；DeepSeek 宕机，Claude Code 桌面版支持多会话并行。
 
-AI Hot 28 · Tech 25 · ⭐ 14 条高分
+🎙 访谈与播客：No Priors
+
+AI Hot 28 · Tech 25 · 访谈/播客 1 · ⭐ 14 条高分
 
 [→ 查看当天详情](2026/10/2026-10-15.md)
 
@@ -137,9 +153,21 @@ AI Hot 20 · Tech 26 · ⭐ 10 条高分
 
 Anthropic 公布反蒸馏成效，Gemini 4 Argon 临近上线；长任务 skill 与 Flash 模型横评是当天最实用的干货。
 
-AI Hot 10 · ⭐ 2 条高分
+🎙 访谈与播客：Training Data
+
+AI Hot 10 · 访谈/播客 1 · ⭐ 2 条高分
 
 [→ 查看当天详情](2026/10/2026-10-13.md)
+
+### 2026-10-12 · 星期一
+
+42章经：Ambi 创始人莫子皓谈软硬件结合的 Personal Agent：成本、真实需求、产品路线与如何和大厂竞争
+
+🎙 访谈与播客：42章经、How I AI
+
+访谈/播客 2
+
+[→ 查看当天详情](2026/10/2026-10-12.md)
 
 ### 2026-10-11 · 星期日
 
@@ -160,6 +188,69 @@ OpenAI 连续放福利，ChatGPT dots 可直接交给 Codex；另有 Claude Code
 AI Hot 9 · ⭐ 2 条高分
 
 [→ 查看当天详情](2026/10/2026-10-10.md)
+
+### 2026-10-09 · 星期五
+
+AI炼金术：ColaOS 橘子谈个人 Agent：token 成本降到获客成本以下，转向“996 之外”的副业场景
+
+🎙 访谈与播客：AI炼金术、No Priors
+
+访谈/播客 2
+
+[→ 查看当天详情](2026/10/2026-10-09.md)
+
+### 2026-10-04 · 星期日
+
+Lenny's Podcast：负责 ChatGPT 与 Codex 的 Tibo Sottiaux 谈 DevDay 发布的常驻个人 Agent Dots
+
+🎙 访谈与播客：Lenny's Podcast
+
+访谈/播客 1
+
+[→ 查看当天详情](2026/10/2026-10-04.md)
+
+### 2026-10-02 · 星期五
+
+晚点聊 LateTalk：晚点 AI 季报 26Q3：个人助理爆发、GPT-6 Astra 进入机器人、OpenAI 与 Anthropic 增速对比
+
+🎙 访谈与播客：晚点聊 LateTalk
+
+访谈/播客 1
+
+[→ 查看当天详情](2026/10/2026-10-02.md)
+
+## 2026 年 9 月
+
+### 2026-09-29 · 星期二
+
+The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawlan 谈个人 Agent 爆发
+
+🎙 访谈与播客：The a16z Show、Latent Space
+
+访谈/播客 2
+
+[→ 查看当天详情](2026/09/2026-09-29.md)
+
+## 访谈与播客
+
+- [Founder Park：对话K2 Lab王铭：Muse帮人省钱，Moras帮人赚钱，这才是垂直赛道Personal AI的刚需](2026/10/2026-10-27.md#interviews) — 访谈 · 2026-10-27 · [原文](https://mp.weixin.qq.com/s/arAQ2_JL2_7Au-VdndQu3A)
+- [The a16z Show：OpenAI：当 AI Agent 用电脑比你还快](2026/10/2026-10-26.md#interviews) — 播客 · 2026-10-26 · [原文](https://a16z.simplecast.com/episodes/openai-when-ai-agents-use-computers-faster-than-you-QLF23qpt)
+- [42章经：少有的同时做过 Agent、多模态和具身的人 | 对谈前混元多模态 RL Infra 负责人淏楠](2026/10/2026-10-24.md#interviews) — 播客 · 2026-10-24 · [原文](https://www.xiaoyuzhoufm.com/episode/6ada2be4c96c8942ec10cb1e)
+- [The MAD Podcast：Mistral 回来了：揭秘西方最大开放模型 Le Chonk（Mistral 科学副总裁 Pierre Stock）](2026/10/2026-10-22.md#interviews) — 播客 · 2026-10-22 · [原文](https://podcasters.spotify.com/pod/show/firstmark/episodes/Mistral-Is-SO-Back-Inside-Le-Chonk--the-Wests-Biggest-Open-Model-Pierre-Stock--VP-Science--Mistral-e3qsupu)
+- [Latent Space：面向财富 2000 强的 AI：Tenex 如何搭建 AI 原生的软件开发流程](2026/10/2026-10-21.md#interviews) — 播客 · 2026-10-21 · [原文](https://www.latent.space/p/tenex)
+- [硅谷101：E256｜Agent、机器人与制药，谁先被GPT-6 Astra改写？](2026/10/2026-10-19.md#interviews) — 播客 · 2026-10-19 · [原文](https://sv101.fireside.fm/270)
+- [十字路口Crossing：新的创业机会，正在 Claude Code 和 Codex 周围长出来｜对谈 Treg](2026/10/2026-10-18.md#interviews) — 播客 · 2026-10-18 · [原文](https://www.xiaoyuzhoufm.com/episode/6ad2412d0e4e410a05be01a7)
+- [Lenny's Podcast：走进 AI 黑箱：模型究竟如何思考 | Anthropic 的 Emmanuel Ameisen](2026/10/2026-10-18.md#interviews) — 播客 · 2026-10-18 · [原文](https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on)
+- [No Priors：网络安全与药物研发的新物理规律 — 对谈 OpenAI 总裁 Greg Brockman](2026/10/2026-10-15.md#interviews) — 播客 · 2026-10-15 · [原文](https://podcasts.apple.com/us/podcast/the-changing-physics-of-cybersecurity-and/id1668002688?i=1000796472163)
+- [Training Data：Ineffable Intelligence 的 David Silver 与 Lasse Espeholt：经验时代的“超级学习者”](2026/10/2026-10-13.md#interviews) — 播客 · 2026-10-13 · [原文](https://podcasts.apple.com/us/podcast/david-silver-and-lasse-espeholt-of/id1750736528?i=1000796105304)
+- [42章经：一个 Personal Agent 创业者的思考｜对谈 Ambi 创始人子皓](2026/10/2026-10-12.md#interviews) — 播客 · 2026-10-12 · [原文](https://www.xiaoyuzhoufm.com/episode/6accc5de195d838e2af0bd9a)
+- [How I AI：Meta 如何设计 Muse：一个人们真正愿意交谈的 AI Agent | 设计总监 Alex Cornell](2026/10/2026-10-12.md#interviews) — 播客 · 2026-10-12 · [原文](https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Meta-designed-Muse-an-AI-agent-people-actually-want-to-talk-to--Alex-Cornell-Design-Director-e3q4g9k)
+- [AI炼金术：和 ColaOS 橘子聊个人 Agent 这半年：时代追上了他，他却打了转向灯](2026/10/2026-10-09.md#interviews) — 播客 · 2026-10-09 · [原文](https://www.ximalaya.com/sound/1022384765)
+- [No Priors：Beam：美国的开放权重大模型 — 对谈 ReflectionAI 联合创始人兼 CEO Misha Laskin](2026/10/2026-10-09.md#interviews) — 播客 · 2026-10-09 · [原文](https://podcasts.apple.com/us/podcast/beam-the-great-american-open-model-with-reflectionai/id1668002688?i=1000794029585)
+- [Lenny's Podcast：OpenAI ChatGPT 负责人：我们（再次）进入 AI 新时代 | Tibo Sottiaux](2026/10/2026-10-04.md#interviews) — 播客 · 2026-10-04 · [原文](https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering)
+- [晚点聊 LateTalk：183: 与Henry的「AI季报26Q3」：Muse引爆个人助理、Astra进入机器人、OpenAI收入猛增](2026/10/2026-10-02.md#interviews) — 播客 · 2026-10-02 · [原文](https://podcast.latepost.com/183)
+- [The a16z Show：个人 Agent 竞赛已经开始 | Anish Acharya 与 David Pawlan](2026/09/2026-09-29.md#interviews) — 播客 · 2026-09-29 · [原文](https://a16z.simplecast.com/episodes/the-personal-agent-race-is-here-anish-acharya-david-pawlan-ZNslbKZk)
+- [Latent Space：Claude Code 的下一个时代 — Anthropic 的 Thariq Shihipar](2026/09/2026-09-29.md#interviews) — 播客 · 2026-09-29 · [原文](https://www.latent.space/p/thariq)
 
 ## 全文文章
 

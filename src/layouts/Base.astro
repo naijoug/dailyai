@@ -341,6 +341,13 @@ const nav = (p: string) => (p === '/' ? path === url('/') || path === url('') : 
   .gmeta { display:flex; gap:8px; align-items:center; font-size:12px; color:var(--muted); margin-bottom:8px; }
   .gbadge { border-radius:4px; padding:0 6px; line-height:20px; background:var(--b1); color:var(--b1f); }
   .gbadge.tech { background:var(--b2); color:var(--b2f); }
+  .tlb { display:inline-block; border-radius:4px; padding:0 7px; line-height:20px; font-size:12px; font-weight:600; white-space:nowrap; background:var(--chip); color:var(--chipfg); }
+  .tlb.tl-interview { background:#efe6fb; color:#6b3fb3; } [data-theme=dark] .tlb.tl-interview { background:#3a2a52; color:#cdb2f2; }
+  .tlb.tl-podcast { background:#e5f5ec; color:#21794a; } [data-theme=dark] .tlb.tl-podcast { background:#21402f; color:#8fd6ac; }
+  .tlb.tl-news { background:var(--b2); color:var(--b2f); }
+  .tlb.tl-x { background:var(--b1); color:var(--b1f); }
+  .tlb.tl-launch { background:#fdeaea; color:#b23b3b; } [data-theme=dark] .tlb.tl-launch { background:#4d2626; color:#f0a3a3; }
+  .gbadge.iv { background:#efe6fb; color:#6b3fb3; } [data-theme=dark] .gbadge.iv { background:#3a2a52; color:#cdb2f2; }
   .gtitle { display:flex; gap:8px; align-items:center; padding:10px 14px; font-weight:600; font-size:14.5px; line-height:1.4; }
   .gtitle span:last-child { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   /* ---- v3: 卡片 ---- */

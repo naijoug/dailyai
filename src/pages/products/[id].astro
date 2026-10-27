@@ -7,12 +7,27 @@ import I from '../../components/I.astro';
 import L from '../../components/L.astro';
 import { t, iattr } from '../../lib/i18n';
 import { allProducts, badges, mentionsIndex } from '../../lib/products';
+import { allInterviews, ivText, ivDay } from '../../lib/interviews';
+import { guessLang } from '../../lib/bilang';
 export async function getStaticPaths() {
   const ps = await allProducts();
   const idx = await mentionsIndex(ps);
-  return ps.map((p) => ({ params: { id: p.id }, props: { p, mentions: idx.get(p.id) || [] } }));
+  const ivs = await allInterviews();
+  return ps.map((p) => ({ params: { id: p.id }, props: { p, mentions: idx.get(p.id) || [], ivs: ivs.filter((iv) => iv.data.products.includes(p.id)) } }));
 }
-const { p, mentions } = Astro.props;
+const { p, mentions, ivs } = Astro.props;
+// 时间线：digest 提及（新闻 / X 热点 / 产品发布）+ 访谈/播客，倒序
+type Node = { t: number; day: string; type: 'interview' | 'podcast' | 'news' | 'x' | 'launch'; en?: string; zh?: string; href: string; ext?: boolean; src?: string };
+const nodes: Node[] = [
+  ...mentions.map((m) => {
+    const ol = guessLang(m.text); const pair: { en?: string; zh?: string } = { [ol]: m.text };
+    if (m.tr && m.trLang && m.trLang !== ol) pair[m.trLang] = m.tr;
+    return { t: m.date.getTime(), day: m.day, type: m.kind, ...pair, href: url(`/day/${m.day}/#${m.id}`) } as Node;
+  }),
+  ...ivs.map((iv) => { const ti = ivText(iv, 'summary'); return { t: iv.data.date.getTime(), day: ivDay(iv), type: iv.data.kind === 'podcast' ? 'podcast' : 'interview', en: ti.en, zh: ti.zh, href: url(`/interview/${iv.id}/`), src: iv.data.show } as Node; }),
+].sort((a, b) => b.t - a.t);
+const TYPES = (['interview', 'podcast', 'news', 'x', 'launch'] as const).filter((k) => nodes.some((n) => n.type === k));
+const PAGE = 20;
 const groups = new Map<string, typeof p.rankings>();
 for (const r of p.rankings) { const k = `${r.badge || r.source} · ${r.list}`; if (!groups.has(k)) groups.set(k, []); groups.get(k)!.push(r); }
 const hist = [...groups.entries()].map(([k, rs]) => ({ k, rs: [...rs].sort((a, b) => (a.date < b.date ? 1 : -1)) }))
@@ -52,12 +67,56 @@ const host = p.url.replace(/^https?:\/\/(www\.)?/, '');
     </table></div>}
     <I tag="p" class="muted rnote" k="p.hist.note" />
 
-    <h2><I k="p.mentions" /> <span class="muted">· {mentions.length}</span></h2>
-    {mentions.length === 0 ? <I tag="p" class="muted" k="p.nomentions" /> :
-      <ol class="items mlist">{mentions.slice(0, 40).map((m) => <li class="item"><div class="itext"><a href={url(`/day/${m.day}/#${m.id}`)}>{m.day}</a> · {m.text}</div></li>)}</ol>}
+    <h2 id="timeline"><I k="tl.title" /> <span class="muted">· {nodes.length}</span></h2>
+    {nodes.length === 0 ? <I tag="p" class="muted" k="tl.empty" /> : <div class="tlwrap" data-tl data-page={PAGE}>
+      {TYPES.length > 1 && <div class="tlchips" role="group" data-pagefind-ignore>
+        <button type="button" class="chip on" data-f="all" aria-pressed="true"><I k="tl.all" /> <span class="muted">{nodes.length}</span></button>
+        {TYPES.map((k) => <button type="button" class="chip" data-f={k} aria-pressed="false"><span class={`tlb tl-${k}`}><I k={`tl.${k}`} /></span> <span class="muted">{nodes.filter((n) => n.type === k).length}</span></button>)}
+      </div>}
+      <ol class="tl">{nodes.map((n, i) => <li class="tln" data-type={n.type} hidden={i >= PAGE}>
+        <span class="tldot" aria-hidden="true"></span>
+        <div class="tlhead"><time datetime={new Date(n.t).toISOString()}>{n.day}</time> <span class={`tlb tl-${n.type}`}><I k={`tl.${n.type}`} /></span>{n.src && <span class="muted tlsrc">{n.src}</span>}</div>
+        <a class="tltext" href={n.href}><L en={n.en} zh={n.zh} /></a>
+      </li>)}</ol>
+      <div class="tlsent" data-sent aria-hidden="true"></div>
+      <p class="tlmore-p" data-pagefind-ignore><button type="button" class="ibtn tlmore" data-more hidden={nodes.length <= PAGE}><I k="tl.more" /></button></p>
+    </div>}
   </article>
   <nav class="pager"><I tag="a" href={url('/products/')} k="p.all" /><I tag="a" href={url('/products/#models')} k="p.models" /></nav>
 </Base>
+<style is:global>
+  .tlchips { display:flex; flex-wrap:wrap; gap:6px; margin:.4em 0 1em; }
+  .tlchips .chip { border:1px solid var(--line); cursor:pointer; font:inherit; font-size:12.5px; display:inline-flex; align-items:center; gap:4px; padding:2px 8px; border-radius:999px; background:transparent; color:var(--fg); }
+  .tlchips .chip.on { border-color:var(--accent); background:color-mix(in srgb, var(--accent) 10%, transparent); }
+  .tl { list-style:none; margin:0; padding:0 0 0 18px; position:relative; border-left:2px solid var(--line); margin-left:6px; }
+  .tln { position:relative; padding:0 0 16px 8px; }
+  .tln[hidden] { display:none; }
+  .tldot { position:absolute; left:-26px; top:5px; width:10px; height:10px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); }
+  .tln[data-type=interview] .tldot { background:#8a5cd0; } .tln[data-type=podcast] .tldot { background:#2f9a5f; }
+  .tln[data-type=x] .tldot { background:var(--b1f); } .tln[data-type=news] .tldot { background:var(--b2f); } .tln[data-type=launch] .tldot { background:#c94a4a; }
+  .tlhead { display:flex; flex-wrap:wrap; align-items:center; gap:6px; font-size:12.5px; color:var(--muted); }
+  .tlhead time { font-variant-numeric:tabular-nums; }
+  .tltext { display:block; margin-top:3px; color:var(--fg); text-decoration:none; line-height:1.5; overflow-wrap:anywhere; }
+  .tltext:hover { text-decoration:underline; }
+  .tlsent { height:1px; }
+  @media (max-width:600px) { .tl { padding-left:14px; } .tldot { left:-22px; } .tltext { font-size:14.5px; } }
+</style>
+<script>
+  // 时间线：类型筛选 + 每次 20 条，滚到底部自动加载（也可点「加载更多」）
+  for (const w of document.querySelectorAll<HTMLElement>('[data-tl]')) {
+    const PAGE = Number(w.dataset.page) || 20; let shown = PAGE; let f = 'all';
+    const nodes = [...w.querySelectorAll<HTMLElement>('.tln')]; const more = w.querySelector<HTMLElement>('[data-more]')!;
+    const paint = () => { const m = nodes.filter((n) => f === 'all' || n.dataset.type === f); nodes.forEach((n) => { n.hidden = true; }); m.slice(0, shown).forEach((n) => { n.hidden = false; }); more.hidden = m.length <= shown; };
+    w.querySelectorAll<HTMLButtonElement>('[data-f]').forEach((b) => b.addEventListener('click', () => {
+      f = b.dataset.f!; shown = PAGE;
+      w.querySelectorAll<HTMLButtonElement>('[data-f]').forEach((x) => { const on = x === b; x.classList.toggle('on', on); x.setAttribute('aria-pressed', String(on)); });
+      paint();
+    }));
+    more.addEventListener('click', () => { shown += PAGE; paint(); });
+    if ('IntersectionObserver' in window) new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting) && !more.hidden) { shown += PAGE; paint(); } }, { rootMargin: '200px' }).observe(w.querySelector('[data-sent]')!);
+    paint();
+  }
+</script>
 <script>
   import { load, save, isRead, isFav, ratingOf, markRead, markFav, markRating, onStore } from '../../lib/store';
   import { setFav, setRead, setStars, starKeys } from '../../lib/icons';

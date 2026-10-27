@@ -1,0 +1,17 @@
+{
+  "id": "moras",
+  "name": "Moras",
+  "aliases": ["Moras AI", "K2 Lab Moras"],
+  "url": "https://moras.ai",
+  "domains": ["https://k2lab.ai"],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "K2 Lab（攀峰智能）",
+  "oneLiner": "面向海外 TikTok Shop 创作者的 Personal Commerce Agent：端到端选品、做视频、挂车发布与复盘，按成交佣金分成",
+  "oneLinerEn": "A personal commerce agent for TikTok Shop creators that handles product picking, video creation, posting and analytics end to end, paid by a share of sales commission.",
+  "score": 4,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": ["Agents", "Products"],
+  "rankings": []
+}

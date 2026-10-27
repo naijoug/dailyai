@@ -9,6 +9,7 @@ import Base from '../../layouts/Base.astro';
 import { render } from 'astro:content';
 import { url } from '../../lib/posts';
 import { allDays, hhmm, parseCov, covPlain } from '../../lib/days';
+import { ivText } from '../../lib/interviews';
 import { rangeText } from '../../lib/tz';
 import { iattr } from '../../lib/i18n';
 const MD = 'https://github.com/naijoug/dailyai/blob/main/daily/';
@@ -30,7 +31,8 @@ const sections = [
     <div class="dsum"><BL en={day.summaryEn} zh={day.summary} /></div>
     <div class="dbar" data-pagefind-ignore>
       <button type="button" class="tzbtn tzv" data-tz-open data-tz-label data-tz-at={`${day.date}T12:00:00+08:00`} aria-haspopup="dialog" aria-expanded="false">UTC+8</button>
-      <I class="muted tzrest" k="day.meta" a={{ n: day.posts.length, t: day.total }} />
+      {day.posts.length > 0 && <I class="muted tzrest" k="day.meta" a={{ n: day.posts.length, t: day.total }} />}
+      {day.ivCount > 0 && <a class="muted" href="#interviews"><I k="iv.count" a={{ n: day.ivCount }} /></a>}
       <span class="dprog" data-dprog>{t('prog', { r: 0, t: day.total })}</span>
       <a class="mdlink" href={`${MD}${day.date.slice(0, 4)}/${day.date.slice(5, 7)}/${day.date}.md`} target="_blank" rel="noopener" {...iattr({ title: 'md.title' })}><I k="md.link" /> ↗</a>
       <label class="dhide"><input type="checkbox" data-hideread /> <I k="day.hide" /></label>
@@ -49,12 +51,30 @@ const sections = [
         <div class="ebody"><Content /></div>
       </div>)}
     </section>)}
+    {day.ivs.length > 0 && <section class="dsec ivsec" id="interviews">
+      <h2 class="dhead"><span class="gbadge iv"><I k="iv.sec" /></span></h2>
+      <ul class="ivlist">{day.ivs.map((iv) => { const ti = ivText(iv, 'title'); const su = ivText(iv, 'summary'); return (
+        <li class="ivcard" id={`iv-${iv.id}`}>
+          <div class="ivtop"><span class={`tlb tl-${iv.data.kind === 'podcast' ? 'podcast' : 'interview'}`}><I k={`iv.kind.${iv.data.kind}`} /></span> <strong>{iv.data.show}</strong>{iv.data.duration && <span class="muted"> · {iv.data.duration}</span>}{iv.data.score && <span class={`ascore s${iv.data.score}`}>{iv.data.score}</span>}</div>
+          <a class="ivtitle" href={url(`/interview/${iv.id}/`)}><BL orig={iv.data.lang} en={ti.en} zh={ti.zh} /></a>
+          <p class="ivsum muted"><L en={su.en} zh={su.zh} /></p>
+        </li>); })}</ul>
+    </section>}
   </article>
   <nav class="pager" data-i18n-attrs='{"aria-label":"day.pager"}' aria-label="Pagination">
     <span>{older && <a href={url(`/day/${older.date}/`)}>← <DayTitle date={older.date} wd={older.wd} /></a>}</span>
     <span>{newer && <a href={url(`/day/${newer.date}/`)}><DayTitle date={newer.date} wd={newer.wd} /> →</a>}</span>
   </nav>
 </Base>
+<style is:global>
+  .ivlist { list-style:none; padding:0; margin:0; display:grid; gap:10px; }
+  .ivcard { border:1px solid var(--line); border-radius:8px; padding:10px 12px; background:var(--card); }
+  .ivtop { display:flex; flex-wrap:wrap; align-items:center; gap:6px; font-size:13px; }
+  .ivtop .ascore { margin-left:auto; }
+  .ivtitle { display:block; margin:6px 0 2px; font-weight:600; line-height:1.45; text-decoration:none; color:var(--fg); }
+  .ivtitle:hover { text-decoration:underline; }
+  .ivsum { margin:2px 0 0; font-size:13.5px; }
+</style>
 <script>
   import { origParts, applyBL } from '../../lib/bilang';
   import { load, save, isRead, isFav, ratingOf, markRead, markFav, markRating, onStore } from '../../lib/store';
@@ -67,7 +87,7 @@ const sections = [
   const prog = art.querySelector('[data-dprog]')!;
   // 手动标为未读的条目：本次会话内不再自动标已读
   const manualUnread = new Set<string>();
-  const dsecs = [...art.querySelectorAll<HTMLElement>('.dsec')];
+  const dsecs = [...art.querySelectorAll<HTMLElement>('.dsec:not(.ivsec)')];
   const allRead = art.querySelector<HTMLElement>('[data-allread]')!;
   // 「隐藏已读」时：整节/整期/小节标题下已无可见条目则一并隐藏，全部读完显示提示
   const refreshEmpty = () => {

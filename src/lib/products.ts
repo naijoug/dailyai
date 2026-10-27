@@ -36,10 +36,11 @@ export function badges(p: Product) {
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const strip = (l: string) => l.replace(/^(\d+\.|[-*])\s+/, '').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/https?:\/\/\S+/g, '').replace(/[*_`]/g, '').trim();
 
+const cut = (s: string, n = 140) => (s.length > n ? s.slice(0, n).trimEnd() + '…' : s);
 // 反查：本站 digest 里提到该产品的条目（显式 [P:slug] 标记 + 官网域名 + 名称/别名）
 export async function mentionsIndex(products: Product[]) {
   const posts = await allPosts();
-  const out = new Map<string, { id: string; day: string; text: string; date: Date; explicit: boolean }[]>();
+  const out = new Map<string, { id: string; day: string; text: string; tr?: string; trLang?: 'en' | 'zh'; date: Date; explicit: boolean; kind: 'launch' | 'x' | 'news' }[]>();
   const matchers = products.map((p) => {
     const hosts = [p.url, ...p.domains].map((u) => u.replace(/^https?:\/\/(www\.)?/i, '').replace(/\/$/, '').toLowerCase());
     const names = (p.matchNames || [p.name, ...p.aliases]).filter((n) => n.length >= 3 || /[^\x00-\x7f]/.test(n));
@@ -49,9 +50,13 @@ export async function mentionsIndex(products: Product[]) {
   for (const post of posts) {
     const explicit = new Map<number, string[]>();
     for (const t of post.data.products) { const [i, id] = t.split(':'); if (!explicit.has(+i)) explicit.set(+i, []); explicit.get(+i)!.push(id); }
-    let n = 0;
-    for (const raw of (post.body || '').split('\n')) {
+    let n = 0; let sec = '';
+    const lines = (post.body || '').split('\n');
+    for (let li = 0; li < lines.length; li++) {
+      const raw = lines[li];
+      if (/^#{1,4}\s/.test(raw)) { sec = raw.replace(/^#+\s*/, '').trim(); continue; }
       if (!/^(\d+\.|[-*])\s/.test(raw)) continue;
+      const trm = (lines[li + 1] || '').match(/^\s*>\s*\[(en|zh)\]\s*(.*)$/);
       n++;
       const id = `${post.id}-${n}`;
       const ex = explicit.get(n) || [];
@@ -61,7 +66,8 @@ export async function mentionsIndex(products: Product[]) {
         const isEx = ex.includes(p.id);
         if (!isEx && !hosts.some((h) => line.toLowerCase().includes(h)) && !res.some((r) => r.test(line))) continue;
         if (!out.has(p.id)) out.set(p.id, []);
-        out.get(p.id)!.push({ id, day: dayKey(post.data.date), text: strip(raw).slice(0, 120), date: post.data.date, explicit: isEx });
+        const kind = /新产品|New Products/i.test(sec) || (isEx && dayKey(post.data.date) === p.firstSeen) ? 'launch' : post.data.type === 'x-ai' ? 'x' : 'news';
+        out.get(p.id)!.push({ id, day: dayKey(post.data.date), text: cut(strip(raw)), ...(trm ? { tr: cut(strip(trm[2])), trLang: trm[1] as 'en' | 'zh' } : {}), date: post.data.date, explicit: isEx, kind });
       }
     }
   }

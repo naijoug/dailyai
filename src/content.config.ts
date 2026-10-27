@@ -47,4 +47,15 @@ const articles = defineCollection({
     title_tr: z.string().optional(),
   }),
 });
-export const collections = { posts, products, articles };
+// 访谈与播客（docs/interviews.md）：只存摘要要点 + 少量原话引用 + 原文链接，绝不转载全文
+const interviews = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/interviews' }),
+  schema: z.object({
+    title: z.string(), title_tr: z.string().optional(), show: z.string(), kind: z.enum(['article', 'podcast']),
+    guests: z.array(z.string()).default([]), company: z.string().optional(), date: z.coerce.date(), url: z.string().url(),
+    duration: z.string().optional(), lang: z.enum(['en', 'zh']), products: z.array(z.string()).default([]),
+    tags: z.array(z.enum(TAGS)).default([]), score: z.number().int().min(1).max(5).optional(),
+    summary: z.string(), summary_tr: z.string().optional(),
+  }),
+});
+export const collections = { posts, products, articles, interviews };

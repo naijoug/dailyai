@@ -32,7 +32,7 @@ const langOf = (text) => {
 };
 const MARK = /^\s*[\[［]\s*(en|zh)\s*[\]］]\s*/i;
 // 小节标题（markdown 里保持中文）→ 英文显示；中文由站点字典 sec.<原文> 切回
-const SEC_EN = { 'AI 热点': 'AI Hot Topics', '有趣用法和干货': 'Tips & Hands-on', '新产品': 'New Products', '开源': 'Open Source', '科技新闻': 'Tech News', '中文社区': 'Chinese Community', '科技速递': 'Tech Digest' };
+const SEC_EN = { 'AI 热点': 'AI Hot Topics', '有趣用法和干货': 'Tips & Hands-on', '新产品': 'New Products', '开源': 'Open Source', '科技新闻': 'Tech News', '中文社区': 'Chinese Community', '科技速递': 'Tech Digest', '要点': 'Key points', '金句': 'Quotes' };
 const LABEL = { zh: ['Show 中文 translation', 'Hide 中文 translation'], en: ['Show English translation', 'Hide English translation'] };
 // 地球图标（与 icons.ts 的 GLOBE 相同）
 const globe = () => el('svg', { className: ['ic', 'ic-gl'], viewBox: '0 0 24 24', width: 17, height: 17, ariaHidden: 'true' }, [
@@ -104,7 +104,7 @@ export default function rehypeItems(opts = {}) {
   return (tree, file) => {
     const fp = file.path || file.history?.[0] || '';
     if (/content[\\/]articles[\\/]/.test(fp)) return articleTree(tree);
-    if (!/content[\\/]posts[\\/]/.test(fp)) return;
+    if (!/content[\\/](posts|interviews)[\\/]/.test(fp)) return;
     const pid = path.basename(fp, '.md');
     const scores = file.data?.astro?.frontmatter?.scores || [];
     const prods = {};

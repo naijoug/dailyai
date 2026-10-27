@@ -6,6 +6,7 @@ import path from 'node:path';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const POSTS = path.join(ROOT, 'src/content/posts');
 const ARTS = path.join(ROOT, 'src/content/articles');
+const IVS = path.join(ROOT, 'src/content/interviews');
 const OUT = path.join(ROOT, 'daily');
 const SITE = 'https://naijoug.github.io/dailyai';
 const TYPE = { 'x-ai': 'AI 热点 · X', tech: '科技速递 · Tech' };
@@ -83,8 +84,32 @@ function compact(p) {
   return out.join('\n').replace(/\n{3,}/g, '\n\n').trim();
 }
 
+const bjDay = (v) => { const d = new Date(/^\d{4}-\d\d-\d\d$/.test(String(v)) ? `${v}T12:00:00+08:00` : v); return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d); };
+// 访谈与播客（docs/interviews.md）：只导出摘要要点与少量引用 + 原文链接
+const ivs = fs.existsSync(IVS) ? fs.readdirSync(IVS).filter((f) => f.endsWith('.md')).map((f) => {
+  const id = f.replace(/\.md$/, ''); const { fm, body } = parse(path.join(IVS, f)); return { id, fm, body, day: bjDay(fm.date) };
+}).sort((a, b) => String(b.fm.date).localeCompare(String(a.fm.date))) : [];
+const ivByDay = {};
+for (const iv of ivs) (ivByDay[iv.day] ||= []).push(iv);
+const KIND = { podcast: '播客', article: '访谈' };
+// 中文为主：英文源取 [zh] 译文
+function ivZh(iv) {
+  const zh = (o, tr) => (iv.fm.lang === 'zh' ? o : tr || o);
+  const lines = iv.body.replace(/\r\n/g, '\n').split('\n'); const out = [];
+  for (let i = 0; i < lines.length; i++) {
+    const l = lines[i];
+    if (/^#{1,6} /.test(l)) { out.push(`${out.length ? '\n' : ''}**${l.replace(/^#+\s*/, '')}**\n`); continue; }
+    if (!/^[-*]\s/.test(l)) continue;
+    const m = (lines[i + 1] || '').match(/^\s*>\s*\[(zh|en)\]\s*(.*)$/);
+    out.push(`- ${iv.fm.lang === 'zh' || !m || m[1] !== 'zh' ? l.replace(/^[-*]\s+/, '') : m[2]}`);
+  }
+  const head = `### ${KIND[iv.fm.kind] || '访谈'} · ${iv.fm.show}：${zh(iv.fm.title, iv.fm.title_tr)}`;
+  const meta = [iv.fm.guests?.length ? `嘉宾：${iv.fm.guests.join('、')}` : '', iv.fm.duration ? `时长 ${iv.fm.duration}` : '', iv.fm.score ? `⭐${iv.fm.score}` : ''].filter(Boolean).join(' · ');
+  return `${head}\n\n${zh(iv.fm.summary, iv.fm.summary_tr)}\n\n${meta ? meta + '\n\n' : ''}${out.join('\n')}\n\n[原文](${iv.fm.url}) · [网页](${SITE}/interview/${iv.id}/)\n`;
+}
 const days = {};
 for (const p of posts) (days[p.day] ||= []).push(p);
+for (const d of Object.keys(ivByDay)) days[d] ||= [];
 const dayList = Object.keys(days).sort().reverse();
 const dpath = (d) => `${d.slice(0, 4)}/${d.slice(5, 7)}/${d}.md`;
 const info = {};
@@ -93,16 +118,18 @@ for (const d of dayList) {
   const withSum = [...ps].reverse().find((p) => p.fm.daySummary);
   const lastHead = (arr) => { const l = arr.at(-1)?.body.split('\n').find(isItem); return l ? l.replace(/^(\d+\.|[-*])\s+/, '').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/https?:\/\/\S+/g, '').replace(/[*_`]/g, '').split(/[：:（(。]/)[0].trim().slice(0, 60) : null; };
   const xai = ps.filter((p) => p.type === 'x-ai'), tech = ps.filter((p) => p.type === 'tech');
-  info[d] = { summary: withSum?.fm.daySummary || [lastHead(xai), lastHead(tech)].filter(Boolean).join('；'), ai: nItems(xai), tech: nItems(tech), top: ps.flatMap((p) => p.fm.scores || []).filter((x) => x >= 4).length };
+  const iv0 = (ivByDay[d] || [])[0];
+  info[d] = { summary: withSum?.fm.daySummary || [lastHead(xai), lastHead(tech)].filter(Boolean).join('；') || (iv0 ? `${iv0.fm.show}：${iv0.fm.lang === 'zh' ? iv0.fm.summary : iv0.fm.summary_tr || iv0.fm.summary}` : ''), ai: nItems(xai), tech: nItems(tech), iv: (ivByDay[d] || []).length, top: ps.flatMap((p) => p.fm.scores || []).filter((x) => x >= 4).length };
 }
-const counts = (d) => { const x = info[d]; return [x.ai && `AI Hot ${x.ai}`, x.tech && `Tech ${x.tech}`, x.top && `⭐ ${x.top} 条高分`].filter(Boolean).join(' · '); };
+const counts = (d) => { const x = info[d]; return [x.ai && `AI Hot ${x.ai}`, x.tech && `Tech ${x.tech}`, x.iv && `访谈/播客 ${x.iv}`, x.top && `⭐ ${x.top} 条高分`].filter(Boolean).join(' · '); };
 
 dayList.forEach((d, i) => {
   const ps = days[d]; const newer = dayList[i - 1], older = dayList[i + 1];
   const rel = (o) => `../../${dpath(o)}`;
   const nav = [older && `← [${older}](${rel(older)})`, `[📅 索引](../../README.md)`, newer && `[${newer}](${rel(newer)}) →`].filter(Boolean).join(' · ');
-  let s = `${note}# Daily AI · ${d} · ${wd(d)}\n\n${nav}\n\n${info[d].summary}\n\n${counts(d)} · [网页版](${SITE}/day/${d}/)\n\n**目录：** ${ps.map((p) => `[${p.type === 'tech' ? 'Tech' : 'X'} ${p.time}](#${anchor(p)})`).join(' · ')}\n`;
+  let s = `${note}# Daily AI · ${d} · ${wd(d)}\n\n${nav}\n\n${info[d].summary}\n\n${counts(d)} · [网页版](${SITE}/day/${d}/)\n\n**目录：** ${[...ps.map((p) => `[${p.type === 'tech' ? 'Tech' : 'X'} ${p.time}](#${anchor(p)})`), ...(ivByDay[d] ? ['[访谈与播客](#interviews)'] : [])].join(' · ')}\n`;
   for (const p of ps) s += `\n<a id="${anchor(p)}"></a>\n\n## ${p.type === 'tech' ? 'Tech' : 'X'} ${p.time} · ${TYPE[p.type]}\n\n${p.fm.coverage ? `_${p.fm.coverage}_\n\n` : ''}${compact(p)}\n`;
+  if (ivByDay[d]) s += `\n<a id="interviews"></a>\n\n## 访谈与播客 · Interviews & Podcasts\n\n> 仅摘要与少量原话引用，版权归原发布方，完整内容请看原文。\n\n${ivByDay[d].map(ivZh).join('\n')}`;
   s += `\n---\n\n${nav}\n`;
   write(dpath(d), s);
 });
@@ -123,8 +150,10 @@ for (const d of dayList) {
   const np = newByDay[d] || [];
   idx += `\n### ${d} · ${wd(d)}\n\n${info[d].summary}\n\n`;
   if (np.length) idx += `🆕 今日新品：${np.slice(0, 3).join('、')}${np.length > 3 ? ` +${np.length - 3}` : ''}\n\n`;
+  if (ivByDay[d]) idx += `🎙 访谈与播客：${ivByDay[d].map((iv) => iv.fm.show).join('、')}\n\n`;
   idx += `${counts(d)}\n\n[→ 查看当天详情](${dpath(d)})\n`;
 }
+idx += `\n## 访谈与播客\n\n` + (ivs.map((iv) => `- [${iv.fm.show}：${iv.fm.lang === 'zh' ? iv.fm.title : iv.fm.title_tr || iv.fm.title}](${dpath(iv.day)}#interviews) — ${KIND[iv.fm.kind] || '访谈'} · ${iv.day} · [原文](${iv.fm.url})`).join('\n') || '_暂无_') + '\n';
 idx += `\n## 全文文章\n\n` + (arts.map((a) => `- [${a.fm.title}](articles/${a.id}.md) — ${a.fm.author} · ${a.fm.day}`).join('\n') || '_暂无_') + '\n';
 write('README.md', idx);
-console.log(`export-md: ${posts.length} posts, ${dayList.length} days, ${arts.length} articles → daily/`);
+console.log(`export-md: ${posts.length} posts, ${ivs.length} interviews, ${dayList.length} days, ${arts.length} articles → daily/`);
