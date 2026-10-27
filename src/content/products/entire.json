@@ -2,7 +2,7 @@
   "id": "entire",
   "name": "Entire",
   "aliases": [],
-  "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+  "url": "https://entire.com",
   "category": "编程/Agent",
   "region": "global",
   "oneLiner": "用「Trails」取代 PR 时间线，把每次推送后由 Agent 打分、可自定义的评测结果放在页面最上方；",
