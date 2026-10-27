@@ -1,0 +1,24 @@
+{
+  "id": "grok-bot",
+  "name": "Grok Bot",
+  "aliases": [
+    "Grok Bot"
+  ],
+  "url": "https://x.ai/bot",
+  "domains": [
+    "docs.x.ai/grok-bot"
+  ],
+  "category": "对话助手",
+  "region": "global",
+  "maker": "xAI",
+  "oneLiner": "xAI 的 AI 队友：每个用户一台持久云端电脑，多个 Bot 并行在你的应用和网站里完成工作",
+  "oneLinerEn": "xAI's AI teammates: a persistent cloud computer per user, with multiple Bots working in parallel inside your apps and websites.",
+  "score": 4,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "opencode",
+  "name": "OpenCode",
+  "aliases": [
+    "opencode"
+  ],
+  "url": "https://opencode.ai",
+  "domains": [
+    "github.com/sst/opencode",
+    "github.com/anomalyco/opencode"
+  ],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "Anomaly (SST)",
+  "oneLiner": "开源终端编程 Agent，可接入多家模型供应商",
+  "oneLinerEn": "An open-source terminal coding agent that works with many model providers.",
+  "score": 4,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

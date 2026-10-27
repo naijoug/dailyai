@@ -1,0 +1,25 @@
+{
+  "id": "openclaw",
+  "name": "OpenClaw",
+  "aliases": [
+    "Open Claw"
+  ],
+  "url": "https://openclaw.ai",
+  "domains": [
+    "docs.openclaw.ai",
+    "github.com/openclaw/openclaw"
+  ],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "OpenClaw Foundation",
+  "oneLiner": "开源自托管个人 AI 助手：跑在你自己的电脑上，通过 WhatsApp、Telegram、Slack 等聊天应用指挥它处理邮件、日程和各种任务",
+  "oneLinerEn": "An open-source, self-hosted personal AI assistant that runs on your own machine and takes instructions from WhatsApp, Telegram, Slack and other chat apps to handle email, calendar and more.",
+  "score": 5,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Agents",
+    "Open Source"
+  ],
+  "rankings": []
+}

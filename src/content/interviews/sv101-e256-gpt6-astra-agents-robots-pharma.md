@@ -9,7 +9,7 @@ date: "2026-10-19"
 url: "https://sv101.fireside.fm/270"
 duration: "1:19:40"
 lang: "zh"
-products: []
+products: ["muse"]
 tags: ["Agents", "Research", "Models"]
 score: 4
 summary: "三位一线研究者谈 GPT-6 Astra 对个人 Agent、机器人与 AI 制药的冲击"

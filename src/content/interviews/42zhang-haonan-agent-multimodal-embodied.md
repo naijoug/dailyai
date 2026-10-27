@@ -9,7 +9,7 @@ date: "2026-10-24"
 url: "https://www.xiaoyuzhoufm.com/episode/6ada2be4c96c8942ec10cb1e"
 duration: "54:03"
 lang: "zh"
-products: []
+products: ["seedance"]
 tags: ["Agents", "Research", "Models"]
 score: 3
 summary: "前混元多模态 RL infra 负责人王淏楠：从 Agent 到多模态再到具身，以及 Astra 对具身行业的冲击"

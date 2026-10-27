@@ -9,7 +9,7 @@ date: "2026-10-12"
 url: "https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Meta-designed-Muse-an-AI-agent-people-actually-want-to-talk-to--Alex-Cornell-Design-Director-e3q4g9k"
 duration: "37:47"
 lang: "en"
-products: []
+products: ["muse"]
 tags: ["Agents", "Products"]
 score: 3
 summary: "Meta design director Alex Cornell on designing Muse, Meta's consumer AI agent"

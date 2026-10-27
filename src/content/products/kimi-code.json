@@ -1,0 +1,23 @@
+{
+  "id": "kimi-code",
+  "name": "Kimi Code",
+  "aliases": [
+    "Kimi CLI"
+  ],
+  "url": "https://www.kimi.com/code",
+  "domains": [],
+  "category": "编程/Agent",
+  "region": "cn",
+  "maker": "Moonshot AI（月之暗面）",
+  "oneLiner": "月之暗面的终端编程 Agent",
+  "oneLinerEn": "Moonshot AI's terminal coding agent.",
+  "score": 3,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

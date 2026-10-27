@@ -1,0 +1,23 @@
+{
+  "id": "antigravity",
+  "name": "Google Antigravity",
+  "aliases": [
+    "Antigravity",
+    "Antigravity CLI"
+  ],
+  "url": "https://antigravity.google",
+  "domains": [],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "Google",
+  "oneLiner": "Google 的 Agent 优先开发平台（IDE + CLI），多个 Agent 可并行操作编辑器、终端和浏览器",
+  "oneLinerEn": "Google's agent-first development platform (IDE and CLI) where agents work across editor, terminal and browser.",
+  "score": 4,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

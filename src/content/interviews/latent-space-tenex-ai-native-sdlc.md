@@ -9,7 +9,7 @@ date: "2026-10-21"
 url: "https://www.latent.space/p/tenex"
 duration: "43:32"
 lang: "en"
-products: []
+products: ["codex"]
 tags: ["Agents", "Dev Tools", "Industry"]
 score: 4
 summary: "Tenex on paying engineers for output, its MetaHarness, and the enterprise gap between coding agents and production agents"

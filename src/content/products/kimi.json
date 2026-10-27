@@ -1,0 +1,27 @@
+{
+  "id": "kimi",
+  "name": "Kimi",
+  "aliases": [
+    "Kimi.com",
+    "月之暗面 Kimi",
+    "Kimi Work"
+  ],
+  "url": "https://www.kimi.com",
+  "domains": [
+    "kimi.moonshot.cn"
+  ],
+  "category": "对话助手",
+  "region": "cn",
+  "maker": "Moonshot AI（月之暗面）",
+  "oneLiner": "月之暗面的 AI 助手与模型系列，覆盖网页对话、Kimi Work 办公与 API",
+  "oneLinerEn": "Moonshot AI's assistant and model family, spanning web chat, Kimi Work and the API.",
+  "score": 5,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Models",
+    "Products",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

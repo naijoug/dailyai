@@ -1,0 +1,22 @@
+{
+  "id": "devin",
+  "name": "Devin",
+  "aliases": [
+    "Devin AI"
+  ],
+  "url": "https://devin.ai",
+  "domains": [],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "Cognition",
+  "oneLiner": "Cognition 的自主 AI 软件工程师",
+  "oneLinerEn": "Cognition's autonomous AI software engineer.",
+  "score": 4,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

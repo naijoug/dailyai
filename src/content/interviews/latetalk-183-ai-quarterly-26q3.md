@@ -9,7 +9,7 @@ date: "2026-10-02"
 url: "https://podcast.latepost.com/183"
 duration: "2:07:07"
 lang: "zh"
-products: []
+products: ["muse", "dots"]
 tags: ["Industry", "Models", "Agents"]
 score: 4
 summary: "晚点 AI 季报 26Q3：个人助理爆发、GPT-6 Astra 进入机器人、OpenAI 与 Anthropic 增速对比"

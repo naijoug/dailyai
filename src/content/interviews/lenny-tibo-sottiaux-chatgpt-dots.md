@@ -9,7 +9,7 @@ date: "2026-10-04"
 url: "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering"
 duration: "37:23"
 lang: "en"
-products: ["chatgpt"]
+products: ["chatgpt", "dots", "codex"]
 tags: ["Agents", "Products"]
 score: 4
 summary: "Tibo Sottiaux, who leads ChatGPT and Codex, on Dots, OpenAI's always-on personal agent, launched at DevDay"

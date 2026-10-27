@@ -8,7 +8,7 @@ company: "K2 Lab（攀峰智能）"
 date: "2026-10-27T14:32:29+08:00"
 url: "https://mp.weixin.qq.com/s/arAQ2_JL2_7Au-VdndQu3A"
 lang: "zh"
-products: ["moras"]
+products: ["moras", "muse", "seedance"]
 tags: ["Agents", "Industry"]
 score: 5
 summary: "K2 Lab 王铭谈 Moras：面向海外中腰部达人的 Personal Commerce Agent，按成交结果分成，首季度 GMV 超千万美元"

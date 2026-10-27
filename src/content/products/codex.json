@@ -1,0 +1,27 @@
+{
+  "id": "codex",
+  "name": "Codex",
+  "aliases": [
+    "OpenAI Codex",
+    "Codex CLI",
+    "Codex App"
+  ],
+  "url": "https://openai.com/codex/",
+  "domains": [
+    "chatgpt.com/codex",
+    "github.com/openai/codex"
+  ],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "OpenAI",
+  "oneLiner": "OpenAI 的编程 Agent：CLI、IDE 插件、桌面 App 和云端并行写代码、修 bug、提 PR",
+  "oneLinerEn": "OpenAI's coding agent across CLI, IDE extension, desktop app and cloud, writing code, fixing bugs and opening PRs in parallel.",
+  "score": 5,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

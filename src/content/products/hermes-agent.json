@@ -1,0 +1,25 @@
+{
+  "id": "hermes-agent",
+  "name": "Hermes Agent",
+  "aliases": [
+    "Hermes",
+    "Hermes Agent"
+  ],
+  "url": "https://hermes-agent.nousresearch.com",
+  "domains": [
+    "github.com/nousresearch/hermes-agent"
+  ],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "Nous Research",
+  "oneLiner": "Nous Research 的开源自我进化 Agent：持久记忆、从经验自动生成技能，可部署在 VPS 或云端并通过 Telegram 等渠道对话",
+  "oneLinerEn": "Nous Research's open-source self-improving agent with persistent memory and auto-generated skills, deployable on a VPS or the cloud and reachable via Telegram and other channels.",
+  "score": 4,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Agents",
+    "Open Source"
+  ],
+  "rankings": []
+}

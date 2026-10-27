@@ -9,7 +9,7 @@ date: "2026-10-18"
 url: "https://www.xiaoyuzhoufm.com/episode/6ad2412d0e4e410a05be01a7"
 duration: "51:08"
 lang: "zh"
-products: ["claude-code"]
+products: ["claude-code", "codex"]
 tags: ["Agents", "Dev Tools"]
 score: 4
 summary: "Treg 创业 9 个月三次转型：垂直 Agent 的“绝境”，以及围绕 Claude Code / Codex 生长的新机会"

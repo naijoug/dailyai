@@ -9,7 +9,7 @@ date: "2026-10-12"
 url: "https://www.xiaoyuzhoufm.com/episode/6accc5de195d838e2af0bd9a"
 duration: "1:26:18"
 lang: "zh"
-products: []
+products: ["muse", "grok-bot"]
 tags: ["Agents", "Products"]
 score: 4
 summary: "Ambi 创始人莫子皓谈软硬件结合的 Personal Agent：成本、真实需求、产品路线与如何和大厂竞争"

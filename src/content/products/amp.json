@@ -1,0 +1,23 @@
+{
+  "id": "amp",
+  "name": "Amp",
+  "aliases": [
+    "Amp Code",
+    "ampcode"
+  ],
+  "url": "https://ampcode.com",
+  "domains": [],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "Amp",
+  "oneLiner": "前沿编程 Agent，线程可在团队内共享沉淀为知识",
+  "oneLinerEn": "A frontier coding agent whose threads can be shared across a team as institutional memory.",
+  "score": 4,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

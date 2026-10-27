@@ -1,0 +1,28 @@
+{
+  "id": "github-copilot",
+  "name": "GitHub Copilot",
+  "aliases": [
+    "Copilot",
+    "GitHub Copilot"
+  ],
+  "url": "https://github.com/features/copilot",
+  "domains": [],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "GitHub / Microsoft",
+  "oneLiner": "GitHub 的 AI 编程助手，含补全、Chat 与 coding agent",
+  "oneLinerEn": "GitHub's AI coding assistant with completions, chat and a coding agent.",
+  "score": 4,
+  "firstSeen": "2026-10-27",
+  "updated": "2026-10-27",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": [],
+  "mentionExclude": [
+    "Microsoft Copilot",
+    "M365 Copilot",
+    "Copilot Studio"
+  ]
+}

@@ -16,5 +16,21 @@
   "workbuddy": ["WorkBuddy", "WorkBuddy｜腾讯"],
   "claude-code": ["Claude Code"],
   "cursor": ["cursor", "Cursor"],
-  "moras": ["Moras", "Moras AI", "K2 Lab Moras"]
+  "moras": ["Moras", "Moras AI", "K2 Lab Moras"],
+  "muse": ["Muse", "Meta Muse", "Muse｜Meta"],
+  "openclaw": ["OpenClaw", "Open Claw"],
+  "hermes-agent": ["Hermes Agent", "Hermes"],
+  "codex": ["Codex", "OpenAI Codex", "Codex CLI", "Codex App"],
+  "dots": ["Dots", "OpenAI Dots", "ChatGPT Dots"],
+  "grok-bot": ["Grok Bot"],
+  "kimi": ["Kimi", "Kimi.com", "月之暗面 Kimi", "Kimi Work"],
+  "kimi-code": ["Kimi Code", "Kimi CLI"],
+  "opencode": ["OpenCode", "opencode"],
+  "gemini-cli": ["Gemini CLI"],
+  "antigravity": ["Google Antigravity", "Antigravity", "Antigravity CLI"],
+  "amp": ["Amp", "Amp Code", "ampcode"],
+  "devin": ["Devin", "Devin AI"],
+  "github-copilot": ["GitHub Copilot", "Copilot"],
+  "claude-cowork": ["Claude Cowork", "Cowork"],
+  "seedance": ["Seedance", "即梦 Seedance", "Seedance 2.0"]
 }

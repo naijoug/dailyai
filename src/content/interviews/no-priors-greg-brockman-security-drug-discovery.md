@@ -9,7 +9,7 @@ date: "2026-10-15"
 url: "https://podcasts.apple.com/us/podcast/the-changing-physics-of-cybersecurity-and/id1668002688?i=1000796472163"
 duration: "39:22"
 lang: "en"
-products: ["chatgpt"]
+products: ["chatgpt", "dots"]
 tags: ["Models", "Security", "Research"]
 score: 4
 summary: "Greg Brockman on GPT-6, AI agents solving century-old math problems, proactive agents like Dots, and AI-era cybersecurity"
