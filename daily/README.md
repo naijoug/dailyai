@@ -7,13 +7,13 @@
 
 ### 2026-10-28 · 星期三
 
-Latent Space：Anthropic Claude 平台的工程与产品负责人谈 Opus 5.5 发布、防蒸馏的取舍，以及 Managed Agents 为何把 Agent 的“大脑”和“双手”拆开
+谷歌发布带原生音频的世界模型 Genie 4，Anthropic 公布 Claude 参与新药研发进展；Axiom 用 AI agent 24 天在 Lean 里核完有限单群分类定理。
 
 🆕 今日新品：Claude Managed Agents
 
 🎙 访谈与播客：Latent Space
 
-访谈/播客 1
+AI Hot 9 · 访谈/播客 1 · ⭐ 6 条高分
 
 [→ 查看当天详情](2026/10/2026-10-28.md)
 
