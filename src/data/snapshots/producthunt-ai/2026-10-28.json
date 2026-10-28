@@ -7,14 +7,110 @@
  "metric": "Feed 顺序（不是排名）",
  "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
  "period": "2026-10-28",
- "fetched": "2026-10-28T04:16:58.480Z",
+ "fetched": "2026-10-28T13:37:00.748Z",
  "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
  "rows": [
   {
-   "name": "Nuvio 5.0",
-   "url": "https://www.producthunt.com/products/nuvio",
-   "value": "Hand your financial admin to your AI agent Discussion | Link",
+   "name": "LFM3 by Liquid AI",
+   "url": "https://www.producthunt.com/products/lfm2",
+   "value": "Six 2B-class models for phones, laptops and robots Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "Genie 4",
+   "url": "https://www.producthunt.com/products/gemini-1-5-pro",
+   "value": "Turn a prompt into a living world you can steer Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "Tulu",
+   "url": "https://www.producthunt.com/products/tulu",
+   "value": "Autonomous marketing operations & analytics for SMBs Discussion | Link",
+   "date": "2026-07-19"
+  },
+  {
+   "name": "Trigger.dev: Webhooks for your AI agents",
+   "url": "https://www.producthunt.com/products/trigger-dev",
+   "value": "Run AI agents with Slack, Supabase and 50+ other services Discussion | Link",
+   "date": "2026-10-16"
+  },
+  {
+   "name": "throxy (yc p25)",
+   "url": "https://www.producthunt.com/products/throxy-yc-p25",
+   "value": "Cold calls in your prospect's language. Pipeline delivered. Discussion | Link",
    "date": "2026-10-26"
+  },
+  {
+   "name": "Open For sales",
+   "url": "https://www.producthunt.com/products/open-for-sales",
+   "value": "Your next sales campaign is one prompt away Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "App Store Screenshots",
+   "url": "https://www.producthunt.com/products/app-store-screenshots",
+   "value": "Your coding agent designs your app store screenshots Discussion | Link",
+   "date": "2026-10-04"
+  },
+  {
+   "name": "Boltbar",
+   "url": "https://www.producthunt.com/products/boltbar",
+   "value": "Spotlight-style AI chat for your Mac Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "BotGauge",
+   "url": "https://www.producthunt.com/products/botgauge-2",
+   "value": "The Trust Layer for Your Agents Discussion | Link",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "Agent Handshake by Fini",
+   "url": "https://www.producthunt.com/products/fini-2",
+   "value": "Agent-to-agent customer support that holds its answer Discussion | Link",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "Mudroom",
+   "url": "https://www.producthunt.com/products/mudroom-3",
+   "value": "Run coding agents in a VM, review changes like a PR Discussion | Link",
+   "date": "2026-10-12"
+  },
+  {
+   "name": "Zro: Uncensored Security Models",
+   "url": "https://www.producthunt.com/products/zro",
+   "value": "Abliterated open models for security work Discussion | Link",
+   "date": "2026-10-11"
+  },
+  {
+   "name": "OpenLLM",
+   "url": "https://www.producthunt.com/products/openllm",
+   "value": "Take your AI tokens anywhere Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "Our Silly Games",
+   "url": "https://www.producthunt.com/products/our-silly-games",
+   "value": "Skills to build games with Claude. Free multiplayer hosting. Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "WebAI by Opera",
+   "url": "https://www.producthunt.com/products/opera",
+   "value": "Let websites use AI running on your computer Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "Dotverse",
+   "url": "https://www.producthunt.com/products/dotverse",
+   "value": "Your Dot now with a crew Discussion | Link",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "NINX",
+   "url": "https://www.producthunt.com/products/ninx-2",
+   "value": "Private On-device AI, connected tools, & creative workflows Discussion | Link",
+   "date": "2026-07-21"
   },
   {
    "name": "TheySaid 4.0",
@@ -23,28 +119,10 @@
    "date": "2026-10-16"
   },
   {
-   "name": "Off Grid AI",
-   "url": "https://www.producthunt.com/products/off-grid-ai",
-   "value": "Private AI on your phone and computer. Discussion | Link",
-   "date": "2026-10-26"
-  },
-  {
-   "name": "PulseDev",
-   "url": "https://www.producthunt.com/products/pulsedev",
-   "value": "Click any UI bug on localhost and your AI agent fixes it Discussion | Link",
-   "date": "2026-10-26"
-  },
-  {
    "name": "NuPlay",
    "url": "https://www.producthunt.com/products/nuplay",
    "value": "AI transformation, run on one self-improving platform Discussion | Link",
    "date": "2026-10-22"
-  },
-  {
-   "name": "Revix AI",
-   "url": "https://www.producthunt.com/products/revix-ai-2",
-   "value": "AI code review that learns your repo's own rules Discussion | Link",
-   "date": "2026-10-26"
   },
   {
    "name": "GPT-6.1 Terra",
@@ -53,9 +131,9 @@
    "date": "2026-10-26"
   },
   {
-   "name": "ContextGem 1.0",
-   "url": "https://www.producthunt.com/products/contextgem",
-   "value": "Decision models join LLMs to extract data from documents Discussion | Link",
+   "name": "Off Grid AI",
+   "url": "https://www.producthunt.com/products/off-grid-ai",
+   "value": "Private AI on your phone and computer. Discussion | Link",
    "date": "2026-10-26"
   },
   {
@@ -71,10 +149,34 @@
    "date": "2026-10-20"
   },
   {
+   "name": "ContextGem 1.0",
+   "url": "https://www.producthunt.com/products/contextgem",
+   "value": "Decision models join LLMs to extract data from documents Discussion | Link",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "PulseDev",
+   "url": "https://www.producthunt.com/products/pulsedev",
+   "value": "Click any UI bug on localhost and your AI agent fixes it Discussion | Link",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "Nuvio 5.0",
+   "url": "https://www.producthunt.com/products/nuvio",
+   "value": "Hand your financial admin to your AI agent Discussion | Link",
+   "date": "2026-10-26"
+  },
+  {
    "name": "Spacesheep",
    "url": "https://www.producthunt.com/products/spacesheep",
    "value": "Documents of the future, made by AI, read by your team Discussion | Link",
    "date": "2026-10-22"
+  },
+  {
+   "name": "Revix AI",
+   "url": "https://www.producthunt.com/products/revix-ai-2",
+   "value": "AI code review that learns your repo's own rules Discussion | Link",
+   "date": "2026-10-26"
   },
   {
    "name": "Overmind",
@@ -83,112 +185,10 @@
    "date": "2026-10-06"
   },
   {
-   "name": "NINX",
-   "url": "https://www.producthunt.com/products/ninx-2",
-   "value": "Private On-device AI, connected tools, & creative workflows Discussion | Link",
-   "date": "2026-07-21"
-  },
-  {
-   "name": "Strawberry 1.0",
-   "url": "https://www.producthunt.com/products/strawberry",
-   "value": "AI Browser that saves your team >100h/week Discussion | Link",
-   "date": "2026-10-12"
-  },
-  {
-   "name": "AI Bridge",
-   "url": "https://www.producthunt.com/products/ai-bridge",
-   "value": "Every AI coding agent on your Mac, in its place Discussion | Link",
-   "date": "2026-10-21"
-  },
-  {
-   "name": "Loqui",
-   "url": "https://www.producthunt.com/products/loqui-2",
-   "value": "Turns your voice into ready-to-send text in any Mac app Discussion | Link",
-   "date": "2026-10-24"
-  },
-  {
-   "name": "ManyAgents",
-   "url": "https://www.producthunt.com/products/manyagents",
-   "value": "Run a team of AI coding agents from one Mac window Discussion | Link",
-   "date": "2026-10-25"
-  },
-  {
-   "name": "VibeiDE",
-   "url": "https://www.producthunt.com/products/vibeide",
-   "value": "Queue agent tasks in parallel and review each result Discussion | Link",
-   "date": "2026-10-25"
-  },
-  {
-   "name": "AllModels",
-   "url": "https://www.producthunt.com/products/allmodels-io",
-   "value": "Explore every abliterated model Discussion | Link",
-   "date": "2026-10-25"
-  },
-  {
-   "name": "Kiwi",
-   "url": "https://www.producthunt.com/products/kiwi-7",
-   "value": "A proactive AI assistant that texts you before you ask Discussion | Link",
-   "date": "2026-10-24"
-  },
-  {
-   "name": "CloudKnife",
-   "url": "https://www.producthunt.com/products/cloudknife",
-   "value": "Cut your cloud bill, not your performance Discussion | Link",
-   "date": "2026-10-19"
-  },
-  {
-   "name": "2G",
-   "url": "https://www.producthunt.com/products/2g",
-   "value": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
-   "date": "2026-10-24"
-  },
-  {
    "name": "N8N Chat UI",
    "url": "https://www.producthunt.com/products/n8n-chat-ui-2",
    "value": "Beautiful, no-code, on-brand AI chat widgets for n8n Discussion | Link",
    "date": "2026-10-07"
-  },
-  {
-   "name": "MiniMax M3.1 Flash",
-   "url": "https://www.producthunt.com/products/minimax-4",
-   "value": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents Discussion | Link",
-   "date": "2026-10-19"
-  },
-  {
-   "name": "SurgePix",
-   "url": "https://www.producthunt.com/products/surgepix",
-   "value": "AI visuals. Edit every layer. Agent-callable. Discussion | Link",
-   "date": "2026-10-16"
-  },
-  {
-   "name": "Moli by Lexmount",
-   "url": "https://www.producthunt.com/products/lexmount-browser",
-   "value": "The fastest headless browser for agents and harnesses Discussion | Link",
-   "date": "2026-10-12"
-  },
-  {
-   "name": "Llama Windows",
-   "url": "https://www.producthunt.com/products/llama-windows",
-   "value": "One local AI server for all your Windows apps Discussion | Link",
-   "date": "2026-10-23"
-  },
-  {
-   "name": "Yourcast 2.0",
-   "url": "https://www.producthunt.com/products/yourcast",
-   "value": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
-   "date": "2026-10-24"
-  },
-  {
-   "name": "AgentGrid.io",
-   "url": "https://www.producthunt.com/products/agentgrid-io",
-   "value": "Shared workspace for humans and agents Discussion | Link",
-   "date": "2026-10-24"
-  },
-  {
-   "name": "1Password for Agents",
-   "url": "https://www.producthunt.com/products/1password",
-   "value": "Let AI agents sign in for you without seeing your passwords Discussion | Link",
-   "date": "2026-10-22"
   }
  ]
 }

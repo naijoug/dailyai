@@ -1,0 +1,18 @@
+{
+  "id": "openllm",
+  "name": "OpenLLM",
+  "aliases": [],
+  "url": "https://openllm.sh",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "一个统一接入层，把已有订阅、API key 和本地模型接进 Codex 等 coding agent，或 Mac 上的 ChatGPT 应用里用；",
+  "oneLinerEn": "a unified layer that lets you use your existing subscriptions, API keys and local models i",
+  "score": 3,
+  "firstSeen": "2026-10-28",
+  "updated": "2026-10-28",
+  "tags": [
+    "Models",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

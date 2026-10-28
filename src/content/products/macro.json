@@ -1,0 +1,18 @@
+{
+  "id": "macro",
+  "name": "Macro",
+  "aliases": [],
+  "url": "https://macro.com",
+  "category": "办公",
+  "region": "global",
+  "oneLiner": "把邮件（多账号、类 Superhuman 键盘操作）、频道、基于 CRDT 的 Markdown 文档、类 Linear 任务、白板、录音转写的通话、文件存储、PR 关联和 CRM",
+  "oneLinerEn": "email (multi-account, Superhuman-style), channels, CRDT markdown docs, Linear-style tasks,",
+  "score": 3,
+  "firstSeen": "2026-10-28",
+  "updated": "2026-10-28",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

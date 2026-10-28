@@ -1,0 +1,19 @@
+{
+  "id": "opendsec",
+  "name": "OpenDsec",
+  "aliases": [],
+  "url": "https://kernflux.github.io/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "独立项目（不含 DeepSeek 代码），控制面由无状态 apiserver、基于 Raft 的 IAM、watcher 和每节点 edge 组成，组件间 gRPC + mTLS；",
+  "oneLinerEn": "an independent project (no DeepSeek code) whose control plane is a stateless apiserver, Ra",
+  "score": 4,
+  "firstSeen": "2026-10-28",
+  "updated": "2026-10-28",
+  "tags": [
+    "Dev Tools",
+    "Open Source",
+    "Chinese Community"
+  ],
+  "rankings": []
+}
