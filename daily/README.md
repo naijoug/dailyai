@@ -7,13 +7,13 @@
 
 ### 2026-10-28 · 星期三
 
-谷歌发布带原生音频的世界模型 Genie 4，Anthropic 公布 Claude 参与新药研发进展；Axiom 用 AI agent 24 天在 Lean 里核完有限单群分类定理。
+谷歌 DeepMind 发布带原生音频的世界模型 Genie 4，Liquid AI 开源 2B 级多模态 LFM3；Ghostty 1.4 修复多项安全漏洞，有限单群分类在 Lean 中完成形式化。
 
-🆕 今日新品：Claude Managed Agents
+🆕 今日新品：Claude Managed Agents、Genie 4、Ghostty 1.4 +2
 
 🎙 访谈与播客：Latent Space
 
-AI Hot 9 · 访谈/播客 1 · ⭐ 6 条高分
+AI Hot 9 · Tech 10 · 访谈/播客 1 · ⭐ 11 条高分
 
 [→ 查看当天详情](2026/10/2026-10-28.md)
 
