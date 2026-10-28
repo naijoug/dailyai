@@ -5,15 +5,27 @@
 
 ## 2026 年 10 月
 
+### 2026-10-28 · 星期三
+
+Latent Space：Anthropic Claude 平台的工程与产品负责人谈 Opus 5.5 发布、防蒸馏的取舍，以及 Managed Agents 为何把 Agent 的“大脑”和“双手”拆开
+
+🆕 今日新品：Claude Managed Agents
+
+🎙 访谈与播客：Latent Space
+
+访谈/播客 1
+
+[→ 查看当天详情](2026/10/2026-10-28.md)
+
 ### 2026-10-27 · 星期二
 
 OpenAI 发布 GPT-6.1 Terra 并称模型推翻指数时间假设，Anthropic 随即放出 Claude 独立署名的同结论论文；百度开源超长文档 OCR 模型 Unlimited OCR 2。
 
 🆕 今日新品：Entire、Moras、CorridorKey 2.0 +1
 
-🎙 访谈与播客：Founder Park
+🎙 访谈与播客：潜云思绪（Founder Park 转载）、Founder Park
 
-AI Hot 21 · Tech 11 · 访谈/播客 1 · ⭐ 17 条高分
+AI Hot 21 · Tech 11 · 访谈/播客 2 · ⭐ 17 条高分
 
 [→ 查看当天详情](2026/10/2026-10-27.md)
 
@@ -241,6 +253,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Latent Space：Anthropic 如何用 Claude 发布 Claude：把“大脑”和“双手”分开](2026/10/2026-10-28.md#interviews) — 播客 · 2026-10-28 · [原文](https://www.latent.space/p/opus55)
+- [潜云思绪（Founder Park 转载）：用 Manus 改造 Manus，AI Native 组织改造的实践和思考](2026/10/2026-10-27.md#interviews) — 访谈 · 2026-10-27 · [原文](https://mp.weixin.qq.com/s/I_hNNAf7LFBf5nJ0rEJHig)
 - [Founder Park：对话K2 Lab王铭：Muse帮人省钱，Moras帮人赚钱，这才是垂直赛道Personal AI的刚需](2026/10/2026-10-27.md#interviews) — 访谈 · 2026-10-27 · [原文](https://mp.weixin.qq.com/s/arAQ2_JL2_7Au-VdndQu3A)
 - [The a16z Show：OpenAI：当 AI Agent 用电脑比你还快](2026/10/2026-10-26.md#interviews) — 播客 · 2026-10-26 · [原文](https://a16z.simplecast.com/episodes/openai-when-ai-agents-use-computers-faster-than-you-QLF23qpt)
 - [42章经：少有的同时做过 Agent、多模态和具身的人 | 对谈前混元多模态 RL Infra 负责人淏楠](2026/10/2026-10-24.md#interviews) — 播客 · 2026-10-24 · [原文](https://www.xiaoyuzhoufm.com/episode/6ada2be4c96c8942ec10cb1e)
