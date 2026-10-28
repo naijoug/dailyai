@@ -2,7 +2,8 @@
   "id": "claude-code",
   "name": "Claude Code",
   "aliases": [
-    "Claude Code"
+    "Claude Code",
+    "Anthropic study"
   ],
   "url": "https://claude.com/product/claude-code",
   "domains": [
@@ -15,7 +16,7 @@
   "oneLinerEn": "Anthropic's terminal / IDE coding agent that understands the whole codebase and makes changes.",
   "score": 5,
   "firstSeen": "2026-10-10",
-  "updated": "2026-10-22",
+  "updated": "2026-10-28",
   "tags": [
     "Dev Tools",
     "Agents"

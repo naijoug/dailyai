@@ -2,7 +2,8 @@
   "id": "chatgpt",
   "name": "ChatGPT",
   "aliases": [
-    "ChatGPT"
+    "ChatGPT",
+    "ChatGPT adds iCloud Mail and Calendar pl"
   ],
   "url": "https://chatgpt.com",
   "category": "对话助手",
@@ -14,7 +15,7 @@
   "growth": -3.29,
   "growthNote": "AICPB 全球网站 2026-06 环比",
   "firstSeen": "2026-10-10",
-  "updated": "2026-10-22",
+  "updated": "2026-10-28",
   "tags": [
     "Models",
     "Products"
