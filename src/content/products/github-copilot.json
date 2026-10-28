@@ -13,16 +13,66 @@
   "oneLiner": "GitHub 的 AI 编程助手，含补全、Chat 与 coding agent",
   "oneLinerEn": "GitHub's AI coding assistant with completions, chat and a coding agent.",
   "score": 4,
+  "growth": -3.28,
+  "growthNote": "AICPB Vibe Coding 2026-06 环比",
   "firstSeen": "2026-10-23",
   "updated": "2026-10-27",
   "tags": [
     "Agents",
     "Dev Tools"
   ],
-  "rankings": [],
+  "rankings": [
+    {
+      "source": "a16z",
+      "list": "第5版 · Mobile Top 50",
+      "badge": "a16z App",
+      "rank": 18,
+      "metric": "移动端 MAU（Sensor Tower，2025-08）",
+      "date": "2025-08",
+      "url": "https://a16z.com/100-gen-ai-apps-5/",
+      "snap": "a16z-mobile/2025-08"
+    },
+    {
+      "source": "aicpb",
+      "list": "AI ChatBot 榜 · 网站",
+      "badge": "AICPB ChatBot",
+      "rank": 7,
+      "metric": "网站月访问量",
+      "value": "121.12M",
+      "mom": "-9.38%",
+      "date": "2026-06",
+      "url": "https://www.aicpb.com/ai-rankings/products/ai-chatbot-rankings",
+      "snap": "aicpb-ai-chatbot-web/2026-06"
+    },
+    {
+      "source": "aicpb",
+      "list": "全球 AI 榜 · 网站",
+      "badge": "AICPB 全球网站",
+      "rank": 6,
+      "metric": "网站月访问量",
+      "value": "371.18M",
+      "mom": "-3.28%",
+      "date": "2026-06",
+      "url": "https://www.aicpb.com/ai-rankings/products/global-ai-rankings",
+      "snap": "aicpb-global-ai-web/2026-06"
+    },
+    {
+      "source": "aicpb",
+      "list": "Vibe Coding 榜 · 网站",
+      "badge": "AICPB Vibe Coding",
+      "rank": 1,
+      "metric": "网站月访问量",
+      "value": "371.18M",
+      "mom": "-3.28%",
+      "date": "2026-06",
+      "url": "https://www.aicpb.com/ai-rankings/products/vibe-coding-rankings",
+      "snap": "aicpb-vibe-coding-web/2026-06"
+    }
+  ],
   "mentionExclude": [
     "Microsoft Copilot",
     "M365 Copilot",
     "Copilot Studio"
-  ]
+  ],
+  "growthDate": "2026-06"
 }

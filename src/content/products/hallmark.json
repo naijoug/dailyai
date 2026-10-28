@@ -1,7 +1,9 @@
 {
   "id": "hallmark",
   "name": "Hallmark",
-  "aliases": [],
+  "aliases": [
+    "Hallmark v2"
+  ],
   "url": "https://www.usehallmark.com",
   "category": "编程/Agent",
   "region": "global",
@@ -9,7 +11,7 @@
   "oneLinerEn": "install with npx skills add nutlope/hallmark -g;",
   "score": 4,
   "firstSeen": "2026-10-24",
-  "updated": "2026-10-24",
+  "updated": "2026-10-28",
   "tags": [
     "Models",
     "Dev Tools"

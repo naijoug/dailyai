@@ -1,0 +1,15 @@
+{
+  "id": "ghostty",
+  "name": "Ghostty 1.4",
+  "aliases": [],
+  "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "性能和内存大幅改进，成为首个 100% 实现 Kitty 图形协议（含动画、相对定位）的非 Kitty 终端，SSH 集成也有改进；",
+  "oneLinerEn": "big performance and memory gains, the first non-Kitty terminal with 100% Kitty graphics su",
+  "score": 4,
+  "firstSeen": "2026-10-28",
+  "updated": "2026-10-28",
+  "tags": [],
+  "rankings": []
+}

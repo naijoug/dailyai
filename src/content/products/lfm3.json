@@ -1,0 +1,15 @@
+{
+  "id": "lfm3",
+  "name": "LFM3",
+  "aliases": [],
+  "url": "https://www.liquid.ai/blog/lfm3",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "6 个 2B 级模型（文本、视觉、音频、全模态、决策）共用一个新的三重混合架构底座，预训练 22T token；",
+  "oneLinerEn": "six 2B-class models (text, vision, audio, omni, decision) on one new tri-hybrid backbone t",
+  "score": 4,
+  "firstSeen": "2026-10-28",
+  "updated": "2026-10-28",
+  "tags": [],
+  "rankings": []
+}

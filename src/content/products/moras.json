@@ -1,9 +1,14 @@
 {
   "id": "moras",
   "name": "Moras",
-  "aliases": ["Moras AI", "K2 Lab Moras"],
+  "aliases": [
+    "Moras AI",
+    "K2 Lab Moras"
+  ],
   "url": "https://moras.ai",
-  "domains": ["https://k2lab.ai"],
+  "domains": [
+    "https://k2lab.ai"
+  ],
   "category": "编程/Agent",
   "region": "global",
   "maker": "K2 Lab（攀峰智能）",
@@ -12,6 +17,9 @@
   "score": 4,
   "firstSeen": "2026-10-27",
   "updated": "2026-10-27",
-  "tags": ["Agents", "Products"],
+  "tags": [
+    "Agents",
+    "Products"
+  ],
   "rankings": []
 }

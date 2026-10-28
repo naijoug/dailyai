@@ -1,0 +1,15 @@
+{
+  "id": "survival-llm",
+  "name": "Survival LLM",
+  "aliases": [],
+  "url": "https://www.brangus.io/survival-llm",
+  "category": "对话助手",
+  "region": "global",
+  "oneLiner": "完全在本机运行，内置医疗参考、FEMA/CDC 指南、生存与维修手册以及约 93 万篇维基百科文章，回答会标出并高亮引用原文；",
+  "oneLinerEn": "runs entirely on your computer with medical references, FEMA/CDC guidance, survival and re",
+  "score": 3,
+  "firstSeen": "2026-10-28",
+  "updated": "2026-10-28",
+  "tags": [],
+  "rankings": []
+}

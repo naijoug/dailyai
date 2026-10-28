@@ -1,0 +1,17 @@
+{
+  "id": "genie-4",
+  "name": "Genie 4",
+  "aliases": [],
+  "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+  "category": "视频",
+  "region": "global",
+  "oneLiner": "原生多模态，能和世界画面同步生成音乐、环境音和对话；",
+  "oneLinerEn": "natively multimodal, generating music, ambient sound and dialogue together with the world;",
+  "score": 4,
+  "firstSeen": "2026-10-28",
+  "updated": "2026-10-28",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}

@@ -15,11 +15,104 @@
   "oneLiner": "开源自托管个人 AI 助手：跑在你自己的电脑上，通过 WhatsApp、Telegram、Slack 等聊天应用指挥它处理邮件、日程和各种任务",
   "oneLinerEn": "An open-source, self-hosted personal AI assistant that runs on your own machine and takes instructions from WhatsApp, Telegram, Slack and other chat apps to handle email, calendar and more.",
   "score": 5,
+  "growth": -39.27,
+  "growthNote": "AICPB Agent 2026-06 环比",
   "firstSeen": "2026-10-25",
   "updated": "2026-10-27",
   "tags": [
     "Agents",
     "Open Source"
   ],
-  "rankings": []
+  "rankings": [
+    {
+      "source": "aicpb",
+      "list": "AI Agent 榜 · 网站",
+      "badge": "AICPB Agent",
+      "rank": 4,
+      "metric": "网站月访问量",
+      "value": "4.78M",
+      "mom": "-39.27%",
+      "date": "2026-06",
+      "url": "https://www.aicpb.com/ai-rankings/products/ai-agent-rankings",
+      "snap": "aicpb-ai-agent-web/2026-06"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 13,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "1.53T tokens",
+      "date": "2026-10-22",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-22"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 13,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "1.55T tokens",
+      "date": "2026-10-23",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-23"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 13,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "1.56T tokens",
+      "date": "2026-10-24",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-24"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 13,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "1.60T tokens",
+      "date": "2026-10-25",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-25"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 12,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "1.67T tokens",
+      "date": "2026-10-26",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-26"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 12,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "1.80T tokens",
+      "date": "2026-10-27",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-27"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 11,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "1.86T tokens",
+      "date": "2026-10-28",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-28"
+    }
+  ],
+  "growthDate": "2026-06"
 }
