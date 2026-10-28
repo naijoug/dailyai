@@ -1,0 +1,23 @@
+{
+  "id": "claude-managed-agents",
+  "name": "Claude Managed Agents",
+  "aliases": [
+    "Managed Agents",
+    "Claude Managed Agents",
+    "CMA"
+  ],
+  "url": "https://platform.claude.com/docs/en/managed-agents/overview",
+  "category": "开发者平台",
+  "region": "global",
+  "maker": "Anthropic",
+  "oneLiner": "Anthropic Claude 平台上的托管 Agent 运行时：harness 与执行沙箱分离，内置凭据隔离、记忆与 Dreaming",
+  "oneLinerEn": "Anthropic's hosted agent runtime on the Claude Platform: the harness is separated from the execution sandbox, with credential isolation, memory and Dreaming built in.",
+  "score": 4,
+  "firstSeen": "2026-10-28",
+  "updated": "2026-10-28",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}
