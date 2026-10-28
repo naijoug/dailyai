@@ -7,13 +7,13 @@
 
 ### 2026-10-28 · 星期三
 
-谷歌发布世界模型 Genie 4，Axiom 用 AI 在 Lean 里核完有限单群分类；AA 智能指数 v5 上线、Opus 5.5 居首，OpenAI 拟采购谷歌 TPU。
+白天 Genie 4、AA 指数 v5 与 Opus 5.5 居首；晚间 Anthropic 披露未发布 Claude 挖出 Chrome 等跨平台高危漏洞链，ChatGPT Pro 200 额度将于 10/30 减半。
 
 🆕 今日新品：Claude Managed Agents、Genie 4、Ghostty 1.4 +2
 
 🎙 访谈与播客：Latent Space
 
-AI Hot 16 · Tech 10 · 访谈/播客 1 · ⭐ 14 条高分
+AI Hot 23 · Tech 10 · 访谈/播客 1 · ⭐ 18 条高分
 
 [→ 查看当天详情](2026/10/2026-10-28.md)
 
