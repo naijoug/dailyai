@@ -7,13 +7,13 @@
 
 ### 2026-10-28 · 星期三
 
-谷歌 DeepMind 发布带原生音频的世界模型 Genie 4，Liquid AI 开源 2B 级多模态 LFM3；Ghostty 1.4 修复多项安全漏洞，有限单群分类在 Lean 中完成形式化。
+谷歌发布世界模型 Genie 4，Axiom 用 AI 在 Lean 里核完有限单群分类；AA 智能指数 v5 上线、Opus 5.5 居首，OpenAI 拟采购谷歌 TPU。
 
 🆕 今日新品：Claude Managed Agents、Genie 4、Ghostty 1.4 +2
 
 🎙 访谈与播客：Latent Space
 
-AI Hot 9 · Tech 10 · 访谈/播客 1 · ⭐ 11 条高分
+AI Hot 16 · Tech 10 · 访谈/播客 1 · ⭐ 14 条高分
 
 [→ 查看当天详情](2026/10/2026-10-28.md)
 
