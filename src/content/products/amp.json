@@ -3,7 +3,8 @@
   "name": "Amp",
   "aliases": [
     "Amp Code",
-    "ampcode"
+    "ampcode",
+    "Amp 团队怎么工作"
   ],
   "url": "https://ampcode.com",
   "domains": [],
@@ -14,7 +15,7 @@
   "oneLinerEn": "A frontier coding agent and dev environment where agents keep running in remote orbs and threads are shared across the team.",
   "score": 4,
   "firstSeen": "2026-10-17",
-  "updated": "2026-10-27",
+  "updated": "2026-10-29",
   "tags": [
     "Agents",
     "Dev Tools"

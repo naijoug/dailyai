@@ -2,7 +2,8 @@
   "id": "suno",
   "name": "Suno",
   "aliases": [
-    "Suno.com"
+    "Suno.com",
+    "Suno 推出 MCP（Beta）"
   ],
   "url": "https://suno.com",
   "category": "音频",
@@ -14,7 +15,7 @@
   "growth": -13.85,
   "growthNote": "AICPB 音乐 2026-06 环比",
   "firstSeen": "2026-10-22",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "tags": [
     "Products"
   ],
