@@ -7,11 +7,11 @@
 
 ### 2026-10-29 · 星期四
 
-谷歌 Gemini 4 Carbon 登顶 AA 指数，GitHub 推 Copilot Fusion，ChatGPT 送 API 额度；午间又曝 DeepSeek 和月之暗面蒸馏 GPT-6 Astra，宝玉开源 baoyu-design v2。
+Gemini 4 Carbon 登顶、Copilot Fusion 与 ChatGPT 送 API 额度；午间 DeepSeek/月之暗面被指蒸馏 Astra；晚间 Addy 谈少提示、NVIDIA 开源 SkillSpector、Amp 可起 Mac。
 
 🆕 今日新品：Yardlet、DeepTutor、licenseal +1
 
-AI Hot 17 · Tech 10 · ⭐ 13 条高分
+AI Hot 26 · Tech 10 · ⭐ 19 条高分
 
 [→ 查看当天详情](2026/10/2026-10-29.md)
 
@@ -288,5 +288,6 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 全文文章
 
+- [You're probably overprompting Claude](articles/addy-osmani-overprompting-claude.md) — Addy Osmani · 2026-10-29
 - [How the Claude Code team does code review](articles/addy-osmani-claude-code-code-review.md) — Addy Osmani · 2026-10-26
 - [How I work with Agents](articles/thorsten-ball-how-i-work-with-agents.md) — Thorsten Ball · 2026-10-26
