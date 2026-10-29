@@ -1,0 +1,17 @@
+{
+  "id": "nori",
+  "name": "Nori",
+  "aliases": [],
+  "url": "https://meetnori.app/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "非 Electron；",
+  "oneLinerEn": "no Electron;",
+  "score": 4,
+  "firstSeen": "2026-10-29",
+  "updated": "2026-10-29",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

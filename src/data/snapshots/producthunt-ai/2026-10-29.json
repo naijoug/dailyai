@@ -7,26 +7,116 @@
  "metric": "Feed 顺序（不是排名）",
  "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
  "period": "2026-10-29",
- "fetched": "2026-10-29T01:34:57.950Z",
+ "fetched": "2026-10-29T13:37:01.328Z",
  "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
  "rows": [
   {
-   "name": "App Store Screenshots",
-   "url": "https://www.producthunt.com/products/app-store-screenshots",
-   "value": "Your coding agent designs your app store screenshots Discussion | Link",
-   "date": "2026-10-04"
+   "name": "Radar",
+   "url": "https://www.producthunt.com/products/radar-7",
+   "value": "You don't need an AI SRE. Give your agent Radar. Discussion | Link",
+   "date": "2026-10-27"
   },
   {
-   "name": "BotGauge",
-   "url": "https://www.producthunt.com/products/botgauge-2",
-   "value": "The trust layer for your agents Discussion | Link",
-   "date": "2026-10-15"
+   "name": "Floot in ChatGPT",
+   "url": "https://www.producthunt.com/products/floot",
+   "value": "Build and publish real apps without leaving ChatGPT Discussion | Link",
+   "date": "2026-10-28"
   },
   {
-   "name": "throxy",
-   "url": "https://www.producthunt.com/products/throxy-yc-p25",
-   "value": "Cold calls in your prospect's language. Pipeline delivered. Discussion | Link",
+   "name": "Empacer",
+   "url": "https://www.producthunt.com/products/empacer",
+   "value": "The voice-first assistant for small business owners Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "IFTTT.ai",
+   "url": "https://www.producthunt.com/products/ifttt",
+   "value": "The easiest way to automate anything Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Voxel51 Multimodal",
+   "url": "https://www.producthunt.com/products/voxel51",
+   "value": "Better data. Smarter robots. Repeat. Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "TopAgent",
+   "url": "https://www.producthunt.com/products/topmessage",
+   "value": "Drive B2B event attendance with an AI agent Discussion | Link",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "Suno MCP",
+   "url": "https://www.producthunt.com/products/suno",
+   "value": "The music layerfor your AI stack Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Kin",
+   "url": "https://www.producthunt.com/products/kin-6",
+   "value": "The AI labs want to own you. Make them answer to you. Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Flatbread",
+   "url": "https://www.producthunt.com/products/flatbread",
+   "value": "Share the whole agent run, not a screenshot Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Polylane for ChatGPT",
+   "url": "https://www.producthunt.com/products/polylane",
+   "value": "Ask ChatGPT what broke in production Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "StoreLocale",
+   "url": "https://www.producthunt.com/products/storelocale",
+   "value": "Translate app UI in App Store & Google Play screenshots Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Intrascope 2.0",
+   "url": "https://www.producthunt.com/products/intrascope-app",
+   "value": "New AI agent, 1,650+ apps, Skills and smart model routing Discussion | Link",
    "date": "2026-10-26"
+  },
+  {
+   "name": "OutreachGuy",
+   "url": "https://www.producthunt.com/products/outreachguy",
+   "value": "The AI SDR that works the leads you never followed up Discussion | Link",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "Gologin Cloud Browser",
+   "url": "https://www.producthunt.com/products/gologin",
+   "value": "Cloud browser for AI agents and tough sites Discussion | Link",
+   "date": "2026-10-22"
+  },
+  {
+   "name": "Scape",
+   "url": "https://www.producthunt.com/products/scape-4",
+   "value": "An intelligent email inbox that works for you Discussion | Link",
+   "date": "2026-10-21"
+  },
+  {
+   "name": "Gemini 4 Carbon",
+   "url": "https://www.producthunt.com/products/gemini-4-carbon",
+   "value": "Google's next frontier model Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Smart Jelly",
+   "url": "https://www.producthunt.com/products/smart-jelly",
+   "value": "Your everyday AI tools and memory in one Mac app. Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Viggle JST-2",
+   "url": "https://www.producthunt.com/products/viggle-ai",
+   "value": "JST-2: 3D scenes, characters and motion from one model Discussion | Link",
+   "date": "2026-10-19"
   },
   {
    "name": "Tulu",
@@ -35,22 +125,28 @@
    "date": "2026-07-19"
   },
   {
-   "name": "Open For sales",
-   "url": "https://www.producthunt.com/products/open-for-sales",
-   "value": "Your next sales campaign is one prompt away Discussion | Link",
-   "date": "2026-10-27"
+   "name": "App Store Screenshots",
+   "url": "https://www.producthunt.com/products/app-store-screenshots",
+   "value": "Your coding agent designs your app store screenshots Discussion | Link",
+   "date": "2026-10-04"
   },
   {
-   "name": "Our Silly Games",
-   "url": "https://www.producthunt.com/products/our-silly-games",
-   "value": "Skills to build games with Claude. Free multiplayer hosting. Discussion | Link",
-   "date": "2026-10-27"
+   "name": "Zro: Uncensored Security Models",
+   "url": "https://www.producthunt.com/products/zro",
+   "value": "Abliterated open models for security work Discussion | Link",
+   "date": "2026-10-11"
   },
   {
-   "name": "Boltbar",
-   "url": "https://www.producthunt.com/products/boltbar",
-   "value": "Spotlight-style AI chat for your Mac Discussion | Link",
-   "date": "2026-10-27"
+   "name": "Mudroom",
+   "url": "https://www.producthunt.com/products/mudroom-3",
+   "value": "Run coding agents in a VM, review changes like a PR Discussion | Link",
+   "date": "2026-10-12"
+  },
+  {
+   "name": "Trigger.dev: Webhooks for your AI agents",
+   "url": "https://www.producthunt.com/products/trigger-dev",
+   "value": "Run AI agents with Slack, Supabase and 50+ other services Discussion | Link",
+   "date": "2026-10-16"
   },
   {
    "name": "Agent Handshake by Fini",
@@ -59,15 +155,21 @@
    "date": "2026-10-26"
   },
   {
-   "name": "WebAI by Opera",
-   "url": "https://www.producthunt.com/products/opera",
-   "value": "Let websites use AI running on your computer Discussion | Link",
+   "name": "throxy",
+   "url": "https://www.producthunt.com/products/throxy-yc-p25",
+   "value": "Cold calls in your prospect's language. Pipeline delivered. Discussion | Link",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "Boltbar",
+   "url": "https://www.producthunt.com/products/boltbar",
+   "value": "Spotlight-style AI chat for your Mac Discussion | Link",
    "date": "2026-10-27"
   },
   {
-   "name": "OpenLLM",
-   "url": "https://www.producthunt.com/products/openllm",
-   "value": "Take your AI tokens anywhere Discussion | Link",
+   "name": "Open For sales",
+   "url": "https://www.producthunt.com/products/open-for-sales",
+   "value": "Your next sales campaign is one prompt away Discussion | Link",
    "date": "2026-10-27"
   },
   {
@@ -77,118 +179,16 @@
    "date": "2026-10-27"
   },
   {
-   "name": "Trigger.dev: Webhooks for your AI agents",
-   "url": "https://www.producthunt.com/products/trigger-dev",
-   "value": "Run AI agents with Slack, Supabase and 50+ other services Discussion | Link",
-   "date": "2026-10-16"
-  },
-  {
-   "name": "Zro: Uncensored Security Models",
-   "url": "https://www.producthunt.com/products/zro",
-   "value": "Abliterated open models for security work Discussion | Link",
-   "date": "2026-10-11"
-  },
-  {
-   "name": "LFM3 by Liquid AI",
-   "url": "https://www.producthunt.com/products/lfm2",
-   "value": "Six 2B-class models for phones, laptops and robots Discussion | Link",
+   "name": "Our Silly Games",
+   "url": "https://www.producthunt.com/products/our-silly-games",
+   "value": "Skills to build games with Claude. Free multiplayer hosting. Discussion | Link",
    "date": "2026-10-27"
   },
   {
-   "name": "Mudroom",
-   "url": "https://www.producthunt.com/products/mudroom-3",
-   "value": "Run coding agents in a VM, review changes like a PR Discussion | Link",
-   "date": "2026-10-12"
-  },
-  {
-   "name": "Dotverse",
-   "url": "https://www.producthunt.com/products/dotverse",
-   "value": "Your Dot now with a crew Discussion | Link",
-   "date": "2026-10-26"
-  },
-  {
-   "name": "OpenRadView",
-   "url": "https://www.producthunt.com/products/openradview",
-   "value": "Free, open-source viewer for your own CT, MRI and X-rays Discussion | Link",
-   "date": "2026-10-26"
-  },
-  {
-   "name": "GPT-6.1 Terra",
-   "url": "https://www.producthunt.com/products/openai",
-   "value": "Fast, capable computer use at half the price Discussion | Link",
-   "date": "2026-10-26"
-  },
-  {
-   "name": "Off Grid AI",
-   "url": "https://www.producthunt.com/products/off-grid-ai",
-   "value": "Private AI on your phone and computer. Discussion | Link",
-   "date": "2026-10-26"
-  },
-  {
-   "name": "TheySaid 4.0",
-   "url": "https://www.producthunt.com/products/theysaid",
-   "value": "See how users will react, right where you build. Discussion | Link",
-   "date": "2026-10-16"
-  },
-  {
-   "name": "ContextGem 1.0",
-   "url": "https://www.producthunt.com/products/contextgem",
-   "value": "Decision models join LLMs to extract data from documents Discussion | Link",
-   "date": "2026-10-26"
-  },
-  {
-   "name": "PulseDev",
-   "url": "https://www.producthunt.com/products/pulsedev",
-   "value": "Click any UI bug on localhost and your AI agent fixes it Discussion | Link",
-   "date": "2026-10-26"
-  },
-  {
-   "name": "Spacesheep",
-   "url": "https://www.producthunt.com/products/spacesheep",
-   "value": "Documents of the future, made by AI, read by your team Discussion | Link",
-   "date": "2026-10-22"
-  },
-  {
-   "name": "Coachare",
-   "url": "https://www.producthunt.com/products/coachare",
-   "value": "Your potential. Unlocked. Discussion | Link",
-   "date": "2026-10-20"
-  },
-  {
-   "name": "Revix AI",
-   "url": "https://www.producthunt.com/products/revix-ai-2",
-   "value": "AI code review that learns your repo's own rules Discussion | Link",
-   "date": "2026-10-26"
-  },
-  {
-   "name": "Overmind",
-   "url": "https://www.producthunt.com/products/overmind-2",
-   "value": "Open-source platform for continuous learning Discussion | Link",
-   "date": "2026-10-06"
-  },
-  {
-   "name": "NuPlay",
-   "url": "https://www.producthunt.com/products/nuplay",
-   "value": "AI transformation, run on one self-improving platform Discussion | Link",
-   "date": "2026-10-22"
-  },
-  {
-   "name": "Nuvio 5.0",
-   "url": "https://www.producthunt.com/products/nuvio",
-   "value": "Hand your financial admin to your AI agent Discussion | Link",
-   "date": "2026-10-26"
-  },
-  {
-   "name": "NINX",
-   "url": "https://www.producthunt.com/products/ninx-2",
-   "value": "Private On-device AI, connected tools, & creative workflows Discussion | Link",
-   "date": "2026-07-21"
-  },
-  {
-   "name": "AllModels",
-   "url": "https://www.producthunt.com/products/allmodels-io",
-   "value": "Explore every abliterated model Discussion | Link",
-   "date": "2026-10-25"
+   "name": "OpenLLM",
+   "url": "https://www.producthunt.com/products/openllm",
+   "value": "Take your AI tokens anywhere Discussion | Link",
+   "date": "2026-10-27"
   }
  ]
 }

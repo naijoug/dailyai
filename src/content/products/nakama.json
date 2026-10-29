@@ -1,0 +1,19 @@
+{
+  "id": "nakama",
+  "name": "Nakama",
+  "aliases": [],
+  "url": "https://ahmadrosid.github.io/nakama",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "每个 agent 有独立工作区、记忆、指令和工具；",
+  "oneLinerEn": "each agent gets its own workspace, memory, instructions and tools;",
+  "score": 3,
+  "firstSeen": "2026-10-29",
+  "updated": "2026-10-29",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

@@ -8,7 +8,8 @@
     "Vox",
     "Anthropic launches reporting tools to sh",
     "Symantec",
-    "Addy Osmani"
+    "Addy Osmani",
+    "Claude Code burns ~15–20% of tokens on a"
   ],
   "url": "https://claude.com/product/claude-code",
   "domains": [
@@ -110,7 +111,7 @@
       "badge": "OpenRouter",
       "rank": 3,
       "metric": "经 OpenRouter 的 token 总量（本周）",
-      "value": "11.08T tokens",
+      "value": "11.92T tokens",
       "date": "2026-10-29",
       "url": "https://openrouter.ai/rankings#apps",
       "snap": "openrouter-apps-week/2026-10-29"

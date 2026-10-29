@@ -1,0 +1,17 @@
+{
+  "id": "flatbread",
+  "name": "Flatbread",
+  "aliases": [],
+  "url": "https://flatbread.io/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "把 Claude Code、Codex、Cursor、OpenCode、Gemini CLI、Copilot CLI 或 Cline 的会话收成一个链接——问了什么、每一步、哪里坏",
+  "oneLinerEn": "turns a Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Copilot CLI or Cline session int",
+  "score": 4,
+  "firstSeen": "2026-10-29",
+  "updated": "2026-10-29",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

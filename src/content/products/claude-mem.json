@@ -1,0 +1,19 @@
+{
+  "id": "claude-mem",
+  "name": "claude-mem",
+  "aliases": [],
+  "url": "https://claude-mem.ai",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "开源引擎（约 10.4 万 GitHub star）捕获 agent 会话中的操作，用 AI 压缩后把相关记忆注入后续会话；",
+  "oneLinerEn": "open-source engine (~104k GitHub stars) that captures what an agent does in a session, com",
+  "score": 3,
+  "firstSeen": "2026-10-29",
+  "updated": "2026-10-29",
+  "tags": [
+    "Models",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

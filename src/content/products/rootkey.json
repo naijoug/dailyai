@@ -1,0 +1,19 @@
+{
+  "id": "rootkey",
+  "name": "小密盾（RootKey）",
+  "aliases": [],
+  "url": "https://rootkey.bitbeam.cn/",
+  "category": "其他",
+  "region": "cn",
+  "oneLiner": "一次买断（¥69 起）、无需注册，库只放你自己的 WebDAV/iCloud/Dropbox/本地或同 Wi‑Fi 直连；",
+  "oneLinerEn": "one-time purchase from ¥69, no account;",
+  "score": 4,
+  "firstSeen": "2026-10-29",
+  "updated": "2026-10-29",
+  "tags": [
+    "Dev Tools",
+    "Open Source",
+    "Chinese Community"
+  ],
+  "rankings": []
+}
