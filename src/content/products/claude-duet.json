@@ -1,0 +1,22 @@
+{
+  "id": "claude-duet",
+  "name": "Claude Duet",
+  "aliases": [
+    "Claude Duet",
+    "Anthropic Duet"
+  ],
+  "url": "https://claude.com/product/claude-duet",
+  "category": "对话助手",
+  "region": "global",
+  "maker": "Anthropic",
+  "oneLiner": "Anthropic 的主动型个人 Agent（研究预览）：每天早上做简报、在收件箱和日历里标出需要你处理的事并起草回复，Opus 5.5 驱动",
+  "oneLinerEn": "Anthropic's proactive personal agent (research preview): it briefs you each morning, flags what needs you in your inbox and calendar and drafts replies, powered by Opus 5.5.",
+  "score": 4,
+  "firstSeen": "2026-10-22",
+  "updated": "2026-10-29",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}
