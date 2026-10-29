@@ -21,9 +21,9 @@ Anthropic 披露未发布的 Claude 串起 Chrome 等多平台漏洞链，谷歌
 
 🆕 今日新品：Claude Managed Agents、Genie 4、Ghostty 1.4 +5
 
-🎙 访谈与播客：Latent Space
+🎙 访谈与播客：AI炼金术、How I AI、Latent Space
 
-AI Hot 23 · Tech 20 · 访谈/播客 1 · ⭐ 22 条高分
+AI Hot 23 · Tech 20 · 访谈/播客 3 · ⭐ 22 条高分
 
 [→ 查看当天详情](2026/10/2026-10-28.md)
 
@@ -87,7 +87,7 @@ AI Hot 30 · Tech 26 · ⭐ 19 条高分
 
 PHP2Shell 被证实披露前已遭利用，LiteLLM 投毒、GitLab 满分漏洞接连；Claude Duet 发布，1Password 让 agent 免看密码登录。
 
-🆕 今日新品：1Password for Agents、Claude for Google Workspace、Cline +15
+🆕 今日新品：1Password for Agents、Claude Duet、Claude for Google Workspace +16
 
 🎙 访谈与播客：The MAD Podcast
 
@@ -263,6 +263,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [AI炼金术：找刚入职 Manus 的余一聊感受：好快乐啊，好快乐啊，好快乐啊](2026/10/2026-10-28.md#interviews) — 播客 · 2026-10-28 · [原文](https://www.ximalaya.com/sound/1028338072)
+- [How I AI：Grok、Dot、Muse、Claude Duet 正面对比：谁能胜出？](2026/10/2026-10-28.md#interviews) — 播客 · 2026-10-28 · [原文](https://podcasters.spotify.com/pod/show/pen-name/episodes/Grok-vs--Dot-vs--Muse-vs--Claude-Duet-which-one-crushes-the-competition-e3r6ksv)
 - [Latent Space：Anthropic 如何用 Claude 发布 Claude：把“大脑”和“双手”分开](2026/10/2026-10-28.md#interviews) — 播客 · 2026-10-28 · [原文](https://www.latent.space/p/opus55)
 - [潜云思绪（Founder Park 转载）：用 Manus 改造 Manus，AI Native 组织改造的实践和思考](2026/10/2026-10-27.md#interviews) — 访谈 · 2026-10-27 · [原文](https://mp.weixin.qq.com/s/I_hNNAf7LFBf5nJ0rEJHig)
 - [Founder Park：对话K2 Lab王铭：Muse帮人省钱，Moras帮人赚钱，这才是垂直赛道Personal AI的刚需](2026/10/2026-10-27.md#interviews) — 访谈 · 2026-10-27 · [原文](https://mp.weixin.qq.com/s/arAQ2_JL2_7Au-VdndQu3A)
