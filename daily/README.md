@@ -7,11 +7,11 @@
 
 ### 2026-10-29 · 星期四
 
-Gemini 4 Carbon 登顶、Copilot Fusion 与 ChatGPT 送 API 额度；午间 DeepSeek/月之暗面被指蒸馏 Astra；晚间 Addy 谈少提示、NVIDIA 开源 SkillSpector、Amp 可起 Mac。
+Carbon 登顶、Copilot Fusion 上线；指称 DeepSeek/月之暗面蒸馏 Astra；Claude Code 摘要烧掉约两成额度。
 
-🆕 今日新品：Yardlet、DeepTutor、licenseal +1
+🆕 今日新品：Flatbread、Nori、小密盾（RootKey） +6
 
-AI Hot 26 · Tech 10 · ⭐ 19 条高分
+AI Hot 26 · Tech 22 · ⭐ 24 条高分
 
 [→ 查看当天详情](2026/10/2026-10-29.md)
 
