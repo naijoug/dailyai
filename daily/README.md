@@ -7,9 +7,11 @@
 
 ### 2026-10-29 · 星期四
 
-谷歌发布 Gemini 4 Carbon 登顶 AA 指数，先给网络安全防御方；GitHub Universe 推出 Copilot Fusion；ChatGPT Pro/Business 每月送最高 500 美元 API 额度。
+谷歌发布 Gemini 4 Carbon 登顶 AA 指数，GitHub 推出 Copilot Fusion；一段指纹脚本塞满违禁词专门让 AI 拒绝反混淆，英伟达开源 Nemotron 3.5 Transcribe。
 
-AI Hot 9 · ⭐ 6 条高分
+🆕 今日新品：Yardlet、DeepTutor、licenseal +1
+
+AI Hot 9 · Tech 10 · ⭐ 9 条高分
 
 [→ 查看当天详情](2026/10/2026-10-29.md)
 
