@@ -1,7 +1,10 @@
 {
   "id": "tencent-drive",
-  "name": "腾讯网盘开启内测",
-  "aliases": [],
+  "name": "腾讯网盘",
+  "aliases": [
+    "腾讯网盘开启内测",
+    "Tencent Drive"
+  ],
   "url": "https://drive.tencent.com/",
   "category": "办公",
   "region": "cn",
