@@ -5,6 +5,14 @@
 
 ## 2026 年 10 月
 
+### 2026-10-29 · 星期四
+
+谷歌发布 Gemini 4 Carbon 登顶 AA 指数，先给网络安全防御方；GitHub Universe 推出 Copilot Fusion；ChatGPT Pro/Business 每月送最高 500 美元 API 额度。
+
+AI Hot 9 · ⭐ 6 条高分
+
+[→ 查看当天详情](2026/10/2026-10-29.md)
+
 ### 2026-10-28 · 星期三
 
 Anthropic 披露未发布的 Claude 串起 Chrome 等多平台漏洞链，谷歌发布 Genie 4；macOS 自带 git 仍信任被攻破的 eMudhra 证书，EDK II 曝 UEFI 预启动 RCE。
