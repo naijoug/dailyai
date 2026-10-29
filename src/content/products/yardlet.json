@@ -1,0 +1,19 @@
+{
+  "id": "yardlet",
+  "name": "Yardlet",
+  "aliases": [],
+  "url": "https://yardlet.app",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "用各自的 CLI 和登录启动 Codex、Claude Code、OpenCode 等，统一到一个侧边栏、输入框和一套审批卡片里；",
+  "oneLinerEn": "it launches Codex, Claude Code, OpenCode and others with their own CLI and sign-in, and pu",
+  "score": 4,
+  "firstSeen": "2026-10-29",
+  "updated": "2026-10-29",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Products"
+  ],
+  "rankings": []
+}

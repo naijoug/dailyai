@@ -1,0 +1,15 @@
+{
+  "id": "tencent-drive",
+  "name": "腾讯网盘开启内测",
+  "aliases": [],
+  "url": "https://drive.tencent.com/",
+  "category": "办公",
+  "region": "cn",
+  "oneLiner": "主打连接企业微信、腾讯会议和主流 AI 工具，各 AI 应用的产出统一落盘、沉淀为长期记忆，换一端或换一个 AI 能接着上次进度继续；",
+  "oneLinerEn": "it connects WeCom, Tencent Meeting and mainstream AI tools, saves every AI app's output in",
+  "score": 3,
+  "firstSeen": "2026-10-29",
+  "updated": "2026-10-29",
+  "tags": [],
+  "rankings": []
+}

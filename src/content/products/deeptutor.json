@@ -1,0 +1,19 @@
+{
+  "id": "deeptutor",
+  "name": "DeepTutor",
+  "aliases": [],
+  "url": "https://deeptutor.info/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "辅导对话、出题、研究、可视化、掌握路径和沉浸式阅读（支持 YouTube/B 站字幕）共用一套运行时和记忆；",
+  "oneLinerEn": "tutoring chat, quizzes, research, visualization, mastery paths and immersive reading (with",
+  "score": 3,
+  "firstSeen": "2026-10-29",
+  "updated": "2026-10-29",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

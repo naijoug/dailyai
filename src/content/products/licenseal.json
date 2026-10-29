@@ -1,0 +1,18 @@
+{
+  "id": "licenseal",
+  "name": "licenseal",
+  "aliases": [],
+  "url": "https://licenseal.shcherbak.ai/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "免费开源（Apache-2.0）的命令行工具，在 10 个生态里把每个依赖（含传递依赖）的许可证与项目自身许可证比对；",
+  "oneLinerEn": "a free, open-source (Apache-2.0) CLI that checks every dependency license, transitive ones",
+  "score": 3,
+  "firstSeen": "2026-10-29",
+  "updated": "2026-10-29",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

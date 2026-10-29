@@ -3,7 +3,10 @@
   "name": "Claude Code",
   "aliases": [
     "Claude Code",
-    "Anthropic study"
+    "Anthropic study",
+    "Simon Willison",
+    "Vox",
+    "Anthropic launches reporting tools to sh"
   ],
   "url": "https://claude.com/product/claude-code",
   "domains": [
@@ -16,7 +19,7 @@
   "oneLinerEn": "Anthropic's terminal / IDE coding agent that understands the whole codebase and makes changes.",
   "score": 5,
   "firstSeen": "2026-10-10",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "tags": [
     "Dev Tools",
     "Agents"
@@ -98,6 +101,17 @@
       "date": "2026-10-28",
       "url": "https://openrouter.ai/rankings#apps",
       "snap": "openrouter-apps-week/2026-10-28"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 3,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "11.08T tokens",
+      "date": "2026-10-29",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-29"
     }
   ]
 }
