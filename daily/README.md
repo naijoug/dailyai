@@ -7,11 +7,11 @@
 
 ### 2026-10-30 · 星期五
 
-OpenAI 取消 Pro 降额并公开模型监控体系，Mistral Large 4 开放权重；承包商的 Claude Code 在五角大楼网络跑了两个月引发警示。
+Cursor 恶意 Claude Code 扩展植入 SSH 后门；OpenAI 取消 Pro 降额并公开监控；Mistral Large 4 开源；Claude 禁复刻特定游戏。
 
-🆕 今日新品：Simantic (YC F26)、CopilotKit OpenBot
+🆕 今日新品：Factory ships Droid 1.0、Simantic (YC F26)、CopilotKit OpenBot
 
-AI Hot 20 · Tech 11 · ⭐ 14 条高分
+AI Hot 27 · Tech 11 · ⭐ 18 条高分
 
 [→ 查看当天详情](2026/10/2026-10-30.md)
 
