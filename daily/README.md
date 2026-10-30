@@ -7,11 +7,11 @@
 
 ### 2026-10-30 · 星期五
 
-Mistral 开放 Large 4 权重、OpenAI 撤回 Pro 降额；币安疑遭数十亿美元盗币，Langflow 曝可经 MCP 触发的未授权 RCE。
+OpenAI 取消 Pro 降额并公开模型监控体系，Mistral Large 4 开放权重；承包商的 Claude Code 在五角大楼网络跑了两个月引发警示。
 
 🆕 今日新品：Simantic (YC F26)、CopilotKit OpenBot
 
-AI Hot 10 · Tech 11 · ⭐ 10 条高分
+AI Hot 20 · Tech 11 · ⭐ 14 条高分
 
 [→ 查看当天详情](2026/10/2026-10-30.md)
 
