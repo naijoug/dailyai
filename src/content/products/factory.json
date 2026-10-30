@@ -1,0 +1,18 @@
+{
+  "id": "factory",
+  "name": "Factory ships Droid 1.0",
+  "aliases": [],
+  "url": "https://factory.com/news/frontier-harness",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "不再一轮模型只调一次工具，而是让 agent 在沙箱里写一段 JavaScript，单次请求可跑上百次工具调用。",
+  "oneLinerEn": "instead of one tool call per model turn, the agent writes a sandboxed JavaScript program t",
+  "score": 4,
+  "firstSeen": "2026-10-30",
+  "updated": "2026-10-30",
+  "tags": [
+    "Models",
+    "Agents"
+  ],
+  "rankings": []
+}
