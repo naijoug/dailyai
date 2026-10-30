@@ -19,9 +19,11 @@ AI Hot 10 · Tech 11 · ⭐ 10 条高分
 
 Carbon 登顶、Copilot Fusion 上线；指称 DeepSeek/月之暗面蒸馏 Astra；Claude Code 摘要烧掉约两成额度。
 
-🆕 今日新品：Flatbread、Nori、小密盾（RootKey） +6
+🆕 今日新品：Flatbread、Nori、小密盾（RootKey） +7
 
-AI Hot 26 · Tech 22 · ⭐ 24 条高分
+🎙 访谈与播客：The MAD Podcast、Cheeky Pint (Stripe)、No Priors
+
+AI Hot 26 · Tech 22 · 访谈/播客 3 · ⭐ 24 条高分
 
 [→ 查看当天详情](2026/10/2026-10-29.md)
 
@@ -273,6 +275,9 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [The MAD Podcast：2026 AI 现状报告：年度大事与 2027 年 AGI？| Nathan Benaich](2026/10/2026-10-29.md#interviews) — 播客 · 2026-10-29 · [原文](https://podcasters.spotify.com/pod/show/firstmark/episodes/State-of-AI-2026-The-Biggest-Stories-of-the-Year-and-AGI-in-2027---Nathan-Benaich-e3rbhc9)
+- [Cheeky Pint (Stripe)：Sam Altman 为什么反对单一的超级智能](2026/10/2026-10-29.md#interviews) — 播客 · 2026-10-29 · [原文](https://share.transistor.fm/s/92f18066)
+- [No Priors：挑战 ServiceNow：Serval 联合创始人兼 CEO Jake Stauch 谈让所有人用上编码 Agent](2026/10/2026-10-29.md#interviews) — 播客 · 2026-10-29 · [原文](https://podcasts.apple.com/us/podcast/taking-on-servicenow-coding-agents-the-rest-of-us/id1668002688?i=1000798684005)
 - [AI炼金术：找刚入职 Manus 的余一聊感受：好快乐啊，好快乐啊，好快乐啊](2026/10/2026-10-28.md#interviews) — 播客 · 2026-10-28 · [原文](https://www.ximalaya.com/sound/1028338072)
 - [How I AI：Grok、Dot、Muse、Claude Duet 正面对比：谁能胜出？](2026/10/2026-10-28.md#interviews) — 播客 · 2026-10-28 · [原文](https://podcasters.spotify.com/pod/show/pen-name/episodes/Grok-vs--Dot-vs--Muse-vs--Claude-Duet-which-one-crushes-the-competition-e3r6ksv)
 - [Latent Space：Anthropic 如何用 Claude 发布 Claude：把“大脑”和“双手”分开](2026/10/2026-10-28.md#interviews) — 播客 · 2026-10-28 · [原文](https://www.latent.space/p/opus55)
