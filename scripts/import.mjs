@@ -8,7 +8,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { loadProducts, saveProduct, findProduct, loadAliases, isSocial, normUrl, normName, slugify, CATEGORIES } from './lib/products.mjs';
+import { loadProducts, saveProduct, findProduct, loadAliases, isSocial, normUrl, normName, slugify, CATEGORIES, isPlausibleProductAlias } from './lib/products.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'src/content/posts');
@@ -202,7 +202,17 @@ function registerProduct(pr, day, products, aliases) {
     if (!p.firstSeen || day < p.firstSeen) p.firstSeen = day;
     if (!p.updated || day > p.updated) p.updated = day;
     if (pr.category && CATEGORIES.includes(pr.category) && p.category === '其他') p.category = pr.category;
-    if (name && normName(name) !== normName(p.name) && !(p.aliases || []).some((a) => normName(a) === normName(name)) && !(aliases[p.id] || []).some((a) => normName(a) === normName(name))) p.aliases = [...(p.aliases || []), name];
+    // Aliases = alternate product names only. Bold item titles on news/[P:slug] rows are often
+    // outlets (WIRED) or headlines — never store those. Prefer ## 新产品; otherwise require
+    // the candidate to overlap the product name/id so unrelated bylines (Tibo, Vox) are dropped.
+    if (name && normName(name) !== normName(p.name) && !(p.aliases || []).some((a) => normName(a) === normName(name)) && !(aliases[p.id] || []).some((a) => normName(a) === normName(name))) {
+      const overlap = () => {
+        const a = normName(name); if (!a) return false;
+        const pool = [p.name, p.id, ...(p.aliases || [])].map(normName).filter(Boolean);
+        return pool.some((x) => x.includes(a) || a.includes(x));
+      };
+      if (isPlausibleProductAlias(name, p) && (pr.inSection || overlap())) p.aliases = [...(p.aliases || []), name];
+    }
     if (!p.score && pr.score) p.score = pr.score;
     console.log(`  · 更新产品 ${p.id}（firstSeen ${p.firstSeen}）`);
   }

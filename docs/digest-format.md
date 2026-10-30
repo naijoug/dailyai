@@ -129,7 +129,7 @@
 2. 官网 URL 规范化（小写、去 `www.`、去 query/hash/末尾斜杠）后做**最长前缀匹配**，同时比对产品的 `url` 和备用 `domains`。例：`doubao.com/work/...` 归到「豆包工作」，`doubao.com/chat` 归到「豆包」；`kilocode.ai/...` 归到 `kilo-code`。
 3. 名称规范化（去掉「｜公司」「 - 副标题」后缀、空白和标点，小写）后对比产品名、`aliases` 和别名表 `src/data/product-aliases.json`（例：`豆包` = `Doubao` = `豆包｜抖音`）。
 
-命中已有产品时**不覆盖**已有字段，只会：`firstSeen` 取更早的日期、`updated` 取更晚的日期、补上缺失的评分、把新出现的名称写进 `aliases`。`firstSeen`（北京时间日期）决定首页日卡片上的「今日新产品」和 /products/ 的「本周新上榜」。
+命中已有产品时**不覆盖**已有字段，只会：`firstSeen` 取更早的日期、`updated` 取更晚的日期、补上缺失的评分；若加粗名称看起来像真正的产品别名（短、非媒体/社群名、非新闻标题），才会写入 `aliases`。新闻条目里的 `**WIRED：…**`、人名 byline、HN/V2EX 标题等**不会**进别名。`firstSeen`（北京时间日期）决定首页日卡片上的「今日新产品」和 /products/ 的「本周新上榜」。
 
 ## 榜单快照（`scripts/products-refresh.mjs`，由每日 tech digest 调用）
 

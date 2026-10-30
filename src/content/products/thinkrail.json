@@ -1,9 +1,7 @@
 {
   "id": "thinkrail",
   "name": "ThinkRail",
-  "aliases": [
-    "V2EX"
-  ],
+  "aliases": [],
   "url": "https://thinkrail.ai/",
   "category": "编程/Agent",
   "region": "global",

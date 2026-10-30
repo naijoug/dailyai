@@ -28,6 +28,37 @@ export function normName(s = '') {
 const SOCIAL = /(^|\.)((x|twitter|youtube|youtu|github|weixin\.qq|mp\.weixin\.qq|t|bilibili|reddit|news\.ycombinator|linkedin|threads|producthunt|huggingface)\.(com|be|co|net)|t\.co)$/;
 export const isSocial = (u) => { const n = normUrl(u); return !n || SOCIAL.test(n.host) || n.host === 'mp.weixin.qq.com'; };
 
+// Media / community / wire outlets that appear as bold item titles (e.g. **WIRED：…**)
+// and must never be stored as product aliases.
+const MEDIA_OUTLETS = new Set([
+  'wired', 'reuters', 'bloomberg', 'techcrunch', 'the verge', 'verge', 'hn', 'hacker news',
+  'ars technica', 'forbes', 'cnn', 'bbc', 'nyt', 'new york times', 'wsj', 'wall street journal',
+  'financial times', 'ft', 'axios', 'the information', 'venturebeat', 'cnbc',
+  'mit technology review', 'nature', 'science', '36氪', '虎嗅', '极客公园', '量子位', '机器之心',
+  'infoq', '少数派', '钛媒体', '雷峰网', '晚点', '智东西', '爱范儿', 'solidot', 'v2ex',
+  'linuxdo', 'linux.do', 'reddit', 'product hunt', 'symantec', 'vox', 'github blog',
+  'techweb', 'it之家', '开源中国', 'segmentfault', 'lobsters', 'fortune', 'the register',
+].map((s) => s.toLowerCase()));
+
+/** True if `name` looks like a real alternate product name (not a news headline / outlet / byline). */
+export function isPlausibleProductAlias(name, product = null) {
+  const n = String(name || '').trim();
+  if (!n) return false;
+  // Product names are short; import also slices to 40, so headlines often land near that cap.
+  if (n.length > 28) return false;
+  if (MEDIA_OUTLETS.has(n.toLowerCase())) return false;
+  // Headline / changelog phrasing (EN + ZH)
+  if (/(推出|上线|开启内测|解读|实测|怎么|发布会|宣布|launches?\b|adds?\b|ships?\b|announces?\b|doubles?\b|burns?\b|winding\b|folding\b|halves?\b|subscribers\b|will get\b|catches?\b)/i.test(n)) return false;
+  if (n.split(/\s+/).filter(Boolean).length >= 5) return false;
+  // "Simon Willison" / "Addy Osmani" style bylines with no overlap against the product
+  if (product && /^[A-Z][a-z]+(?:\s+[A-Z][a-z.'’-]+)+$/.test(n)) {
+    const a = normName(n);
+    const pool = [product.name, product.id, ...(product.aliases || [])].map(normName).filter(Boolean);
+    if (!pool.some((p) => p.includes(a) || a.includes(p))) return false;
+  }
+  return true;
+}
+
 export function loadAliases() {
   try { return JSON.parse(fs.readFileSync(ALIAS_FILE, 'utf8')); } catch { return {}; }
 }
