@@ -7,9 +7,11 @@
 
 ### 2026-10-30 · 星期五
 
-OpenAI 取消 Pro 降额且用量翻倍，Mistral Large 4 开放权重，Jules 并入 Antigravity；Spawn 月烧 310 万美元 token 的长文刷屏。
+Mistral 开放 Large 4 权重、OpenAI 撤回 Pro 降额；币安疑遭数十亿美元盗币，Langflow 曝可经 MCP 触发的未授权 RCE。
 
-AI Hot 10 · ⭐ 6 条高分
+🆕 今日新品：Simantic (YC F26)、CopilotKit OpenBot
+
+AI Hot 10 · Tech 11 · ⭐ 10 条高分
 
 [→ 查看当天详情](2026/10/2026-10-30.md)
 
