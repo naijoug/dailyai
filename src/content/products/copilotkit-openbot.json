@@ -1,0 +1,19 @@
+{
+  "id": "copilotkit-openbot",
+  "name": "CopilotKit OpenBot",
+  "aliases": [],
+  "url": "https://www.copilotkit.ai/openbot",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "形态类似 ChatGPT/Claude，但每个「同事」有自己带登录态的真实浏览器、文件和你授权的工具，每个动作先审批后留痕；",
+  "oneLinerEn": "ChatGPT/Claude-shaped assistant where each coworker gets a real browser with its own login",
+  "score": 3,
+  "firstSeen": "2026-10-30",
+  "updated": "2026-10-30",
+  "tags": [
+    "Models",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "simantic",
+  "name": "Simantic (YC F26)",
+  "aliases": [],
+  "url": "https://simantic.com",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "前 Neuralink/特斯拉固件工程师打造，虚拟单片机一个 API 调用就能跑（TypeScript/Python，CLI 和 MCP 即将推出），每次提交在 CI 里对仿真 M",
+  "oneLinerEn": "ex-Neuralink/Tesla firmware engineers built virtual microcontrollers you run with one API ",
+  "score": 4,
+  "firstSeen": "2026-10-30",
+  "updated": "2026-10-30",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

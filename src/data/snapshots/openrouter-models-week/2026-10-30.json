@@ -1,0 +1,114 @@
+{
+ "source": "openrouter",
+ "sourceName": "OpenRouter",
+ "kind": "models",
+ "badge": "OpenRouter 模型",
+ "list": "Models · 本周 token 用量（页面前 20）",
+ "metric": "prompt + completion tokens（本周）",
+ "url": "https://openrouter.ai/rankings",
+ "period": "2026-10-30",
+ "fetched": "2026-10-30T01:28:43.159Z",
+ "note": "按页面给出的本周 token 总量排序。",
+ "rows": [
+  {
+   "rank": 1,
+   "name": "deepseek/deepseek-v4.1-flash-20261017",
+   "value": "42.42T tokens"
+  },
+  {
+   "rank": 2,
+   "name": "deepseek/deepseek-v4.1-flash-20260910",
+   "value": "15.88T tokens"
+  },
+  {
+   "rank": 3,
+   "name": "z-ai/glm-5.3-flash-20260826",
+   "value": "15.61T tokens"
+  },
+  {
+   "rank": 4,
+   "name": "openai/gpt-6-luna-20260922",
+   "value": "11.36T tokens"
+  },
+  {
+   "rank": 5,
+   "name": "tencent/hy4-preview-20260827",
+   "value": "9.18T tokens"
+  },
+  {
+   "rank": 6,
+   "name": "anthropic/claude-opus-5.5-20260921",
+   "value": "7.84T tokens"
+  },
+  {
+   "rank": 7,
+   "name": "stepfun/step-5-preview-20261008",
+   "value": "5.93T tokens"
+  },
+  {
+   "rank": 8,
+   "name": "z-ai/glm-5.3-20260816",
+   "value": "4.90T tokens"
+  },
+  {
+   "rank": 9,
+   "name": "minimax/minimax-m3.1-flash-20261019",
+   "value": "4.12T tokens"
+  },
+  {
+   "rank": 10,
+   "name": "deepseek/deepseek-v4-flash-20260731",
+   "value": "3.99T tokens"
+  },
+  {
+   "rank": 11,
+   "name": "nvidia/nemotron-3-ultra-550b-a55b-20260604 (free)",
+   "value": "3.92T tokens"
+  },
+  {
+   "rank": 12,
+   "name": "openai/gpt-6.1-sol-20260929",
+   "value": "3.75T tokens"
+  },
+  {
+   "rank": 13,
+   "name": "xiaomi/mimo-v2.6-flash-20260921",
+   "value": "3.58T tokens"
+  },
+  {
+   "rank": 14,
+   "name": "typesafe/jev-1.13-20260917",
+   "value": "3.20T tokens"
+  },
+  {
+   "rank": 15,
+   "name": "tencent/hy3-20260706",
+   "value": "3.05T tokens"
+  },
+  {
+   "rank": 16,
+   "name": "deepseek/deepseek-v4-flash-20260423",
+   "value": "2.84T tokens"
+  },
+  {
+   "rank": 17,
+   "name": "meta/muse-spark-1.3-contributor-20260902",
+   "value": "2.64T tokens"
+  },
+  {
+   "rank": 18,
+   "name": "anthropic/claude-sonnet-5.5-20260928",
+   "value": "2.63T tokens"
+  },
+  {
+   "rank": 19,
+   "name": "anthropic/claude-haiku-5.5-20261007",
+   "value": "2.60T tokens"
+  },
+  {
+   "rank": 20,
+   "name": "openai/gpt-5.6-luna-20260709",
+   "value": "2.24T tokens"
+  }
+ ]
+}

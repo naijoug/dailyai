@@ -1,0 +1,133 @@
+{
+ "source": "aa",
+ "sourceName": "Artificial Analysis",
+ "kind": "models",
+ "badge": "AA Index",
+ "list": "Intelligence Index（前 20）",
+ "metric": "Artificial Analysis Intelligence Index（综合多项评测）",
+ "url": "https://artificialanalysis.ai/leaderboards/models",
+ "period": "2026-10-30",
+ "fetched": "2026-10-30T01:28:43.159Z",
+ "rows": [
+  {
+   "rank": 1,
+   "name": "Gemini 4 Carbon (High)",
+   "org": "Google",
+   "value": "59.4"
+  },
+  {
+   "rank": 2,
+   "name": "Claude Opus 5.5 (Max, Default Fallback)",
+   "org": "Anthropic",
+   "value": "58.4"
+  },
+  {
+   "rank": 3,
+   "name": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+   "org": "Anthropic",
+   "value": "57.0"
+  },
+  {
+   "rank": 4,
+   "name": "GPT-6 Astra (Max)",
+   "org": "OpenAI",
+   "value": "56.9"
+  },
+  {
+   "rank": 5,
+   "name": "GPT-6 Astra (Xhigh)",
+   "org": "OpenAI",
+   "value": "55.3"
+  },
+  {
+   "rank": 6,
+   "name": "GPT-6 Astra (High)",
+   "org": "OpenAI",
+   "value": "54.8"
+  },
+  {
+   "rank": 7,
+   "name": "GPT-6.1 Sol (Max)",
+   "org": "OpenAI",
+   "value": "54.5"
+  },
+  {
+   "rank": 8,
+   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+   "org": "Anthropic",
+   "value": "54.2"
+  },
+  {
+   "rank": 9,
+   "name": "GPT-6.1 Sol (Xhigh)",
+   "org": "OpenAI",
+   "value": "52.3"
+  },
+  {
+   "rank": 10,
+   "name": "Claude Opus 5.5 (High, Default Fallback)",
+   "org": "Anthropic",
+   "value": "51.7"
+  },
+  {
+   "rank": 11,
+   "name": "GPT-6 Astra (Medium)",
+   "org": "OpenAI",
+   "value": "51.5"
+  },
+  {
+   "rank": 12,
+   "name": "GPT-6.1 Terra (Max)",
+   "org": "OpenAI",
+   "value": "51.0"
+  },
+  {
+   "rank": 13,
+   "name": "Gemini 4 Argon (High)",
+   "org": "Google",
+   "value": "50.4"
+  },
+  {
+   "rank": 14,
+   "name": "GPT-6.1 Sol (High)",
+   "org": "OpenAI",
+   "value": "50.2"
+  },
+  {
+   "rank": 15,
+   "name": "Muse Wonder Full (Max)",
+   "org": "Meta",
+   "value": "49.7"
+  },
+  {
+   "rank": 16,
+   "name": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+   "org": "Anthropic",
+   "value": "49.7"
+  },
+  {
+   "rank": 17,
+   "name": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
+   "org": "Anthropic",
+   "value": "49.6"
+  },
+  {
+   "rank": 18,
+   "name": "Claude Fable 5.1 (Max, Default Fallback)",
+   "org": "Anthropic",
+   "value": "49.0"
+  },
+  {
+   "rank": 19,
+   "name": "Claude Opus 5.5 (Medium, Default Fallback)",
+   "org": "Anthropic",
+   "value": "48.1"
+  },
+  {
+   "rank": 20,
+   "name": "Claude Fable 5.1 (High, Default Fallback)",
+   "org": "Anthropic",
+   "value": "47.0"
+  }
+ ]
+}
