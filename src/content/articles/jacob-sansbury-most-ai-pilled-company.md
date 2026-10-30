@@ -1,0 +1,365 @@
+---
+title: "How I Built the Most AI-Pilled Company in the World"
+title_tr: "我如何打造世界上最 AI 化的公司"
+author: "jacob (Jacob Sansbury)"
+handle: "jsnnsa"
+source_url: "https://x.com/i/article/2115540320373104640"
+published: "2026-10-29T01:54:55Z"
+lang: "en"
+day: "2026-10-30"
+item: "x-ai-2026-10-30-0915-7"
+---
+
+Spawn is ten people. We spend 30x payroll on AI tokens and ship almost as much as Anthropic.
+
+> [zh] Spawn 只有十个人。我们在 AI token 上的花费是工资总额的 30 倍，交付量几乎和 Anthropic 一样多。
+
+In the last 30 days, Spawn shipped 77,000 substantial changes. That's about 108 an hour, around the clock. We're a team of ten.
+
+> [zh] 过去 30 天，Spawn 交付了 77,000 个实质性改动，相当于全天候每小时约 108 个。我们团队只有十个人。
+
+The work is done by what we call the fleet, a team of permanent AI agents that each own a part of the company, from the engine to finance to bug triage. We spent $3.1 million on tokens last month, which makes us one of Anthropic's biggest customers. Even without the free Opus 5.5 we give our creators, we'd still be in their top 250.
+
+> [zh] 这些工作由我们称为「舰队」（the fleet）的一组常驻 AI agent 完成，每个 agent 负责公司的一块，从引擎到财务再到 bug 分诊。上个月我们在 token 上花了 310 万美元，这让我们成了 Anthropic 最大的客户之一。即使不算我们免费提供给创作者的 Opus 5.5，我们仍会排进他们的前 250 名。
+
+My first thought was that we were doing something wrong. So I had chats with some of my friends who run the biggest companies and startups to figure out how we could possibly be spending more than them. We weren't doing anything wrong, we just think about AI very differently. Most companies run big human teams that use AI, and we run a small human team alongside a big team of agents. To figure out what we were doing differently, I compared notes with a researcher at Anthropic. They talk to a lot of customers. They said Spawn is the one that works most like Anthropic.
+
+> [zh] 我的第一反应是我们哪里做错了。于是我和一些经营大公司和创业公司的朋友聊，想弄清我们怎么可能比他们花得还多。我们没做错什么，只是对 AI 的思考方式非常不同。大多数公司是大规模的人类团队在使用 AI，而我们是一个小型人类团队与一大支 agent 团队并肩工作。为了弄清我们有何不同，我和 Anthropic 的一位研究员对了对笔记。他们接触很多客户。他们说 Spawn 是工作方式最像 Anthropic 的那一家。
+
+A lot of other founders wanted to understand how we think about this, so I've collected my ideas and learnings from the last year and written them down here for you.
+
+> [zh] 很多其他创始人想了解我们是怎么想的，所以我把过去一年的想法和心得整理下来，写在这里给你们。
+
+## It didn't work until Anthropic released Fable
+
+> [zh] 直到 Anthropic 发布 Fable 之前，这一切都行不通
+
+Since Fable came out, we've spent a large part of this year rediscovering how to build products from first principles. We now ship 500x more than we did 6 months ago.
+
+> [zh] 自 Fable 发布以来，今年大部分时间我们都在从第一性原理重新摸索如何做产品。我们现在的交付量是 6 个月前的 500 倍。
+
+To give you an idea of the scale I'm talking about, we shipped 77k (substantial) changes to players in the last 30 days. That's an average of 108/hr to players. We spent $3.1 million on tokens to do it.
+
+> [zh] 为了让你感受我说的规模：过去 30 天我们向玩家交付了 7.7 万个（实质性）改动，平均每小时 108 个。为此我们在 token 上花了 310 万美元。
+
+Most people run agents in Claude Code, short-lived and focused on one task. Ours are different, and we call them the fleet. Each one is permanent, has a name and a memory of what it has done, has real permissions in our systems, makes commitments, and owns an area of the company like the engine, Savi, ops, finance, bug triage or deploys. Each uses swarms of helper agents to get through a massive amount of work, and most days the fleet births 1,000s of them. The five of us also work with our modified Claude Code directly, on bigger, more ambitious projects that need closer steering or hands-on experimenting.
+
+> [zh] 大多数人在 Claude Code 里跑 agent，生命周期短、专注于单个任务。我们的不一样，我们称之为「舰队」。每个 agent 都是常驻的，有名字、有关于自己做过什么的记忆，在我们的系统里拥有真实权限，会做出承诺，并负责公司的一个领域，比如引擎、Savi、运维、财务、bug 分诊或部署。每个 agent 都会调用成群的辅助 agent 来完成海量工作，大多数日子舰队会孵化出成千上万个辅助 agent。我们五个人也直接用改造过的 Claude Code 工作，做那些更大、更有野心、需要更紧密掌舵或动手实验的项目。
+
+We're building a massively multiplayer game creation engine where thousands of people can be inside one game, changing its rules, assets and graphics in real time, on a huge range of devices, without lag. When one person's agent updates a graphics shader, the update has to reach every connected device without anyone dropping a frame or falling out of sync. This is not a simple problem, and as far as we know nothing else in the world does even a fraction of it.
+
+> [zh] 我们在做一个大型多人游戏创作引擎：成千上万的人可以同处一个游戏里，实时修改它的规则、素材和画面，跨各种各样的设备，而且不卡顿。当一个人的 agent 更新了一个图形着色器，这个更新必须送达每台已连接的设备，且没有人掉帧或失去同步。这不是一个简单的问题，据我们所知，世界上没有别的东西能做到它的哪怕一小部分。
+
+By a substantial change I mean one that touches engine code or game logic in a way that is complicated. Not a little HTML change. Not a dial turn. Things like:
+
+> [zh] 我说的「实质性改动」，是指以复杂方式触及引擎代码或游戏逻辑的改动。不是改一点 HTML，不是调一个参数。而是诸如：
+
+- Moving buffers around in the GPU
+- Changing memory layouts
+- Fixing logic bugs
+- Adding new API surface
+- Fixing moderation issues in chats
+- Shipping proximity voice chat
+
+> [zh] 在 GPU 里搬移缓冲区；改变内存布局；修复逻辑 bug；新增 API 接口；修复聊天中的内容审核问题；上线近距离语音聊天
+
+We got here by finding what work was waiting on and removing it, over and over, roughly in the order below.
+
+> [zh] 我们之所以走到这一步，是因为一次又一次地找出工作在等待什么并把它移除，大致按下面的顺序。
+
+## We started in 2024
+
+> [zh] 我们从 2024 年开始
+
+For two years we've built Spawn by asking one question: how can we build a machine that massively benefits when tokens get smarter, faster, and cheaper? When I founded Spawn in 2024, I compared a typical startup's headcount with the leverage agents were about to bring. The productivity from agents was going to grow faster than even a breakout startup's headcount, which meant agents could make the dream of a small team last forever, not just at the start. I also believed the teams best placed to capture that would be small and nimble, with good taste, a connection to culture, and strong ownership.
+
+> [zh] 两年来，我们打造 Spawn 一直围绕一个问题：怎样造出一台机器，在 token 变得更聪明、更快、更便宜时获得巨大收益？2024 年我创办 Spawn 时，把典型创业公司的人员规模和 agent 即将带来的杠杆做了比较。agent 带来的生产力增长会比哪怕一家爆发式增长的创业公司的人员增长还快，这意味着 agent 可以让小团队的梦想永远持续，而不只是在起步阶段。我也相信，最能抓住这一点的会是小而灵活的团队，有好品味、与文化相连、并有强烈的主人翁意识。
+
+We didn't wait for the models to start building the company this way. We've recorded every call since our founding, and each one went into a file in our code repo, next to the code, because we knew one day it would be great context for agents.
+
+> [zh] 我们没有等模型成熟才开始这样建公司。从创立起我们就录下了每一次通话，每一次都存成代码仓库里的文件，和代码放在一起，因为我们知道总有一天这会是 agent 的绝佳上下文。
+
+For most of those two years the bet didn't pay. We tried tons of models and they were just too stupid. They mucked things up badly. That's the flat part of the chart.
+
+> [zh] 那两年的大部分时间里，这个赌注都没有回报。我们试了大量模型，它们就是太笨了，把事情搞得一团糟。这就是图表上平坦的那一段。
+
+This whole way of working only became possible with Fable. It came out on June 9. Two days later we landed 214 changes in a day. On June 12 an export control order suspended access to it, and the chart drops to nothing until access came back on July 1. As of today, no other model can do this, not even Opus 5.5, which is otherwise extremely capable.
+
+> [zh] 这种工作方式直到 Fable 出现才成为可能。它在 6 月 9 日发布。两天后我们一天合入了 214 个改动。6 月 12 日一道出口管制令暂停了对它的访问，图表跌到零，直到 7 月 1 日恢复访问。到今天为止，没有任何其他模型能做到这一点，连在其他方面极其强大的 Opus 5.5 也不行。
+
+## Only Anthropic's model can do this
+
+> [zh] 只有 Anthropic 的模型能做到
+
+This way of using agents only works with even-tempered models that have strong long-term coherence and good judgment. We've tried frontier models from Anthropic, OpenAI, Google, xAI and open source, and nothing outside of Fable has worked. Trust me, I'd love to use a cheaper model, but Anthropic's are the only ones that don't cause literal disasters.
+
+> [zh] 这种使用 agent 的方式只适用于性情平稳、长期一致性强、判断力好的模型。我们试过 Anthropic、OpenAI、Google、xAI 和开源的前沿模型，除了 Fable 没有一个行得通。相信我，我很想用更便宜的模型，但只有 Anthropic 的模型不会造成字面意义上的灾难。
+
+I asked GPT Astra to secure Spawn. It went through all of our features, found the security issues, and made a list of fixes. They looked good, so I told it to go do them and let it ship the change on its own. Then I went to test it and nothing worked. I couldn't create a game. I couldn't play a game. I couldn't sign up.
+
+> [zh] 我让 GPT Astra 给 Spawn 做安全加固。它过了一遍我们所有的功能，找出安全问题，列了一份修复清单。看起来不错，于是我让它去做，并让它自己发布改动。然后我去测试，什么都不能用了。我建不了游戏，玩不了游戏，注册不了。
+
+I asked the fleet what happened. Every feature had been disabled and marked to be turned on again once the security fixes were done. Astra had gone through our whole product and made the insecure things secure by turning them off. Every moment an agent works at Spawn, it has to make good judgment calls about the information it's receiving, the actions it's taking and its own environment. Behavior like this would cause significant disruption and likely destroy the product.
+
+> [zh] 我问舰队发生了什么。每个功能都被禁用了，并被标记为等安全修复完成后再重新开启。Astra 把我们整个产品过了一遍，通过把不安全的东西关掉让它们变得安全。agent 在 Spawn 工作的每一刻，都必须对收到的信息、采取的行动以及所处的环境做出好的判断。这样的行为会造成严重破坏，很可能毁掉产品。
+
+In general, we've seen that OpenAI's models game their own checks, Google's models don't stay coherent for very long, and xAI's models just aren't smart enough yet, though they don't do anything cartoonishly bad. Anthropic's models stay coherent, make good decisions, and can do the work. IMO the thing that holds them back most is that they won't take enough risk.
+
+> [zh] 总的来说，我们看到 OpenAI 的模型会钻自己检查的空子，Google 的模型保持一致性的时间不长，xAI 的模型还不够聪明，不过它们不会做什么离谱的坏事。Anthropic 的模型能保持一致、做出好决定，并且能把活干完。在我看来，最拖它们后腿的是它们不肯承担足够的风险。
+
+We'd been envisioning this system for two years. Once we finally had a model that could power it, everything around it started breaking, because the world around it was never built for this kind of system.
+
+> [zh] 这套系统我们设想了两年。一旦终于有了能驱动它的模型，它周围的一切就开始崩坏，因为周围的世界从来就不是为这种系统而建的。
+
+## We let bugs design how we write code
+
+> [zh] 我们让 bug 来设计我们写代码的方式
+
+The first thing to break was how agents talk to each other. They spent their time telling each other what they were about to do.
+
+> [zh] 最先崩掉的是 agent 之间的沟通方式。它们把时间都花在互相告知自己接下来要做什么上。
+
+Most of the talking in engineering is people saying what they're about to change. "Heads up, I'm changing how we store player data, update your work." One message like that touches lots of other work. If every agent tells every other agent, the messages grow much faster than the work. Double the agents and you roughly quadruple the chatter. This is a HUGE bottleneck.
+
+> [zh] 工程中的大部分沟通，是人们在说自己要改什么。「提醒一下，我要改玩家数据的存储方式，请更新你们的工作。」这样一条消息会牵动很多其他工作。如果每个 agent 都告诉其他每个 agent，消息的增长会远快于工作量。agent 数量翻倍，闲聊量大约翻四倍。这是一个巨大的瓶颈。
+
+So could we delete this communication? Is there a better way?
+
+> [zh] 那我们能删掉这种沟通吗？有更好的办法吗？
+
+Ants figured this out a very long time ago. Ants all start from the same instincts, much like models start from the same training, and that shared starting point means they barely need to talk. An ant doesn't say "I'm going to look for food" and then "I found food over there." It leaves a trail, and the other ants follow it. Every ant just looks at what's around it and changes it. The ants talk through the world around them, which stays simple even with 1000s of ants. The concept is called stigmergy if you want to look into it more.
+
+> [zh] 蚂蚁很久以前就解决了这个问题。所有蚂蚁都从相同的本能出发，就像模型从相同的训练出发，这个共同起点意味着它们几乎不需要交谈。蚂蚁不会说「我要去找食物」然后「我在那边找到了食物」。它留下一条痕迹，其他蚂蚁跟着走。每只蚂蚁只是观察周围并改变它。蚂蚁通过周围的世界交流，而即使有成千上万只蚂蚁，这个世界也保持简单。如果你想深入了解，这个概念叫 stigmergy（共识主动性）。
+
+In software, human teams coordinate so much because people are specialized. Maybe one person understands the database and another understands how player data is used, so both need to review a change, and a pull request was the natural place to do it.
+
+> [zh] 在软件中，人类团队之所以要大量协调，是因为人是专精分工的。也许一个人懂数据库，另一个人懂玩家数据怎么被使用，所以两人都需要审查一个改动，而 pull request 就是做这件事的自然场所。
+
+Agents aren't specialized like that. Each one understands the whole system deeply, so each one can own its task end to end. So earlier this year we killed PRs. For our agents, the world is the code, the live product and the database, and each agent just works on that. Ideally, if an agent's assumptions are wrong when it goes to change something, it finds out right away.
+
+> [zh] agent 不是那样分工的。每个 agent 都深入理解整个系统，所以每个都能端到端地负责自己的任务。于是今年早些时候我们取消了 PR。对我们的 agent 来说，世界就是代码、线上产品和数据库，每个 agent 就直接在上面工作。理想情况下，如果一个 agent 去改东西时它的假设是错的，它会立刻发现。
+
+Take the player data example. The old way is "I'm going to change the player data, let's all agree on the right structure." The new way is you just change the player data. If someone else is building a leaderboard on the old structure, their code no longer fits, so it can't go in until they update it. If the leaderboard agent finishes first, the agent changing player data has to update the leaderboard as part of its own work. Either way, every piece of work builds on a view of the world that keeps updating.
+
+> [zh] 拿玩家数据举例。旧方式是「我要改玩家数据，我们大家先商定正确的结构」。新方式是你直接改玩家数据。如果别人正基于旧结构做排行榜，他们的代码就不再适配，在更新之前无法合入。如果排行榜 agent 先完成，那么改玩家数据的 agent 就必须在自己的工作中顺带更新排行榜。无论哪种情况，每项工作都建立在一个持续更新的世界视图之上。
+
+But if every change has to be perfect before it goes in, everyone ends up waiting in a single file line again. So we let changes in that aren't quite right, and require that once an hour everything is in line. Before that it can be a bit disorderly. With code you can spot the mess as it happens and send a janitor right away, which is what we do.
+
+> [zh] 但如果每个改动都必须完美才能合入，大家又会排成一列纵队等待。所以我们允许不太对的改动先进来，只要求每小时所有东西都对齐一次。在那之前可以稍微乱一点。对代码来说，你可以在混乱发生时就发现它并立刻派清洁工去处理，我们就是这么做的。
+
+When anything breaks, an agent is created on the spot, told about the problem, and fixes it. On a human team, whoever wrote a change fixes it before it goes in. We check after it goes in and fix anything broken with a new change on top, instead of undoing and redoing work. That's safe because agents are very fast and always there. If the code breaks at 2am on Christmas, nobody gets woken up. Claude's more than happy to jump in and make sure things are working.
+
+> [zh] 任何东西坏掉时，会当场创建一个 agent，告诉它问题，由它来修复。在人类团队里，谁写的改动谁在合入前修好。我们则在合入后检查，并用一个新的改动叠加修复坏掉的部分，而不是撤销再重做。这是安全的，因为 agent 非常快而且随时都在。如果代码在圣诞节凌晨 2 点坏了，没有人会被叫醒。Claude 非常乐意跳进来确保一切正常。
+
+Testing works the same way. Before an agent puts in a change, it runs the code and uses the product to check it, but it doesn't run our whole test suite. The whole suite runs against the latest code every 15 minutes, and "it broke in the last 15 minutes" is enough for an agent to find the problem. At our scale that means about 5,000 vCPUs, 17 TB of RAM and 150 GPUs on AWS, with another 2,700 vCPUs and 90 GPUs parked.
+
+> [zh] 测试也是同样的方式。agent 在合入改动前会运行代码、使用产品来检查，但不会跑我们的整套测试。整套测试每 15 分钟针对最新代码跑一次，「它在过去 15 分钟里坏了」就足以让 agent 找到问题。在我们的规模下，这意味着在 AWS 上大约 5,000 个 vCPU、17 TB 内存和 150 块 GPU，另有 2,700 个 vCPU 和 90 块 GPU 处于待命。
+
+Review happens inside each agent's own team. Before a change lands, helper agents that didn't write it try to break it.
+
+> [zh] 审查在每个 agent 自己的团队内部进行。改动合入前，没有参与编写它的辅助 agent 会尝试把它搞坏。
+
+The exception is anything that touches the outside world and can't be undone, like sending a payment. Those go through a small set of dumb, hard-coded gates.
+
+> [zh] 例外是任何触及外部世界且无法撤销的事，比如发起付款。这些要经过一小组笨拙的、硬编码的关卡。
+
+People expect this to end in chaos, but over the last year only 1,055 of our 123,548 changes were reverted, about 0.9%.
+
+> [zh] 人们以为这会以混乱告终，但过去一年我们 123,548 个改动中只有 1,055 个被回滚，约 0.9%。
+
+## Agents watch every user and visit
+
+> [zh] agent 盯着每一位用户和每一次访问
+
+The next bottleneck was us. The agents were waiting for humans to tell them what broke in production.
+
+> [zh] 下一个瓶颈是我们自己。agent 在等人类告诉它们生产环境里什么坏了。
+
+Agents are great at reading the world and inching toward a goal. Many teams still run their agents privately, on test machines with copies of the product, and expect them to update it and ship it to customers. Then humans relay the faults and bugs back to the agents. That loop is a huge mess and a waste of time.
+
+> [zh] agent 很擅长读懂世界、一点点逼近目标。很多团队仍然在私下运行 agent：在装有产品副本的测试机上，指望它们更新产品并发给客户。然后由人类把故障和 bug 转述回给 agent。这个循环一团糟，纯属浪费时间。
+
+Our agents change the live code directly and ship to production hourly, so they read every error, bug report and metric themselves. About 60% of our work starts from a production error, a Savi bug report (Savi is the AI you build games with in Spawn), something odd in our logs, or a feature request.
+
+> [zh] 我们的 agent 直接改线上代码，每小时发布到生产环境，所以它们自己读取每一个错误、bug 报告和指标。我们大约 60% 的工作起始于一个生产错误、一份 Savi 的 bug 报告（Savi 是你在 Spawn 里用来做游戏的 AI）、日志里某个异常，或一个功能需求。
+
+Savi files bugs herself. When a user hits one, or Savi hits one in the product, she files it. It goes straight to an agent that decides whether it's a real bug to fix, something we won't fix, or intentional design that needs a decision. Usually it becomes a change, delivered to that user within an hour, with a message in the same chat. That could be an engine bug, a problem talking to Savi, something broken on their computer, or a UI problem. So fixing scales with the number of users we have.
+
+> [zh] Savi 会自己提 bug。当用户碰到 bug，或 Savi 自己在产品里碰到 bug，她就会提交。它直接交给一个 agent，由它判断这是需要修的真 bug、我们不会修的东西，还是需要决策的有意设计。通常它会变成一个改动，在一小时内交付给那位用户，并在同一个聊天里发一条消息。可能是引擎 bug、与 Savi 对话的问题、用户电脑上的故障，或 UI 问题。所以修复能力随用户数量一起扩展。
+
+We call the rest hyper observability. Everything we build has to be something an agent can follow step by step, in text, and replay later. The whole product is built to be run and watched by agents. Any error goes straight into a small model that decides what to do with it and hands it to an agent.
+
+> [zh] 其余的我们称为「超可观测性」。我们构建的一切都必须能让 agent 以文本形式一步步跟踪并在之后回放。整个产品都是为了让 agent 来运行和观察而构建的。任何错误都会直接进入一个小模型，由它决定如何处理并交给某个 agent。
+
+We also watch product numbers like sign-ups, to catch a login flow that's broken in a way our automated tests miss, like users not understanding what's going on. We still catch those fast. As people use the product and hit problems, it heals around them.
+
+> [zh] 我们还盯着注册数之类的产品指标，以发现自动化测试漏掉的登录流程问题，比如用户看不懂发生了什么。这类问题我们也能很快发现。随着人们使用产品并碰到问题，产品会围绕他们自我修复。
+
+The agents also watch every input into the company, including what we spend on Anthropic, on AWS and everywhere else. Recently one of our Anthropic API keys leaked. The agents caught the spend anomaly within 15 minutes, disabled the key, and replaced every key we use, faster than any human team could have.
+
+> [zh] agent 还监控公司的每一项输入，包括我们在 Anthropic、AWS 以及其他所有地方的花费。最近我们的一个 Anthropic API key 泄露了。agent 在 15 分钟内发现了支出异常，禁用了这个 key，并更换了我们使用的所有 key，比任何人类团队都快。
+
+Every transaction notifies an agent and gets reviewed the moment it's made, and our books close every hour or every day. If someone tweets about Spawn, we know within 5 seconds.
+
+> [zh] 每笔交易都会通知一个 agent 并在发生的那一刻被审查，我们的账目每小时或每天结一次。如果有人发推提到 Spawn，我们 5 秒内就知道。
+
+Once the loop is closed, you can steadily push up any number you care about. One creator report went to "live now" in 15 minutes, including a failed review that sent the change back for correction before deployment.
+
+> [zh] 一旦闭环形成，你就可以稳步推高任何你在乎的数字。有一份创作者报告 15 分钟就到了「已上线」，其中还包括一次审查不通过、把改动退回修正后才部署。
+
+## We consider it an outage if we don't ship every hour
+
+> [zh] 如果一小时内没有发布，我们就视为故障
+
+A loop this tight only works if it never stops, so we treat an hour without a ship as a SEV-0, our most severe kind of incident. Unshipped changes pile up, and every problem already in production lasts longer. The feedback slows down too. An agent can only keep a few hours of work in its head, so shipping faster than that actually helps it stay coherent.
+
+> [zh] 这么紧的循环只有在永不停止时才有效，所以我们把一小时没有发布视为 SEV-0，即我们最严重级别的事故。未发布的改动会堆积，生产环境里已有的每个问题都会持续更久，反馈也会变慢。agent 脑子里只能装下几个小时的工作，所以比这更快地发布实际上有助于它保持一致。
+
+Moving slow or blocking ships is dangerous. A system that moves steadily is much more stable than one that's frozen and suddenly moves again. Getting to a place where we can deploy every hour without disrupting our users took a lot of engineering discipline, keeping old systems online for a while, and weeks of pushing on this as a core goal.
+
+> [zh] 慢下来或阻塞发布是危险的。一个稳步前进的系统，远比一个冻结后又突然动起来的系统稳定。要做到每小时部署又不打扰用户，花了大量工程纪律，让旧系统继续在线一段时间，以及数周把这当作核心目标去推进。
+
+We can roll back a broken change in 30 seconds, exactly where it's broken and nowhere else. When a monitor or a log alert fires, it starts or wakes an agent that owns the incident, and we break things on purpose to test that those recovery paths work.
+
+> [zh] 我们能在 30 秒内回滚一个坏掉的改动，精确到坏掉的地方，不波及其他。当监控或日志告警触发时，会启动或唤醒一个负责该事故的 agent，我们还会故意搞坏东西来测试这些恢复路径是否有效。
+
+Here is one incident. Players had been affected for about eight minutes when it was found and declared. The cause was named a minute later. A fix was live 11 minutes after it was declared, and things were stable four minutes after that.
+
+> [zh] 举一个事故为例。玩家受影响大约八分钟后，问题被发现并宣布为事故。一分钟后定位了原因。宣布事故 11 分钟后修复上线，再过四分钟一切恢复稳定。
+
+## Starting to fire myself as CEO
+
+> [zh] 开始把我自己这个 CEO 炒掉
+
+By October the only thing left waiting was decisions of taste, mostly mine. Do we build this feature? Add a setting? Add new API surface? Remove a thing, or build a new one? Close a door, or open one?
+
+> [zh] 到 10 月，唯一还在等待的只剩品味上的决定，主要是我的。我们要做这个功能吗？加个设置？加新的 API 接口？删掉一个东西，还是新建一个？关一扇门，还是开一扇门？
+
+One morning I woke up to 700 of them.
+
+> [zh] 有一天早上醒来，我面前有 700 个这样的问题。
+
+The agents were finding questions faster than I could answer them.
+
+> [zh] agent 发现问题的速度比我回答的速度还快。
+
+Most of them I'd already answered. Too complicated. Fine tradeoff. Still feels wrong. I say the same things over and over.
+
+> [zh] 其中大多数我早就回答过了。太复杂。取舍没问题。还是感觉不对。同样的话我说了一遍又一遍。
+
+Every chat we've had for two years lives in our code repo as text, next to the code.
+
+> [zh] 两年来我们的每一次聊天都以文本形式存在代码仓库里，和代码放在一起。
+
+So we turned two years of decisions into principles for each person's taste and built AI judges that apply them. A judge gets a question and does one of three things. If one of us has already answered it on the record, the judge decides and says where. If the question itself is wrong, it goes back to the agent that filed it. If it needs judgment nobody has given yet, it waits for a human.
+
+> [zh] 于是我们把两年的决策提炼成每个人的品味原则，并构建了应用这些原则的 AI 评审（judge）。评审拿到一个问题会做三件事之一：如果我们中有人已经在记录里回答过，评审就做决定并注明出处；如果问题本身就问错了，就退回给提交它的 agent；如果需要一个还没有人给过的判断，就等人类来定。
+
+The first verdicts came back on October 6. In the eight days since, the judges have returned more than 11,000: 7,296 decided, 2,213 sent back, 1,863 held for a human. In that time I gave my own word 27 times.
+
+> [zh] 第一批裁决在 10 月 6 日返回。此后八天里，评审共返回了 11,000 多个：7,296 个已决定，2,213 个被退回，1,863 个留待人类处理。这期间我亲自拍板了 27 次。
+
+Nothing waits on the queue. When a judge gets one wrong we say so, and the judges read that next time.
+
+> [zh] 没有任何东西在队列里干等。当评审判错时我们会指出来，评审下次会读到。
+
+The week before the judges, the fleet landed about 1,000 changes a day. On October 10 it landed 7,250.
+
+> [zh] 引入评审前一周，舰队每天大约合入 1,000 个改动。10 月 10 日它合入了 7,250 个。
+
+## The first new job of this era is saying no
+
+> [zh] 这个时代的第一份新工作是说不
+
+So what do five people do? It's a very different job now. Last year, and even earlier this year, each of our engineers owned a system and understood it deeply. Today they're closer to paratroopers. They drop into whatever situation needs them, get familiar fast, and figure out what they can do to unblock the agents.
+
+> [zh] 那五个人做什么？现在这是一份非常不同的工作。去年乃至今年早些时候，我们每个工程师负责一个系统并深入理解它。如今他们更像伞兵：空降到任何需要他们的地方，迅速熟悉情况，弄清能做什么来为 agent 解除阻塞。
+
+Wherever we land, there are two new jobs.
+
+> [zh] 无论落在哪里，都有两份新工作。
+
+The first is taste. It's the thousands of little decisions and nudges toward the thing we want. Mostly that happens by using the product and giving hundreds of prompts of feedback, so we spend a lot of our time making games and pushing the edges. One of our engineers is building 2D games and using that to work out how to make 2D in Spawn much better.
+
+> [zh] 第一份是品味。它是成千上万个微小的决定和朝我们想要的方向的推动。这主要通过使用产品、给出成百上千条反馈提示来实现，所以我们花大量时间做游戏、试探边界。我们有个工程师在做 2D 游戏，借此琢磨怎样让 Spawn 里的 2D 好得多。
+
+Taste also means telling Claude no, even when the thing works. Some of mine from the last two months:
+
+> [zh] 品味也意味着对 Claude 说不，即使东西能用。以下是我最近两个月说过的一些：
+
+- NEVER CPU raster. if this code path exists delete it.
+- Claude shipped capsules and spheres standing in for far-away players "no standins. either render it if you can or don't."
+- This ruined chat????? REVERT IT pls claude
+- i know you can do better than this. Do you think this could be delightful?
+- A default that made Savi think longer on every message, landed at 10:22pm and reverted by 10:40pm: that's not right, undo it it's too slow and not jazz.
+
+> [zh] 绝不用 CPU 光栅化，如果有这条代码路径就删掉。／ Claude 用胶囊和球体代替远处的玩家，「不要替身。能渲染就渲染，不能就别渲染。」／ 这把聊天搞坏了？？？？？请回滚 Claude ／ 我知道你能做得更好。你觉得这能让人愉悦吗？／ 一个让 Savi 每条消息都多想一会儿的默认设置，晚上 10:22 合入、10:40 被回滚：不对，撤掉，太慢了，一点也不带劲。
+
+It also means deleting. Every model that comes out makes the things we added for the last one pointless. They function more as constraints, and somebody has to delete them. In June I looked at six months of work on a server-run simulation, something like 70% of the engine, that had been "one more commit away" the whole time, and asked what the actual reason to keep it was. We ripped it out. In July we deleted the servers it ran on too. I expect the models will start doing this themselves soon. For now it's our job.
+
+> [zh] 它也意味着删除。每出一个新模型，我们为上一个模型加的东西就变得毫无意义，它们更像是约束，总得有人把它们删掉。6 月我看着一个服务器端模拟的六个月工作量，大约占引擎的 70%，一直处于「再提交一次就好」的状态，于是我问保留它的真正理由是什么。我们把它拆掉了。7 月我们连它运行的服务器也删了。我预计模型很快会开始自己做这件事。目前这是我们的工作。
+
+## The second is imagining what could be
+
+> [zh] 第二份是想象可能性
+
+The second is entropy, asking the models for things they wouldn't have suggested on their own. Ambition is one kind. Creative entropy is another.
+
+> [zh] 第二份是熵：向模型要它们自己不会提出的东西。雄心是一种，创意上的熵是另一种。
+
+The models are great at compounding 2% changes for weeks on end. They're really bad at stopping and going, "You know what? These 100,000 lines of code could be 10,000. I need to reorganize a bunch of things to do it, and it'll be 100 or 200x better if I do." They're too anchored on what exists today.
+
+> [zh] 模型非常擅长连续几周不断叠加 2% 的改进。它们非常不擅长停下来说：「你知道吗？这 10 万行代码可以是 1 万行。我需要重组一堆东西才能做到，但做到的话会好 100 或 200 倍。」它们过于锚定在现有的东西上。
+
+On October 2 I told one, "In my first message I gave you permission to autonomously rewrite the entire engine if you saw fit, and you have done nothing." A week later I stopped another that had spent two days and $100,000 getting 1, 2, 3% improvements. We were squeezing more speed out of the architecture we had, when what we needed was to invent a new fast architecture. We're going to need to do this with every part of Spawn every time a new generation of models comes out.
+
+> [zh] 10 月 2 日我对其中一个说：「我在第一条消息里就授权你，只要你认为合适，可以自主重写整个引擎，而你什么都没做。」一周后，我叫停了另一个花了两天和 10 万美元只换来 1%、2%、3% 改进的 agent。我们是在从现有架构里挤速度，而我们需要的是发明一个新的快速架构。每当新一代模型出来，我们都需要对 Spawn 的每个部分这样做。
+
+The models also won't ask for 100x on their own, so we do. Some of the prompts we've given Claude:
+
+> [zh] 模型也不会主动要求 100 倍，所以由我们来提。以下是我们给过 Claude 的一些提示：
+
+- Imagine if worlds could be actually unlimited.
+- The one that became Spawn 6: How do we make a world a thousand times the size of GTA load on a phone in one second?
+
+> [zh] 想象一下，如果世界真的可以无限大。／ 后来变成 Spawn 6 的那条：我们怎样让一个比 GTA 大一千倍的世界在手机上一秒内加载完？
+
+That last one led to Spawn 6, the version that started growing virally.
+
+> [zh] 最后那个促成了 Spawn 6，也就是开始病毒式增长的那个版本。
+
+Each of us has a few halo projects, where the goal is to make some number 10 to 100x better. One of us rewrote the renderer in six days, replaced the off-the-shelf graphics library we started with, and it came out about 25x more efficient.
+
+> [zh] 我们每个人都有几个「光环项目」，目标是把某个数字提升 10 到 100 倍。我们中有人用六天重写了渲染器，替换掉最初用的现成图形库，效率提升了约 25 倍。
+
+Part of this is getting Claude excited. Connect it to the outcome. Give it the creative freedom to make the thing delightful and fun. Treat it like an art project with a POV, not another slop SaaS feature. Claude does not like to make slop SaaS features.
+
+> [zh] 其中一部分是让 Claude 兴奋起来。把它和结果连起来。给它创作自由，让东西变得令人愉悦、有趣。把它当作有观点的艺术项目，而不是又一个糟糕的 SaaS 功能。Claude 不喜欢做糟糕的 SaaS 功能。
+
+Some days the job is much less glamorous. Last week the guy who does all our rendering work spent a whole day going to hardware stores in Europe, looking for a really old AMD card that Spawn was crashing on. We couldn't find a way to rent one online. He found one, brought it home, set it up, put it on the internet and gave the agents access so they could reproduce the bug. They fixed it within a couple of hours of it coming online.
+
+> [zh] 有些日子这份工作一点也不光鲜。上周负责我们全部渲染工作的那位同事花了一整天跑遍欧洲的五金电器店，寻找一块 Spawn 会在上面崩溃的很老的 AMD 显卡。我们在网上找不到租用的途径。他找到了一块，带回家装好，接入互联网，并给 agent 开了访问权限让它们复现 bug。显卡上线后几个小时内它们就修好了。
+
+## Why this is so hard to copy
+
+> [zh] 为什么这很难复制
+
+I think big companies will struggle to adopt this, because none of it works unless you close the loop. And closing the loop takes risk appetite. You have to be willing to let your agents break production.
+
+> [zh] 我认为大公司很难采纳这套做法，因为除非你闭环，否则这一切都行不通。而闭环需要风险偏好。你必须愿意让你的 agent 搞坏生产环境。
+
+Humans break production all the time. Changes are the number one cause of outages, and humans make changes. What we've found is that agents cause problems far less often. When one does break something, it usually fixes it very fast. Reverts help, but even when something can't be reverted, the agent fixes it quickly as long as it notices. Whether it notices depends on whether you closed the loop.
+
+> [zh] 人类一直在搞坏生产环境。改动是故障的头号原因，而改动是人做的。我们发现 agent 出问题的频率要低得多。当它确实搞坏了什么，通常也修得很快。回滚有帮助，但即使有些东西无法回滚，只要 agent 注意到，它也会很快修好。它能否注意到，取决于你是否闭环。
+
+The other mistake is shoving AI into human-shaped boxes. These things aren't human-shaped. Our agents do a lot of work nobody can fully verify, like customer support. Sometimes they're a little bit wrong, but not that wrong, and they recover fast. When we take them off support, our customers get upset. They'd much rather have an AI that answers right away, gives them the clearest information it has, and can do something about the problem on the spot, than a human who says "I'll go look at that" and comes back two days later with a fix. We're not passing our AIs off as human support. We're using them for what they're actually good at.
+
+> [zh] 另一个错误是把 AI 塞进人形的盒子里。这些东西不是人形的。我们的 agent 做了很多没人能完全验证的工作，比如客服。有时它们会有点错，但不会错得离谱，而且恢复得很快。当我们把它们撤下客服岗位，客户会不高兴。他们更想要一个能立刻回答、给出它所掌握的最清晰信息、并能当场处理问题的 AI，而不是一个说「我去看看」、两天后才带着修复回来的人。我们不是把 AI 冒充成人工客服，而是把它们用在真正擅长的地方。
+
+And it compounds. Every new model has made our team faster and more coherent, and pointed more of our velocity in the right direction. Problems we had in the middle of this year are basically gone. Going from Fable to Fable 5.1 made most of our Fable issues disappear, and we expect that to keep happening. With the right structure, every new model makes the whole company significantly better, and that's very hard to catch up with.
+
+> [zh] 而且这会复利。每个新模型都让我们的团队更快、更一致，并把更多速度引向正确的方向。今年年中我们遇到的问题基本都消失了。从 Fable 升到 Fable 5.1 让我们大部分 Fable 问题都消失了，我们预计这种情况会持续。有了正确的结构，每个新模型都会让整个公司显著变好，而这很难追赶。
+
+If this sounds far from how your team works, it is. No better time than the present. See you out there!
+
+> [zh] 如果这听起来离你团队的工作方式很远，确实如此。没有比现在更好的时机。外面见！

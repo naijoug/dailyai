@@ -4,7 +4,8 @@
   "aliases": [
     "Antigravity",
     "Antigravity CLI",
-    "谷歌 Antigravity SDK 支持本地模型，云端「架构师」+ 本地「构建"
+    "谷歌 Antigravity SDK 支持本地模型，云端「架构师」+ 本地「构建",
+    "Google is winding down Jules and folding"
   ],
   "url": "https://antigravity.google",
   "domains": [],
@@ -15,7 +16,7 @@
   "oneLinerEn": "Google's agent-first development platform (IDE and CLI) where agents work across editor, terminal and browser.",
   "score": 4,
   "firstSeen": "2026-10-13",
-  "updated": "2026-10-28",
+  "updated": "2026-10-30",
   "tags": [
     "Agents",
     "Dev Tools"
