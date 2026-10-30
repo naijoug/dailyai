@@ -34,5 +34,6 @@
   "claude-cowork": ["Claude Cowork", "Cowork"],
   "seedance": ["Seedance", "即梦 Seedance", "Seedance 2.0"],
   "claude-managed-agents": ["Claude Managed Agents", "Managed Agents"],
-  "claude-duet": ["Claude Duet", "Anthropic Duet"]
+  "claude-duet": ["Claude Duet", "Anthropic Duet"],
+  "serval": ["Serval", "Serval ESM"]
 }

@@ -1,0 +1,22 @@
+{
+  "id": "serval",
+  "name": "Serval",
+  "aliases": [
+    "Serval",
+    "getserval"
+  ],
+  "url": "https://www.serval.com",
+  "category": "办公",
+  "region": "global",
+  "maker": "Serval",
+  "oneLiner": "AI 原生的企业服务管理（ESM/ITSM）平台：让 IT 团队用编码 Agent 自动处理员工请求、入离职和临时权限，对标 ServiceNow",
+  "oneLinerEn": "AI-native enterprise service management (ESM/ITSM): IT teams use coding agents to automate employee requests, onboarding/offboarding and just-in-time access, taking on ServiceNow.",
+  "score": 3,
+  "firstSeen": "2026-10-29",
+  "updated": "2026-10-29",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}
