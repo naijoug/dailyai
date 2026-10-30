@@ -7,11 +7,11 @@
 
 ### 2026-10-30 · 星期五
 
-Cursor 恶意 Claude Code 扩展植入 SSH 后门；OpenAI 取消 Pro 降额并公开监控；Mistral Large 4 开源；Claude 禁复刻特定游戏。
+Cursor 恶意扩展植入 SSH 后门；Azure 曝跨租户全控；小米开源 0.8B OCR，Herdr 等 Agent 工具上新。
 
-🆕 今日新品：Factory ships Droid 1.0、Simantic (YC F26)、CopilotKit OpenBot
+🆕 今日新品：Factory ships Droid 1.0、Faylee、Herdr +5
 
-AI Hot 27 · Tech 11 · ⭐ 18 条高分
+AI Hot 27 · Tech 22 · ⭐ 26 条高分
 
 [→ 查看当天详情](2026/10/2026-10-30.md)
 
