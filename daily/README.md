@@ -5,6 +5,14 @@
 
 ## 2026 年 10 月
 
+### 2026-10-30 · 星期五
+
+OpenAI 取消 Pro 降额且用量翻倍，Mistral Large 4 开放权重，Jules 并入 Antigravity；Spawn 月烧 310 万美元 token 的长文刷屏。
+
+AI Hot 10 · ⭐ 6 条高分
+
+[→ 查看当天详情](2026/10/2026-10-30.md)
+
 ### 2026-10-29 · 星期四
 
 Carbon 登顶、Copilot Fusion 上线；指称 DeepSeek/月之暗面蒸馏 Astra；Claude Code 摘要烧掉约两成额度。
@@ -288,6 +296,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 全文文章
 
+- [How I Built the Most AI-Pilled Company in the World](articles/jacob-sansbury-most-ai-pilled-company.md) — jacob (Jacob Sansbury) · 2026-10-30
 - [You're probably overprompting Claude](articles/addy-osmani-overprompting-claude.md) — Addy Osmani · 2026-10-29
 - [How the Claude Code team does code review](articles/addy-osmani-claude-code-code-review.md) — Addy Osmani · 2026-10-26
 - [How I work with Agents](articles/thorsten-ball-how-i-work-with-agents.md) — Thorsten Ball · 2026-10-26
