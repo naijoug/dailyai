@@ -1,0 +1,17 @@
+{
+  "id": "fastbrowse",
+  "name": "fastbrowse",
+  "aliases": [],
+  "url": "https://fastbrowse.ai",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "枚举每个按钮、链接和字段，由 System One 模型（如 Jev）从列表里选下一步，不确定时再回退到标准 LLM；",
+  "oneLinerEn": "indexes every button, link and field, lets a System One model (e.g.",
+  "score": 3,
+  "firstSeen": "2026-10-30",
+  "updated": "2026-10-30",
+  "tags": [
+    "Open Source"
+  ],
+  "rankings": []
+}

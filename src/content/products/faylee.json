@@ -1,0 +1,17 @@
+{
+  "id": "faylee",
+  "name": "Faylee",
+  "aliases": [],
+  "url": "https://faylee.app",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "把屏幕、控制台、每条网络请求和每次点击收在同一时间轴；",
+  "oneLinerEn": "records screen, console, every network request and each click on one timeline;",
+  "score": 4,
+  "firstSeen": "2026-10-30",
+  "updated": "2026-10-30",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

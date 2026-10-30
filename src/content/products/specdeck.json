@@ -1,0 +1,17 @@
+{
+  "id": "specdeck",
+  "name": "SpecDeck",
+  "aliases": [],
+  "url": "https://specdeck.ai",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "团队在浏览器里写功能规格，经 MCP 交给 Claude Code / Codex / OpenCode / OpenClaw；",
+  "oneLinerEn": "teams write feature specs in the browser and hand them to Claude Code / Codex / OpenCode /",
+  "score": 4,
+  "firstSeen": "2026-10-30",
+  "updated": "2026-10-30",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

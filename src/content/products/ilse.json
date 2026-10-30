@@ -1,0 +1,18 @@
+{
+  "id": "ilse",
+  "name": "Ilse",
+  "aliases": [],
+  "url": "https://ilse.design/en",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "工具条叠在 Next.js/Vite/Remix/Astro/CRA 上；",
+  "oneLinerEn": "a toolbar overlays Next.js/Vite/Remix/Astro/CRA apps;",
+  "score": 4,
+  "firstSeen": "2026-10-30",
+  "updated": "2026-10-30",
+  "tags": [
+    "Dev Tools",
+    "Products"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "herdr",
+  "name": "Herdr",
+  "aliases": [],
+  "url": "https://herdr.dev",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Agent 跑在 herdr-core 里，关窗口也继续干活；",
+  "oneLinerEn": "agents run in herdr-core so they keep working when the window closes;",
+  "score": 4,
+  "firstSeen": "2026-10-30",
+  "updated": "2026-10-30",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}
