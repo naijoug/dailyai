@@ -9,9 +9,11 @@
 
 Northflank 遭入侵、用户 AI 密钥被盗刷；Claude 顶档改名 Ultra 去掉 5 小时限额；四大 AI 厂商支持统一的防抓取标准。
 
-🆕 今日新品：OpenMausBot、Palomino、Tangled
+🆕 今日新品：OpenMausBot、Supabase、Eve +2
 
-AI Hot 8 · Tech 11 · ⭐ 8 条高分
+🎙 访谈与播客：Y Combinator Startup Podcast (Lightcone)
+
+AI Hot 8 · Tech 11 · 访谈/播客 1 · ⭐ 8 条高分
 
 [→ 查看当天详情](2026/10/2026-10-31.md)
 
@@ -21,7 +23,9 @@ Cursor 恶意扩展植入 SSH 后门；Azure 曝跨租户全控；小米开源 0
 
 🆕 今日新品：Factory ships Droid 1.0、Faylee、Herdr +5
 
-AI Hot 27 · Tech 22 · ⭐ 26 条高分
+🎙 访谈与播客：The a16z Show
+
+AI Hot 27 · Tech 22 · 访谈/播客 1 · ⭐ 26 条高分
 
 [→ 查看当天详情](2026/10/2026-10-30.md)
 
@@ -285,6 +289,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Y Combinator Startup Podcast (Lightcone)：当人人都能写软件：Supabase CEO Paul Copplestone 做客 YC Lightcone](2026/10/2026-10-31.md#interviews) — 播客 · 2026-10-31 · [原文](https://podcasts.apple.com/us/podcast/what-happens-when-everyone-can-build-software/id1236907421?i=1000798941637)
+- [The a16z Show：为什么 AI 能让小律所变成十亿美元级生意：Eve CEO Jay Madheswaran](2026/10/2026-10-30.md#interviews) — 播客 · 2026-10-30 · [原文](https://podcasts.apple.com/us/podcast/why-ai-could-turn-small-law-firms-into-billion-dollar/id842818711?i=1000798872502)
 - [The MAD Podcast：2026 AI 现状报告：年度大事与 2027 年 AGI？| Nathan Benaich](2026/10/2026-10-29.md#interviews) — 播客 · 2026-10-29 · [原文](https://podcasters.spotify.com/pod/show/firstmark/episodes/State-of-AI-2026-The-Biggest-Stories-of-the-Year-and-AGI-in-2027---Nathan-Benaich-e3rbhc9)
 - [Cheeky Pint (Stripe)：Sam Altman 为什么反对单一的超级智能](2026/10/2026-10-29.md#interviews) — 播客 · 2026-10-29 · [原文](https://share.transistor.fm/s/92f18066)
 - [No Priors：挑战 ServiceNow：Serval 联合创始人兼 CEO Jake Stauch 谈让所有人用上编码 Agent](2026/10/2026-10-29.md#interviews) — 播客 · 2026-10-29 · [原文](https://podcasts.apple.com/us/podcast/taking-on-servicenow-coding-agents-the-rest-of-us/id1668002688?i=1000798684005)
