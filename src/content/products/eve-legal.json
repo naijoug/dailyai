@@ -1,0 +1,16 @@
+{
+  "id": "eve-legal",
+  "name": "Eve",
+  "aliases": ["Eve", "Eve Legal", "eve.legal"],
+  "url": "https://www.eve.legal",
+  "category": "办公",
+  "region": "global",
+  "maker": "Eve",
+  "oneLiner": "面向原告律所的法律 AI 平台：从首次客户来电到和解，自动化原告案件的全流程工作",
+  "oneLinerEn": "Legal AI platform for plaintiff law firms that automates casework from the first client call through settlement.",
+  "score": 3,
+  "firstSeen": "2026-10-31",
+  "updated": "2026-10-31",
+  "tags": ["Agents", "Products"],
+  "rankings": []
+}

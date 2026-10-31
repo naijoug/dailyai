@@ -1,0 +1,16 @@
+{
+  "id": "supabase",
+  "name": "Supabase",
+  "aliases": ["Supabase", "supabase.com"],
+  "url": "https://supabase.com",
+  "category": "开发者平台",
+  "region": "global",
+  "maker": "Supabase",
+  "oneLiner": "开源的 Postgres 开发平台：数据库、认证、存储、边缘函数一站式，已成为 AI 编程和编码 Agent 默认使用的后端之一",
+  "oneLinerEn": "Open-source Postgres development platform (database, auth, storage, edge functions) that has become a default backend for AI coding tools and coding agents.",
+  "score": 4,
+  "firstSeen": "2026-10-31",
+  "updated": "2026-10-31",
+  "tags": ["Dev Tools", "Open Source", "Agents"],
+  "rankings": []
+}
