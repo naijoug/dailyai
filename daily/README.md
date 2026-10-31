@@ -7,9 +7,11 @@
 
 ### 2026-10-31 · 星期六
 
-Claude Ultra 取消 5 小时限额；谷歌太空 TPU 首次答题；OpenAI 推企业隐私方案；论文称预训练投毒可给 agent 植后门。
+Northflank 遭入侵、用户 AI 密钥被盗刷；Claude 顶档改名 Ultra 去掉 5 小时限额；四大 AI 厂商支持统一的防抓取标准。
 
-AI Hot 8 · ⭐ 4 条高分
+🆕 今日新品：OpenMausBot、Palomino、Tangled
+
+AI Hot 8 · Tech 11 · ⭐ 8 条高分
 
 [→ 查看当天详情](2026/10/2026-10-31.md)
 
