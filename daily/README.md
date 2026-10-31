@@ -7,13 +7,13 @@
 
 ### 2026-10-31 · 星期六
 
-Claude Ultra 取消限额；数千 agent 红队训练监控；ChatGPT 多账号与 banked 重置；Astra Law 挂 API 定价。
+ChatGPT 分享可接管账号已修；T3 Code 等 Agent 上新；Ultra 取消限额，OpenCode 曝 Windows MCP 注入。
 
-🆕 今日新品：OpenMausBot、Supabase、Eve +2
+🆕 今日新品：Lightpanda、OpenMausBot、Orkas +7
 
 🎙 访谈与播客：Y Combinator Startup Podcast (Lightcone)
 
-AI Hot 25 · Tech 11 · 访谈/播客 1 · ⭐ 15 条高分
+AI Hot 25 · Tech 23 · 访谈/播客 1 · ⭐ 22 条高分
 
 [→ 查看当天详情](2026/10/2026-10-31.md)
 
