@@ -7,13 +7,13 @@
 
 ### 2026-10-31 · 星期六
 
-Claude Ultra 取消 5 小时限额；Anthropic 用数千 Claude agent 自动红队训练数据监控；Vercel 开源桌面 agent；苹果智能携千问入华。
+Claude Ultra 取消限额；数千 agent 红队训练监控；ChatGPT 多账号与 banked 重置；Astra Law 挂 API 定价。
 
 🆕 今日新品：OpenMausBot、Supabase、Eve +2
 
 🎙 访谈与播客：Y Combinator Startup Podcast (Lightcone)
 
-AI Hot 17 · Tech 11 · 访谈/播客 1 · ⭐ 12 条高分
+AI Hot 25 · Tech 11 · 访谈/播客 1 · ⭐ 15 条高分
 
 [→ 查看当天详情](2026/10/2026-10-31.md)
 
