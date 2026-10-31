@@ -7,13 +7,13 @@
 
 ### 2026-10-31 · 星期六
 
-Northflank 遭入侵、用户 AI 密钥被盗刷；Claude 顶档改名 Ultra 去掉 5 小时限额；四大 AI 厂商支持统一的防抓取标准。
+Claude Ultra 取消 5 小时限额；Anthropic 用数千 Claude agent 自动红队训练数据监控；Vercel 开源桌面 agent；苹果智能携千问入华。
 
 🆕 今日新品：OpenMausBot、Supabase、Eve +2
 
 🎙 访谈与播客：Y Combinator Startup Podcast (Lightcone)
 
-AI Hot 8 · Tech 11 · 访谈/播客 1 · ⭐ 8 条高分
+AI Hot 17 · Tech 11 · 访谈/播客 1 · ⭐ 12 条高分
 
 [→ 查看当天详情](2026/10/2026-10-31.md)
 
