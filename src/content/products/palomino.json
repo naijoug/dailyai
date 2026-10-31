@@ -1,0 +1,18 @@
+{
+  "id": "palomino",
+  "name": "Palomino",
+  "aliases": [],
+  "url": "https://trypalomino.com/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "标签页和窗格里可以混排 agent 对话、终端、浏览器和文件，测试、开发服务器和 agent 改动能同时看到；",
+  "oneLinerEn": "tabs and panes mix agent chats with terminals, a browser and files, so you can watch tests",
+  "score": 3,
+  "firstSeen": "2026-10-31",
+  "updated": "2026-10-31",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

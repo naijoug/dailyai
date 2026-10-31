@@ -1,0 +1,19 @@
+{
+  "id": "openmausbot",
+  "name": "OpenMausBot",
+  "aliases": [],
+  "url": "https://www.openmausbot.com/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "侧边栏里每个机器人都是真正的 agent，跑在你本机已装好的 claude、codex 或 grok CLI 上（用你自己的登录，无中间代理），各有自己的性格、模型、连接的应用（经",
+  "oneLinerEn": "every bot in the sidebar is a real agent running on the claude, codex or grok CLI already ",
+  "score": 4,
+  "firstSeen": "2026-10-31",
+  "updated": "2026-10-31",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,194 @@
+{
+ "source": "producthunt",
+ "sourceName": "Product Hunt",
+ "kind": "feed",
+ "badge": "Product Hunt",
+ "list": "Artificial Intelligence 分类 RSS",
+ "metric": "Feed 顺序（不是排名）",
+ "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
+ "period": "2026-10-31",
+ "fetched": "2026-10-31T01:30:30.731Z",
+ "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
+ "rows": [
+  {
+   "name": "SpeakON Agent",
+   "url": "https://www.producthunt.com/products/speakon",
+   "value": "Turn natural speech into real work for an agent to complete Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "MCP Server by XWiki",
+   "url": "https://www.producthunt.com/products/xwiki",
+   "value": "Give your AI your wiki's knowledge while keeping the control Discussion | Link",
+   "date": "2026-10-20"
+  },
+  {
+   "name": "fastbrowse",
+   "url": "https://www.producthunt.com/products/fastbrowse",
+   "value": "Fastest open source browser agent Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "ilse",
+   "url": "https://www.producthunt.com/products/ilse",
+   "value": "Point at your app and your AI agent changes the code Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "Cluinn",
+   "url": "https://www.producthunt.com/products/cluinn",
+   "value": "Answers your questions during the call, not after. For Mac. Discussion | Link",
+   "date": "2026-10-16"
+  },
+  {
+   "name": "Teable Mobile",
+   "url": "https://www.producthunt.com/products/teable-4",
+   "value": "Build the systems your team runs on, now from your phone Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "SparkBots AI (Powered by Jev)",
+   "url": "https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs",
+   "value": "Instantly extract key details and analyze any webpage or PDF Discussion | Link",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "Canva Brush",
+   "url": "https://www.producthunt.com/products/canva",
+   "value": "A vision-language model that edits your designs Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "Faylee",
+   "url": "https://www.producthunt.com/products/faylee",
+   "value": "Bug reports your coding agent can fix from one link Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "Axonnic",
+   "url": "https://www.producthunt.com/products/axonnic",
+   "value": "Muscle-sensing sleeves for robot training Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "Vaani Developer Platform",
+   "url": "https://www.producthunt.com/products/vaani-developer-platfrom",
+   "value": "The only voice AI harness that you'll ever need Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "Chopstick",
+   "url": "https://www.producthunt.com/products/chopstick",
+   "value": "Mac activity and action widgets that write themselves Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "Gemini 4 Carbon",
+   "url": "https://www.producthunt.com/products/gemini-4-carbon",
+   "value": "Google's next frontier model Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "OutreachGuy",
+   "url": "https://www.producthunt.com/products/outreachguy",
+   "value": "The AI SDR that works the leads you never followed up Discussion | Link",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "Polylane for ChatGPT",
+   "url": "https://www.producthunt.com/products/polylane",
+   "value": "Ask ChatGPT what broke in production Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "IFTTT.ai",
+   "url": "https://www.producthunt.com/products/ifttt",
+   "value": "The easiest way to automate anything Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Flatbread",
+   "url": "https://www.producthunt.com/products/flatbread",
+   "value": "Share the whole agent run, not a screenshot Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Intrascope 2.0",
+   "url": "https://www.producthunt.com/products/intrascope-app",
+   "value": "New AI agent, 1,650+ apps, Skills and smart model routing Discussion | Link",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "Scape",
+   "url": "https://www.producthunt.com/products/scape-4",
+   "value": "An intelligent email inbox that works for you Discussion | Link",
+   "date": "2026-10-21"
+  },
+  {
+   "name": "TopAgent",
+   "url": "https://www.producthunt.com/products/topmessage",
+   "value": "Drive B2B event attendance with an AI agent Discussion | Link",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "Viggle JST-2",
+   "url": "https://www.producthunt.com/products/viggle-ai",
+   "value": "JST-2: 3D scenes, characters and motion from one model Discussion | Link",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "Gologin Cloud Browser",
+   "url": "https://www.producthunt.com/products/gologin",
+   "value": "Cloud browser for AI agents and tough sites Discussion | Link",
+   "date": "2026-10-22"
+  },
+  {
+   "name": "Suno MCP",
+   "url": "https://www.producthunt.com/products/suno",
+   "value": "The music layerfor your AI stack Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Radar",
+   "url": "https://www.producthunt.com/products/radar-7",
+   "value": "You don't need an AI SRE. Give your agent Radar. Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "Voxel51 Multimodal",
+   "url": "https://www.producthunt.com/products/voxel51",
+   "value": "Better data. Smarter robots. Repeat. Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "StoreLocale",
+   "url": "https://www.producthunt.com/products/storelocale",
+   "value": "Translate app UI in App Store & Google Play screenshots Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Empacer",
+   "url": "https://www.producthunt.com/products/empacer",
+   "value": "The voice-first assistant for small business owners Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "Kin",
+   "url": "https://www.producthunt.com/products/kin-6",
+   "value": "The AI labs want to own you. Make them answer to you. Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Floot in ChatGPT",
+   "url": "https://www.producthunt.com/products/floot",
+   "value": "Build and publish real apps without leaving ChatGPT Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Smart Jelly",
+   "url": "https://www.producthunt.com/products/smart-jelly",
+   "value": "Your everyday AI tools and memory in one Mac app. Discussion | Link",
+   "date": "2026-10-28"
+  }
+ ]
+}

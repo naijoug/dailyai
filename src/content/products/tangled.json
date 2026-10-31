@@ -1,0 +1,15 @@
+{
+  "id": "tangled",
+  "name": "Tangled relaunches as \"the federated cod",
+  "aliases": [],
+  "url": "https://tangled.org/blog/forge/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "可以只自建想要的部分（Git 托管 knot、CI 运行器 spindle），也可以连 API 服务和界面整套自建，照样和其他人协作；",
+  "oneLinerEn": "self-host only the parts you want (Git hosting \"knots\", CI runners \"spindles\") or the whol",
+  "score": 3,
+  "firstSeen": "2026-10-31",
+  "updated": "2026-10-31",
+  "tags": [],
+  "rankings": []
+}
