@@ -1,0 +1,19 @@
+{
+  "id": "orkas",
+  "name": "Orkas",
+  "aliases": [],
+  "url": "https://orkas.ai/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "跟 Commander 说目标，小事它自己做完，大事则拆步骤并拉上专长 Agent，以及你已在用的 Claude Code、Codex、OpenCode、OpenClaw、Herm",
+  "oneLinerEn": "tell the Commander what you need and it finishes small jobs alone or plans bigger work wit",
+  "score": 4,
+  "firstSeen": "2026-10-31",
+  "updated": "2026-10-31",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

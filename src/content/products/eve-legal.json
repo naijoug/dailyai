@@ -1,7 +1,11 @@
 {
   "id": "eve-legal",
   "name": "Eve",
-  "aliases": ["Eve", "Eve Legal", "eve.legal"],
+  "aliases": [
+    "Eve",
+    "Eve Legal",
+    "eve.legal"
+  ],
   "url": "https://www.eve.legal",
   "category": "办公",
   "region": "global",
@@ -11,6 +15,9 @@
   "score": 3,
   "firstSeen": "2026-10-31",
   "updated": "2026-10-31",
-  "tags": ["Agents", "Products"],
+  "tags": [
+    "Agents",
+    "Products"
+  ],
   "rankings": []
 }

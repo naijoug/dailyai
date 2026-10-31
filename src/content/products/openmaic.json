@@ -1,0 +1,19 @@
+{
+  "id": "openmaic",
+  "name": "OpenMAIC",
+  "aliases": [],
+  "url": "https://open.maic.chat/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "清华 MAIC 团队开源（MIT）的互动课堂界面，有在线 Demo、JCST'26 论文，并接 OpenClaw 与 Lemonade 本地模型；",
+  "oneLinerEn": "open-source (MIT) immersive lesson UI from THU-MAIC with a live demo, JCST'26 paper, OpenC",
+  "score": 3,
+  "firstSeen": "2026-10-31",
+  "updated": "2026-10-31",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

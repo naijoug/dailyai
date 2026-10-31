@@ -1,7 +1,10 @@
 {
   "id": "supabase",
   "name": "Supabase",
-  "aliases": ["Supabase", "supabase.com"],
+  "aliases": [
+    "Supabase",
+    "supabase.com"
+  ],
   "url": "https://supabase.com",
   "category": "开发者平台",
   "region": "global",
@@ -9,8 +12,28 @@
   "oneLiner": "开源的 Postgres 开发平台：数据库、认证、存储、边缘函数一站式，已成为 AI 编程和编码 Agent 默认使用的后端之一",
   "oneLinerEn": "Open-source Postgres development platform (database, auth, storage, edge functions) that has become a default backend for AI coding tools and coding agents.",
   "score": 4,
+  "growth": -2.5,
+  "growthNote": "AICPB Vibe Coding 2026-06 环比",
   "firstSeen": "2026-10-31",
   "updated": "2026-10-31",
-  "tags": ["Dev Tools", "Open Source", "Agents"],
-  "rankings": []
+  "tags": [
+    "Dev Tools",
+    "Open Source",
+    "Agents"
+  ],
+  "rankings": [
+    {
+      "source": "aicpb",
+      "list": "Vibe Coding 榜 · 网站",
+      "badge": "AICPB Vibe Coding",
+      "rank": 4,
+      "metric": "网站月访问量",
+      "value": "29.73M",
+      "mom": "-2.50%",
+      "date": "2026-06",
+      "url": "https://www.aicpb.com/ai-rankings/products/vibe-coding-rankings",
+      "snap": "aicpb-vibe-coding-web/2026-06"
+    }
+  ],
+  "growthDate": "2026-06"
 }

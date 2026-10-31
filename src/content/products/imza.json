@@ -1,0 +1,17 @@
+{
+  "id": "imza",
+  "name": "Imza",
+  "aliases": [],
+  "url": "https://imza.run/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Plan 只读仓库并产出可带批注修订的 Markdown 规格；",
+  "oneLinerEn": "Plan mode is read-only and produces a Markdown spec you revise with pinned notes;",
+  "score": 3,
+  "firstSeen": "2026-10-31",
+  "updated": "2026-10-31",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

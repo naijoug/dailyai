@@ -1,0 +1,18 @@
+{
+  "id": "lightpanda",
+  "name": "Lightpanda",
+  "aliases": [],
+  "url": "https://lightpanda.io/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "不是 Chromium/WebKit 分支；",
+  "oneLinerEn": "not a Chromium or WebKit fork;",
+  "score": 4,
+  "firstSeen": "2026-10-31",
+  "updated": "2026-10-31",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}
