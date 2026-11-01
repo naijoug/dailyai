@@ -3,6 +3,16 @@
 
 每日 AI 热点（X）与科技速递，按天汇总。由 `scripts/export-md.mjs` 自动生成，请勿手动编辑。网页版：https://naijoug.github.io/dailyai/
 
+## 2026 年 11 月
+
+### 2026-11-01 · 星期日
+
+Tibo 放出可存额度重置 Banked 1/2；Anthropic 用 Claude 把 Messages API 迁到 Rust 已全量上线；Forever Security 曝五款 AI 编程工具内置浏览器漏洞。
+
+AI Hot 9 · ⭐ 6 条高分
+
+[→ 查看当天详情](2026/11/2026-11-01.md)
+
 ## 2026 年 10 月
 
 ### 2026-10-31 · 星期六
