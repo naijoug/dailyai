@@ -7,9 +7,11 @@
 
 ### 2026-11-01 · 星期日
 
-Tibo 放出可存额度重置 Banked 1/2；Anthropic 用 Claude 把 Messages API 迁到 Rust 已全量上线；Forever Security 曝五款 AI 编程工具内置浏览器漏洞。
+Linux TCP 握手 UAF 评 9.8 分；Memdoor、Backenly 等 Agent 工具上新；可存额度重置到账，商汤开源 Loop-9B。
 
-AI Hot 9 · ⭐ 6 条高分
+🆕 今日新品：Backenly、Memdoor、AwaitIO +2
+
+AI Hot 9 · Tech 11 · ⭐ 10 条高分
 
 [→ 查看当天详情](2026/11/2026-11-01.md)
 
