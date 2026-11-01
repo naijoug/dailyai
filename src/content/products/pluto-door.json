@@ -1,0 +1,15 @@
+{
+  "id": "pluto-door",
+  "name": "Pluto Door",
+  "aliases": [],
+  "url": "https://plutodoor.com/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "用白话问 Ori 哪里不对——它读日志、拟命令，逐步展示，任何会改机器的操作都需你批准才跑；",
+  "oneLinerEn": "ask Ori what’s wrong in plain English—it reads logs and proposes commands, shows every ste",
+  "score": 3,
+  "firstSeen": "2026-11-01",
+  "updated": "2026-11-01",
+  "tags": [],
+  "rankings": []
+}

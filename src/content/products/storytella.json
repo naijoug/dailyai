@@ -1,0 +1,15 @@
+{
+  "id": "storytella",
+  "name": "Storytella",
+  "aliases": [],
+  "url": "https://storytella.io/",
+  "category": "音频",
+  "region": "global",
+  "oneLiner": "本地 TTS / 有声书网页应用，围绕优化过的 Phonon 运行时（自称 WebGPU 与 CPU 上比原版约快 4 倍），支持流式播放（锁屏也可继续）、可选书库预渲染，无账号无",
+  "oneLinerEn": "local TTS / audiobook web app built around an optimized Phonon runtime (~4× faster than st",
+  "score": 3,
+  "firstSeen": "2026-11-01",
+  "updated": "2026-11-01",
+  "tags": [],
+  "rankings": []
+}

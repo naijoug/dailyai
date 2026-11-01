@@ -1,0 +1,15 @@
+{
+  "id": "ac-bridge",
+  "name": "AC Bridge",
+  "aliases": [],
+  "url": "https://ac-bridge.com/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "把最多 29 种 Agent 状态（工作中 / 要权限 / 要输入 / 已完成等）映射到局域网里的 Hue、Govee、WLED、LIFX、Nanoleaf 等，也可接 Home ",
+  "oneLinerEn": "maps up to 29 agent states (working / needs permission / needs input / finished, etc.) to ",
+  "score": 3,
+  "firstSeen": "2026-11-01",
+  "updated": "2026-11-01",
+  "tags": [],
+  "rankings": []
+}

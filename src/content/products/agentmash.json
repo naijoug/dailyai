@@ -1,0 +1,19 @@
+{
+  "id": "agentmash",
+  "name": "agentmash",
+  "aliases": [],
+  "url": "https://agentmash.dev/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "共享上下文，让每个 Agent 在改文件前就知道队友的 Agent 在动哪——基准称冲突写前拦截率从 55% 升到 98.6%；",
+  "oneLinerEn": "a shared context layer so every agent sees which files a teammate’s agent is changing befo",
+  "score": 4,
+  "firstSeen": "2026-11-01",
+  "updated": "2026-11-01",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

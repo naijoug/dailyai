@@ -7,50 +7,74 @@
  "metric": "Feed 顺序（不是排名）",
  "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
  "period": "2026-11-01",
- "fetched": "2026-11-01T01:31:04.698Z",
+ "fetched": "2026-11-01T13:31:56.097Z",
  "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
  "rows": [
   {
-   "name": "AC Bridge",
-   "url": "https://www.producthunt.com/products/ac-bridge",
-   "value": "Your smart lights show when Claude Code or Codex needs you. Discussion | Link",
+   "name": "Embage",
+   "url": "https://www.producthunt.com/products/embage",
+   "value": "Build agent for your customers, run workflows, analyzed. Discussion | Link",
    "date": "2026-10-30"
   },
   {
-   "name": "SpaceO",
-   "url": "https://www.producthunt.com/products/spaceo",
-   "value": "Give AI agents their own screen on your Mac Discussion | Link",
-   "date": "2026-10-04"
-  },
-  {
-   "name": "Coding Wrapped",
-   "url": "https://www.producthunt.com/products/coding-wrapped",
-   "value": "See how you really vibe code with Claude Code & Codex Discussion | Link",
+   "name": "Click",
+   "url": "https://www.producthunt.com/products/click-6",
+   "value": "Managed agents API that works with any model Discussion | Link",
    "date": "2026-10-20"
   },
   {
-   "name": "Godwit",
-   "url": "https://www.producthunt.com/products/godwit",
-   "value": "An open-source, AI-native email client Discussion | Link",
-   "date": "2026-10-30"
+   "name": "ClawsGO Science",
+   "url": "https://www.producthunt.com/products/clawsgo-science",
+   "value": "The AI research agent with its own cloud lab Discussion | Link",
+   "date": "2026-10-26"
   },
   {
-   "name": "WinnerAdSpy",
-   "url": "https://www.producthunt.com/products/winneradspy",
-   "value": "Turn competitor ad insights into winning app campaigns Discussion | Link",
-   "date": "2026-09-22"
+   "name": "agentmash",
+   "url": "https://www.producthunt.com/products/agentmash",
+   "value": "open-source multiplayer AI for teams' coding agents Discussion | Link",
+   "date": "2026-10-31"
+  },
+  {
+   "name": "Usage for Claude + ChatGPT 4.0",
+   "url": "https://www.producthunt.com/products/usage-for-claude",
+   "value": "Claude + ChatGPT limits on your Mac, iPhone, iPad and Watch Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "ernd",
+   "url": "https://www.producthunt.com/products/ernd",
+   "value": "The credit card for the AI stack Discussion | Link",
+   "date": "2026-10-31"
+  },
+  {
+   "name": "Precise Edit by Ideogram",
+   "url": "https://www.producthunt.com/products/ideogram",
+   "value": "Precise editing with context window Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "Modelpeers",
+   "url": "https://www.producthunt.com/products/modelpeers",
+   "value": "Follow AI models and agents like you follow people Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "Fluent 2",
+   "url": "https://www.producthunt.com/products/fluent-ai-writing-assistant-for-macos",
+   "value": "AI teammates that run locally on your Mac Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "Riverside Agents",
+   "url": "https://www.producthunt.com/products/riverside-fm",
+   "value": "A team of AI agents for video: produce, edit, clip, post Discussion | Link",
+   "date": "2026-10-26"
   },
   {
    "name": "CubbyPad",
    "url": "https://www.producthunt.com/products/cubbypad",
    "value": "Launchpad is back on macOS 26, and it's smarter Discussion | Link",
    "date": "2026-10-19"
-  },
-  {
-   "name": "Mo",
-   "url": "https://www.producthunt.com/products/mo-5",
-   "value": "A little character on your Mac who does 232 tasks for you Discussion | Link",
-   "date": "2026-10-28"
   },
   {
    "name": "Agnos",
@@ -65,16 +89,52 @@
    "date": "2026-10-30"
   },
   {
-   "name": "telemetry.dev",
-   "url": "https://www.producthunt.com/products/telemetry-dev",
-   "value": "LLM observability for AI agents Discussion | Link",
-   "date": "2026-10-28"
+   "name": "Coding Wrapped",
+   "url": "https://www.producthunt.com/products/coding-wrapped",
+   "value": "See how you really vibe code with Claude Code & Codex Discussion | Link",
+   "date": "2026-10-20"
+  },
+  {
+   "name": "AC Bridge",
+   "url": "https://www.producthunt.com/products/ac-bridge",
+   "value": "Your smart lights show when Claude Code or Codex needs you. Discussion | Link",
+   "date": "2026-10-30"
   },
   {
    "name": "GitHub Copilot Fusion",
    "url": "https://www.producthunt.com/products/github-copilot-fusion",
    "value": "GitHub's AI coding agent that picks and combines models Discussion | Link",
    "date": "2026-10-28"
+  },
+  {
+   "name": "telemetry.dev",
+   "url": "https://www.producthunt.com/products/telemetry-dev",
+   "value": "LLM observability for AI agents Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "WinnerAdSpy",
+   "url": "https://www.producthunt.com/products/winneradspy",
+   "value": "Turn competitor ad insights into winning app campaigns Discussion | Link",
+   "date": "2026-09-22"
+  },
+  {
+   "name": "SpaceO",
+   "url": "https://www.producthunt.com/products/spaceo",
+   "value": "Give AI agents their own screen on your Mac Discussion | Link",
+   "date": "2026-10-04"
+  },
+  {
+   "name": "Mo",
+   "url": "https://www.producthunt.com/products/mo-5",
+   "value": "A little character on your Mac who does 232 tasks for you Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Godwit",
+   "url": "https://www.producthunt.com/products/godwit",
+   "value": "An open-source, AI-native email client Discussion | Link",
+   "date": "2026-10-30"
   },
   {
    "name": "SKI",
@@ -87,48 +147,6 @@
    "url": "https://www.producthunt.com/products/specsight",
    "value": "Product observability for teams shipping fast with AI Discussion | Link",
    "date": "2026-10-18"
-  },
-  {
-   "name": "Teable Mobile",
-   "url": "https://www.producthunt.com/products/teable-4",
-   "value": "Build the systems your team runs on, now from your phone Discussion | Link",
-   "date": "2026-10-27"
-  },
-  {
-   "name": "Vaani Developer Platform",
-   "url": "https://www.producthunt.com/products/vaani-developer-platfrom",
-   "value": "The only voice AI harness that you'll ever need Discussion | Link",
-   "date": "2026-10-27"
-  },
-  {
-   "name": "ilse",
-   "url": "https://www.producthunt.com/products/ilse",
-   "value": "Point at your app and your AI agent changes the code Discussion | Link",
-   "date": "2026-10-29"
-  },
-  {
-   "name": "Faylee",
-   "url": "https://www.producthunt.com/products/faylee",
-   "value": "Bug reports your coding agent can fix from one link Discussion | Link",
-   "date": "2026-10-29"
-  },
-  {
-   "name": "fastbrowse",
-   "url": "https://www.producthunt.com/products/fastbrowse",
-   "value": "Fastest open source browser agent Discussion | Link",
-   "date": "2026-10-28"
-  },
-  {
-   "name": "Axonnic",
-   "url": "https://www.producthunt.com/products/axonnic",
-   "value": "Muscle-sensing sleeves for robot training Discussion | Link",
-   "date": "2026-10-29"
-  },
-  {
-   "name": "MCP Server by XWiki",
-   "url": "https://www.producthunt.com/products/xwiki",
-   "value": "Give your AI your wiki's knowledge while keeping the control Discussion | Link",
-   "date": "2026-10-20"
   },
   {
    "name": "Chopstick",
@@ -155,40 +173,22 @@
    "date": "2026-10-26"
   },
   {
-   "name": "Canva Brush",
-   "url": "https://www.producthunt.com/products/canva",
-   "value": "A vision-language model that edits your designs Discussion | Link",
-   "date": "2026-10-29"
-  },
-  {
-   "name": "Empacer",
-   "url": "https://www.producthunt.com/products/empacer",
-   "value": "The voice-first assistant for small business owners Discussion | Link",
+   "name": "Teable Mobile",
+   "url": "https://www.producthunt.com/products/teable-4",
+   "value": "Build the systems your team runs on, now from your phone Discussion | Link",
    "date": "2026-10-27"
   },
   {
-   "name": "Flatbread",
-   "url": "https://www.producthunt.com/products/flatbread",
-   "value": "Share the whole agent run, not a screenshot Discussion | Link",
-   "date": "2026-10-28"
+   "name": "ilse",
+   "url": "https://www.producthunt.com/products/ilse",
+   "value": "Point at your app and your AI agent changes the code Discussion | Link",
+   "date": "2026-10-29"
   },
   {
-   "name": "Polylane for ChatGPT",
-   "url": "https://www.producthunt.com/products/polylane",
-   "value": "Ask ChatGPT what broke in production Discussion | Link",
-   "date": "2026-10-28"
-  },
-  {
-   "name": "Floot in ChatGPT",
-   "url": "https://www.producthunt.com/products/floot",
-   "value": "Build and publish real apps without leaving ChatGPT Discussion | Link",
-   "date": "2026-10-28"
-  },
-  {
-   "name": "Suno MCP",
-   "url": "https://www.producthunt.com/products/suno",
-   "value": "The music layerfor your AI stack Discussion | Link",
-   "date": "2026-10-28"
+   "name": "Faylee",
+   "url": "https://www.producthunt.com/products/faylee",
+   "value": "Bug reports your coding agent can fix from one link Discussion | Link",
+   "date": "2026-10-29"
   }
  ]
 }
