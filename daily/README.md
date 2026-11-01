@@ -7,13 +7,13 @@
 
 ### 2026-11-01 · 星期日
 
-Linux TCP 握手 UAF 评 9.8 分；Memdoor、Backenly 等 Agent 工具上新；可存额度重置到账，商汤开源 Loop-9B。
+Tibo 放出可存额度 Banked 1/2；DeepSeek 开源 dsh-superagent；Collison 推「液态软件」改进框；Anthropic 请多宗教伦理学者谈 Claude 品格。
 
 🆕 今日新品：Backenly、Memdoor、Arca +4
 
 🎙 访谈与播客：Latent Space
 
-AI Hot 9 · Tech 11 · 访谈/播客 1 · ⭐ 10 条高分
+AI Hot 16 · Tech 11 · 访谈/播客 1 · ⭐ 13 条高分
 
 [→ 查看当天详情](2026/11/2026-11-01.md)
 
