@@ -1,0 +1,23 @@
+{
+  "id": "arca",
+  "name": "Arca",
+  "aliases": [
+    "Arca",
+    "Arca Wealth",
+    "arcawealth.ai"
+  ],
+  "url": "https://arcawealth.ai/",
+  "category": "办公",
+  "region": "global",
+  "maker": "Arca",
+  "oneLiner": "AI 原生财富管理公司：用长期运行的 Agent 扛起投顾后台与规划工作，人类顾问保留交易与资金决策",
+  "oneLinerEn": "AI-native wealth management firm where long-horizon agents carry advisory back-office work while human advisors keep final authority over trades and money movement.",
+  "score": 3,
+  "firstSeen": "2026-11-01",
+  "updated": "2026-11-01",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}

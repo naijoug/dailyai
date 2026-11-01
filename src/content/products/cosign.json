@@ -1,0 +1,23 @@
+{
+  "id": "cosign",
+  "name": "Cosign",
+  "aliases": [
+    "Cosign",
+    "cosign.co",
+    "Cosign Awards"
+  ],
+  "url": "https://cosign.co",
+  "category": "其他",
+  "region": "global",
+  "maker": "a16z",
+  "oneLiner": "a16z 出品的职业关系网络：以「有人愿意为你背书」为核心信号，并面向人和 Agent 开放关系与声誉图谱",
+  "oneLinerEn": "a16z professional network built around vouching signals, mapping relationships and reputation for both humans and AI agents.",
+  "score": 3,
+  "firstSeen": "2026-11-01",
+  "updated": "2026-11-01",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}
