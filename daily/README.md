@@ -9,9 +9,11 @@
 
 Linux TCP 握手 UAF 评 9.8 分；Memdoor、Backenly 等 Agent 工具上新；可存额度重置到账，商汤开源 Loop-9B。
 
-🆕 今日新品：Backenly、Memdoor、AwaitIO +2
+🆕 今日新品：Backenly、Memdoor、Arca +4
 
-AI Hot 9 · Tech 11 · ⭐ 10 条高分
+🎙 访谈与播客：Latent Space
+
+AI Hot 9 · Tech 11 · 访谈/播客 1 · ⭐ 10 条高分
 
 [→ 查看当天详情](2026/11/2026-11-01.md)
 
@@ -23,9 +25,9 @@ ChatGPT 分享可接管账号已修；T3 Code 等 Agent 上新；Ultra 取消限
 
 🆕 今日新品：Lightpanda、OpenMausBot、Orkas +7
 
-🎙 访谈与播客：Y Combinator Startup Podcast (Lightcone)
+🎙 访谈与播客：The a16z Show、Y Combinator Startup Podcast (Lightcone)
 
-AI Hot 25 · Tech 23 · 访谈/播客 1 · ⭐ 22 条高分
+AI Hot 25 · Tech 23 · 访谈/播客 2 · ⭐ 22 条高分
 
 [→ 查看当天详情](2026/10/2026-10-31.md)
 
@@ -301,6 +303,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Latent Space：Agent 反过来提醒人：Arca 如何用长期 Agent 做财富管理](2026/11/2026-11-01.md#interviews) — 播客 · 2026-11-01 · [原文](https://latent.space/p/arca)
+- [The a16z Show：AI 能修好职业社交吗：走进 a16z Cosign](2026/10/2026-10-31.md#interviews) — 播客 · 2026-10-31 · [原文](https://podcasts.apple.com/us/podcast/can-ai-fix-professional-networking-inside-cosign/id842818711?i=1000799049101)
 - [Y Combinator Startup Podcast (Lightcone)：当人人都能写软件：Supabase CEO Paul Copplestone 做客 YC Lightcone](2026/10/2026-10-31.md#interviews) — 播客 · 2026-10-31 · [原文](https://podcasts.apple.com/us/podcast/what-happens-when-everyone-can-build-software/id1236907421?i=1000798941637)
 - [The a16z Show：为什么 AI 能让小律所变成十亿美元级生意：Eve CEO Jay Madheswaran](2026/10/2026-10-30.md#interviews) — 播客 · 2026-10-30 · [原文](https://podcasts.apple.com/us/podcast/why-ai-could-turn-small-law-firms-into-billion-dollar/id842818711?i=1000798872502)
 - [The MAD Podcast：2026 AI 现状报告：年度大事与 2027 年 AGI？| Nathan Benaich](2026/10/2026-10-29.md#interviews) — 播客 · 2026-10-29 · [原文](https://podcasters.spotify.com/pod/show/firstmark/episodes/State-of-AI-2026-The-Biggest-Stories-of-the-Year-and-AGI-in-2027---Nathan-Benaich-e3rbhc9)
