@@ -1,0 +1,15 @@
+{
+  "id": "godwit",
+  "name": "Godwit",
+  "aliases": [],
+  "url": "https://godwit.email/",
+  "category": "办公",
+  "region": "global",
+  "oneLiner": "桌面端接任意 IMAP/SMTP（macOS/Windows/Linux）；",
+  "oneLinerEn": "desktop app for any IMAP/SMTP account (macOS/Windows/Linux);",
+  "score": 3,
+  "firstSeen": "2026-11-01",
+  "updated": "2026-11-01",
+  "tags": [],
+  "rankings": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "memdoor",
+  "name": "Memdoor",
+  "aliases": [],
+  "url": "https://memdoor.ai/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "本机或经 SSH 跑（无需 Docker/Python），支持无头 memdoor run、可恢复工作流、CI Action（pr-review、security-review、f",
+  "oneLinerEn": "run locally or over SSH (no Docker/Python), with headless memdoor run, durable workflows, ",
+  "score": 4,
+  "firstSeen": "2026-11-01",
+  "updated": "2026-11-01",
+  "tags": [
+    "Models",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

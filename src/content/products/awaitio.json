@@ -1,0 +1,15 @@
+{
+  "id": "awaitio",
+  "name": "AwaitIO",
+  "aliases": [],
+  "url": "https://awaitio.com/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "每个后台动作是一个 async TS handler；",
+  "oneLinerEn": "each back-office action is an async TS handler;",
+  "score": 3,
+  "firstSeen": "2026-11-01",
+  "updated": "2026-11-01",
+  "tags": [],
+  "rankings": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "backenly",
+  "name": "Backenly",
+  "aliases": [],
+  "url": "https://backenly.com/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "Claude Code / Cursor / Codex（及其他 MCP 宿主）经 MCP 搭真正的 Postgres 后端——表、鉴权、PostgREST、实时、存储、函数；",
+  "oneLinerEn": "Claude Code / Cursor / Codex (and other MCP hosts) build a real Postgres backend over MCP—",
+  "score": 4,
+  "firstSeen": "2026-11-01",
+  "updated": "2026-11-01",
+  "tags": [
+    "Dev Tools",
+    "Products"
+  ],
+  "rankings": []
+}
