@@ -7,13 +7,13 @@
 
 ### 2026-11-01 · 星期日
 
-Codex 用量页现 gpt-6.2-astra 灰度；Matt 推 Sandcastle 软件工厂；Aura Autopilot 开源游戏测；上午 Banked 重置与 DeepSeek Super-agent 续热。
+Linux TCP UAF 评 9.8；Banked 重置与 Codex 灰度 6.2 Astra；agentmash 等团队 Agent 工具上新，巴西法院因提示注入罚律师。
 
-🆕 今日新品：Backenly、Memdoor、Arca +4
+🆕 今日新品：agentmash、Backenly、Memdoor +9
 
 🎙 访谈与播客：Latent Space
 
-AI Hot 22 · Tech 11 · 访谈/播客 1 · ⭐ 16 条高分
+AI Hot 22 · Tech 22 · 访谈/播客 1 · ⭐ 20 条高分
 
 [→ 查看当天详情](2026/11/2026-11-01.md)
 
