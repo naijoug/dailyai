@@ -7,9 +7,11 @@
 
 ### 2026-11-02 · 星期一
 
-Anthropic 官网一度露出 Mythos 5.5 后撤回；Codex 终端可任意改模型名，Astra 截图需谨慎；Pieter/Lauren 用 Claude Code 与 Grok Bot 出片出游戏；卡兹克晒一年 Agent 自动化。
+Mythos 5.5 官网闪现后撤回；ClawsGO、Click、Termy 等 Agent 工具上新；GitLab 正则编译器 CVSS 10 需再打补丁；美团发 LongCat-2.5。
 
-AI Hot 8 · ⭐ 4 条高分
+🆕 今日新品：ClawsGO Science、nonce、Click +3
+
+AI Hot 8 · Tech 12 · ⭐ 10 条高分
 
 [→ 查看当天详情](2026/11/2026-11-02.md)
 
