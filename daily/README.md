@@ -5,6 +5,14 @@
 
 ## 2026 年 11 月
 
+### 2026-11-02 · 星期一
+
+Anthropic 官网一度露出 Mythos 5.5 后撤回；Codex 终端可任意改模型名，Astra 截图需谨慎；Pieter/Lauren 用 Claude Code 与 Grok Bot 出片出游戏；卡兹克晒一年 Agent 自动化。
+
+AI Hot 8 · ⭐ 4 条高分
+
+[→ 查看当天详情](2026/11/2026-11-02.md)
+
 ### 2026-11-01 · 星期日
 
 Linux TCP UAF 评 9.8；Banked 重置与 Codex 灰度 6.2 Astra；agentmash 等团队 Agent 工具上新，巴西法院因提示注入罚律师。
