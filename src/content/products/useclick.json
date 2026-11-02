@@ -1,0 +1,18 @@
+{
+  "id": "useclick",
+  "name": "Click",
+  "aliases": [],
+  "url": "https://useclick.ai/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "用 HTTP 丢任务即可跑完 Agent 循环——自带 Key 任选模型、接 MCP/自研工具，内置沙箱 / 浏览器 / 网页搜索，延迟工具发现支撑大体量工具集，支持 Code M",
+  "oneLinerEn": "send a task over HTTP and Click runs the agent loop—BYOK any model, MCP/custom tools, buil",
+  "score": 4,
+  "firstSeen": "2026-11-02",
+  "updated": "2026-11-02",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

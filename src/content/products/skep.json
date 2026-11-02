@@ -1,0 +1,18 @@
+{
+  "id": "skep",
+  "name": "Skep",
+  "aliases": [],
+  "url": "https://skepagent.com/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "一台机器开会话，其他设备用加入码进场，每台在自己的仓库里跑各自的 Claude Code / Codex / Pi；",
+  "oneLinerEn": "start a session on one machine, peers join with a code, and each device runs its own Claud",
+  "score": 3,
+  "firstSeen": "2026-11-02",
+  "updated": "2026-11-02",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

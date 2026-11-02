@@ -1,0 +1,17 @@
+{
+  "id": "termy",
+  "name": "Termy",
+  "aliases": [],
+  "url": "https://www.apptermy.com/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "读取各 Agent 自身 hook，精确显示工作中 / 等你 / 完成，刘海里即可 Allow/Deny 命令，重启或崩溃后标签页可恢复会话，菜单栏显示套餐额度；",
+  "oneLinerEn": "reads each agent’s own hooks for exact working / needs-you / done status, Allow/Deny comma",
+  "score": 3,
+  "firstSeen": "2026-11-02",
+  "updated": "2026-11-02",
+  "tags": [
+    "Products"
+  ],
+  "rankings": []
+}

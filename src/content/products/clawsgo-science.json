@@ -1,0 +1,17 @@
+{
+  "id": "clawsgo-science",
+  "name": "ClawsGO Science",
+  "aliases": [],
+  "url": "https://clawsgo.ai/",
+  "category": "研究",
+  "region": "global",
+  "oneLiner": "从研究问题一路做到文献、代码、图表和带引用论文（画廊示例：肠道菌问题产出 24 页 / 17 图 / 59 引用）；",
+  "oneLinerEn": "takes a research question through literature, code, figures and a cited paper (gallery exa",
+  "score": 4,
+  "firstSeen": "2026-11-02",
+  "updated": "2026-11-02",
+  "tags": [
+    "Agents"
+  ],
+  "rankings": []
+}

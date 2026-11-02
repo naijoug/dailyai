@@ -1,0 +1,20 @@
+{
+  "id": "anymodelbot",
+  "name": "V2EX",
+  "aliases": [],
+  "url": "https://www.v2ex.com/t/1253622",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "作者基于 dsh-superagent「少占注意力、多交付价值」原则做开源桌面端（与 DeepSeek 官方无关）：后台长任务、定时规则（可先观察模式）、集中「需要你」入口，本地优",
+  "oneLinerEn": "open-source desktop app (unofficial) built on the dsh-superagent “minimal attention, maxim",
+  "score": 3,
+  "firstSeen": "2026-11-02",
+  "updated": "2026-11-02",
+  "tags": [
+    "Models",
+    "Dev Tools",
+    "Open Source",
+    "Chinese Community"
+  ],
+  "rankings": []
+}
