@@ -1,0 +1,22 @@
+{
+  "id": "assistant-benchmark",
+  "name": "Assistant Benchmark",
+  "aliases": [
+    "Assistant Benchmark",
+    "assistantbenchmark.com"
+  ],
+  "url": "https://assistantbenchmark.com/",
+  "category": "研究",
+  "region": "global",
+  "maker": "David Pawlan",
+  "oneLiner": "独立免费的个人 AI 助手评测榜：用同一套公开任务实测可短信对话的 Agent，每个分数附证据",
+  "oneLinerEn": "A free, independent scorecard for text-based AI assistants: the same published tasks run against every product, each score linked to its evidence.",
+  "score": 3,
+  "firstSeen": "2026-11-04",
+  "updated": "2026-11-04",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}

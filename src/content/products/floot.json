@@ -1,0 +1,17 @@
+{
+  "id": "floot",
+  "name": "Floot",
+  "aliases": [],
+  "url": "https://floot.com",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "接入 Floot 连接器，在你常用的对话里描述应用，就能得到带数据库、用户登录、定时任务、邮件和线上地址的真实应用——现在还能发布到 iOS 和 Android，并内置 Strip",
+  "oneLinerEn": "add the Floot connector, describe the app in your existing chat, and get a real app with d",
+  "score": 3,
+  "firstSeen": "2026-11-04",
+  "updated": "2026-11-04",
+  "tags": [
+    "Products"
+  ],
+  "rankings": []
+}

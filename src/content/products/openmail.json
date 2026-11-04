@@ -1,0 +1,15 @@
+{
+  "id": "openmail",
+  "name": "OpenMail",
+  "aliases": [],
+  "url": "https://openmail.sh",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "一条 CLI 命令或一次 API 调用即可在你的域名下开出一个拥有独立发信信誉的邮箱；",
+  "oneLinerEn": "one CLI command or API call provisions an inbox on your domain with its own sending reputa",
+  "score": 3,
+  "firstSeen": "2026-11-04",
+  "updated": "2026-11-04",
+  "tags": [],
+  "rankings": []
+}

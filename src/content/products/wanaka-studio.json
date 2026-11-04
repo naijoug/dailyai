@@ -1,0 +1,15 @@
+{
+  "id": "wanaka-studio",
+  "name": "Wanaka Studio",
+  "aliases": [],
+  "url": "https://wanaka.app/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "描述你的游戏，创作 Agent 先做出可玩的第一版，之后可继续指挥 AI，或在同步的可视化编辑器里自己改角色、动画、界面和音效；",
+  "oneLinerEn": "describe a game and its creation agent builds a first playable version you can keep direct",
+  "score": 3,
+  "firstSeen": "2026-11-04",
+  "updated": "2026-11-04",
+  "tags": [],
+  "rankings": []
+}

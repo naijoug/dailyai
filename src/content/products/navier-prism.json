@@ -5,12 +5,12 @@
   "url": "https://navier.ai/prism",
   "category": "编程/Agent",
   "region": "global",
+  "maker": "Navier AI",
   "oneLiner": "一个桌面应用集成 CAD、物理求解器、3D 查看器、编程环境与报告，由工程 Agent 驱动——可让它跑 CFD、设计并验证零件、写板卡固件或起草周报；",
   "oneLinerEn": "one desktop app with CAD, physics solvers, 3D viewers, a coding environment and reporting,",
   "score": 4,
   "firstSeen": "2026-11-02",
   "updated": "2026-11-02",
   "tags": [],
-  "rankings": [],
-  "maker": "Navier AI"
+  "rankings": []
 }

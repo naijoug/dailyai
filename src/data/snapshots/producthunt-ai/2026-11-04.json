@@ -7,19 +7,133 @@
  "metric": "Feed 顺序（不是排名）",
  "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
  "period": "2026-11-04",
- "fetched": "2026-11-04T04:02:48.443Z",
+ "fetched": "2026-11-04T12:18:00.056Z",
  "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
  "rows": [
   {
-   "name": "Teamily AI",
-   "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
-   "value": "Your personal agent, agent teams & people in one messenger Discussion | Link",
-   "date": "2026-06-02"
+   "name": "Dessn",
+   "url": "https://www.producthunt.com/products/dessn-2",
+   "value": "The design canvas that runs your real code. Discussion | Link",
+   "date": "2026-10-21"
   },
   {
-   "name": "nana",
-   "url": "https://www.producthunt.com/products/nana-2",
-   "value": "One terminal for every coding agent, on Windows Discussion | Link",
+   "name": "Hindsight Models and Inference API",
+   "url": "https://www.producthunt.com/products/vectorize",
+   "value": "Small, fast models for reranking, embeddings and decisions Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "Wanaka Studio",
+   "url": "https://www.producthunt.com/products/wanaka-studio",
+   "value": "Make and publish 3D games with the first AI game engine Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "KREV AI",
+   "url": "https://www.producthunt.com/products/krev",
+   "value": "An AI team that runs your ecommerce brand Discussion | Link",
+   "date": "2026-11-01"
+  },
+  {
+   "name": "Floot Payments",
+   "url": "https://www.producthunt.com/products/floot",
+   "value": "Take payments in apps you build in ChatGPT and Claude Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "Orphex MCP",
+   "url": "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing",
+   "value": "Run your entire digital marketing stack via one unified MCP Discussion | Link",
+   "date": "2026-10-07"
+  },
+  {
+   "name": "Render Sandboxes",
+   "url": "https://www.producthunt.com/products/render",
+   "value": "A computer for every agent Discussion | Link",
+   "date": "2026-10-23"
+  },
+  {
+   "name": "QualityLayer",
+   "url": "https://www.producthunt.com/products/qualitylayer",
+   "value": "Plan, build and review software with your coding agents Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "TellPip",
+   "url": "https://www.producthunt.com/products/tellpip",
+   "value": "A little bird that whispers what to say in your calls Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "OpusClip 4.0",
+   "url": "https://www.producthunt.com/products/opusclip",
+   "value": "Turn raw footage into ready-to-publish videos with AI Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "Hira",
+   "url": "https://www.producthunt.com/products/hira",
+   "value": "Your free personal agent for job search Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "LiveReacting for ChatGPT",
+   "url": "https://www.producthunt.com/products/livereacting",
+   "value": "Run 24/7 and pre-recorded live streams from ChatGPT Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "kosa8",
+   "url": "https://www.producthunt.com/products/kosa8",
+   "value": "Air-gapped microVM sandboxes for enterprise AI agents Discussion | Link",
+   "date": "2026-11-01"
+  },
+  {
+   "name": "OpenMail",
+   "url": "https://www.producthunt.com/products/openmail",
+   "value": "Give your AI agents an identity through email Discussion | Link",
+   "date": "2026-10-20"
+  },
+  {
+   "name": "Datashake MCP",
+   "url": "https://www.producthunt.com/products/datashake-hub",
+   "value": "Plug review and social data straight into your AI assistant Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "Rungle",
+   "url": "https://www.producthunt.com/products/rungle",
+   "value": "Turn your running photos and clips into share-ready Reels Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "Zero Wire",
+   "url": "https://www.producthunt.com/products/cloudflare",
+   "value": "Check your exposure to critical CVEs with one agent prompt Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "Resum",
+   "url": "https://www.producthunt.com/products/resum",
+   "value": "API and SDK for live conversations Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "Hashference",
+   "url": "https://www.producthunt.com/products/hashference",
+   "value": "Fund 45+ top AI models using your idle CPU/GPU compute Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "Prelulu",
+   "url": "https://www.producthunt.com/products/prelulu",
+   "value": "Be the main character: chat & video roleplay any story Discussion | Link",
+   "date": "2026-10-31"
+  },
+  {
+   "name": "Beaquaro Studio",
+   "url": "https://www.producthunt.com/products/beaquaro-studio",
+   "value": "Write once, post everywhere. Your link in bio, too. Discussion | Link",
    "date": "2026-11-02"
   },
   {
@@ -29,99 +143,15 @@
    "date": "2026-11-02"
   },
   {
-   "name": "Flockbay",
-   "url": "https://www.producthunt.com/products/flockbay",
-   "value": "Free AI game maker built on Godot Discussion | Link",
-   "date": "2026-11-02"
-  },
-  {
    "name": "Synter Canvas",
    "url": "https://www.producthunt.com/products/synter-canvas",
    "value": "Your AI agent runs ads across 30+ ad platforms Discussion | Link",
    "date": "2026-10-20"
   },
   {
-   "name": "Peji",
-   "url": "https://www.producthunt.com/products/peji",
-   "value": "An AI chat with a real browser you control Discussion | Link",
-   "date": "2026-11-01"
-  },
-  {
-   "name": "Beaquaro Studio",
-   "url": "https://www.producthunt.com/products/beaquaro-studio",
-   "value": "Write once, post everywhere. Your link in bio, too. Discussion | Link",
-   "date": "2026-11-02"
-  },
-  {
-   "name": "EaseIn Health",
-   "url": "https://www.producthunt.com/products/easein-health",
-   "value": "Track GLP-1 doses, symptoms and daily habits in one app Discussion | Link",
-   "date": "2026-10-18"
-  },
-  {
-   "name": "NEXUPIRA",
-   "url": "https://www.producthunt.com/products/nexupira",
-   "value": "AI teammates that hand back finished work Discussion | Link",
-   "date": "2026-11-02"
-  },
-  {
    "name": "asklog",
    "url": "https://www.producthunt.com/products/asklog",
    "value": "Give your coding agents a boss. Answer it from your phone. Discussion | Link",
-   "date": "2026-11-02"
-  },
-  {
-   "name": "Beamfy",
-   "url": "https://www.producthunt.com/products/beamfy",
-   "value": "AI vision assistant for blind people, live in 74 languages Discussion | Link",
-   "date": "2026-10-28"
-  },
-  {
-   "name": "Scrawl",
-   "url": "https://www.producthunt.com/products/scrawl-2",
-   "value": "Show your AI agent the problem with a visual frame Discussion | Link",
-   "date": "2026-11-02"
-  },
-  {
-   "name": "One Roof",
-   "url": "https://www.producthunt.com/products/one-roof",
-   "value": "A new way to build with agents. You stay in charge. Discussion | Link",
-   "date": "2026-11-02"
-  },
-  {
-   "name": "kwant",
-   "url": "https://www.producthunt.com/products/kwant",
-   "value": "AI bots that check each other's work before saying \"done\" Discussion | Link",
-   "date": "2026-10-30"
-  },
-  {
-   "name": "IQ",
-   "url": "https://www.producthunt.com/products/iq-code",
-   "value": "The dashboard for your team's AI use Discussion | Link",
-   "date": "2026-10-27"
-  },
-  {
-   "name": "Wavefunction",
-   "url": "https://www.producthunt.com/products/wavefunction",
-   "value": "A minimal, open-source coding agent for your Mac Discussion | Link",
-   "date": "2026-10-31"
-  },
-  {
-   "name": "Hookdeck Inspect",
-   "url": "https://www.producthunt.com/products/hookdeck",
-   "value": "Free webhook tester for you and your agent Discussion | Link",
-   "date": "2026-10-29"
-  },
-  {
-   "name": "MachineMail",
-   "url": "https://www.producthunt.com/products/machinemail",
-   "value": "Email inboxes for humans and bots Discussion | Link",
-   "date": "2026-11-02"
-  },
-  {
-   "name": "LifeVal",
-   "url": "https://www.producthunt.com/products/openai",
-   "value": "OpenAI's benchmark for everyday life tasks with AI Discussion | Link",
    "date": "2026-11-02"
   },
   {
@@ -131,22 +161,16 @@
    "date": "2026-11-02"
   },
   {
-   "name": "SUN Web & API",
-   "url": "https://www.producthunt.com/products/sun-ai",
-   "value": "Turn prompts and PDFs into audio, on the web or via API Discussion | Link",
-   "date": "2026-11-02"
+   "name": "EaseIn Health",
+   "url": "https://www.producthunt.com/products/easein-health",
+   "value": "Track GLP-1 doses, symptoms and daily habits in one app Discussion | Link",
+   "date": "2026-10-18"
   },
   {
-   "name": "Corvo",
-   "url": "https://www.producthunt.com/products/corvo-3",
-   "value": "A mailbox that tidies itself as mail arrives Discussion | Link",
-   "date": "2026-11-02"
-  },
-  {
-   "name": "Prism",
-   "url": "https://www.producthunt.com/products/prism-40",
-   "value": "Cursor for hardware engineering Discussion | Link",
-   "date": "2026-11-02"
+   "name": "Peji",
+   "url": "https://www.producthunt.com/products/peji",
+   "value": "An AI chat with a real browser you control Discussion | Link",
+   "date": "2026-11-01"
   },
   {
    "name": "Oreja de Van Gogh",
@@ -155,40 +179,16 @@
    "date": "2026-11-02"
   },
   {
-   "name": "Display 1.0",
-   "url": "https://www.producthunt.com/products/display-dev",
-   "value": "Create docs and apps with any agent, in one workspace Discussion | Link",
-   "date": "2026-10-30"
+   "name": "Scrawl",
+   "url": "https://www.producthunt.com/products/scrawl-2",
+   "value": "Show your AI agent the problem with a visual frame Discussion | Link",
+   "date": "2026-11-02"
   },
   {
-   "name": "redu.cloud",
-   "url": "https://www.producthunt.com/products/redu-cloud",
-   "value": "Run machines at agent speed, not human speed. Discussion | Link",
-   "date": "2025-12-12"
-  },
-  {
-   "name": "Hyperresearch",
-   "url": "https://www.producthunt.com/products/hyperresearch",
-   "value": "Durable, verified agentic search Discussion | Link",
-   "date": "2026-10-30"
-  },
-  {
-   "name": "Hera",
-   "url": "https://www.producthunt.com/products/hera-6",
-   "value": "AI Creative Canvas Discussion | Link",
-   "date": "2026-10-28"
-  },
-  {
-   "name": "Cedric AI for Meetings",
-   "url": "https://www.producthunt.com/products/cedric",
-   "value": "The first AI agent to present your slides and attend for you Discussion | Link",
-   "date": "2026-10-27"
-  },
-  {
-   "name": "Xmind 2027",
-   "url": "https://www.producthunt.com/products/xmind",
-   "value": "Your mind map is now an AI thinking partner Discussion | Link",
-   "date": "2026-11-01"
+   "name": "Teamily AI",
+   "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
+   "value": "Your personal agent, agent teams & people in one messenger Discussion | Link",
+   "date": "2026-06-02"
   }
  ]
 }
