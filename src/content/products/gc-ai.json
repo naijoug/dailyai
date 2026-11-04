@@ -1,0 +1,23 @@
+{
+  "id": "gc-ai",
+  "name": "GC AI",
+  "aliases": [
+    "GC AI",
+    "gc.ai",
+    "getgc.ai"
+  ],
+  "url": "https://gc.ai/",
+  "category": "办公",
+  "region": "global",
+  "maker": "GC AI",
+  "oneLiner": "面向企业内部法务团队的 AI 平台：快速起草、审阅和分析法律文件",
+  "oneLinerEn": "AI platform for in-house legal teams to draft, review and analyze legal documents in seconds.",
+  "score": 3,
+  "firstSeen": "2026-11-04",
+  "updated": "2026-11-04",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}
