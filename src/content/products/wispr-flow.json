@@ -1,0 +1,23 @@
+{
+  "id": "wispr-flow",
+  "name": "Wispr Flow",
+  "aliases": [
+    "Wispr Flow",
+    "Wispr",
+    "wisprflow"
+  ],
+  "url": "https://wisprflow.ai",
+  "domains": [],
+  "category": "音频",
+  "region": "global",
+  "maker": "Wispr",
+  "oneLiner": "AI 语音转文字输入工具，在任何应用里用说话代替打字",
+  "oneLinerEn": "AI voice-to-text dictation tool that lets you speak instead of type in any app.",
+  "score": 3,
+  "firstSeen": "2026-11-01",
+  "updated": "2026-11-01",
+  "tags": [
+    "Products"
+  ],
+  "rankings": []
+}

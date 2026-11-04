@@ -1,0 +1,19 @@
+{
+  "id": "one-roof",
+  "name": "One Roof",
+  "aliases": [],
+  "url": "https://gaurav8936.github.io/oneroof/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Claude Code、Codex、Gemini CLI、Kimi、Antigravity 多个会话各跑在真实终端里；",
+  "oneLinerEn": "several sessions of Claude Code, Codex, Gemini CLI, Kimi and Antigravity each run in a rea",
+  "score": 3,
+  "firstSeen": "2026-11-03",
+  "updated": "2026-11-03",
+  "tags": [
+    "Dev Tools",
+    "Open Source",
+    "Products"
+  ],
+  "rankings": []
+}

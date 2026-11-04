@@ -1,0 +1,15 @@
+{
+  "id": "subvocal",
+  "name": "Subvocal",
+  "aliases": [],
+  "url": "https://subvocal.company/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "镜框内天线发出射频穿过面部，舌头、嘴唇和软腭的无声口型会调制信号，团队用这类数据训练基础模型，以说话的速度解码成文字，还能微调到闭唇默念。",
+  "oneLinerEn": "antennas in the frame emit RF that passes through your face and is modulated by silent mou",
+  "score": 4,
+  "firstSeen": "2026-11-03",
+  "updated": "2026-11-03",
+  "tags": [],
+  "rankings": []
+}

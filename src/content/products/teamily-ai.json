@@ -1,0 +1,17 @@
+{
+  "id": "teamily-ai",
+  "name": "Teamily AI",
+  "aliases": [],
+  "url": "https://teamily.ai/",
+  "category": "办公",
+  "region": "global",
+  "oneLiner": "多人多 Agent 群聊，常驻 Agent 拥有持久记忆，可拆分任务、并行完成再交回群里，并在话题再次出现时主动翻出之前的决定；",
+  "oneLinerEn": "multi-user, multi-agent group chats where always-on agents with persistent memory split ta",
+  "score": 3,
+  "firstSeen": "2026-11-04",
+  "updated": "2026-11-04",
+  "tags": [
+    "Agents"
+  ],
+  "rankings": []
+}

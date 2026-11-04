@@ -1,0 +1,194 @@
+{
+ "source": "producthunt",
+ "sourceName": "Product Hunt",
+ "kind": "feed",
+ "badge": "Product Hunt",
+ "list": "Artificial Intelligence 分类 RSS",
+ "metric": "Feed 顺序（不是排名）",
+ "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
+ "period": "2026-11-04",
+ "fetched": "2026-11-04T04:02:48.443Z",
+ "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
+ "rows": [
+  {
+   "name": "Teamily AI",
+   "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
+   "value": "Your personal agent, agent teams & people in one messenger Discussion | Link",
+   "date": "2026-06-02"
+  },
+  {
+   "name": "nana",
+   "url": "https://www.producthunt.com/products/nana-2",
+   "value": "One terminal for every coding agent, on Windows Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "Infino AI",
+   "url": "https://www.producthunt.com/products/infino-ai",
+   "value": "Search, vectors and SQL over one Parquet copy, for agents Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "Flockbay",
+   "url": "https://www.producthunt.com/products/flockbay",
+   "value": "Free AI game maker built on Godot Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "Synter Canvas",
+   "url": "https://www.producthunt.com/products/synter-canvas",
+   "value": "Your AI agent runs ads across 30+ ad platforms Discussion | Link",
+   "date": "2026-10-20"
+  },
+  {
+   "name": "Peji",
+   "url": "https://www.producthunt.com/products/peji",
+   "value": "An AI chat with a real browser you control Discussion | Link",
+   "date": "2026-11-01"
+  },
+  {
+   "name": "Beaquaro Studio",
+   "url": "https://www.producthunt.com/products/beaquaro-studio",
+   "value": "Write once, post everywhere. Your link in bio, too. Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "EaseIn Health",
+   "url": "https://www.producthunt.com/products/easein-health",
+   "value": "Track GLP-1 doses, symptoms and daily habits in one app Discussion | Link",
+   "date": "2026-10-18"
+  },
+  {
+   "name": "NEXUPIRA",
+   "url": "https://www.producthunt.com/products/nexupira",
+   "value": "AI teammates that hand back finished work Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "asklog",
+   "url": "https://www.producthunt.com/products/asklog",
+   "value": "Give your coding agents a boss. Answer it from your phone. Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "Beamfy",
+   "url": "https://www.producthunt.com/products/beamfy",
+   "value": "AI vision assistant for blind people, live in 74 languages Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Scrawl",
+   "url": "https://www.producthunt.com/products/scrawl-2",
+   "value": "Show your AI agent the problem with a visual frame Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "One Roof",
+   "url": "https://www.producthunt.com/products/one-roof",
+   "value": "A new way to build with agents. You stay in charge. Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "kwant",
+   "url": "https://www.producthunt.com/products/kwant",
+   "value": "AI bots that check each other's work before saying \"done\" Discussion | Link",
+   "date": "2026-10-30"
+  },
+  {
+   "name": "IQ",
+   "url": "https://www.producthunt.com/products/iq-code",
+   "value": "The dashboard for your team's AI use Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "Wavefunction",
+   "url": "https://www.producthunt.com/products/wavefunction",
+   "value": "A minimal, open-source coding agent for your Mac Discussion | Link",
+   "date": "2026-10-31"
+  },
+  {
+   "name": "Hookdeck Inspect",
+   "url": "https://www.producthunt.com/products/hookdeck",
+   "value": "Free webhook tester for you and your agent Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "MachineMail",
+   "url": "https://www.producthunt.com/products/machinemail",
+   "value": "Email inboxes for humans and bots Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "LifeVal",
+   "url": "https://www.producthunt.com/products/openai",
+   "value": "OpenAI's benchmark for everyday life tasks with AI Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "Testera",
+   "url": "https://www.producthunt.com/products/testera-3",
+   "value": "AI-driven API testing Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "SUN Web & API",
+   "url": "https://www.producthunt.com/products/sun-ai",
+   "value": "Turn prompts and PDFs into audio, on the web or via API Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "Corvo",
+   "url": "https://www.producthunt.com/products/corvo-3",
+   "value": "A mailbox that tidies itself as mail arrives Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "Prism",
+   "url": "https://www.producthunt.com/products/prism-40",
+   "value": "Cursor for hardware engineering Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "Oreja de Van Gogh",
+   "url": "https://www.producthunt.com/products/oreja-de-van-gogh",
+   "value": "pause Apple Music while ChatGPT speaks Discussion | Link",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "Display 1.0",
+   "url": "https://www.producthunt.com/products/display-dev",
+   "value": "Create docs and apps with any agent, in one workspace Discussion | Link",
+   "date": "2026-10-30"
+  },
+  {
+   "name": "redu.cloud",
+   "url": "https://www.producthunt.com/products/redu-cloud",
+   "value": "Run machines at agent speed, not human speed. Discussion | Link",
+   "date": "2025-12-12"
+  },
+  {
+   "name": "Hyperresearch",
+   "url": "https://www.producthunt.com/products/hyperresearch",
+   "value": "Durable, verified agentic search Discussion | Link",
+   "date": "2026-10-30"
+  },
+  {
+   "name": "Hera",
+   "url": "https://www.producthunt.com/products/hera-6",
+   "value": "AI Creative Canvas Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Cedric AI for Meetings",
+   "url": "https://www.producthunt.com/products/cedric",
+   "value": "The first AI agent to present your slides and attend for you Discussion | Link",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "Xmind 2027",
+   "url": "https://www.producthunt.com/products/xmind",
+   "value": "Your mind map is now an AI thinking partner Discussion | Link",
+   "date": "2026-11-01"
+  }
+ ]
+}

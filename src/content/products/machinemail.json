@@ -1,0 +1,15 @@
+{
+  "id": "machinemail",
+  "name": "MachineMail",
+  "aliases": [],
+  "url": "https://machinemail.dev",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "Agent 可通过 MCP 或 API 收发邮件，支持自有域名，每封来信附信任报告；",
+  "oneLinerEn": "agents receive and send mail over MCP or API, on your own domain, with a trust report on e",
+  "score": 3,
+  "firstSeen": "2026-11-03",
+  "updated": "2026-11-03",
+  "tags": [],
+  "rankings": []
+}

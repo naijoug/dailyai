@@ -1,0 +1,18 @@
+{
+  "id": "asklog",
+  "name": "asklog",
+  "aliases": [],
+  "url": "https://asklog.ai",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "用一句话交代任务，Chief 自动拆分，为每个子任务在独立 git worktree 里启动 Claude Code 或 Codex worker，汇总进展、只把需要拍板的事交给你",
+  "oneLinerEn": "give Chief one job in plain words and it splits it into tasks, starts a Claude Code or Cod",
+  "score": 4,
+  "firstSeen": "2026-11-02",
+  "updated": "2026-11-02",
+  "tags": [
+    "Models",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

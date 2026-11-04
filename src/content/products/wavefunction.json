@@ -1,0 +1,17 @@
+{
+  "id": "wavefunction",
+  "name": "Wavefunction",
+  "aliases": [],
+  "url": "https://wavefunction.si",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "刻意不做超级应用——它并行处理多个任务时你可继续对话（子 Agent 以独立会话呈现、可单独干预），可用 ChatGPT 订阅、Anthropic、Google、OpenRoute",
+  "oneLinerEn": "deliberately not a super app—keep chatting while it runs several tasks in parallel (subage",
+  "score": 3,
+  "firstSeen": "2026-11-03",
+  "updated": "2026-11-03",
+  "tags": [
+    "Products"
+  ],
+  "rankings": []
+}

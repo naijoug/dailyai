@@ -1,0 +1,23 @@
+{
+  "id": "legora",
+  "name": "Legora",
+  "aliases": [
+    "Legora",
+    "Leya"
+  ],
+  "url": "https://legora.com",
+  "domains": [],
+  "category": "办公",
+  "region": "global",
+  "maker": "Legora",
+  "oneLiner": "面向律所的 AI 法律平台：Agent 起草修改 Word 文档、批量审阅合同（Tabular Review），并协调律师、客户与其他 Agent 的工作",
+  "oneLinerEn": "AI platform for law firms whose agent drafts and edits Word documents, reviews thousands of contracts at once with Tabular Review, and coordinates work between lawyers, clients and other agents.",
+  "score": 4,
+  "firstSeen": "2026-11-03",
+  "updated": "2026-11-03",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}

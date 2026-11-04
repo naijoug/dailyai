@@ -1,0 +1,15 @@
+{
+  "id": "testifly",
+  "name": "Testifly",
+  "aliases": [],
+  "url": "https://testifly.dev",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "提供网址和测试账号，Agent 自动发现用户流程（含 SSO / magic link 登录后的流程）、编写测试，在每次部署或定时对生产环境运行，UI 变化时自愈，失败附视频与根因",
+  "oneLinerEn": "give it a URL and test accounts and its agents discover user flows (including behind SSO /",
+  "score": 3,
+  "firstSeen": "2026-11-04",
+  "updated": "2026-11-04",
+  "tags": [],
+  "rankings": []
+}

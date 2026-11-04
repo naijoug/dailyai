@@ -1,0 +1,24 @@
+{
+  "id": "warp",
+  "name": "Warp",
+  "aliases": [
+    "Warp",
+    "Warp.dev",
+    "Warp Terminal"
+  ],
+  "url": "https://www.warp.dev/",
+  "domains": [],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "Warp",
+  "oneLiner": "Agent 化开发环境与终端，团队用它搭建「软件工厂」把任务自动变成 PR",
+  "oneLinerEn": "Agentic development environment and terminal; Warp uses it to run a \"software factory\" that turns tasks into pull requests.",
+  "score": 4,
+  "firstSeen": "2026-11-04",
+  "updated": "2026-11-04",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

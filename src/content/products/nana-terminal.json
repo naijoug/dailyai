@@ -1,0 +1,17 @@
+{
+  "id": "nana-terminal",
+  "name": "nana",
+  "aliases": [],
+  "url": "https://nana.areshk.dev",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Rust（GPUI + Ghostty 终端引擎）终端复用器，并排运行 Claude Code、Codex、OpenCode 等，每个 Agent 独占一个 git worktre",
+  "oneLinerEn": "a Rust (GPUI + Ghostty engine) terminal multiplexer that runs Claude Code, Codex, OpenCode",
+  "score": 3,
+  "firstSeen": "2026-11-02",
+  "updated": "2026-11-02",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "infino-ai",
+  "name": "Infino AI",
+  "aliases": [],
+  "url": "https://infino.ai",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "Apache-2.0 开源，数据只存一份 Parquet（S3 或本地），BM25 与向量索引直接放在文件里，Agent 可对同一批行做关键词、向量、混合和 SQL 查询，还能把结",
+  "oneLinerEn": "an Apache-2.0 retrieval engine that keeps one copy of your data as Parquet on S3 or local ",
+  "score": 3,
+  "firstSeen": "2026-11-02",
+  "updated": "2026-11-02",
+  "tags": [],
+  "rankings": []
+}
