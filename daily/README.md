@@ -9,7 +9,7 @@
 
 Claude Code 十月更新汇总，ultrathink 单轮升到 xhigh；Claude 插件可登录即自动连接；Simon 用笔记本上的 Qwen 复现读权重；Claude Code 产品负责人 Cat Wu 离职；卡兹克开源 Agent-Autoloop。
 
-🆕 今日新品：Warp、Hookdeck Inspect、Stringman +2
+🆕 今日新品：Warp、GC AI、Hookdeck Inspect +3
 
 🎙 访谈与播客：Latent Space
 
@@ -23,9 +23,9 @@ Claude API 上线服务端消息线程，长对话首 token 快 35%；OpenAI 公
 
 🆕 今日新品：Legora、AgentKit by Scalekit、Subvocal +3
 
-🎙 访谈与播客：AI炼金术、Latent Space、The a16z Show
+🎙 访谈与播客：The Room Podcast、AI炼金术、Latent Space、The a16z Show
 
-AI Hot 10 · Tech 10 · 访谈/播客 3 · ⭐ 9 条高分
+AI Hot 10 · Tech 10 · 访谈/播客 4 · ⭐ 9 条高分
 
 [→ 查看当天详情](2026/11/2026-11-03.md)
 
@@ -340,6 +340,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 ## 访谈与播客
 
 - [Latent Space：2026 软件工厂标准：Warp 创始人 Zach Lloyd](2026/11/2026-11-04.md#interviews) — 播客 · 2026-11-04 · [原文](https://www.youtube.com/watch?v=LL0YmIyBKSU)
+- [The Room Podcast：GC AI 联合创始人兼 CEO Cecilia Ziniti：为企业法务打造法律 AI Agent](2026/11/2026-11-03.md#interviews) — 播客 · 2026-11-03 · [原文](https://podcasts.apple.com/us/podcast/s15e7-building-legal-ai-agents-with-gc-ai-co-founder/id1539670094?i=1000799630934)
 - [AI炼金术：要用 AI 抢地盘，别只想着省人工｜尚学未来 CEO 李桢](2026/11/2026-11-03.md#interviews) — 播客 · 2026-11-03 · [原文](https://www.ximalaya.com/sound/1029884610)
 - [Latent Space：看不到数据时如何构建法律 Agent：Legora CTO Jacob Lauritzen](2026/11/2026-11-03.md#interviews) — 播客 · 2026-11-03 · [原文](https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/)
 - [The a16z Show：已经在美国工厂上岗的机器人：Tutor Intelligence](2026/11/2026-11-03.md#interviews) — 播客 · 2026-11-03 · [原文](https://a16z.simplecast.com/episodes/the-robots-already-working-in-american-factories-tutor-intelligence-331v57N3)
