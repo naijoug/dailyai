@@ -5,13 +5,39 @@
 
 ## 2026 年 11 月
 
+### 2026-11-04 · 星期三
+
+Claude Code 十月更新汇总，ultrathink 单轮升到 xhigh；Claude 插件可登录即自动连接；Simon 用笔记本上的 Qwen 复现读权重；Claude Code 产品负责人 Cat Wu 离职；卡兹克开源 Agent-Autoloop。
+
+🆕 今日新品：Warp、Hookdeck Inspect、Stringman +2
+
+🎙 访谈与播客：Latent Space
+
+AI Hot 10 · Tech 10 · 访谈/播客 1 · ⭐ 8 条高分
+
+[→ 查看当天详情](2026/11/2026-11-04.md)
+
+### 2026-11-03 · 星期二
+
+Claude API 上线服务端消息线程，长对话首 token 快 35%；OpenAI 公开自研 Git 后端 Pando；GPT-6 Astra 直接改权重让 Qwen 数学涨 6 倍引热议；poteto 称对抗式审查多半浪费 token。
+
+🆕 今日新品：Legora、AgentKit by Scalekit、Subvocal +3
+
+🎙 访谈与播客：AI炼金术、Latent Space、The a16z Show
+
+AI Hot 10 · Tech 10 · 访谈/播客 3 · ⭐ 9 条高分
+
+[→ 查看当天详情](2026/11/2026-11-03.md)
+
 ### 2026-11-02 · 星期一
 
-Mythos 5.5 官网闪现后撤回；ClawsGO、Click、Termy 等 Agent 工具上新；GitLab 正则编译器 CVSS 10 需再打补丁；美团发 LongCat-2.5。
+Mythos 5.5 官网闪现后撤回，dots 将接入 GPT-6 Astra 与 GPT-6.1 Terra；Amp 一句话重建十年老站；Code Mode、先理结构再写测试等干货刷屏。
 
-🆕 今日新品：ClawsGO Science、nonce、Click +3
+🆕 今日新品：asklog、ClawsGO Science、Prism +7
 
-AI Hot 8 · Tech 12 · ⭐ 10 条高分
+🎙 访谈与播客：How I AI、十字路口Crossing
+
+AI Hot 16 · Tech 21 · 访谈/播客 2 · ⭐ 17 条高分
 
 [→ 查看当天详情](2026/11/2026-11-02.md)
 
@@ -19,11 +45,11 @@ AI Hot 8 · Tech 12 · ⭐ 10 条高分
 
 Linux TCP UAF 评 9.8；Banked 重置与 Codex 灰度 6.2 Astra；agentmash 等团队 Agent 工具上新，巴西法院因提示注入罚律师。
 
-🆕 今日新品：agentmash、Backenly、Memdoor +9
+🆕 今日新品：agentmash、Backenly、Memdoor +10
 
-🎙 访谈与播客：Latent Space
+🎙 访谈与播客：Lenny's Podcast、Latent Space
 
-AI Hot 22 · Tech 22 · 访谈/播客 1 · ⭐ 20 条高分
+AI Hot 22 · Tech 22 · 访谈/播客 2 · ⭐ 20 条高分
 
 [→ 查看当天详情](2026/11/2026-11-01.md)
 
@@ -313,6 +339,13 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Latent Space：2026 软件工厂标准：Warp 创始人 Zach Lloyd](2026/11/2026-11-04.md#interviews) — 播客 · 2026-11-04 · [原文](https://www.youtube.com/watch?v=LL0YmIyBKSU)
+- [AI炼金术：要用 AI 抢地盘，别只想着省人工｜尚学未来 CEO 李桢](2026/11/2026-11-03.md#interviews) — 播客 · 2026-11-03 · [原文](https://www.ximalaya.com/sound/1029884610)
+- [Latent Space：看不到数据时如何构建法律 Agent：Legora CTO Jacob Lauritzen](2026/11/2026-11-03.md#interviews) — 播客 · 2026-11-03 · [原文](https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/)
+- [The a16z Show：已经在美国工厂上岗的机器人：Tutor Intelligence](2026/11/2026-11-03.md#interviews) — 播客 · 2026-11-03 · [原文](https://a16z.simplecast.com/episodes/the-robots-already-working-in-american-factories-tutor-intelligence-331v57N3)
+- [How I AI：Figma 的产品经理每天如何用 AI：Ezra Mechaber 的 PM OS](2026/11/2026-11-02.md#interviews) — 播客 · 2026-11-02 · [原文](https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Figmas-PMs-actually-use-AI-every-day--Ezra-Mechaber-PM--Figma-e3raoc4)
+- [十字路口Crossing：[年终复盘①]AI带给我的10个Aha Moments｜庄明浩：RSI 来了、AI 的奇观与粗糙、巨头夹缝中的创业机会](2026/11/2026-11-02.md#interviews) — 播客 · 2026-11-02 · [原文](https://www.xiaoyuzhoufm.com/episode/6ae6e230c96c8942ec156ed6)
+- [Lenny's Podcast：19 岁实习生如何为一家 20 亿美元 AI 公司搭起增长引擎：Wispr Flow 的 Hector Serrano](2026/11/2026-11-01.md#interviews) — 播客 · 2026-11-01 · [原文](https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the)
 - [Latent Space：Agent 反过来提醒人：Arca 如何用长期 Agent 做财富管理](2026/11/2026-11-01.md#interviews) — 播客 · 2026-11-01 · [原文](https://latent.space/p/arca)
 - [The a16z Show：AI 能修好职业社交吗：走进 a16z Cosign](2026/10/2026-10-31.md#interviews) — 播客 · 2026-10-31 · [原文](https://podcasts.apple.com/us/podcast/can-ai-fix-professional-networking-inside-cosign/id842818711?i=1000799049101)
 - [Y Combinator Startup Podcast (Lightcone)：当人人都能写软件：Supabase CEO Paul Copplestone 做客 YC Lightcone](2026/10/2026-10-31.md#interviews) — 播客 · 2026-10-31 · [原文](https://podcasts.apple.com/us/podcast/what-happens-when-everyone-can-build-software/id1236907421?i=1000798941637)
