@@ -1,0 +1,22 @@
+{
+  "id": "conductor",
+  "name": "Conductor",
+  "aliases": [
+    "Conductor",
+    "conductor.build"
+  ],
+  "url": "https://www.conductor.build",
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "Conductor（2026-11 被 Meta 收购）",
+  "oneLiner": "在 Mac 上并行运行一组编程 Agent（Claude Code、Codex 等）的应用，每个任务有独立工作区、分支和审阅；2026-11 团队并入 Meta 超级智能实验室，Conductor Cloud 11 月下旬关停",
+  "oneLinerEn": "Mac app for running teams of coding agents (Claude Code, Codex and more) in parallel, each task with its own workspace, branch and review; the team joined Meta Superintelligence Labs in Nov 2026 and Conductor Cloud shuts down in late November.",
+  "score": 4,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}
