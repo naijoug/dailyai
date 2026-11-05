@@ -1,0 +1,24 @@
+{
+  "id": "harmonic",
+  "name": "Harmonic",
+  "aliases": [
+    "Harmonic",
+    "Harmonic Math",
+    "harmonic.fun",
+    "Aristotle"
+  ],
+  "url": "https://www.harmonic.fun/",
+  "category": "研究",
+  "region": "global",
+  "maker": "Harmonic",
+  "oneLiner": "数学超级智能实验室：用形式化验证让 AI 推理可被机器检查；产品 Aristotle 可证明 C / Verilog 代码正确性",
+  "oneLinerEn": "Mathematical superintelligence lab: formally verified AI reasoning; Aristotle proves properties of C and Verilog code.",
+  "score": 4,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Research",
+    "Products"
+  ],
+  "rankings": []
+}

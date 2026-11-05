@@ -1,0 +1,23 @@
+{
+  "id": "trajectory",
+  "name": "Trajectory",
+  "aliases": [
+    "Trajectory",
+    "trajectory.ai"
+  ],
+  "url": "https://trajectory.ai/",
+  "category": "开发者平台",
+  "region": "global",
+  "maker": "Trajectory",
+  "oneLiner": "面向公司的持续学习（Continual Learning）平台：从真实用量里抓信号，持续后训练 Agent 模型 / harness / 提示词",
+  "oneLinerEn": "Continual learning platform for companies: capture real product usage signals and continuously post-train agent models, harnesses and prompts.",
+  "score": 4,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Agents",
+    "Products",
+    "Research"
+  ],
+  "rankings": []
+}

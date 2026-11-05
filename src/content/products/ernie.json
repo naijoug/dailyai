@@ -1,0 +1,17 @@
+{
+  "id": "ernie",
+  "name": "Baidu open-sources ERNIE-5.5-Flash-Base",
+  "aliases": [],
+  "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+  "category": "对话助手",
+  "region": "cn",
+  "oneLiner": "预训练终点的稀疏 MoE 检查点（未做 mid/post-training），训了 33.5T tokens，训练上下文最高 128K、微调/推理可到 1M；",
+  "oneLinerEn": "sparse MoE checkpoint at the end of pretraining (no mid/post-training), 33.5T tokens, trai",
+  "score": 5,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}

@@ -214,5 +214,21 @@
   "assistant-benchmark": [
     "Assistant Benchmark",
     "assistantbenchmark.com"
+  ],
+  "trajectory": [
+    "Trajectory",
+    "trajectory.ai"
+  ],
+  "harmonic": [
+    "Harmonic",
+    "Harmonic Math",
+    "harmonic.fun",
+    "Aristotle"
+  ],
+  "robinhood-agents": [
+    "Robinhood Agents",
+    "Robinhood Agentic Trading",
+    "Robinhood for Agents",
+    "Agentic Trading"
   ]
 }

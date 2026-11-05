@@ -1,0 +1,24 @@
+{
+  "id": "robinhood-agents",
+  "name": "Robinhood Agents",
+  "aliases": [
+    "Robinhood Agents",
+    "Robinhood Agentic Trading",
+    "Robinhood for Agents",
+    "Agentic Trading"
+  ],
+  "url": "https://robinhood.com/us/en/agentic-trading",
+  "category": "办公",
+  "region": "global",
+  "maker": "Robinhood",
+  "oneLiner": "Robinhood 内置 / MCP 对接的交易 Agent：在独立 Agentic 账户里研究、分析并下单，默认需人工审批",
+  "oneLinerEn": "In-app and MCP trading agents on Robinhood: research, analyze and place trades in a dedicated Agentic account, with trade approvals on by default.",
+  "score": 4,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}
