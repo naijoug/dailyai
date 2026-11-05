@@ -5,6 +5,16 @@
 
 ## 2026 年 11 月
 
+### 2026-11-05 · 星期四
+
+OpenAI 用自动化管线挖出 948 个 Linux 提权漏洞并发布 Images 2.6；Claude Code 前产品负责人 Cat Wu 加盟 OpenAI；Meta 收购 Conductor；Kimi K3.1 Pro 开放权重。
+
+🆕 今日新品：Conductor
+
+AI Hot 9 · ⭐ 6 条高分
+
+[→ 查看当天详情](2026/11/2026-11-05.md)
+
 ### 2026-11-04 · 星期三
 
 腾讯发布能看图、能操作电脑的 Hy4；OpenAI 收购 Pierre 强化 Codex；Menlo 称企业 AI 支出达 1768 亿美元；Postman 被曝静默给 Codex、Claude Code 装插件。
