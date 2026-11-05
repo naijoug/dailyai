@@ -1,0 +1,18 @@
+{
+  "id": "sshyard",
+  "name": "SSHYard",
+  "aliases": [],
+  "url": "https://sshyard.com",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "纯原生三端 SSH/SFTP + AI 助手客户端（Go，无 WebView），自带 API key，AGPL-3.0",
+  "oneLinerEn": "Native three-platform SSH/SFTP + AI assistant client (Go, no WebView), bring-your-own API key, AGPL-3.0",
+  "score": 3,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Chinese Community",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mailbox-bot",
+  "name": "Mailbox.bot",
+  "aliases": [],
+  "url": "https://mailbox.bot",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "加州 Manhattan Beach 私人邮箱；",
+  "oneLinerEn": "Manhattan Beach PMB;",
+  "score": 3,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

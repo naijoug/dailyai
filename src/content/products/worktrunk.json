@@ -1,0 +1,18 @@
+{
+  "id": "worktrunk",
+  "name": "Worktrunk",
+  "aliases": [],
+  "url": "https://worktrunk.dev/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "让 worktree 像切分支一样简单（wt switch -c -x claude feat），带 hooks、LLM 写提交说明、合并流程、可预览 CI/diff/PR 的交互",
+  "oneLinerEn": "makes worktrees as easy as branches (wt switch -c -x claude feat), with hooks, LLM commit ",
+  "score": 4,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

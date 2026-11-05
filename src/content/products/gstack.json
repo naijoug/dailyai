@@ -1,0 +1,22 @@
+{
+  "id": "gstack",
+  "name": "gstack",
+  "aliases": [
+    "Garry Tan gstack"
+  ],
+  "url": "https://github.com/garrytan/gstack",
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "Garry Tan",
+  "oneLiner": "Garry Tan 开源的 Claude Code「虚拟工程团队」，23 个斜杠命令角色（CEO/EM/设计/评审/QA/安全/发布）",
+  "oneLinerEn": "Garry Tan’s open Claude Code virtual engineering team: 23 slash-command roles (CEO/EM/designer/reviewer/QA/security/release)",
+  "score": 3,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

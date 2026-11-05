@@ -1,0 +1,18 @@
+{
+  "id": "auto-ontology",
+  "name": "NVIDIA Auto Ontology",
+  "aliases": [],
+  "url": "https://nvidia.github.io/auto-ontology/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "从企业元数据发现本体、锚定指标与实体、用血缘校验查询，并通过 MCP/CLI/API 把上下文交给任意 harness；",
+  "oneLinerEn": "discovers ontologies from enterprise metadata, grounds metrics and entities, validates que",
+  "score": 4,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

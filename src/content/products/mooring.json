@@ -1,0 +1,15 @@
+{
+  "id": "mooring",
+  "name": "Mooring",
+  "aliases": [],
+  "url": "https://mooring.sh/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "已公证的 Apple Silicon 应用（需 macOS 26+）；",
+  "oneLinerEn": "notarized Apple-silicon app (macOS 26+);",
+  "score": 3,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [],
+  "rankings": []
+}
