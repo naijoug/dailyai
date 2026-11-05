@@ -1,0 +1,21 @@
+{
+  "id": "agent-desktop",
+  "name": "agent-desktop",
+  "aliases": [
+    "agent-desktop"
+  ],
+  "url": "https://agent-browser.dev/desktop",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "提供 CLI 和 C 库，支持 macOS、Windows 和 Linux，把应用的无障碍树以 JSON 返回，每个可操作元素都有一个 ref；",
+  "oneLinerEn": "a CLI and C library for macOS, Windows and Linux that returns an app's accessibility tree ",
+  "score": 4,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cicada",
+  "name": "知了 Cicada",
+  "aliases": [
+    "Cicada",
+    "知了"
+  ],
+  "url": "https://cicada.indaloop.app",
+  "category": "音频",
+  "region": "cn",
+  "oneLiner": "可在 Zoom、腾讯会议、飞书、YouTube 等任意会议和直播里显示实时双语字幕；",
+  "oneLinerEn": "live bilingual subtitles in any call or stream (Zoom, Tencent Meeting, Feishu, YouTube);",
+  "score": 3,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Chinese Community"
+  ],
+  "rankings": []
+}

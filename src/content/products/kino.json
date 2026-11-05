@@ -1,0 +1,20 @@
+{
+  "id": "kino",
+  "name": "Kino",
+  "aliases": [
+    "Kino",
+    "Kino AI"
+  ],
+  "url": "https://kino.ai",
+  "category": "视频",
+  "region": "global",
+  "oneLiner": "素材存储、实时多人编辑和审阅链接合在一个应用里；",
+  "oneLinerEn": "footage storage, a real-time multiplayer editor and review links in one app;",
+  "score": 3,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

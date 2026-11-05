@@ -1,0 +1,20 @@
+{
+  "id": "atomic-chat",
+  "name": "Atomic Chat",
+  "aliases": [
+    "Atomic Chat",
+    "Atomic Local AI Server"
+  ],
+  "url": "https://atomic.chat",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "Atomic Chat 推出的开源服务，在 llama.cpp、vLLM、SGLang、TensorRT、MLX 等引擎之上提供 OpenAI 兼容 API；",
+  "oneLinerEn": "open-source server from Atomic Chat with an OpenAI-compatible API over llama.cpp, vLLM, SG",
+  "score": 3,
+  "firstSeen": "2026-11-05",
+  "updated": "2026-11-05",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}
