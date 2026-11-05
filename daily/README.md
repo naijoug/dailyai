@@ -9,9 +9,9 @@
 
 OpenAI 用自动化管线挖出 948 个 Linux 提权漏洞并发布 Images 2.6；Claude Code 前产品负责人 Cat Wu 加盟 OpenAI；Meta 收购 Conductor；Kimi K3.1 Pro 开放权重。
 
-🆕 今日新品：Conductor
+🆕 今日新品：agent-desktop、Conductor、Ripple-65B +3
 
-AI Hot 9 · ⭐ 6 条高分
+AI Hot 9 · Tech 12 · ⭐ 11 条高分
 
 [→ 查看当天详情](2026/11/2026-11-05.md)
 
