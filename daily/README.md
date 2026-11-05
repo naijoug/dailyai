@@ -7,11 +7,13 @@
 
 ### 2026-11-05 · 星期四
 
-OpenAI 用自动化管线挖出 948 个 Linux 提权漏洞并发布 Images 2.6；Claude Code 前产品负责人 Cat Wu 加盟 OpenAI；Meta 收购 Conductor；Kimi K3.1 Pro 开放权重。
+百度开源文心 5.5 Flash Base；Anthropic 用 Claude 解出细菌 vault 结构；Gemini Computer Use 转 GA；OpenAI 自动化挖出 948 个 Linux 提权并上线 Images 2.6。
 
-🆕 今日新品：agent-desktop、Conductor、Ripple-65B +3
+🆕 今日新品：Baidu open-sources ERNIE-5.5-Flash-Base、agent-desktop、NVIDIA Auto Ontology +14
 
-AI Hot 9 · Tech 12 · ⭐ 11 条高分
+🎙 访谈与播客：No Priors、Training Data
+
+AI Hot 15 · Tech 23 · 访谈/播客 2 · ⭐ 18 条高分
 
 [→ 查看当天详情](2026/11/2026-11-05.md)
 
@@ -349,6 +351,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [No Priors：代币化、Agent 交易与 Harmonic：Robinhood CEO Vlad Tenev 谈扩大所有权](2026/11/2026-11-05.md#interviews) — 播客 · 2026-11-05 · [原文](https://podcasts.apple.com/us/podcast/tokenization-agentic-trading-harmonic-robinhoods-mission/id1668002688?i=1000800029787)
+- [Training Data：把持续学习带给每家公司：Trajectory 联合创始人 Ronak Malde](2026/11/2026-11-05.md#interviews) — 播客 · 2026-11-05 · [原文](https://podcasts.apple.com/us/podcast/bringing-continual-learning-to-every-company-trajectorys/id1750736528?i=1000800025483)
 - [The a16z Show：会购物、做计划、还会「八卦」的新一代 AI Agent](2026/11/2026-11-04.md#interviews) — 播客 · 2026-11-04 · [原文](https://a16z.simplecast.com/episodes/the-new-ai-agents-that-shop-plan-and-gossip-DXsIUYrd)
 - [Latent Space：2026 软件工厂标准：Warp 创始人 Zach Lloyd](2026/11/2026-11-04.md#interviews) — 播客 · 2026-11-04 · [原文](https://www.youtube.com/watch?v=LL0YmIyBKSU)
 - [The Room Podcast：GC AI 联合创始人兼 CEO Cecilia Ziniti：为企业法务打造法律 AI Agent](2026/11/2026-11-03.md#interviews) — 播客 · 2026-11-03 · [原文](https://podcasts.apple.com/us/podcast/s15e7-building-legal-ai-agents-with-gc-ai-co-founder/id1539670094?i=1000799630934)
