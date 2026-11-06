@@ -1,0 +1,15 @@
+{
+  "id": "pangram-image",
+  "name": "Pangram Image 1.0",
+  "aliases": [],
+  "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
+  "category": "图像",
+  "region": "global",
+  "oneLiner": "自称学术检测与低分辨率鲁棒性达 SOTA；",
+  "oneLinerEn": "claims SOTA academic detection and low-res robustness;",
+  "score": 3,
+  "firstSeen": "2026-11-06",
+  "updated": "2026-11-06",
+  "tags": [],
+  "rankings": []
+}

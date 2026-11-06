@@ -1,0 +1,15 @@
+{
+  "id": "firenook",
+  "name": "Firenook",
+  "aliases": [],
+  "url": "https://firenook.dev/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "面向 Firebase 风格应用的本地可替换栈；",
+  "oneLinerEn": "drop-in local stack for Firebase-style apps;",
+  "score": 3,
+  "firstSeen": "2026-11-06",
+  "updated": "2026-11-06",
+  "tags": [],
+  "rankings": []
+}

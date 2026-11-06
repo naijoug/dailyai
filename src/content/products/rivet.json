@@ -1,0 +1,15 @@
+{
+  "id": "rivet",
+  "name": "Rivet",
+  "aliases": [],
+  "url": "https://rivet.dev/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Launch HN（YC W23）——轻量 Actor，带内存状态、WebSocket 多人、S3 上的 SQLite 持久化，空闲可休眠；",
+  "oneLinerEn": "Launch HN (YC W23)—lightweight actors with in-memory state, WebSocket multiplayer, SQLite ",
+  "score": 4,
+  "firstSeen": "2026-11-06",
+  "updated": "2026-11-06",
+  "tags": [],
+  "rankings": []
+}

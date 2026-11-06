@@ -1,0 +1,18 @@
+{
+  "id": "loopforge",
+  "name": "LoopForge",
+  "aliases": [],
+  "url": "https://loopforge.cn/demo/",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "可视化 SOP 画布，实现 / 评审 / 测试角色分离、人工门禁、MCP/Skills，支持 Docker 或本机执行器（CodeBuddy/Codex/Claude Code）；",
+  "oneLinerEn": "visual SOP canvas with separate implement/review/test roles, human gates, MCP/Skills, Dock",
+  "score": 4,
+  "firstSeen": "2026-11-06",
+  "updated": "2026-11-06",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}
