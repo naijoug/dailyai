@@ -67,14 +67,14 @@ summary_tr: "One-line summary in the other language"
 
 ## 信息源与导入流程（给定时任务）
 
-信息源登记表在 box 上：`/workspace/sources/interviews.md`（不进仓库），列出每个源的抓取方式（RSS 优先；Apple Podcasts lookup；小宇宙；微信公众号走 X/搜狗发现 + WebFetch 取正文）、评分、last_hit、连续失败次数和状态（活跃/观察中/已移除），以及升降级规则。
+可共享的信息源与核验规则统一在 [Collect.md](../Collect.md)，访谈与播客入口见其中对应章节。来源的读取方式优先采用实际核验过的 RSS、官网或官方单集页；无法读到正文或文字稿时，不推测补写。运行记录可保存最近成功边界、last_hit、连续失败次数和状态，但不把这些日志放进公开内容。任务调度由 dot 管理，不加入仓库。
 
 每次运行：
 
-1. 按登记表抓 `活跃` 与 `观察中` 的源，挑出上次运行之后发布的 AI / Agent 相关单集或文章（每次 0–5 条，宁缺毋滥）。
+1. 按 Collect.md 优先检查已验证入口，并对观察中的源做有限核验，挑出上次运行之后发布的 AI / Agent 相关单集或文章（每次 0–5 条，宁缺毋滥）。
 2. 读 show notes / 文字稿 / 原文，写 `src/content/interviews/<id>.md`（只写摘要要点 + 短引用）。
 3. 处理产品关联（见上）。
-4. 更新登记表的 last_hit / misses / status。
+4. 更新运行记录的 last_hit / misses / status；新增好来源、改址或状态变化同步更新 Collect.md。
 5. 校验、构建、提交、推送：
 
 ```bash

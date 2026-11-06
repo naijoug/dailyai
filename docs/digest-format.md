@@ -1,5 +1,7 @@
 # Digest 文件格式（供定时汇总任务使用）
 
+收集前先读 [Collect.md](../Collect.md)：信息源、核验、去重与维护的共同依据。本文规定输出格式；两个收集任务的调度由 dot 管理，不放入仓库。
+
 `scripts/import.mjs` 把一份 digest 转成 `src/content/posts/<type>-<YYYY-MM-DD-HHMM>.md`。
 本文规定 digest 里**可选**的机器可读字段：每条的 AI 评分、日摘要，以及产品登记（`## 新产品` 小节 / `[P:slug]` 标记），再加上**双语条目**（每条的译文引用）。没有这些字段的旧格式照样能导入。
 

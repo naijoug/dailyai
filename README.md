@@ -1,6 +1,6 @@
 # Daily AI
 
-📅 [Markdown 每日索引](daily/README.md)
+📅 [Markdown 每日索引](daily/README.md) · 🔎 [信息收集指南 Collect.md](Collect.md)
 
 每日 AI 动态静态站：<https://naijoug.github.io/dailyai/>
 
@@ -28,15 +28,11 @@ git pull --rebase -q && git push   # main 上可能有 daily/ 的自动提交
 
 ## 部署
 
-正式方案是 `ci/deploy.yml`（actions/deploy-pages）。它暂时放在 `ci/` 而不是 `.github/workflows/`，因为推送用的 gh token 没有 `workflow` 权限，GitHub 拒绝写入工作流文件。启用步骤：
+当前由 [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) 在推送到 `main` 后自动安装依赖、校验 Markdown 导出、构建并通过 `actions/deploy-pages` 部署。发布后核对对应提交的 Actions 结果；不要重新建立工作流或更改 Pages 来源。
 
-```bash
-gh auth refresh -h github.com -s workflow
-git mv ci/deploy.yml .github/workflows/deploy.yml && git commit -m "ci: enable Pages workflow" && git push
-gh api -X PUT repos/naijoug/dailyai/pages -f build_type=workflow
-```
+`scripts/publish-gh-pages.sh` 是历史手动发布脚本，不是当前常规发布流程。
 
-在此之前用临时方案：`./scripts/publish-gh-pages.sh` 在本地构建，并把 `dist/` 推到 `gh-pages` 分支（Pages 来源为 gh-pages 分支）。
+信息源、核验、去重与维护规则统一见 [Collect.md](Collect.md)。X AI 热点和科技速递两个定时收集任务由 dot 管理，本仓库不承载它们的调度。
 
 ### import.mjs 说明
 
