@@ -9,7 +9,7 @@
 
 Thinking Machines 发布 Inkling 2 Small；OpenAI 上线 GPT-6 Cyber；Claude Code 把邮箱塞进 User-Agent 登上 HN；Perplexity 推 Teammates 常驻 Agent。
 
-🆕 今日新品：OpenAI releases GPT-6 Cyber、Thinking Machines Lab launches Inkling 2、LoopForge +4
+🆕 今日新品：OpenAI releases GPT-6 Cyber、Thinking Machines Lab launches Inkling 2、LoopForge +5
 
 AI Hot 8 · Tech 14 · ⭐ 10 条高分
 
