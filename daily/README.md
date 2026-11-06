@@ -7,11 +7,13 @@
 
 ### 2026-11-06 · 星期五
 
-Thinking Machines 发布 Inkling 2 Small；OpenAI 上线 GPT-6 Cyber；Claude Code 把邮箱塞进 User-Agent 登上 HN；Perplexity 推 Teammates 常驻 Agent。
+Inkling 2 Small 与 GPT-6 Cyber 亮相；晚间关注 Amp 页面批注直达 Agent，以及 Shopify 用共享行为测试验证双端原生应用。
 
 🆕 今日新品：OpenAI releases GPT-6 Cyber、Thinking Machines Lab launches Inkling 2、LoopForge +5
 
-AI Hot 8 · Tech 14 · ⭐ 10 条高分
+🎙 访谈与播客：晚点聊 LateTalk、晚点聊 LateTalk
+
+AI Hot 10 · Tech 17 · 访谈/播客 2 · ⭐ 14 条高分
 
 [→ 查看当天详情](2026/11/2026-11-06.md)
 
@@ -361,6 +363,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [晚点聊 LateTalk：晚点聊 185：与 Amont 李肇宇聊 Anthropic 定价逻辑和潜在风险](2026/11/2026-11-06.md#interviews) — 播客 · 2026-11-06 · [原文](https://podcast.latepost.com/185)
+- [晚点聊 LateTalk：晚点聊 186：与 Fusion Fund 张璐聊企业 AI 需求](2026/11/2026-11-06.md#interviews) — 播客 · 2026-11-06 · [原文](https://podcast.latepost.com/186)
 - [No Priors：代币化、Agent 交易与 Harmonic：Robinhood CEO Vlad Tenev 谈扩大所有权](2026/11/2026-11-05.md#interviews) — 播客 · 2026-11-05 · [原文](https://podcasts.apple.com/us/podcast/tokenization-agentic-trading-harmonic-robinhoods-mission/id1668002688?i=1000800029787)
 - [Training Data：把持续学习带给每家公司：Trajectory 联合创始人 Ronak Malde](2026/11/2026-11-05.md#interviews) — 播客 · 2026-11-05 · [原文](https://podcasts.apple.com/us/podcast/bringing-continual-learning-to-every-company-trajectorys/id1750736528?i=1000800025483)
 - [The a16z Show：会购物、做计划、还会「八卦」的新一代 AI Agent](2026/11/2026-11-04.md#interviews) — 播客 · 2026-11-04 · [原文](https://a16z.simplecast.com/episodes/the-new-ai-agents-that-shop-plan-and-gossip-DXsIUYrd)
