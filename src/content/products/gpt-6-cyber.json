@@ -1,0 +1,17 @@
+{
+  "id": "gpt-6-cyber",
+  "name": "OpenAI releases GPT-6 Cyber",
+  "aliases": [],
+  "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "专精授权漏洞发现 / 利用验证 / 修补；",
+  "oneLinerEn": "specialized for authorized vuln discovery / exploit validation / patching;",
+  "score": 5,
+  "firstSeen": "2026-11-06",
+  "updated": "2026-11-06",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}

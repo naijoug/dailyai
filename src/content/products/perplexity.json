@@ -1,7 +1,9 @@
 {
   "id": "perplexity",
   "name": "Perplexity",
-  "aliases": [],
+  "aliases": [
+    "Perplexity Teammates"
+  ],
   "url": "https://www.perplexity.ai",
   "category": "搜索",
   "region": "global",
@@ -10,7 +12,7 @@
   "oneLinerEn": "An AI search and Q&A engine with cited sources.",
   "score": 4,
   "firstSeen": "2026-10-16",
-  "updated": "2026-10-22",
+  "updated": "2026-11-06",
   "tags": [
     "Products"
   ],
