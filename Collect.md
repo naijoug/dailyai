@@ -23,7 +23,7 @@
 
 优先读取原帖及上下文，再追到其中的官方公告、代码或演示。账号热度只帮助发现；不据点赞量认定事实，不把个人观点写成公司承诺。
 
-下面是从本项目历史 status 链接提取的**起始账号集合，不是完整关注列表**。本轮尝试读取 `OpenAI`、`thsottiaux`、`simonw` 主页均遇到 403，其余未逐个实时核验。所有账号统一按“历史候选”使用；没有宣称已读到它们的最新动态，也不假定已有 X 登录、API 或 List 权限。
+下面是从本项目历史 status 链接提取的**起始账号集合，不是完整关注列表**。11 月 6 日初次盘点通过公开网页读取 `OpenAI`、`thsottiaux`、`simonw` 主页时遇到 403；同日后续已通过已登录的云浏览器读到最新搜索、`OpenAIDevs` 原帖、`shao__meng` 原帖及 Amp 作者原帖。可读性随入口与会话变化，不能把公开读取失败等同于所有 X 入口不可用；未逐个核验的账号仍是历史候选。每轮重新检查会话，不假定 API 或 List 权限。
 
 | 账号入口 | 收集用途 | 可追溯仓库样例 |
 | --- | --- | --- |
@@ -56,6 +56,7 @@
 | [Hugging Face Blog](https://huggingface.co/blog) | 开放模型、库、训练与部署实践 | 新增博客入口；仓库已有 HF 模型 / Spaces 引用。站内含社区作者文章，逐篇核对作者，不能全部称为平台官方结论 |
 | [arXiv cs.AI recent](https://arxiv.org/list/cs.AI/recent) | 找论文，再读摘要、方法、限制与版本 | 既有 arXiv 论文引用；新增分类入口。预印本不等于同行评审结论 |
 | [Simon Willison](https://simonwillison.net/) | 模型实测、Agent 工具、提示注入与开发实践 | 既有作者博客引用；区分作者实验与转引材料 |
+| [Shopify Engineering](https://shopify.engineering/) | 英文一手工程实践，补足移动端 Agent 验证与生产架构；服务 `x-ai` / `tech` | 2026-11-06 读到首页及 [Reflex 原文](https://shopify.engineering/reflex)（11/05，Thiago Magalhaes）；云浏览器可读，公开网页工具直开曾失败；性能数字属团队自报 |
 
 发现其他厂商或项目时，从其已核验官网进入公告 / Docs / Releases。无需事先穷举所有实验室，不根据品牌名称猜域名或 RSS。
 
@@ -112,7 +113,7 @@
 | [No Priors](https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688) | AI 创业、研究与商业化访谈 | 节目列表可读；[仓库样例](src/content/interviews/no-priors-serval-jake-stauch-servicenow.md)。不要按节目名猜官网 |
 | [Training Data](https://sequoiacap.com/series/training-data) | AI 创始人、研究者和基础设施访谈 | 官方列表可读；[仓库样例](src/content/interviews/training-data-trajectory-ronak-malde.md) |
 | [a16z Podcast Network](https://a16z.com/podcasts/) | AI 产品、产业和创业访谈；逐节目筛选相关性 | 官方节目网络可读；[仓库样例](src/content/interviews/a16z-personal-agent-race.md) |
-| [晚点聊 LateTalk](https://podcast.latepost.com/) | 中文 AI 产业与一线从业者深访 | 首页可读，有 RSS 入口但本轮未解析 feed；[仓库样例](src/content/interviews/latetalk-183-ai-quarterly-26q3.md) |
+| [晚点聊 LateTalk](https://podcast.latepost.com/) | 中文 AI 产业与一线从业者深访 | 2026-11-06 读到 [185](https://podcast.latepost.com/185) / [186](https://podcast.latepost.com/186) 官方单集说明与时间线；仅标日期，不补造时分；RSS 在网页工具中未解析，HTML 可读性有波动。摘要基于说明，不宣称听完全片；[仓库样例](src/content/interviews/latetalk-185-anthropic-ipo-rob-li.md) |
 | [硅谷101](https://sv101.fireside.fm/) | 中文 AI、科技与产业访谈 | 首页可读，有 RSS 入口但本轮未解析 feed；[仓库样例](src/content/interviews/sv101-e256-gpt6-astra-agents-robots-pharma.md) |
 | [42章经历史单集](https://www.xiaoyuzhoufm.com/episode/6ada2be4c96c8942ec10cb1e) | 中文创业、Agent 访谈候选 | 本轮正文不可读；[仓库样例](src/content/interviews/42zhang-haonan-agent-multimodal-embodied.md) |
 | [AI炼金术历史单集](https://www.ximalaya.com/sound/1022384765) | 中文 AI 创业与个人 Agent 访谈候选 | 本轮正文不可读；[仓库样例](src/content/interviews/ai-alchemy-colaos-juzi-personal-agent.md) |
