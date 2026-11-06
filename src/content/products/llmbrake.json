@@ -1,0 +1,17 @@
+{
+  "id": "llmbrake",
+  "name": "LLMBrake",
+  "aliases": [],
+  "url": "https://llmbrake.com/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "预算、自动降级与硬限额，避免单个租户烧穿整张账单；",
+  "oneLinerEn": "budgets, auto-downgrade, and hard limits so one tenant can’t burn the whole bill;",
+  "score": 3,
+  "firstSeen": "2026-11-06",
+  "updated": "2026-11-06",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}
