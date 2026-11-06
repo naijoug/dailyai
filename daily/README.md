@@ -5,6 +5,16 @@
 
 ## 2026 年 11 月
 
+### 2026-11-06 · 星期五
+
+Thinking Machines 发布 Inkling 2 Small；OpenAI 上线 GPT-6 Cyber；Claude Code 把邮箱塞进 User-Agent 登上 HN；Perplexity 推 Teammates 常驻 Agent。
+
+🆕 今日新品：OpenAI releases GPT-6 Cyber、Thinking Machines Lab launches Inkling 2、LoopForge +4
+
+AI Hot 8 · Tech 14 · ⭐ 10 条高分
+
+[→ 查看当天详情](2026/11/2026-11-06.md)
+
 ### 2026-11-05 · 星期四
 
 百度开源文心 5.5 Flash Base；Anthropic 用 Claude 解出细菌 vault 结构；Gemini Computer Use 转 GA；OpenAI 自动化挖出 948 个 Linux 提权并上线 Images 2.6。
