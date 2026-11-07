@@ -5,15 +5,23 @@
 
 ## 2026 年 11 月
 
+### 2026-11-07 · 星期六
+
+DeepMind 公布旧 RSA 密码分析研究；Anthropic 拆解记忆整理与云端环境配置；OpenAI Showcase 提供可改造的 API 示例。
+
+AI Hot 4 · Tech 3 · ⭐ 6 条高分
+
+[→ 查看当天详情](2026/11/2026-11-07.md)
+
 ### 2026-11-06 · 星期五
 
 Inkling 2 Small 与 GPT-6 Cyber 亮相；晚间关注 Amp 页面批注直达 Agent，以及 Shopify 用共享行为测试验证双端原生应用。
 
 🆕 今日新品：OpenAI releases GPT-6 Cyber、Thinking Machines Lab launches Inkling 2、LoopForge +5
 
-🎙 访谈与播客：晚点聊 LateTalk、晚点聊 LateTalk
+🎙 访谈与播客：Latent Space、晚点聊 LateTalk、晚点聊 LateTalk
 
-AI Hot 10 · Tech 17 · 访谈/播客 2 · ⭐ 14 条高分
+AI Hot 10 · Tech 17 · 访谈/播客 3 · ⭐ 14 条高分
 
 [→ 查看当天详情](2026/11/2026-11-06.md)
 
@@ -363,6 +371,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Latent Space：对话 Fabian Theis：从描绘生物系统走向预测与干预](2026/11/2026-11-06.md#interviews) — 播客 · 2026-11-06 · [原文](https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/)
 - [晚点聊 LateTalk：晚点聊 185：与 Amont 李肇宇聊 Anthropic 定价逻辑和潜在风险](2026/11/2026-11-06.md#interviews) — 播客 · 2026-11-06 · [原文](https://podcast.latepost.com/185)
 - [晚点聊 LateTalk：晚点聊 186：与 Fusion Fund 张璐聊企业 AI 需求](2026/11/2026-11-06.md#interviews) — 播客 · 2026-11-06 · [原文](https://podcast.latepost.com/186)
 - [No Priors：代币化、Agent 交易与 Harmonic：Robinhood CEO Vlad Tenev 谈扩大所有权](2026/11/2026-11-05.md#interviews) — 播客 · 2026-11-05 · [原文](https://podcasts.apple.com/us/podcast/tokenization-agentic-trading-harmonic-robinhoods-mission/id1668002688?i=1000800029787)
