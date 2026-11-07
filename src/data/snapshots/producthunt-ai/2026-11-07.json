@@ -1,0 +1,194 @@
+{
+ "source": "producthunt",
+ "sourceName": "Product Hunt",
+ "kind": "feed",
+ "badge": "Product Hunt",
+ "list": "Artificial Intelligence 分类 RSS",
+ "metric": "Feed 顺序（不是排名）",
+ "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
+ "period": "2026-11-07",
+ "fetched": "2026-11-07T03:09:41.709Z",
+ "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
+ "rows": [
+  {
+   "name": "Tobira Site Agent",
+   "url": "https://www.producthunt.com/products/tobira-ai",
+   "value": "Turn your website into an AI agent that sells to AI agents Discussion | Link",
+   "date": "2026-10-24"
+  },
+  {
+   "name": "Make0 Brain OSS",
+   "url": "https://www.producthunt.com/products/make0-brain",
+   "value": "Sync context across all your agents Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "Turnstone",
+   "url": "https://www.producthunt.com/products/turnstone",
+   "value": "Grok Bot alternative that runs on your AI, completely free Discussion | Link",
+   "date": "2026-08-19"
+  },
+  {
+   "name": "Plainmail",
+   "url": "https://www.producthunt.com/products/plainmail",
+   "value": "Real email on every domain you own, for $5 a month flat Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "Pressure",
+   "url": "https://www.producthunt.com/products/pressure",
+   "value": "Need a second opinion? Have two agents debate your topic Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "Wisp",
+   "url": "https://www.producthunt.com/products/wisp-9",
+   "value": "Wisp is a little AI fairy who lives on your desktop Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "Mmory",
+   "url": "https://www.producthunt.com/products/mmory",
+   "value": "Mmory is a private voice memory app for iPhone Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "Rankfender v3.0",
+   "url": "https://www.producthunt.com/products/rankfender",
+   "value": "The SEO/GEO operating system, built for people and AI agents Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "TraceX",
+   "url": "https://www.producthunt.com/products/tracex",
+   "value": "The AI engineer for your production issues Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "Translucent AI",
+   "url": "https://www.producthunt.com/products/translucent-ai",
+   "value": "Test infrastructure for hardware teams Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "Any Video to Text",
+   "url": "https://www.producthunt.com/products/any-video-to-text",
+   "value": "Paste a video link, get the transcript in seconds Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "OrgSync",
+   "url": "https://www.producthunt.com/products/orgsync-2",
+   "value": "Company brain for Claude, ChatGPT & Codex teams Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "chalk",
+   "url": "https://www.producthunt.com/products/chalk-546d9cf8-cdc3-4b80-9b88-f441167c8f6e",
+   "value": "learn anything, anywhere Discussion | Link",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "Wonder Dev View",
+   "url": "https://www.producthunt.com/products/wonder-dev-view",
+   "value": "Run many Claude Code and Codex agents in parallel Discussion | Link",
+   "date": "2026-11-01"
+  },
+  {
+   "name": "Meshia",
+   "url": "https://www.producthunt.com/products/meshia",
+   "value": "Your autonomous research lab Discussion | Link",
+   "date": "2026-09-08"
+  },
+  {
+   "name": "Pauta",
+   "url": "https://www.producthunt.com/products/pauta",
+   "value": "Your private memory for every conversation Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "DALI AI by SupplyzPro",
+   "url": "https://www.producthunt.com/products/supplyzpro-the-conversational-erp",
+   "value": "The ERP you never need to open Discussion | Link",
+   "date": "2026-09-26"
+  },
+  {
+   "name": "pwned.coffee",
+   "url": "https://www.producthunt.com/products/pwned-coffee",
+   "value": "A live board of security flaws Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "Thunderduck Inc.",
+   "url": "https://www.producthunt.com/products/thunderduck-inc",
+   "value": "Modular Data Warehouse for Agentic Data Teams Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "Kivo",
+   "url": "https://www.producthunt.com/products/kivo-4",
+   "value": "Free on device dictation for any Mac app and AI agent Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "Koltrix",
+   "url": "https://www.producthunt.com/products/koltrix",
+   "value": "Your whole email stack, run by agents you control. Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "Royak",
+   "url": "https://www.producthunt.com/products/royak",
+   "value": "AI employees that get the work done for you Discussion | Link",
+   "date": "2026-10-23"
+  },
+  {
+   "name": "Chronos DB",
+   "url": "https://www.producthunt.com/products/chronos-db",
+   "value": "The database for the autonomous AI era. Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "Cloptima",
+   "url": "https://www.producthunt.com/products/cloptima",
+   "value": "AI Gateway, Guardrails & LLM FinOps Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "Vakilat",
+   "url": "https://www.producthunt.com/products/vakilat",
+   "value": "AI research for Indian lawyers with \"0\" hallucinations Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "FounderMail",
+   "url": "https://www.producthunt.com/products/foundermail-2",
+   "value": "Mail for you and your agents, on your Cloudflare domain Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "Nemotron 3.5 Transcribe",
+   "url": "https://www.producthunt.com/products/nvidia",
+   "value": "Intelligent Transcription with a Speech LLM Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "Polylane for Google Cloud",
+   "url": "https://www.producthunt.com/products/polylane",
+   "value": "An AI on-call engineer for your Google Cloud apps Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "Zerg Client",
+   "url": "https://www.producthunt.com/products/zerg",
+   "value": "The coding agent harness that drives its own terminal panes Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Scrollsnacks",
+   "url": "https://www.producthunt.com/products/scrollsnacks",
+   "value": "Launch videos, broken down second by second Discussion | Link",
+   "date": "2026-11-04"
+  }
+ ]
+}

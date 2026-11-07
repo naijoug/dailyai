@@ -1,0 +1,114 @@
+{
+ "source": "openrouter",
+ "sourceName": "OpenRouter",
+ "kind": "models",
+ "badge": "OpenRouter 模型",
+ "list": "Models · 本周 token 用量（页面前 20）",
+ "metric": "prompt + completion tokens（本周）",
+ "url": "https://openrouter.ai/rankings",
+ "period": "2026-11-07",
+ "fetched": "2026-11-07T03:09:41.709Z",
+ "note": "按页面给出的本周 token 总量排序。",
+ "rows": [
+  {
+   "rank": 1,
+   "name": "deepseek/deepseek-v4.1-flash-20261017",
+   "value": "56.15T tokens"
+  },
+  {
+   "rank": 2,
+   "name": "deepseek/deepseek-v4.1-flash-20260910",
+   "value": "17.24T tokens"
+  },
+  {
+   "rank": 3,
+   "name": "z-ai/glm-5.3-flash-20260826",
+   "value": "14.06T tokens"
+  },
+  {
+   "rank": 4,
+   "name": "openai/gpt-6-luna-20260922",
+   "value": "7.22T tokens"
+  },
+  {
+   "rank": 5,
+   "name": "tencent/hy4-20261104",
+   "value": "7.05T tokens"
+  },
+  {
+   "rank": 6,
+   "name": "stepfun/step-5-preview-20261008",
+   "value": "6.83T tokens"
+  },
+  {
+   "rank": 7,
+   "name": "anthropic/claude-opus-5.5-20260921",
+   "value": "6.59T tokens"
+  },
+  {
+   "rank": 8,
+   "name": "minimax/minimax-m3.1-flash-20261019",
+   "value": "5.67T tokens"
+  },
+  {
+   "rank": 9,
+   "name": "tencent/hy4-preview-20260827",
+   "value": "5.11T tokens"
+  },
+  {
+   "rank": 10,
+   "name": "openai/gpt-5.6-luna-20260709",
+   "value": "4.07T tokens"
+  },
+  {
+   "rank": 11,
+   "name": "openai/gpt-6.1-sol-20260929",
+   "value": "3.76T tokens"
+  },
+  {
+   "rank": 12,
+   "name": "z-ai/glm-5.3-20260816",
+   "value": "3.63T tokens"
+  },
+  {
+   "rank": 13,
+   "name": "deepseek/deepseek-v4-flash-20260731",
+   "value": "3.56T tokens"
+  },
+  {
+   "rank": 14,
+   "name": "moonshotai/kimi-k3.1-pro-20261023",
+   "value": "3.53T tokens"
+  },
+  {
+   "rank": 15,
+   "name": "typesafe/jev-1.13-20260917",
+   "value": "3.03T tokens"
+  },
+  {
+   "rank": 16,
+   "name": "nvidia/nemotron-3-ultra-550b-a55b-20260604 (free)",
+   "value": "2.91T tokens"
+  },
+  {
+   "rank": 17,
+   "name": "nvidia/nemotron-3.5-super-vl-20261015 (free)",
+   "value": "2.90T tokens"
+  },
+  {
+   "rank": 18,
+   "name": "tencent/hy3-20260706",
+   "value": "2.76T tokens"
+  },
+  {
+   "rank": 19,
+   "name": "anthropic/claude-haiku-5.5-20261007",
+   "value": "2.66T tokens"
+  },
+  {
+   "rank": 20,
+   "name": "stealth/crouton-alpha",
+   "value": "2.62T tokens"
+  }
+ ]
+}

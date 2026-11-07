@@ -33,6 +33,7 @@
 | [@dotey](https://x.com/dotey)、[@shao__meng](https://x.com/shao__meng) | 中文 AI 使用经验、解释与教程线索 | [11/05 晚报](src/content/posts/x-ai-2026-11-05-2015.md)、[11/04 晚报](src/content/posts/x-ai-2026-11-04-2015.md) |
 | [@op7418](https://x.com/op7418)、[@vista8](https://x.com/vista8) | 中文产品发现与实践线索；区分亲测、转述和推广 | [11/03 汇总](src/content/posts/x-ai-2026-11-03-2355.md)、[11/06 汇总](src/content/posts/x-ai-2026-11-06-1105.md) |
 | [@simonw](https://x.com/simonw)、[@addyosmani](https://x.com/addyosmani)、[@thorstenball](https://x.com/thorstenball) | LLM、Agent、AI 编程工作流；优先原作者长文与可复现示例 | [11/04 早报](src/content/posts/x-ai-2026-11-04-1150.md)、[11/04 晚报](src/content/posts/x-ai-2026-11-04-2015.md)、[11/02 汇总](src/content/posts/x-ai-2026-11-02-2355.md) |
+| [@pushmeet](https://x.com/pushmeet) | Google DeepMind 科学、安全与密码分析研究的英文一手解读；服务 `x-ai`，必须追论文并区分实验与理论估计 | 2026-11-07 已读账号主页、身份说明与 [RSA 研究原帖](https://x.com/pushmeet/status/2118752095859794390)，并核验其链接的两篇工作论文；新来源观察中，不因热度推断普遍安全结论 |
 
 使用要求：
 
@@ -57,6 +58,7 @@
 | [arXiv cs.AI recent](https://arxiv.org/list/cs.AI/recent) | 找论文，再读摘要、方法、限制与版本 | 既有 arXiv 论文引用；新增分类入口。预印本不等于同行评审结论 |
 | [Simon Willison](https://simonwillison.net/) | 模型实测、Agent 工具、提示注入与开发实践 | 既有作者博客引用；区分作者实验与转引材料 |
 | [Shopify Engineering](https://shopify.engineering/) | 英文一手工程实践，补足移动端 Agent 验证与生产架构；服务 `x-ai` / `tech` | 2026-11-06 读到首页及 [Reflex 原文](https://shopify.engineering/reflex)（11/05，Thiago Magalhaes）；云浏览器可读，公开网页工具直开曾失败；性能数字属团队自报 |
+| [Meta Newsroom](https://about.fb.com/news/) | 英文一手消费 AI、Muse 与平台产品更新；服务 `tech`，区分开放范围与路线图 | 2026-11-07 已验证入口与 [Muse Spaces 原文](https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/)；正文可读，功能描述属厂商公告，新来源观察中 |
 
 发现其他厂商或项目时，从其已核验官网进入公告 / Docs / Releases。无需事先穷举所有实验室，不根据品牌名称猜域名或 RSS。
 
