@@ -59,6 +59,7 @@
 | [Simon Willison](https://simonwillison.net/) | 模型实测、Agent 工具、提示注入与开发实践 | 既有作者博客引用；区分作者实验与转引材料 |
 | [Shopify Engineering](https://shopify.engineering/) | 英文一手工程实践，补足移动端 Agent 验证与生产架构；服务 `x-ai` / `tech` | 2026-11-06 读到首页及 [Reflex 原文](https://shopify.engineering/reflex)（11/05，Thiago Magalhaes）；云浏览器可读，公开网页工具直开曾失败；性能数字属团队自报 |
 | [Meta Newsroom](https://about.fb.com/news/) | 英文一手消费 AI、Muse 与平台产品更新；服务 `tech`，区分开放范围与路线图 | 2026-11-07 已验证入口与 [Muse Spaces 原文](https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/)；正文可读，功能描述属厂商公告，新来源观察中 |
+| [Hightouch Blog](https://hightouch.com/blog/category/all/page/1) | 英文模型路由、评估与数据工程实践，服务 `tech`；筛选工程证据，不照收营销稿 | 2026-11-07 已读官方列表与 Albert Jin、Neil Desai、Delaney Mackenzie 的 [身份匹配评估原文](https://hightouch.com/blog/llm-judges-identity-resolution)（11/04）；观察中，任务特定的合成数据测试与成本为作者自报，不能推广成通用模型排名 |
 
 发现其他厂商或项目时，从其已核验官网进入公告 / Docs / Releases。无需事先穷举所有实验室，不根据品牌名称猜域名或 RSS。
 

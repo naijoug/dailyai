@@ -1,0 +1,18 @@
+{
+  "id": "glasshand",
+  "name": "Glasshand",
+  "aliases": [],
+  "url": "https://glasshand.com/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "出租供 Agent 使用的独占实体 iPhone 和 Mac，可通过控制器/API 测试原生应用。",
+  "oneLinerEn": "Dedicated physical iPhones and Macs for AI agents and native-app testing.",
+  "score": 4,
+  "firstSeen": "2026-11-07",
+  "updated": "2026-11-07",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}
