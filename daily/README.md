@@ -7,9 +7,11 @@
 
 ### 2026-11-07 · 星期六
 
-DeepMind 公布旧 RSA 密码分析研究；Anthropic 拆解记忆整理与云端环境配置；OpenAI Showcase 提供可改造的 API 示例。
+今天关注实验判断与 Agent 工作流；补查 agent-desktop 的 MCP 接口和边界，别把后台操作解读为所有应用都不抢焦点。
 
-AI Hot 4 · Tech 3 · ⭐ 6 条高分
+🆕 今日新品：Glasshand
+
+AI Hot 5 · Tech 6 · ⭐ 9 条高分
 
 [→ 查看当天详情](2026/11/2026-11-07.md)
 
