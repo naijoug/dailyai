@@ -7,9 +7,9 @@
 
 ### 2026-11-08 · 星期日
 
-补录 Reducto 文档解析模型与 GitHub PR 概览预览，并核对 John Langford 对 AI Frontiers 的亲历叙述。
+补充 Agent 记忆互通的工程讨论：数据导出不等于实时共享，来源追踪也不能消除记忆投毒。
 
-AI Hot 1 · Tech 2 · ⭐ 2 条高分
+AI Hot 1 · Tech 3 · ⭐ 2 条高分
 
 [→ 查看当天详情](2026/11/2026-11-08.md)
 
