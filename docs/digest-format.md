@@ -131,7 +131,7 @@
 2. 官网 URL 规范化（小写、去 `www.`、去 query/hash/末尾斜杠）后做**最长前缀匹配**，同时比对产品的 `url` 和备用 `domains`。例：`doubao.com/work/...` 归到「豆包工作」，`doubao.com/chat` 归到「豆包」；`kilocode.ai/...` 归到 `kilo-code`。
 3. 名称规范化（去掉「｜公司」「 - 副标题」后缀、空白和标点，小写）后对比产品名、`aliases` 和别名表 `src/data/product-aliases.json`（例：`豆包` = `Doubao` = `豆包｜抖音`）。
 
-命中已有产品时**不覆盖**已有字段，只会：`firstSeen` 取更早的日期、`updated` 取更晚的日期、补上缺失的评分；若加粗名称看起来像真正的产品别名（短、非媒体/社群名、非新闻标题），才会写入 `aliases`。新闻条目里的 `**WIRED：…**`、人名 byline、HN/V2EX 标题等**不会**进别名。`firstSeen`（北京时间日期）决定首页日卡片上的「今日新产品」和 /products/ 的「本周新上榜」。
+命中已有产品时**不覆盖**已有字段，只会：`firstSeen` 取更早的日期、`updated` 取更晚的日期、补上缺失的评分；若加粗名称看起来像真正的产品别名（短、非媒体/社群名、非新闻标题），才会写入 `aliases`。新闻条目里的 `**WIRED：…**`、人名 byline、HN/V2EX 标题等**不会**进别名。`firstSeen`（北京时间日期）决定首页日卡片上的「本站当日收录」和 /products/ 的「本站本周收录」。
 
 ## 榜单快照（`scripts/products-refresh.mjs`，由每日 tech digest 调用）
 
@@ -168,3 +168,10 @@ cd /workspace/dailyai && export PATH=~/.local/node22/bin:$PATH && node scripts/p
 
 
 > 注：顶层 `daily/` 是由 `scripts/export-md.mjs` 从 `src/content/` 自动生成的纯 Markdown 导出（GitHub Actions 在推送后自动提交），不要手改；只改 `src/content/` 即可。推送前先 `git pull --rebase`。
+
+## 产品时间与主体的语义
+
+- `firstSeen` 是本站产品目录收录所关联的最早 digest 日期，不是首次公开发布日；不要凭目录日期推断发布，或把报道内提到的发布日直接覆盖到此字段。
+- 产品时间线日期来自 digest / 访谈日期。真实事件日期需在正文中用来源说明，预览、正式开放、上榜和再次推广分别表述。
+- 「新产品」只是 digest 的编辑栏目。只有显式关联主体在产品时间线上标为「产品介绍」；名字/域名匹配的相关产品保留为新闻或 X 提及，不推断为该产品发布。显式关联本身也不证明真实发布日期。
+- 改动后运行 `npm run check:products`，构建后运行 `node scripts/product-pages.check.mjs`，验证中英标签、日期语义和已知主次主体案例。

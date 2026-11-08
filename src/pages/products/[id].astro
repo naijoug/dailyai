@@ -16,8 +16,8 @@ export async function getStaticPaths() {
   return ps.map((p) => ({ params: { id: p.id }, props: { p, mentions: idx.get(p.id) || [], ivs: ivs.filter((iv) => iv.data.products.includes(p.id)) } }));
 }
 const { p, mentions, ivs } = Astro.props;
-// 时间线：digest 提及（新闻 / X 热点 / 产品发布）+ 访谈/播客，倒序
-type Node = { t: number; day: string; type: 'interview' | 'podcast' | 'news' | 'x' | 'launch'; en?: string; zh?: string; href: string; ext?: boolean; src?: string };
+// 时间线：digest 提及（新闻 / X 热点 / 产品介绍）+ 访谈/播客，倒序
+type Node = { t: number; day: string; type: 'interview' | 'podcast' | 'news' | 'x' | 'discovery'; en?: string; zh?: string; href: string; ext?: boolean; src?: string };
 const nodes: Node[] = [
   ...mentions.map((m) => {
     const ol = guessLang(m.text); const pair: { en?: string; zh?: string } = { [ol]: m.text };
@@ -26,7 +26,7 @@ const nodes: Node[] = [
   }),
   ...ivs.map((iv) => { const ti = ivText(iv, 'summary'); return { t: iv.data.date.getTime(), day: ivDay(iv), type: iv.data.kind === 'podcast' ? 'podcast' : 'interview', en: ti.en, zh: ti.zh, href: url(`/interview/${iv.id}/`), src: iv.data.show } as Node; }),
 ].sort((a, b) => b.t - a.t);
-const TYPES = (['interview', 'podcast', 'news', 'x', 'launch'] as const).filter((k) => nodes.some((n) => n.type === k));
+const TYPES = (['interview', 'podcast', 'news', 'x', 'discovery'] as const).filter((k) => nodes.some((n) => n.type === k));
 const PAGE = 20;
 const groups = new Map<string, typeof p.rankings>();
 for (const r of p.rankings) { const k = `${r.badge || r.source} · ${r.list}`; if (!groups.has(k)) groups.set(k, []); groups.get(k)!.push(r); }
@@ -67,6 +67,7 @@ const host = p.url.replace(/^https?:\/\/(www\.)?/, '');
     </table></div>}
     <I tag="p" class="muted rnote" k="p.hist.note" />
 
+    <I tag="p" class="muted" k="tl.dateNote" />
     <h2 id="timeline"><I k="tl.title" /> <span class="muted">· {nodes.length}</span></h2>
     {nodes.length === 0 ? <I tag="p" class="muted" k="tl.empty" /> : <div class="tlwrap" data-tl data-page={PAGE}>
       {TYPES.length > 1 && <div class="tlchips" role="group" data-pagefind-ignore>
@@ -93,7 +94,7 @@ const host = p.url.replace(/^https?:\/\/(www\.)?/, '');
   .tln[hidden] { display:none; }
   .tldot { position:absolute; left:-26px; top:5px; width:10px; height:10px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); }
   .tln[data-type=interview] .tldot { background:#8a5cd0; } .tln[data-type=podcast] .tldot { background:#2f9a5f; }
-  .tln[data-type=x] .tldot { background:var(--b1f); } .tln[data-type=news] .tldot { background:var(--b2f); } .tln[data-type=launch] .tldot { background:#c94a4a; }
+  .tln[data-type=x] .tldot { background:var(--b1f); } .tln[data-type=news] .tldot { background:var(--b2f); } .tln[data-type=discovery] .tldot { background:#c94a4a; }
   .tlhead { display:flex; flex-wrap:wrap; align-items:center; gap:6px; font-size:12.5px; color:var(--muted); }
   .tlhead time { font-variant-numeric:tabular-nums; }
   .tltext { display:block; margin-top:3px; color:var(--fg); text-decoration:none; line-height:1.5; overflow-wrap:anywhere; }

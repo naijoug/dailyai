@@ -1,6 +1,7 @@
 import { getCollection } from 'astro:content';
 import { allPosts } from './posts';
 import { dayKey } from './days';
+import { mentionKind } from './product-mention-kind';
 
 export type Snapshot = { key: string; date: string; source: string; sourceName: string; kind: 'products' | 'models' | 'feed'; badge?: string; list: string; metric?: string; url: string; period?: string; published?: string; fetched?: string; manual?: boolean; note?: string; rows: { rank?: number; name: string; url?: string; value?: string; mom?: string; org?: string; extra?: string; date?: string }[] };
 
@@ -40,7 +41,7 @@ const cut = (s: string, n = 140) => (s.length > n ? s.slice(0, n).trimEnd() + '�
 // 反查：本站 digest 里提到该产品的条目（显式 [P:slug] 标记 + 官网域名 + 名称/别名）
 export async function mentionsIndex(products: Product[]) {
   const posts = await allPosts();
-  const out = new Map<string, { id: string; day: string; text: string; tr?: string; trLang?: 'en' | 'zh'; date: Date; explicit: boolean; kind: 'launch' | 'x' | 'news' }[]>();
+  const out = new Map<string, { id: string; day: string; text: string; tr?: string; trLang?: 'en' | 'zh'; date: Date; explicit: boolean; kind: 'discovery' | 'x' | 'news' }[]>();
   const matchers = products.map((p) => {
     const hosts = [p.url, ...p.domains].map((u) => u.replace(/^https?:\/\/(www\.)?/i, '').replace(/\/$/, '').toLowerCase());
     const names = (p.matchNames || [p.name, ...p.aliases]).filter((n) => n.length >= 3 || /[^\x00-\x7f]/.test(n));
@@ -66,7 +67,7 @@ export async function mentionsIndex(products: Product[]) {
         const isEx = ex.includes(p.id);
         if (!isEx && !hosts.some((h) => line.toLowerCase().includes(h)) && !res.some((r) => r.test(line))) continue;
         if (!out.has(p.id)) out.set(p.id, []);
-        const kind = /新产品|New Products/i.test(sec) || (isEx && dayKey(post.data.date) === p.firstSeen) ? 'launch' : post.data.type === 'x-ai' ? 'x' : 'news';
+        const kind = mentionKind(sec, isEx, post.data.type);
         out.get(p.id)!.push({ id, day: dayKey(post.data.date), text: cut(strip(raw)), ...(trm ? { tr: cut(strip(trm[2])), trLang: trm[1] as 'en' | 'zh' } : {}), date: post.data.date, explicit: isEx, kind });
       }
     }
