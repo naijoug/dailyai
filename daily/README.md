@@ -7,11 +7,11 @@
 
 ### 2026-11-10 · 星期二
 
-Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，降价提速并登顶 AA 榜；Meta 推出低价小模型 Muse Ember；OpenAI 上线 Control Room 并让 dots 可连多台电脑。
+Anthropic 发布 Fable 5.2 后启动 IPO 路演，每股 70–78 美元；Meta 推出 Muse Ember，字节上线 Seedream 5.5；官方提示指南称一句“代码归你”就能让 Fable 主动重构。
 
-🆕 今日新品：Meta launches Muse Ember, its smallest a、MeowDisplay、watched.earth +1
+🆕 今日新品：Muse Ember、MeowDisplay、watched.earth +1
 
-AI Hot 9 · Tech 13 · ⭐ 11 条高分
+AI Hot 17 · Tech 13 · ⭐ 16 条高分
 
 [→ 查看当天详情](2026/11/2026-11-10.md)
 
