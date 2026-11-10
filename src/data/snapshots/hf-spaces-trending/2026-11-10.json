@@ -1,0 +1,223 @@
+{
+ "source": "hf",
+ "sourceName": "Hugging Face",
+ "kind": "feed",
+ "badge": "HF Spaces",
+ "list": "Trending Spaces",
+ "metric": "trendingScore 排序（API 顺序）",
+ "url": "https://huggingface.co/spaces?sort=trending",
+ "period": "2026-11-10",
+ "fetched": "2026-11-10T03:10:45.912Z",
+ "rows": [
+  {
+   "rank": 1,
+   "name": "huggingface/moe-blogpost",
+   "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
+   "value": "♥ 479",
+   "extra": "docker"
+  },
+  {
+   "rank": 2,
+   "name": "joelniklaus/harness-leaderboard",
+   "url": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
+   "value": "♥ 229",
+   "extra": "docker"
+  },
+  {
+   "rank": 3,
+   "name": "kulkas2pintu/wan777",
+   "url": "https://huggingface.co/spaces/kulkas2pintu/wan777",
+   "value": "♥ 1445",
+   "extra": "gradio"
+  },
+  {
+   "rank": 4,
+   "name": "fendouai/free-ai-humanizer",
+   "url": "https://huggingface.co/spaces/fendouai/free-ai-humanizer",
+   "value": "♥ 225",
+   "extra": "static"
+  },
+  {
+   "rank": 5,
+   "name": "speridlabs/idol",
+   "url": "https://huggingface.co/spaces/speridlabs/idol",
+   "value": "♥ 229",
+   "extra": "gradio"
+  },
+  {
+   "rank": 6,
+   "name": "hugging-apps/bfs-best-face-swap",
+   "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
+   "value": "♥ 863",
+   "extra": "gradio"
+  },
+  {
+   "rank": 7,
+   "name": "a-test-user-in-the-wrold/qwen-image-21-uncensored",
+   "url": "https://huggingface.co/spaces/a-test-user-in-the-wrold/qwen-image-21-uncensored",
+   "value": "♥ 314",
+   "extra": "gradio"
+  },
+  {
+   "rank": 8,
+   "name": "JCisHERE/wan2-2-i2v-v3",
+   "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
+   "value": "♥ 283",
+   "extra": "gradio"
+  },
+  {
+   "rank": 9,
+   "name": "YuyaoTechnology/MatterSeek",
+   "url": "https://huggingface.co/spaces/YuyaoTechnology/MatterSeek",
+   "value": "♥ 3156",
+   "extra": "static"
+  },
+  {
+   "rank": 10,
+   "name": "PrunaAI/P-H3-Image",
+   "url": "https://huggingface.co/spaces/PrunaAI/P-H3-Image",
+   "value": "♥ 75",
+   "extra": "gradio"
+  },
+  {
+   "rank": 11,
+   "name": "thea2026/image-to-video",
+   "url": "https://huggingface.co/spaces/thea2026/image-to-video",
+   "value": "♥ 96",
+   "extra": "gradio"
+  },
+  {
+   "rank": 12,
+   "name": "FelyaHuhing/qwen-image-21-uncensored",
+   "url": "https://huggingface.co/spaces/FelyaHuhing/qwen-image-21-uncensored",
+   "value": "♥ 80",
+   "extra": "gradio"
+  },
+  {
+   "rank": 13,
+   "name": "LiquidAI/LFM3-Omni-2B-WebGPU",
+   "url": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU",
+   "value": "♥ 144",
+   "extra": "static"
+  },
+  {
+   "rank": 14,
+   "name": "umaircxnd/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+   "url": "https://huggingface.co/spaces/umaircxnd/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+   "value": "♥ 93",
+   "extra": "gradio"
+  },
+  {
+   "rank": 15,
+   "name": "wank3r/minimax-h3",
+   "url": "https://huggingface.co/spaces/wank3r/minimax-h3",
+   "value": "♥ 338",
+   "extra": "gradio"
+  },
+  {
+   "rank": 16,
+   "name": "Guaryn/qwen-image-2.1-uncensored-aio-loras",
+   "url": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras",
+   "value": "♥ 123",
+   "extra": "gradio"
+  },
+  {
+   "rank": 17,
+   "name": "linoyts/qwen-image-2-1-realtime",
+   "url": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime",
+   "value": "♥ 216",
+   "extra": "gradio"
+  },
+  {
+   "rank": 18,
+   "name": "AST-1320/Qwen-2511-Plus-Flux.2-klein",
+   "url": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein",
+   "value": "♥ 383",
+   "extra": "gradio"
+  },
+  {
+   "rank": 19,
+   "name": "hide1/MOSS-Image-Character-Catalog",
+   "url": "https://huggingface.co/spaces/hide1/MOSS-Image-Character-Catalog",
+   "value": "♥ 74",
+   "extra": "static"
+  },
+  {
+   "rank": 20,
+   "name": "aaaa33311/wan2-2-fp8da-aoti-preview-2c-finishing",
+   "url": "https://huggingface.co/spaces/aaaa33311/wan2-2-fp8da-aoti-preview-2c-finishing",
+   "value": "♥ 114",
+   "extra": "gradio"
+  },
+  {
+   "rank": 21,
+   "name": "Tanyakhan/pornflux-i2v-6e9et",
+   "url": "https://huggingface.co/spaces/Tanyakhan/pornflux-i2v-6e9et",
+   "value": "♥ 141",
+   "extra": "static"
+  },
+  {
+   "rank": 22,
+   "name": "Pika-Labs/pika-h3-flex",
+   "url": "https://huggingface.co/spaces/Pika-Labs/pika-h3-flex",
+   "value": "♥ 96",
+   "extra": "gradio"
+  },
+  {
+   "rank": 23,
+   "name": "nvidia/simready-central",
+   "url": "https://huggingface.co/spaces/nvidia/simready-central",
+   "value": "♥ 399",
+   "extra": "docker"
+  },
+  {
+   "rank": 24,
+   "name": "harness-hub/harness-lens",
+   "url": "https://huggingface.co/spaces/harness-hub/harness-lens",
+   "value": "♥ 91",
+   "extra": "docker"
+  },
+  {
+   "rank": 25,
+   "name": "multimodalart/jev-decision-index",
+   "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
+   "value": "♥ 892",
+   "extra": "static"
+  },
+  {
+   "rank": 26,
+   "name": "briaai/Fibo-2.0-editing",
+   "url": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing",
+   "value": "♥ 240",
+   "extra": "gradio"
+  },
+  {
+   "rank": 27,
+   "name": "townbox/ava",
+   "url": "https://huggingface.co/spaces/townbox/ava",
+   "value": "♥ 62",
+   "extra": "static"
+  },
+  {
+   "rank": 28,
+   "name": "aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
+   "url": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
+   "value": "♥ 552",
+   "extra": "gradio"
+  },
+  {
+   "rank": 29,
+   "name": "baka999/MiniMax-H3-Turbo-Lora-UNCENSORED",
+   "url": "https://huggingface.co/spaces/baka999/MiniMax-H3-Turbo-Lora-UNCENSORED",
+   "value": "♥ 127",
+   "extra": "gradio"
+  },
+  {
+   "rank": 30,
+   "name": "rdata92/LTX-2.3-10Eros",
+   "url": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros",
+   "value": "♥ 168",
+   "extra": "gradio"
+  }
+ ]
+}

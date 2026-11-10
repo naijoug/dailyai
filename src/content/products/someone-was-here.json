@@ -1,0 +1,17 @@
+{
+  "id": "someone-was-here",
+  "name": "Someone Was Here",
+  "aliases": [],
+  "url": "https://someonewashere.app/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "菜单栏应用，有人使用时拍照，若不是本人就推送到 iPhone；",
+  "oneLinerEn": "menu-bar app that photographs whoever uses the Mac and alerts your iPhone if the face isn'",
+  "score": 2,
+  "firstSeen": "2026-11-10",
+  "updated": "2026-11-10",
+  "tags": [
+    "Products"
+  ],
+  "rankings": []
+}

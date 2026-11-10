@@ -1,0 +1,15 @@
+{
+  "id": "meowdisplay",
+  "name": "MeowDisplay",
+  "aliases": [],
+  "url": "https://meowdisplay.app/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "开源，基于 OpenDisplay 分叉并转向手机优先，重做交互、串流和安全层；",
+  "oneLinerEn": "open source, started as a fork of OpenDisplay and taken in a phone-first direction with wo",
+  "score": 3,
+  "firstSeen": "2026-11-10",
+  "updated": "2026-11-10",
+  "tags": [],
+  "rankings": []
+}

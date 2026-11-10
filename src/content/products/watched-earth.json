@@ -1,0 +1,15 @@
+{
+  "id": "watched-earth",
+  "name": "watched.earth",
+  "aliases": [],
+  "url": "https://www.watched.earth",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "在浏览器里用 SGP4 跑 CelesTrak 星表，约半秒出结果，再拉取对应过境的 Sentinel-2 / Landsat / NASA 真实影像；",
+  "oneLinerEn": "runs SGP4 on the CelesTrak catalog in the browser in about half a second, then pulls real ",
+  "score": 3,
+  "firstSeen": "2026-11-10",
+  "updated": "2026-11-10",
+  "tags": [],
+  "rankings": []
+}
