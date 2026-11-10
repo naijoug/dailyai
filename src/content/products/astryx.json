@@ -1,6 +1,6 @@
 {
   "id": "astryx",
-  "name": "Astryx (Meta)",
+  "name": "Astryx",
   "aliases": [],
   "url": "https://astryx.atmeta.com",
   "category": "开发者平台",
@@ -14,5 +14,6 @@
     "Dev Tools",
     "Open Source"
   ],
-  "rankings": []
+  "rankings": [],
+  "maker": "Meta"
 }
