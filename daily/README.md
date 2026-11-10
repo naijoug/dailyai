@@ -9,9 +9,11 @@
 
 Anthropic 发布 Fable 5.2 后启动 IPO 路演，每股 70–78 美元；Meta 推出 Muse Ember，字节上线 Seedream 5.5；官方提示指南称一句“代码归你”就能让 Fable 主动重构。
 
-🆕 今日新品：Muse Ember、Astryx (Meta)、Strands Decider +5
+🆕 今日新品：Muse Ember、Astryx、Strands Decider +5
 
-AI Hot 17 · Tech 25 · ⭐ 23 条高分
+🎙 访谈与播客：AI炼金术、How I AI
+
+AI Hot 17 · Tech 25 · 访谈/播客 2 · ⭐ 23 条高分
 
 [→ 查看当天详情](2026/11/2026-11-10.md)
 
@@ -403,6 +405,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [AI炼金术：啊？？？用 AI 替自己看小姐姐跳舞？？？｜对谈超线性学院鸭哥](2026/11/2026-11-10.md#interviews) — 播客 · 2026-11-10 · [原文](https://www.ximalaya.com/sound/1031626765)
+- [How I AI：Claude Fable 5.2 评测：快、有创意，终于不烦人了](2026/11/2026-11-10.md#interviews) — 播客 · 2026-11-10 · [原文](https://podcasts.apple.com/us/podcast/claude-fable-5-2-review-fast-creative-and-finally-not/id1809663079?i=1000800846879)
 - [How I AI：William Imoh：用 AI 开发语音学习应用，并搭建创始人 Agent 团队](2026/11/2026-11-09.md#interviews) — 播客 · 2026-11-09 · [原文](https://podcasts.apple.com/us/podcast/how-this-founder-built-a-better-duolingo-with/id1809663079?i=1000800758404)
 - [Latent Space：前沿实验室买什么：Handshake 的专业数据与 Agent 评测](2026/11/2026-11-09.md#interviews) — 播客 · 2026-11-09 · [原文](https://latent.space/p/handshake/)
 - [Lenny's Podcast：为什么产品经理突然又值钱了｜Gemini 产品负责人 Tulsee Doshi](2026/11/2026-11-08.md#interviews) — 播客 · 2026-11-08 · [原文](https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier)
