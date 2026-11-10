@@ -5,6 +5,16 @@
 
 ## 2026 年 11 月
 
+### 2026-11-10 · 星期二
+
+Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，降价提速并登顶 AA 榜；Meta 推出低价小模型 Muse Ember；OpenAI 上线 Control Room 并让 dots 可连多台电脑。
+
+🆕 今日新品：Meta launches Muse Ember, its smallest a、MeowDisplay、watched.earth +1
+
+AI Hot 9 · Tech 12 · ⭐ 10 条高分
+
+[→ 查看当天详情](2026/11/2026-11-10.md)
+
 ### 2026-11-09 · 星期一
 
 从 AI 辅助实验到协作交付：保留测试证据、精选 PR 摘要，并补录 GitHub 聊天集成正式开放。
@@ -17,7 +27,9 @@ Tech 3 · ⭐ 2 条高分
 
 补充 Agent 记忆互通的工程讨论：数据导出不等于实时共享，来源追踪也不能消除记忆投毒。
 
-AI Hot 1 · Tech 3 · ⭐ 2 条高分
+🎙 访谈与播客：Lenny's Podcast
+
+AI Hot 1 · Tech 3 · 访谈/播客 1 · ⭐ 2 条高分
 
 [→ 查看当天详情](2026/11/2026-11-08.md)
 
@@ -389,6 +401,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Lenny's Podcast：为什么产品经理突然又值钱了｜Gemini 产品负责人 Tulsee Doshi](2026/11/2026-11-08.md#interviews) — 播客 · 2026-11-08 · [原文](https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier)
 - [Latent Space：对话 Fabian Theis：从描绘生物系统走向预测与干预](2026/11/2026-11-06.md#interviews) — 播客 · 2026-11-06 · [原文](https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/)
 - [晚点聊 LateTalk：晚点聊 185：与 Amont 李肇宇聊 Anthropic 定价逻辑和潜在风险](2026/11/2026-11-06.md#interviews) — 播客 · 2026-11-06 · [原文](https://podcast.latepost.com/185)
 - [晚点聊 LateTalk：晚点聊 186：与 Fusion Fund 张璐聊企业 AI 需求](2026/11/2026-11-06.md#interviews) — 播客 · 2026-11-06 · [原文](https://podcast.latepost.com/186)
