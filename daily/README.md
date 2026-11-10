@@ -9,9 +9,9 @@
 
 Anthropic 发布 Fable 5.2 后启动 IPO 路演，每股 70–78 美元；Meta 推出 Muse Ember，字节上线 Seedream 5.5；官方提示指南称一句“代码归你”就能让 Fable 主动重构。
 
-🆕 今日新品：Muse Ember、MeowDisplay、watched.earth +1
+🆕 今日新品：Muse Ember、Astryx (Meta)、Strands Decider +5
 
-AI Hot 17 · Tech 13 · ⭐ 16 条高分
+AI Hot 17 · Tech 25 · ⭐ 23 条高分
 
 [→ 查看当天详情](2026/11/2026-11-10.md)
 
