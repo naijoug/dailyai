@@ -1,15 +1,16 @@
 {
   "id": "muse-ember",
-  "name": "Meta launches Muse Ember, its smallest a",
+  "name": "Muse Ember",
   "aliases": [],
   "url": "https://research.meta.ai/blog/muse-ember",
   "category": "开发者平台",
   "region": "global",
-  "oneLiner": "面向工具调用、编程子任务、路由、抽取和长文档解析；",
-  "oneLinerEn": "built for tool calls, coding subtasks, routing, extraction and long-document parsing;",
+  "oneLiner": "Meta 最小、最省的模型，面向工具调用、编程子任务、路由、抽取和长文档解析等 Agent 执行层工作。",
+  "oneLinerEn": "Meta's smallest, most efficient model, built for agent execution work such as tool calls, coding subtasks, routing, extraction and long-document parsing.",
   "score": 5,
   "firstSeen": "2026-11-10",
   "updated": "2026-11-10",
   "tags": [],
-  "rankings": []
+  "rankings": [],
+  "maker": "Meta"
 }
