@@ -1,0 +1,15 @@
+{
+  "id": "ultorg",
+  "name": "Ultorg",
+  "aliases": [],
+  "url": "https://www.ultorg.com/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "无需写 SQL 或自建增删改查应用，就能跨表、跨关联查询和编辑 PostgreSQL、SQL Server、MySQL、DuckDB、BigQuery、Oracle 以及表格和 C",
+  "oneLinerEn": "query and edit data across tables and relationships — PostgreSQL, SQL Server, MySQL, DuckD",
+  "score": 3,
+  "firstSeen": "2026-11-10",
+  "updated": "2026-11-10",
+  "tags": [],
+  "rankings": []
+}

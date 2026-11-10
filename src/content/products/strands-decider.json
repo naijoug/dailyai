@@ -1,0 +1,18 @@
+{
+  "id": "strands-decider",
+  "name": "Strands Decider",
+  "aliases": [],
+  "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "决策模型不生成文字，输入状态和带选项的问题，返回每个选项的概率和置信度；",
+  "oneLinerEn": "a decision model takes a state plus a question with options and returns a probability per ",
+  "score": 4,
+  "firstSeen": "2026-11-10",
+  "updated": "2026-11-10",
+  "tags": [
+    "Models",
+    "Dev Tools"
+  ],
+  "rankings": []
+}
