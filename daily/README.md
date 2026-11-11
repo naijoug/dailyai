@@ -7,13 +7,13 @@
 
 ### 2026-11-11 · 星期三
 
-Gemini 4 Carbon 全面开放并上线 Antigravity /swarm；Claude 推出白板、表格和 Claude Data，ChatGPT 开放商家入驻；Qwen4-Max 预览版上线，Cursor 项目支持团队协作。
+Gemini 4 Carbon 全面开放，DeepMind 用 AlphaProof Code 证明 Signal 机器码安全；Claude 推出白板和表格，Qwen4-Max、文心 5.5 Flash 预览上线，Adobe 和虚幻引擎全面接入 Agent。
 
-🆕 今日新品：Modern Web Guidance 1.0、Resend、Aircad +4
+🆕 今日新品：Dam Secure、MiniMax H3-Image、Modern Web Guidance 1.0 +8
 
-🎙 访谈与播客：Latent Space
+🎙 访谈与播客：The Startup Podcast、Latent Space
 
-AI Hot 9 · Tech 12 · 访谈/播客 1 · ⭐ 10 条高分
+AI Hot 18 · Tech 22 · 访谈/播客 2 · ⭐ 19 条高分
 
 [→ 查看当天详情](2026/11/2026-11-11.md)
 
@@ -417,6 +417,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [The Startup Podcast：当攻击者也有 AI：Dam Secure 的 Patrick Collins 和 Simon Harloff 谈代码安全](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://podcasts.apple.com/us/podcast/securing-code-when-the-bad-guys-have-ai-with/id1612757016?i=1000801184810)
 - [Latent Space：为 Agent 而设计：Resend 创始人 Zeno Rocha](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://latent.space/p/resend/)
 - [Founder Park：20 亿美元年化收入，硅谷头部数商 Mercor：模型能自己造数据了，但评测还得靠人](2026/11/2026-11-10.md#interviews) — 访谈 · 2026-11-10 · [原文](https://www.163.com/dy/article/LBDGR75E05566TJ2.html)
 - [The Room Podcast：Axiom 创始人兼 CEO Carina Hong：打造能证明自己结论的 AI](2026/11/2026-11-10.md#interviews) — 播客 · 2026-11-10 · [原文](https://podcasts.apple.com/us/podcast/s15e8-building-ai-that-can-prove-its-work-with-axiom/id1539670094?i=1000800996691)
