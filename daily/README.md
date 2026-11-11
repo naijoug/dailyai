@@ -5,15 +5,27 @@
 
 ## 2026 年 11 月
 
+### 2026-11-11 · 星期三
+
+Gemini 4 Carbon 全面开放并上线 Antigravity /swarm；Claude 推出白板、表格和 Claude Data，ChatGPT 开放商家入驻；Qwen4-Max 预览版上线，Cursor 项目支持团队协作。
+
+🆕 今日新品：Modern Web Guidance 1.0、Resend、Aircad +4
+
+🎙 访谈与播客：Latent Space
+
+AI Hot 9 · Tech 12 · 访谈/播客 1 · ⭐ 10 条高分
+
+[→ 查看当天详情](2026/11/2026-11-11.md)
+
 ### 2026-11-10 · 星期二
 
 Anthropic 发布 Fable 5.2 后启动 IPO 路演，每股 70–78 美元；Meta 推出 Muse Ember，字节上线 Seedream 5.5；官方提示指南称一句“代码归你”就能让 Fable 主动重构。
 
 🆕 今日新品：Muse Ember、Astryx、Strands Decider +5
 
-🎙 访谈与播客：AI炼金术、How I AI
+🎙 访谈与播客：Founder Park、The Room Podcast、AI炼金术、How I AI
 
-AI Hot 17 · Tech 25 · 访谈/播客 2 · ⭐ 23 条高分
+AI Hot 17 · Tech 25 · 访谈/播客 4 · ⭐ 23 条高分
 
 [→ 查看当天详情](2026/11/2026-11-10.md)
 
@@ -405,6 +417,9 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Latent Space：为 Agent 而设计：Resend 创始人 Zeno Rocha](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://latent.space/p/resend/)
+- [Founder Park：20 亿美元年化收入，硅谷头部数商 Mercor：模型能自己造数据了，但评测还得靠人](2026/11/2026-11-10.md#interviews) — 访谈 · 2026-11-10 · [原文](https://www.163.com/dy/article/LBDGR75E05566TJ2.html)
+- [The Room Podcast：Axiom 创始人兼 CEO Carina Hong：打造能证明自己结论的 AI](2026/11/2026-11-10.md#interviews) — 播客 · 2026-11-10 · [原文](https://podcasts.apple.com/us/podcast/s15e8-building-ai-that-can-prove-its-work-with-axiom/id1539670094?i=1000800996691)
 - [AI炼金术：啊？？？用 AI 替自己看小姐姐跳舞？？？｜对谈超线性学院鸭哥](2026/11/2026-11-10.md#interviews) — 播客 · 2026-11-10 · [原文](https://www.ximalaya.com/sound/1031626765)
 - [How I AI：Claude Fable 5.2 评测：快、有创意，终于不烦人了](2026/11/2026-11-10.md#interviews) — 播客 · 2026-11-10 · [原文](https://podcasts.apple.com/us/podcast/claude-fable-5-2-review-fast-creative-and-finally-not/id1809663079?i=1000800846879)
 - [How I AI：William Imoh：用 AI 开发语音学习应用，并搭建创始人 Agent 团队](2026/11/2026-11-09.md#interviews) — 播客 · 2026-11-09 · [原文](https://podcasts.apple.com/us/podcast/how-this-founder-built-a-better-duolingo-with/id1809663079?i=1000800758404)
