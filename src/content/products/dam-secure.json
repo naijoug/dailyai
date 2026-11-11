@@ -1,0 +1,22 @@
+{
+  "id": "dam-secure",
+  "name": "Dam Secure",
+  "aliases": [
+    "Dam Secure",
+    "damsecure.ai"
+  ],
+  "url": "https://damsecure.ai/",
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "Dam Secure",
+  "oneLiner": "面向 AI 优先工程团队的代码安全平台：用对抗式 Agent 找漏洞，并在 80 个仓库上评测哪些模型最擅长安全审查",
+  "oneLinerEn": "Code security platform for AI-first engineering teams that builds adversarial agents to find vulnerabilities and benchmarks which LLMs are best at security review across 80 repositories.",
+  "score": 4,
+  "firstSeen": "2026-11-11",
+  "updated": "2026-11-11",
+  "tags": [
+    "Security",
+    "Agents"
+  ],
+  "rankings": []
+}

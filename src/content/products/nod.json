@@ -1,0 +1,17 @@
+{
+  "id": "nod",
+  "name": "Nod (n8n Labs)",
+  "aliases": [],
+  "url": "https://nod.n8n.io/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "n8n Labs 推出的独立开源（Apache 2.0）个人 Agent，以研究预览形式发布，支持 Mac、Windows 或自托管。",
+  "oneLinerEn": "a standalone, open-source (Apache 2.0) personal agent from n8n Labs, released as a researc",
+  "score": 4,
+  "firstSeen": "2026-11-11",
+  "updated": "2026-11-11",
+  "tags": [
+    "Open Source"
+  ],
+  "rankings": []
+}

@@ -208,9 +208,9 @@
       "source": "openrouter",
       "list": "Apps · 本周 token 用量",
       "badge": "OpenRouter",
-      "rank": 22,
+      "rank": 21,
       "metric": "经 OpenRouter 的 token 总量（本周）",
-      "value": "648.3B tokens",
+      "value": "666.4B tokens",
       "date": "2026-11-11",
       "url": "https://openrouter.ai/rankings#apps",
       "snap": "openrouter-apps-week/2026-11-11"

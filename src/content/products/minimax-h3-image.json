@@ -1,0 +1,17 @@
+{
+  "id": "minimax-h3-image",
+  "name": "MiniMax H3-Image",
+  "aliases": [],
+  "url": "https://www.minimax.io/blog/minimax-h3-image",
+  "category": "图像",
+  "region": "cn",
+  "oneLiner": "基于 H3 的开放权重生图模型，支持文生图、参考图生成（最多 16 张参考图）和图像编辑，在 MiniMax 自家推理服务上 10 秒内生成原生 4K（4096×4096）图片，官",
+  "oneLinerEn": "an open-weight image model built on H3 for text-to-image, reference-based generation (up t",
+  "score": 4,
+  "firstSeen": "2026-11-11",
+  "updated": "2026-11-11",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}
