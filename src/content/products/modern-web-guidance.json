@@ -1,0 +1,19 @@
+{
+  "id": "modern-web-guidance",
+  "name": "Modern Web Guidance 1.0",
+  "aliases": [],
+  "url": "https://developer.chrome.com/docs/modern-web-guidance",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "Chrome 联合 Firefox、MDN 和 Edge 推出的开源指南包，专门喂给编程 Agent，让它们别再写过时的网页代码。",
+  "oneLinerEn": "Chrome's open-source guidance package for coding agents, built with Firefox, MDN and Edge,",
+  "score": 4,
+  "firstSeen": "2026-11-11",
+  "updated": "2026-11-11",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

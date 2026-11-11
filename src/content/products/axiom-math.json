@@ -1,0 +1,22 @@
+{
+  "id": "axiom-math",
+  "name": "Axiom",
+  "aliases": [
+    "Axiom",
+    "Axiom Math",
+    "axiommath.ai"
+  ],
+  "url": "https://axiommath.ai/",
+  "category": "研究",
+  "region": "global",
+  "maker": "Axiom",
+  "oneLiner": "用 Lean 形式化验证做数学推理与可验证代码生成的 AI 实验室，提供交互式证明环境 AXLE",
+  "oneLinerEn": "AI lab building formally verified math reasoning and code generation on Lean, including the AXLE proof environment.",
+  "score": 3,
+  "firstSeen": "2026-11-11",
+  "updated": "2026-11-11",
+  "tags": [
+    "Research"
+  ],
+  "rankings": []
+}

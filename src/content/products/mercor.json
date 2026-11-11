@@ -1,0 +1,21 @@
+{
+  "id": "mercor",
+  "name": "Mercor",
+  "aliases": [
+    "Mercor",
+    "mercor.com"
+  ],
+  "url": "https://mercor.com",
+  "category": "其他",
+  "region": "global",
+  "maker": "Mercor",
+  "oneLiner": "组织全球专家网络为前沿 AI 实验室构建评测和强化学习环境的数据公司",
+  "oneLinerEn": "AI data company whose global expert network builds evals and RL environments for frontier labs.",
+  "score": 3,
+  "firstSeen": "2026-11-11",
+  "updated": "2026-11-11",
+  "tags": [
+    "Industry"
+  ],
+  "rankings": []
+}

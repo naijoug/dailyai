@@ -1,0 +1,18 @@
+{
+  "id": "ha-mcp",
+  "name": "HA-MCP",
+  "aliases": [],
+  "url": "https://homeassistant-ai.github.io/ha-mcp/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "Home Assistant 的 MCP 服务器，提供 87 个工具，让 AI 助手直接操作你的 Home Assistant；",
+  "oneLinerEn": "an MCP server for Home Assistant with 87 tools that let an AI assistant work with your Hom",
+  "score": 3,
+  "firstSeen": "2026-11-11",
+  "updated": "2026-11-11",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

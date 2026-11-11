@@ -1,0 +1,18 @@
+{
+  "id": "inkbox",
+  "name": "Inkbox",
+  "aliases": [],
+  "url": "https://inkbox.ai",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "托管式 Agent 服务，每个 Agent 有自己的云电脑，还有独立的邮箱、电话号码、iMessage、WhatsApp、Slack 和 A2A 身份；",
+  "oneLinerEn": "hosted agents where each agent gets its own cloud computer plus its own email, phone numbe",
+  "score": 3,
+  "firstSeen": "2026-11-11",
+  "updated": "2026-11-11",
+  "tags": [
+    "Models",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

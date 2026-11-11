@@ -1,0 +1,15 @@
+{
+  "id": "aircad",
+  "name": "Aircad",
+  "aliases": [],
+  "url": "https://aircad.com",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "浏览器里的 CAD，支持 2D 制图和 NURBS 实体建模，可导入导出 DWG/DXF/STEP/3DM，支持多人协同编辑和版本历史。",
+  "oneLinerEn": "browser-based CAD covering 2D drafting and NURBS solid modeling, with DWG/DXF/STEP/3DM imp",
+  "score": 3,
+  "firstSeen": "2026-11-11",
+  "updated": "2026-11-11",
+  "tags": [],
+  "rankings": []
+}

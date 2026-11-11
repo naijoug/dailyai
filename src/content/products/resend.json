@@ -1,0 +1,22 @@
+{
+  "id": "resend",
+  "name": "Resend",
+  "aliases": [
+    "Resend",
+    "resend.com"
+  ],
+  "url": "https://resend.com",
+  "category": "开发者平台",
+  "region": "global",
+  "maker": "Resend",
+  "oneLiner": "面向开发者的邮件发送 API 与基础设施，配套 React Email、SDK、CLI 和 MCP",
+  "oneLinerEn": "Email API and infrastructure for developers, with React Email, SDKs, a CLI and an MCP server.",
+  "score": 4,
+  "firstSeen": "2026-11-11",
+  "updated": "2026-11-11",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}
