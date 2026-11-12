@@ -7,11 +7,11 @@
 
 ### 2026-11-12 · 星期四
 
-谷歌推出 Gemini Decisions API 和 AlphaGenome 2，Grok Bot 1.0 支持团队共享和进会议；AWS 开源全部由 Agent 编写的 AWS Emulator，英伟达董事会考虑撤换黄仁勋。
+谷歌推出 Gemini Decisions API，Anthropic 公布 IPO 财务（Q3 营收 170 亿美元）；豆包工作接入 Kimi、GLM、DeepSeek 等第三方模型，AWS 开源 Agent 写成的 AWS Emulator。
 
 🆕 今日新品：AWS Emulator、Atuin Threads、Tabletop (Google Labs) +3
 
-AI Hot 8 · Tech 11 · ⭐ 9 条高分
+AI Hot 16 · Tech 11 · ⭐ 14 条高分
 
 [→ 查看当天详情](2026/11/2026-11-12.md)
 
