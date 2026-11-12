@@ -1,0 +1,17 @@
+{
+  "id": "yogurt",
+  "name": "Yogurt",
+  "aliases": [],
+  "url": "https://yogurt.so",
+  "category": "办公",
+  "region": "global",
+  "oneLiner": "免费、MIT 协议开源的 Granola 替代品。",
+  "oneLinerEn": "a free, MIT-licensed, open-source alternative to Granola: a desktop app that runs in the b",
+  "score": 3,
+  "firstSeen": "2026-11-12",
+  "updated": "2026-11-12",
+  "tags": [
+    "Open Source"
+  ],
+  "rankings": []
+}

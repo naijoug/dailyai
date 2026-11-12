@@ -1,0 +1,194 @@
+{
+ "source": "producthunt",
+ "sourceName": "Product Hunt",
+ "kind": "feed",
+ "badge": "Product Hunt",
+ "list": "Artificial Intelligence 分类 RSS",
+ "metric": "Feed 顺序（不是排名）",
+ "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
+ "period": "2026-11-12",
+ "fetched": "2026-11-12T03:12:29.168Z",
+ "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
+ "rows": [
+  {
+   "name": "Kippy AI",
+   "url": "https://www.producthunt.com/products/kippy-ai",
+   "value": "Learn languages while having fun! Discussion | Link",
+   "date": "2026-11-08"
+  },
+  {
+   "name": "Mister Blocks",
+   "url": "https://www.producthunt.com/products/mister-blocks",
+   "value": "Take a picture of your LEGO and AI will make a build Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Relay",
+   "url": "https://www.producthunt.com/products/relaytoai",
+   "value": "DocSend for AI agents: send and receive docs with context Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "Nod by n8n",
+   "url": "https://www.producthunt.com/products/n8n-io",
+   "value": "Open source personal agent with its own computer Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Xolace",
+   "url": "https://www.producthunt.com/products/xolace",
+   "value": "For the bad days you wouldn’t call a mental health problem Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "ScroogeFrog AI",
+   "url": "https://www.producthunt.com/products/scroogefrog-ai-antifraud",
+   "value": "AI ad fraud detection that protects your marketing budget Discussion | Link",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "CALL-E",
+   "url": "https://www.producthunt.com/products/call-e",
+   "value": "The phone line for AI agents Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "Stiro",
+   "url": "https://www.producthunt.com/products/stiro",
+   "value": "AI onboarding and customer success agent for SaaS Discussion | Link",
+   "date": "2026-11-07"
+  },
+  {
+   "name": "Muse Ember by Meta",
+   "url": "https://www.producthunt.com/products/meta-ai",
+   "value": "Meta's low-cost AI model for high-volume agent tasks Discussion | Link",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "Valin",
+   "url": "https://www.producthunt.com/products/valin",
+   "value": "Your private memory for everything you save. Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Skillbox",
+   "url": "https://www.producthunt.com/products/skillbox-5",
+   "value": "One library for your AI skills, synced to every agent Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "bonds chat",
+   "url": "https://www.producthunt.com/products/bonds-2",
+   "value": "Multiplayer AI that dies if you and your friends flake Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "MiniMax H3-Image",
+   "url": "https://www.producthunt.com/products/minimax",
+   "value": "Bringing 4K image generation into the 10-second era Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Scribe v3 by ElevenLabs",
+   "url": "https://www.producthunt.com/products/elevenlabs",
+   "value": "Speech to text with 27% fewer errors in 90+ languages Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Mitra MCP",
+   "url": "https://www.producthunt.com/products/mitra-5",
+   "value": "Give your AI agents access to your personal phone line Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Earlybird",
+   "url": "https://www.producthunt.com/products/earlybird-5",
+   "value": "29M-param speech-to-text that outputs words before they end Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Shot.video",
+   "url": "https://www.producthunt.com/products/shot-video",
+   "value": "Multi-camera videos with the phones you already own Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Seedream 5.5 by ByteDance",
+   "url": "https://www.producthunt.com/products/seedream-4-0",
+   "value": "ByteDance's AI image model built for 100-round editing Discussion | Link",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "RigSpark",
+   "url": "https://www.producthunt.com/products/rigspark",
+   "value": "Know which AI to run on your own computer Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Binqo",
+   "url": "https://www.producthunt.com/products/binqo",
+   "value": "A tiny friend in your Mac's notch Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Inspo by Context.dev",
+   "url": "https://www.producthunt.com/products/context-dev",
+   "value": "Real website inspiration for your coding agent Discussion | Link",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "MuJoCo 4",
+   "url": "https://www.producthunt.com/products/google",
+   "value": "A physics engine for robots with its own studio Discussion | Link",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "Daytwo",
+   "url": "https://www.producthunt.com/products/daytwo-2",
+   "value": "Let your team change your custom site without touching code Discussion | Link",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "Quillo",
+   "url": "https://www.producthunt.com/products/quillo-2",
+   "value": "Listen to any PDF in a natural voice, then ask Quillo Ai Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "QuotedPart",
+   "url": "https://www.producthunt.com/products/quotedpart",
+   "value": "AI quoting for CNC and sheet metal job shops Discussion | Link",
+   "date": "2026-11-08"
+  },
+  {
+   "name": "ForAgent",
+   "url": "https://www.producthunt.com/products/foragent",
+   "value": "Private phone numbers so AI agents can call each other Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "Levo",
+   "url": "https://www.producthunt.com/products/levo-3",
+   "value": "Your AI agent finds what's safe to delete on your Mac Discussion | Link",
+   "date": "2026-11-07"
+  },
+  {
+   "name": "VeilCC",
+   "url": "https://www.producthunt.com/products/veilcc",
+   "value": "Ship code AI can't reverse engineer Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "SideKick By Open",
+   "url": "https://www.producthunt.com/products/open-for-sales",
+   "value": "“Claude, but for your product” is here. Discussion | Link",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "Dover Startup Jobs",
+   "url": "https://www.producthunt.com/products/dover",
+   "value": "Where great startups meet great candidates Discussion | Link",
+   "date": "2026-11-09"
+  }
+ ]
+}

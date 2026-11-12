@@ -1,0 +1,18 @@
+{
+  "id": "atuin-threads",
+  "name": "Atuin Threads",
+  "aliases": [],
+  "url": "https://atuin.sh",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Atuin 18.24 起，像同步 shell 历史一样跨机器同步、搜索你的编程 Agent 会话；",
+  "oneLinerEn": "Atuin 18.24+ syncs and searches your coding-agent sessions across machines like shell hist",
+  "score": 4,
+  "firstSeen": "2026-11-12",
+  "updated": "2026-11-12",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

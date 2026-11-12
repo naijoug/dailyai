@@ -1,0 +1,17 @@
+{
+  "id": "klad",
+  "name": "Klad",
+  "aliases": [],
+  "url": "https://klad.studio",
+  "category": "图像",
+  "region": "global",
+  "oneLiner": "用 Rust 写的源码公开绘画软件，编程 Agent 能通过命令行完全操控：笔刷引擎、带骨骼/IK 的逐帧动画、矢量、文字图层、图层效果、无限撤销，所有功能也都有正常界面。",
+  "oneLinerEn": "a source-available paint app written in Rust that a coding agent can drive entirely throug",
+  "score": 3,
+  "firstSeen": "2026-11-12",
+  "updated": "2026-11-12",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

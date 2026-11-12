@@ -1,0 +1,18 @@
+{
+  "id": "aws-emulator",
+  "name": "AWS Emulator",
+  "aliases": [],
+  "url": "https://docs.aws.amazon.com/emulator/latest/userguide/what-is-service.html",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "免费的本地 AWS API 模拟器，不用 AWS 账号就能开发测试（服务器模式支持 CLI 和任意 SDK，也能嵌进 Rust 测试），以 CC0 发布；",
+  "oneLinerEn": "a free local emulator of AWS APIs for building and testing without an AWS account (server ",
+  "score": 5,
+  "firstSeen": "2026-11-12",
+  "updated": "2026-11-12",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

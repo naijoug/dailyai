@@ -1,0 +1,15 @@
+{
+  "id": "google-tabletop",
+  "name": "Tabletop (Google Labs)",
+  "aliases": [],
+  "url": "https://tabletop.google",
+  "category": "办公",
+  "region": "global",
+  "oneLiner": "给小团体用的实验性共享空间。",
+  "oneLinerEn": "an experimental shared space for groups.",
+  "score": 3,
+  "firstSeen": "2026-11-12",
+  "updated": "2026-11-12",
+  "tags": [],
+  "rankings": []
+}
