@@ -5,6 +5,14 @@
 
 ## 2026 年 11 月
 
+### 2026-11-12 · 星期四
+
+谷歌推出 Gemini Decisions API 和 AlphaGenome 2，Grok Bot 1.0 支持团队共享和进会议；AWS 开源全部由 Agent 编写的 AWS Emulator，英伟达董事会考虑撤换黄仁勋。
+
+AI Hot 8 · ⭐ 6 条高分
+
+[→ 查看当天详情](2026/11/2026-11-12.md)
+
 ### 2026-11-11 · 星期三
 
 Gemini 4 Carbon 全面开放，DeepMind 用 AlphaProof Code 证明 Signal 机器码安全；Claude 推出白板和表格，Qwen4-Max、文心 5.5 Flash 预览上线，Adobe 和虚幻引擎全面接入 Agent。
