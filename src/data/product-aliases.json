@@ -246,5 +246,9 @@
   "dam-secure": [
     "Dam Secure",
     "DamSecure"
+  ],
+  "obsidian": [
+    "Obsidian",
+    "obsidian.md"
   ]
 }

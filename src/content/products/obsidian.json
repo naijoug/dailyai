@@ -1,0 +1,21 @@
+{
+  "id": "obsidian",
+  "name": "Obsidian",
+  "aliases": [
+    "Obsidian",
+    "obsidian.md"
+  ],
+  "url": "https://obsidian.md/",
+  "category": "办公",
+  "region": "global",
+  "maker": "Obsidian",
+  "oneLiner": "基于本地 Markdown 文件的笔记与知识库应用，常被用作 Claude Code 等编程 Agent 读写的个人知识库前端",
+  "oneLinerEn": "Note-taking and knowledge-base app built on local Markdown files, often used as the front end for personal knowledge bases that coding agents like Claude Code read and write.",
+  "score": 3,
+  "firstSeen": "2026-11-12",
+  "updated": "2026-11-12",
+  "tags": [
+    "Products"
+  ],
+  "rankings": []
+}
