@@ -9,9 +9,11 @@
 
 谷歌推出 Gemini Decisions API，Anthropic 公布 IPO 财务（Q3 营收 170 亿美元）；豆包工作接入 Kimi、GLM、DeepSeek 等第三方模型，AWS 开源 Agent 写成的 AWS Emulator。
 
-🆕 今日新品：AWS Emulator、Atuin Threads、Tabletop (Google Labs) +3
+🆕 今日新品：AWS Emulator、Atuin Threads、Crossfade +8
 
-AI Hot 16 · Tech 11 · ⭐ 14 条高分
+🎙 访谈与播客：No Priors
+
+AI Hot 16 · Tech 22 · 访谈/播客 1 · ⭐ 16 条高分
 
 [→ 查看当天详情](2026/11/2026-11-12.md)
 
@@ -427,6 +429,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [No Priors：Isomorphic Labs 总裁 Max Jaderberg：用 AI 驱动药物发现](2026/11/2026-11-12.md#interviews) — 播客 · 2026-11-12 · [原文](https://podcasts.apple.com/us/podcast/powering-ai-driven-drug-discovery-with-president/id1668002688?i=1000801498476)
 - [How I AI：Claude Code + Obsidian：我家的 AI 大脑｜Scott Farrar](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://podcasts.apple.com/us/podcast/claude-code-obsidian-my-familys-ai-brain-scott-farrar/id1809663079?i=1000801203594)
 - [The Startup Podcast：当攻击者也有 AI：Dam Secure 的 Patrick Collins 和 Simon Harloff 谈代码安全](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://podcasts.apple.com/us/podcast/securing-code-when-the-bad-guys-have-ai-with/id1612757016?i=1000801184810)
 - [Latent Space：为 Agent 而设计：Resend 创始人 Zeno Rocha](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://latent.space/p/resend/)
