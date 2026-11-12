@@ -9,7 +9,9 @@
 
 谷歌推出 Gemini Decisions API 和 AlphaGenome 2，Grok Bot 1.0 支持团队共享和进会议；AWS 开源全部由 Agent 编写的 AWS Emulator，英伟达董事会考虑撤换黄仁勋。
 
-AI Hot 8 · ⭐ 6 条高分
+🆕 今日新品：AWS Emulator、Atuin Threads、Tabletop (Google Labs) +3
+
+AI Hot 8 · Tech 11 · ⭐ 9 条高分
 
 [→ 查看当天详情](2026/11/2026-11-12.md)
 
@@ -19,9 +21,9 @@ Gemini 4 Carbon 全面开放，DeepMind 用 AlphaProof Code 证明 Signal 机器
 
 🆕 今日新品：Dam Secure、MiniMax H3-Image、Modern Web Guidance 1.0 +8
 
-🎙 访谈与播客：The Startup Podcast、Latent Space
+🎙 访谈与播客：How I AI、The Startup Podcast、Latent Space
 
-AI Hot 18 · Tech 22 · 访谈/播客 2 · ⭐ 19 条高分
+AI Hot 18 · Tech 22 · 访谈/播客 3 · ⭐ 19 条高分
 
 [→ 查看当天详情](2026/11/2026-11-11.md)
 
@@ -425,6 +427,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [How I AI：Claude Code + Obsidian：我家的 AI 大脑｜Scott Farrar](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://podcasts.apple.com/us/podcast/claude-code-obsidian-my-familys-ai-brain-scott-farrar/id1809663079?i=1000801203594)
 - [The Startup Podcast：当攻击者也有 AI：Dam Secure 的 Patrick Collins 和 Simon Harloff 谈代码安全](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://podcasts.apple.com/us/podcast/securing-code-when-the-bad-guys-have-ai-with/id1612757016?i=1000801184810)
 - [Latent Space：为 Agent 而设计：Resend 创始人 Zeno Rocha](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://latent.space/p/resend/)
 - [Founder Park：20 亿美元年化收入，硅谷头部数商 Mercor：模型能自己造数据了，但评测还得靠人](2026/11/2026-11-10.md#interviews) — 访谈 · 2026-11-10 · [原文](https://www.163.com/dy/article/LBDGR75E05566TJ2.html)
