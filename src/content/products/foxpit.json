@@ -1,0 +1,18 @@
+{
+  "id": "foxpit",
+  "name": "Foxpit",
+  "aliases": [],
+  "url": "https://foxpit.dev",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "让 Claude Code、Codex 和 OpenCode 在一个小 3D 办公室里组队干活。",
+  "oneLinerEn": "runs Claude Code, Codex and OpenCode as one team in a little 3D office.",
+  "score": 3,
+  "firstSeen": "2026-11-12",
+  "updated": "2026-11-12",
+  "tags": [
+    "Models",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

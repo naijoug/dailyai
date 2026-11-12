@@ -1,0 +1,22 @@
+{
+  "id": "isomorphic-labs",
+  "name": "Isomorphic Labs",
+  "aliases": [
+    "Isomorphic Labs",
+    "Isomorphic"
+  ],
+  "url": "https://www.isomorphiclabs.com",
+  "category": "研究",
+  "region": "global",
+  "maker": "Isomorphic Labs（Alphabet）",
+  "oneLiner": "Alphabet 旗下的 AI 药物研发公司，源自 AlphaFold，打造不限病种、靶点类别和药物形态的计算药物设计引擎",
+  "oneLinerEn": "Alphabet's AI drug-discovery company, spun out of the AlphaFold work, building drug design engines that are agnostic of disease area, target class and modality.",
+  "score": 4,
+  "firstSeen": "2026-11-12",
+  "updated": "2026-11-12",
+  "tags": [
+    "Research",
+    "Industry"
+  ],
+  "rankings": []
+}

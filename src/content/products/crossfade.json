@@ -1,0 +1,17 @@
+{
+  "id": "crossfade",
+  "name": "Crossfade",
+  "aliases": [],
+  "url": "https://crossfade.company",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "一个 Figma 插件，把编程 Agent 接到你正打开的 Figma Design、FigJam 或 Slides 文件上。",
+  "oneLinerEn": "a Figma plugin that connects your coding agent to the Figma Design, FigJam or Slides file ",
+  "score": 4,
+  "firstSeen": "2026-11-12",
+  "updated": "2026-11-12",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

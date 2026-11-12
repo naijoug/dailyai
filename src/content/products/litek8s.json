@@ -1,0 +1,15 @@
+{
+  "id": "litek8s",
+  "name": "litek8s",
+  "aliases": [],
+  "url": "https://litek8s.dev/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "把整套 Kubernetes 塞进一个 Rust 二进制，空闲时只占 23 MiB。",
+  "oneLinerEn": "a whole Kubernetes in one Rust binary that idles at 23 MiB.",
+  "score": 3,
+  "firstSeen": "2026-11-12",
+  "updated": "2026-11-12",
+  "tags": [],
+  "rankings": []
+}

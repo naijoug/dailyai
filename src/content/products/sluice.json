@@ -1,0 +1,15 @@
+{
+  "id": "sluice",
+  "name": "Sluice",
+  "aliases": [],
+  "url": "https://sluiceapp.com",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "给同时跑很多 Agent 的人用的 Mac 菜单栏清理工具。",
+  "oneLinerEn": "a Mac menu-bar cleaner for people running many agents in parallel.",
+  "score": 3,
+  "firstSeen": "2026-11-12",
+  "updated": "2026-11-12",
+  "tags": [],
+  "rankings": []
+}
