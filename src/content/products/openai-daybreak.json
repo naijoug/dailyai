@@ -1,0 +1,27 @@
+{
+  "id": "openai-daybreak",
+  "name": "OpenAI Daybreak",
+  "aliases": [
+    "Daybreak",
+    "OpenAI Daybreak",
+    "Daybreak Defense Factory",
+    "Daybreak Red Team"
+  ],
+  "url": "https://openai.com/daybreak/",
+  "domains": [
+    "openai.com/daybreak"
+  ],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "OpenAI",
+  "oneLiner": "OpenAI 的网络安全防御计划与产品线：Defense Factory 让 Agent 追踪漏洞、准备补丁，Red Team 用协同 Agent 做 Web 渗透测试并验证修复",
+  "oneLinerEn": "OpenAI's cyber-defense program and products: Defense Factory has agents trace vulnerabilities and prepare patches, and Red Team uses coordinated agents to pen-test web apps and verify fixes.",
+  "score": 4,
+  "firstSeen": "2026-11-13",
+  "updated": "2026-11-13",
+  "tags": [
+    "Security",
+    "Agents"
+  ],
+  "rankings": []
+}
