@@ -7,13 +7,13 @@
 
 ### 2026-11-13 · 星期五
 
-谷歌发布 Gemini 4 Hydrogen 取代 3.8 Flash，Claude Meetings 进入 Google Meet 测试；黄仁勋辞任英伟达 CEO，OpenAI 推出 Daybreak 网络安全 Agent 产品。
+谷歌发布 Gemini 4 Hydrogen，Claude Meetings 进入 Google Meet；黄仁勋辞任英伟达 CEO 后员工请愿其回归，晚间 Claude 登录大面积报错约两小时。
 
-🆕 今日新品：AgentRun、Edge0、LiberAI +4
+🆕 今日新品：AgentRun、Codex Security、Edge0 +9
 
-🎙 访谈与播客：晚点聊 LateTalk
+🎙 访谈与播客：The a16z Show、晚点聊 LateTalk
 
-AI Hot 8 · Tech 12 · 访谈/播客 1 · ⭐ 11 条高分
+AI Hot 14 · Tech 21 · 访谈/播客 2 · ⭐ 14 条高分
 
 [→ 查看当天详情](2026/11/2026-11-13.md)
 
@@ -441,6 +441,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [The a16z Show：每天都是零日：Wiz CTO Ami Luttwak 谈 AI 时代的攻防](2026/11/2026-11-13.md#interviews) — 播客 · 2026-11-13 · [原文](https://podcasts.apple.com/us/podcast/every-day-is-zero-day-wiz-cto-ami-luttwak/id842818711?i=1000801711272)
 - [晚点聊 LateTalk：187: 对话LiberAI刘松铭：Astra来袭，00后物理AI创始人看到的胜率](2026/11/2026-11-13.md#interviews) — 播客 · 2026-11-13 · [原文](https://podcast.latepost.com/187)
 - [No Priors：Isomorphic Labs 总裁 Max Jaderberg：用 AI 驱动药物发现](2026/11/2026-11-12.md#interviews) — 播客 · 2026-11-12 · [原文](https://podcasts.apple.com/us/podcast/powering-ai-driven-drug-discovery-with-president/id1668002688?i=1000801498476)
 - [How I AI：Claude Code + Obsidian：我家的 AI 大脑｜Scott Farrar](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://podcasts.apple.com/us/podcast/claude-code-obsidian-my-familys-ai-brain-scott-farrar/id1809663079?i=1000801203594)
