@@ -7,6 +7,7 @@
   "url": "https://agentrun.ai",
   "category": "开发者平台",
   "region": "global",
+  "maker": "Parcha",
   "oneLiner": "开源（Apache 2.0）的一层，给你现有的 Agent harness 加上自我改进、持久执行和控制面，让 Agent 不再每次运行都重新摸索同样的事。",
   "oneLinerEn": "an open-source (Apache 2.0) layer that adds self-improvement, durable execution and a cont",
   "score": 4,
@@ -16,6 +17,5 @@
     "Agents",
     "Open Source"
   ],
-  "rankings": [],
-  "maker": "Parcha"
+  "rankings": []
 }

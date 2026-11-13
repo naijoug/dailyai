@@ -1,0 +1,18 @@
+{
+  "id": "artcraft",
+  "name": "ArtCraft",
+  "aliases": [],
+  "url": "https://getartcraft.com",
+  "category": "图像",
+  "region": "global",
+  "oneLiner": "Latent Space 整理了 CEO Brandon Thomas 在 AI Engineer Code 大会上的演讲。",
+  "oneLinerEn": "Latent Space's recap of CEO Brandon Thomas's AI Engineer Code Summit talk.",
+  "score": 3,
+  "firstSeen": "2026-11-13",
+  "updated": "2026-11-13",
+  "tags": [
+    "Open Source",
+    "Products"
+  ],
+  "rankings": []
+}

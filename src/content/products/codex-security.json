@@ -1,0 +1,22 @@
+{
+  "id": "codex-security",
+  "name": "Codex Security",
+  "aliases": [
+    "Codex Security"
+  ],
+  "url": "https://developers.openai.com/codex/security",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Codex 安全工作流背后的开源 @openai/codex-security 命令行、TypeScript SDK 和 GitHub Action。",
+  "oneLinerEn": "the open-source @openai/codex-security CLI, TypeScript SDK and GitHub Action behind Codex'",
+  "score": 4,
+  "firstSeen": "2026-11-13",
+  "updated": "2026-11-13",
+  "tags": [
+    "Dev Tools",
+    "Open Source",
+    "Security"
+  ],
+  "rankings": [],
+  "maker": "OpenAI"
+}

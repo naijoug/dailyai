@@ -1,0 +1,22 @@
+{
+  "id": "open-code-review",
+  "name": "Open Code Review",
+  "aliases": [
+    "Open Code Review",
+    "OpenCodeReview"
+  ],
+  "url": "https://open-codereview.ai",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "一款 AI 代码评审命令行工具，前身是阿里内部官方评审助手，两年里服务了数万名开发者。",
+  "oneLinerEn": "an AI code review CLI that started as Alibaba's internal official review assistant, used b",
+  "score": 4,
+  "firstSeen": "2026-11-13",
+  "updated": "2026-11-13",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": [],
+  "maker": "阿里巴巴"
+}

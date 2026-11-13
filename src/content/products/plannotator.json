@@ -1,0 +1,22 @@
+{
+  "id": "plannotator",
+  "name": "Plannotator",
+  "aliases": [
+    "Plannotator",
+    "Plannotator Inbox"
+  ],
+  "url": "https://plannotator.ai",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "一个在本地浏览器里运行的 Agent 工作评审层。",
+  "oneLinerEn": "a local, browser-based review layer for agent work.",
+  "score": 3,
+  "firstSeen": "2026-11-13",
+  "updated": "2026-11-13",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}
