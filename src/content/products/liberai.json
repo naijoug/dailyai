@@ -1,0 +1,23 @@
+{
+  "id": "liberai",
+  "name": "LiberAI",
+  "aliases": [
+    "LiberAI",
+    "Liber-0",
+    "Liber AI"
+  ],
+  "url": "https://www.liberai.com",
+  "category": "研究",
+  "region": "cn",
+  "maker": "LiberAI（刘松铭）",
+  "oneLiner": "物理 AI 公司，发布用 220 万小时人类经验预训练的世界动作模型 Liber-0，自研数据手套与机器人本体",
+  "oneLinerEn": "A physical-AI startup behind Liber-0, a world action model pretrained on 2.2 million hours of human experience, plus its own data glove and robot body.",
+  "score": 4,
+  "firstSeen": "2026-11-13",
+  "updated": "2026-11-13",
+  "tags": [
+    "Research",
+    "Industry"
+  ],
+  "rankings": []
+}
