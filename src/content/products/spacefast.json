@@ -1,0 +1,20 @@
+{
+  "id": "spacefast",
+  "name": "Spacefast",
+  "aliases": [
+    "Spacefast"
+  ],
+  "url": "https://spacefast.com",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "Automattic 推出的 Agent 托管平台：连上 ChatGPT、Claude、Codex、Cursor 等，一句话发布网站或应用，负责托管、数据库、域名和版本历史",
+  "oneLinerEn": "An agent hosting platform from Automattic: connect ChatGPT, Claude, Codex, Cursor and more to publish sites or apps with one request, with hosting, databases, domains and version history handled.",
+  "score": 3,
+  "firstSeen": "2026-11-13",
+  "updated": "2026-11-13",
+  "tags": [
+    "Agents"
+  ],
+  "rankings": [],
+  "maker": "Automattic"
+}

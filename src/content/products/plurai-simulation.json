@@ -1,0 +1,17 @@
+{
+  "id": "plurai-simulation",
+  "name": "Plurai Simulation",
+  "aliases": [],
+  "url": "https://plurai.ai",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "在 Claude Code、Codex 或 GitHub Copilot 里一条命令，为你的 Agent 搭出它所处世界的数字孪生：合成用户画像和文档，模拟工具、API 和数据库，",
+  "oneLinerEn": "builds a digital twin of your agent's world with one command in Claude Code, Codex or GitH",
+  "score": 4,
+  "firstSeen": "2026-11-13",
+  "updated": "2026-11-13",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

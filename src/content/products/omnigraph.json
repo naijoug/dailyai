@@ -1,0 +1,17 @@
+{
+  "id": "omnigraph",
+  "name": "Omnigraph",
+  "aliases": [],
+  "url": "https://omnigraph.dev",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "为 Agent 设计的开源（MIT）图数据库，直接存在对象存储上。",
+  "oneLinerEn": "an open-source (MIT), object-storage-native graph database built for agents.",
+  "score": 4,
+  "firstSeen": "2026-11-13",
+  "updated": "2026-11-13",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

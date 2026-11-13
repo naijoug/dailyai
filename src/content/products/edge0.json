@@ -1,0 +1,22 @@
+{
+  "id": "edge0",
+  "name": "Edge0",
+  "aliases": [
+    "Edge0",
+    "Edge0-145B"
+  ],
+  "url": "https://edge0.ai",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "开源 145B 和 120B 两个模型及推理框架，主打在自己的笔记本上做接近前沿水平的编程、推理和 Agent 任务。",
+  "oneLinerEn": "open-weight 145B and 120B models plus an inference framework, pitched as frontier-class co",
+  "score": 4,
+  "firstSeen": "2026-11-13",
+  "updated": "2026-11-13",
+  "tags": [
+    "Models",
+    "Open Source"
+  ],
+  "rankings": [],
+  "maker": "Edge0（AutoArk）"
+}
