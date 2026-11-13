@@ -1,0 +1,22 @@
+{
+  "id": "wiz",
+  "name": "Wiz",
+  "aliases": [
+    "Wiz",
+    "Wiz Security"
+  ],
+  "url": "https://www.wiz.io",
+  "category": "其他",
+  "region": "global",
+  "maker": "Wiz（Google）",
+  "oneLiner": "云安全平台，扫描云环境和代码中的漏洞、错误配置与风险，并发布漏洞研究和 Agent 攻击分析",
+  "oneLinerEn": "A cloud security platform that finds vulnerabilities, misconfigurations and risks across cloud environments and code, and publishes threat research including on agentic attacks.",
+  "score": 4,
+  "firstSeen": "2026-11-13",
+  "updated": "2026-11-13",
+  "tags": [
+    "Security",
+    "Industry"
+  ],
+  "rankings": []
+}
