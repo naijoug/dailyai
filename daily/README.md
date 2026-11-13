@@ -9,9 +9,9 @@
 
 谷歌发布 Gemini 4 Hydrogen 取代 3.8 Flash，Claude Meetings 进入 Google Meet 测试；黄仁勋辞任英伟达 CEO，OpenAI 推出 Daybreak 网络安全 Agent 产品。
 
-🆕 今日新品：OpenAI Daybreak
+🆕 今日新品：AgentRun、Edge0、Omnigraph +3
 
-AI Hot 8 · ⭐ 6 条高分
+AI Hot 8 · Tech 12 · ⭐ 11 条高分
 
 [→ 查看当天详情](2026/11/2026-11-13.md)
 
