@@ -5,6 +5,14 @@
 
 ## 2026 年 11 月
 
+### 2026-11-14 · 星期六
+
+Claude Code Projects 协调器变主动并支持自定义主题，DeepSeek 把 App 全套能力开放为 API，llama.cpp 发布 1.0；ChatGPT Wallet 让 dots 代付，Anthropic 拆解常驻 Agent 架构。
+
+AI Hot 9 · ⭐ 8 条高分
+
+[→ 查看当天详情](2026/11/2026-11-14.md)
+
 ### 2026-11-13 · 星期五
 
 谷歌发布 Gemini 4 Hydrogen，Claude Meetings 进入 Google Meet；黄仁勋辞任英伟达 CEO 后员工请愿其回归，晚间 Claude 登录大面积报错约两小时。
