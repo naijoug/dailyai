@@ -7,11 +7,11 @@
 
 ### 2026-11-14 · 星期六
 
-Claude Code Projects 协调器变主动并支持自定义主题，DeepSeek 把 App 全套能力开放为 API，llama.cpp 发布 1.0；ChatGPT Wallet 让 dots 代付，Anthropic 拆解常驻 Agent 架构。
+Claude Code 协调器更主动，DeepSeek 开放 App API，llama.cpp 发布 1.0；T3 Code 可现场改界面，Cursor 查清恶意扩展。
 
-🆕 今日新品：Poppy (Personal Agent Protocol)、Reason、ElevenAI +1
+🆕 今日新品：FanBox、GR00T 2 (NVIDIA Research / GEAR)、Kitesurf (Cloudflare) +7
 
-AI Hot 9 · Tech 10 · ⭐ 11 条高分
+AI Hot 16 · Tech 21 · ⭐ 20 条高分
 
 [→ 查看当天详情](2026/11/2026-11-14.md)
 
