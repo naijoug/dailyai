@@ -1,0 +1,22 @@
+{
+  "id": "fanbox",
+  "name": "FanBox",
+  "aliases": [
+    "FanBox"
+  ],
+  "url": "https://github.com/alchaincyf/fanbox",
+  "category": "编程/Agent",
+  "region": "cn",
+  "maker": "花叔",
+  "oneLiner": "开源的终端 Agent 驾驶舱：Agent 在终端里停下等人时，可把一句提醒发到微信或飞书，方便昼夜接着干",
+  "oneLinerEn": "An open-source cockpit for terminal agents: when the agent stops and waits, it can send a one-line prompt to WeChat or Feishu so work can continue around the clock.",
+  "score": 4,
+  "firstSeen": "2026-11-14",
+  "updated": "2026-11-14",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}
