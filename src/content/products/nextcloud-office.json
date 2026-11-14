@@ -1,6 +1,6 @@
 {
   "id": "nextcloud-office",
-  "name": "Nextcloud Office Desktop（Euro-Office 桌面版",
+  "name": "Nextcloud Office Desktop",
   "aliases": [],
   "url": "https://nextcloud.com/office/",
   "category": "办公",
@@ -11,5 +11,6 @@
   "firstSeen": "2026-11-14",
   "updated": "2026-11-14",
   "tags": [],
-  "rankings": []
+  "rankings": [],
+  "maker": "Nextcloud"
 }

@@ -1,6 +1,6 @@
 {
   "id": "elevenai",
-  "name": "ElevenAI (ElevenLabs)",
+  "name": "ElevenAI",
   "aliases": [],
   "url": "https://elevenlabs.io/elevenai",
   "category": "音频",
@@ -13,5 +13,6 @@
   "tags": [
     "Products"
   ],
-  "rankings": []
+  "rankings": [],
+  "maker": "ElevenLabs"
 }

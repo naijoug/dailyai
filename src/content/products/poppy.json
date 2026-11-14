@@ -1,6 +1,6 @@
 {
   "id": "poppy",
-  "name": "Personal Agent Protocol (Poppy) 1.0 (Sie",
+  "name": "Poppy (Personal Agent Protocol)",
   "aliases": [],
   "url": "https://sierra.ai/blog/releasing-poppy",
   "category": "开发者平台",
@@ -13,5 +13,6 @@
   "tags": [
     "Agents"
   ],
-  "rankings": []
+  "rankings": [],
+  "maker": "Sierra"
 }

@@ -1,6 +1,6 @@
 {
   "id": "reason",
-  "name": "Reason (Reason Machines)",
+  "name": "Reason",
   "aliases": [],
   "url": "https://reasonmachines.com/",
   "category": "编程/Agent",
@@ -15,5 +15,6 @@
     "Agents",
     "Dev Tools"
   ],
-  "rankings": []
+  "rankings": [],
+  "maker": "Reason Machines"
 }
