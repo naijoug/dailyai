@@ -1,0 +1,21 @@
+{
+  "id": "woven",
+  "name": "Woven",
+  "aliases": [
+    "Woven AI"
+  ],
+  "url": "https://woven.ai/",
+  "category": "办公",
+  "region": "global",
+  "maker": "Woven",
+  "oneLiner": "用 AI Agent 与流失或未转化的用户做一对一对话，收集洞察并提升转化",
+  "oneLinerEn": "One-to-one conversations with every customer, enabling deeper understanding, actionable insights, and higher conversion.",
+  "score": 3,
+  "firstSeen": "2026-11-14",
+  "updated": "2026-11-14",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}

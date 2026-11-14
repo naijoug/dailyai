@@ -1,0 +1,21 @@
+{
+  "id": "composio",
+  "name": "Composio",
+  "aliases": [
+    "Composio.dev"
+  ],
+  "url": "https://composio.dev/",
+  "category": "开发者平台",
+  "region": "global",
+  "maker": "Composio",
+  "oneLiner": "让已有的 AI Agent 通过统一的工具与授权层接入上千个应用",
+  "oneLinerEn": "Put the AI you already use to work across 1,000+ apps, with auth and tools agents can build and repair.",
+  "score": 4,
+  "firstSeen": "2026-11-14",
+  "updated": "2026-11-14",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}
