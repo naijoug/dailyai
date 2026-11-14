@@ -9,9 +9,11 @@
 
 Claude Code 协调器更主动，DeepSeek 开放 App API，llama.cpp 发布 1.0；T3 Code 可现场改界面，Cursor 查清恶意扩展。
 
-🆕 今日新品：FanBox、GR00T 2 (NVIDIA Research / GEAR)、Kitesurf (Cloudflare) +7
+🆕 今日新品：Composio、FanBox、GR00T 2 (NVIDIA Research / GEAR) +9
 
-AI Hot 16 · Tech 21 · ⭐ 20 条高分
+🎙 访谈与播客：The Growth Podcast
+
+AI Hot 16 · Tech 21 · 访谈/播客 1 · ⭐ 20 条高分
 
 [→ 查看当天详情](2026/11/2026-11-14.md)
 
@@ -21,9 +23,9 @@ AI Hot 16 · Tech 21 · ⭐ 20 条高分
 
 🆕 今日新品：AgentRun、Codex Security、Edge0 +9
 
-🎙 访谈与播客：The a16z Show、晚点聊 LateTalk
+🎙 访谈与播客：The a16z Show、晚点聊 LateTalk、The Neon Show
 
-AI Hot 14 · Tech 21 · 访谈/播客 2 · ⭐ 14 条高分
+AI Hot 14 · Tech 21 · 访谈/播客 3 · ⭐ 14 条高分
 
 [→ 查看当天详情](2026/11/2026-11-13.md)
 
@@ -451,8 +453,10 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [The Growth Podcast：如何用 Claude Code 做一个 AI 客户调研 Agent](2026/11/2026-11-14.md#interviews) — 访谈 · 2026-11-14 · [原文](https://www.news.aakashg.com/p/ai-customer-research)
 - [The a16z Show：每天都是零日：Wiz CTO Ami Luttwak 谈 AI 时代的攻防](2026/11/2026-11-13.md#interviews) — 播客 · 2026-11-13 · [原文](https://podcasts.apple.com/us/podcast/every-day-is-zero-day-wiz-cto-ami-luttwak/id842818711?i=1000801711272)
 - [晚点聊 LateTalk：187: 对话LiberAI刘松铭：Astra来袭，00后物理AI创始人看到的胜率](2026/11/2026-11-13.md#interviews) — 播客 · 2026-11-13 · [原文](https://podcast.latepost.com/187)
+- [The Neon Show：MCP 对 CLI：AI Agent 到底该怎么调用你的应用｜Composio 联合创始人 Karan Vaidya](2026/11/2026-11-13.md#interviews) — 播客 · 2026-11-13 · [原文](https://theneonshow.buzzsprout.com/1601695/episodes/20119008-mcp-vs-cli-how-ai-agents-should-really-use-your-apps-karan-vaidya-composio)
 - [No Priors：Isomorphic Labs 总裁 Max Jaderberg：用 AI 驱动药物发现](2026/11/2026-11-12.md#interviews) — 播客 · 2026-11-12 · [原文](https://podcasts.apple.com/us/podcast/powering-ai-driven-drug-discovery-with-president/id1668002688?i=1000801498476)
 - [How I AI：Claude Code + Obsidian：我家的 AI 大脑｜Scott Farrar](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://podcasts.apple.com/us/podcast/claude-code-obsidian-my-familys-ai-brain-scott-farrar/id1809663079?i=1000801203594)
 - [The Startup Podcast：当攻击者也有 AI：Dam Secure 的 Patrick Collins 和 Simon Harloff 谈代码安全](2026/11/2026-11-11.md#interviews) — 播客 · 2026-11-11 · [原文](https://podcasts.apple.com/us/podcast/securing-code-when-the-bad-guys-have-ai-with/id1612757016?i=1000801184810)
