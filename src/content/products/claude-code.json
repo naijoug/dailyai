@@ -16,7 +16,7 @@
   "oneLinerEn": "Anthropic's terminal / IDE coding agent that understands the whole codebase and makes changes.",
   "score": 5,
   "firstSeen": "2026-10-10",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "tags": [
     "Dev Tools",
     "Agents"
@@ -241,6 +241,17 @@
       "date": "2026-11-13",
       "url": "https://openrouter.ai/rankings#apps",
       "snap": "openrouter-apps-week/2026-11-13"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 4,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "10.66T tokens",
+      "date": "2026-11-14",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-11-14"
     }
   ]
 }

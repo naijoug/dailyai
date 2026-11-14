@@ -1,0 +1,19 @@
+{
+  "id": "reason",
+  "name": "Reason (Reason Machines)",
+  "aliases": [],
+  "url": "https://reasonmachines.com/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "一个主打「每花一美元多干活」的编程 Agent harness；",
+  "oneLinerEn": "a coding agent harness built to maximize work per dollar;",
+  "score": 4,
+  "firstSeen": "2026-11-14",
+  "updated": "2026-11-14",
+  "tags": [
+    "Models",
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

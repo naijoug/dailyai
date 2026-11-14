@@ -1,0 +1,17 @@
+{
+  "id": "poppy",
+  "name": "Personal Agent Protocol (Poppy) 1.0 (Sie",
+  "aliases": [],
+  "url": "https://sierra.ai/blog/releasing-poppy",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "一个开放协议，让个人智能体通过企业的业务 Agent、网站和 API 与企业打交道，主要基于 MCP、OpenAPI 和 UCP，用 OAuth 让用户决定自己的 Agent 能做",
+  "oneLinerEn": "an open protocol for personal agents to deal with companies through their business agents,",
+  "score": 4,
+  "firstSeen": "2026-11-14",
+  "updated": "2026-11-14",
+  "tags": [
+    "Agents"
+  ],
+  "rankings": []
+}

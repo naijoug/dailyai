@@ -7,6 +7,7 @@
   "url": "https://developers.openai.com/codex/security",
   "category": "编程/Agent",
   "region": "global",
+  "maker": "OpenAI",
   "oneLiner": "Codex 安全工作流背后的开源 @openai/codex-security 命令行、TypeScript SDK 和 GitHub Action。",
   "oneLinerEn": "the open-source @openai/codex-security CLI, TypeScript SDK and GitHub Action behind Codex'",
   "score": 4,
@@ -17,6 +18,5 @@
     "Open Source",
     "Security"
   ],
-  "rankings": [],
-  "maker": "OpenAI"
+  "rankings": []
 }

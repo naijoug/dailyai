@@ -1,0 +1,15 @@
+{
+  "id": "nextcloud-office",
+  "name": "Nextcloud Office Desktop（Euro-Office 桌面版",
+  "aliases": [],
+  "url": "https://nextcloud.com/office/",
+  "category": "办公",
+  "region": "global",
+  "oneLiner": "欧洲开源办公套件 Euro-Office 走出浏览器，以 Nextcloud Office Desktop 的名字推出 Windows（x64/ARM64）、macOS（Apple",
+  "oneLinerEn": "the European open-source office suite Euro-Office leaves the browser as Nextcloud Office D",
+  "score": 2,
+  "firstSeen": "2026-11-14",
+  "updated": "2026-11-14",
+  "tags": [],
+  "rankings": []
+}
