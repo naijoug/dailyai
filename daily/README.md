@@ -9,7 +9,9 @@
 
 Claude Code Projects 协调器变主动并支持自定义主题，DeepSeek 把 App 全套能力开放为 API，llama.cpp 发布 1.0；ChatGPT Wallet 让 dots 代付，Anthropic 拆解常驻 Agent 架构。
 
-AI Hot 9 · ⭐ 8 条高分
+🆕 今日新品：Poppy (Personal Agent Protocol)、Reason、ElevenAI +1
+
+AI Hot 9 · Tech 10 · ⭐ 11 条高分
 
 [→ 查看当天详情](2026/11/2026-11-14.md)
 
