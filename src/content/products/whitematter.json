@@ -1,0 +1,17 @@
+{
+  "id": "whitematter",
+  "name": "WhiteMatter (formerly QuilrAI)",
+  "aliases": [],
+  "url": "https://whitematter.io/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "企业级 Agent 治理产品，可以为每一个企业 Agent 配一个专门的 Guardian Agent，在每个动作上执行策略，新出现的 Agent 会自动配上新的 Guardian",
+  "oneLinerEn": "an enterprise agent-governance product that can put a dedicated Guardian agent on every en",
+  "score": 3,
+  "firstSeen": "2026-11-14",
+  "updated": "2026-11-14",
+  "tags": [
+    "Agents"
+  ],
+  "rankings": []
+}

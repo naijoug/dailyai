@@ -1,0 +1,17 @@
+{
+  "id": "kitesurf",
+  "name": "Kitesurf (Cloudflare)",
+  "aliases": [],
+  "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Cloudflare 把今年 8 月推出的、面向 AI Agent 的无状态浏览器以 Apache 2.0 开源。",
+  "oneLinerEn": "Cloudflare has open-sourced its stateless browser for AI agents (first introduced in Augus",
+  "score": 4,
+  "firstSeen": "2026-11-14",
+  "updated": "2026-11-14",
+  "tags": [
+    "Open Source"
+  ],
+  "rankings": []
+}

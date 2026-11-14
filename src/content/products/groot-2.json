@@ -1,0 +1,15 @@
+{
+  "id": "groot-2",
+  "name": "GR00T 2 (NVIDIA Research / GEAR)",
+  "aliases": [],
+  "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "新一代基础世界-动作模型，同时预测未来视频和机器人动作，可用于平行夹爪、灵巧手和人形机器人。",
+  "oneLinerEn": "a new generation of foundation world-action models that jointly predict future video and r",
+  "score": 4,
+  "firstSeen": "2026-11-14",
+  "updated": "2026-11-14",
+  "tags": [],
+  "rankings": []
+}

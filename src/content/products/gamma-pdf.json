@@ -1,0 +1,17 @@
+{
+  "id": "gamma-pdf",
+  "name": "Gamma PDF",
+  "aliases": [],
+  "url": "https://gammapdf.com/",
+  "category": "研究",
+  "region": "global",
+  "oneLiner": "面向读论文的人的开源、可自托管、AI 原生 PDF 阅读器。",
+  "oneLinerEn": "an open-source, self-hosted, AI-native PDF reader for people who read papers.",
+  "score": 3,
+  "firstSeen": "2026-11-14",
+  "updated": "2026-11-14",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "luminal",
+  "name": "Luminal",
+  "aliases": [],
+  "url": "https://luminal.com/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "一个编译器优先的推理平台，把模型（PyTorch / Hugging Face）降到 dataflow IR，再融合、调度并生成 GPU 或 ASIC 内核，运行时不再留解释器；",
+  "oneLinerEn": "a compiler-first inference platform that lowers models (PyTorch / Hugging Face) to a dataf",
+  "score": 3,
+  "firstSeen": "2026-11-14",
+  "updated": "2026-11-14",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}
