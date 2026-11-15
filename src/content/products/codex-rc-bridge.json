@@ -1,0 +1,18 @@
+{
+  "id": "codex-rc-bridge",
+  "name": "Codex RC Bridge",
+  "aliases": [],
+  "url": "https://github.com/geniucker-dev/codex-rc-bridge",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "让官方 ChatGPT 应用的 Codex 远程控制可以跨两个不同的 ChatGPT 账号使用（例如手机是个人账号、电脑是工作账号）。",
+  "oneLinerEn": "a bridge so official ChatGPT-app remote control of Codex can work across two different Cha",
+  "score": 3,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Dev Tools",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

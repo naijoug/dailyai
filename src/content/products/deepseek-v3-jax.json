@@ -1,0 +1,17 @@
+{
+  "id": "deepseek-v3-jax",
+  "name": "DeepSeek V3 in ~200 lines of JAX",
+  "aliases": [],
+  "url": "https://vaibhaav.in/writing/deepseek-v3-jax/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "这是一份从零写起的教学向复现，用约 190 行纯 JAX 实现 DeepSeek V3 的架构部件（MLA、DeepSeekMoE、无辅助损失的专家均衡、MTP）。",
+  "oneLinerEn": "an educational from-scratch reimplementation of DeepSeek V3 architecture pieces (MLA, Deep",
+  "score": 4,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}

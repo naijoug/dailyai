@@ -1,0 +1,18 @@
+{
+  "id": "dsh-workspace-ide",
+  "name": "dsh-workspace-ide",
+  "aliases": [],
+  "url": "https://github.com/echoVic/dsh-workspace-ide",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "给 DeepSeek Harness（dsh）客户端用的 VS Code 风格工作区侧栏插件，提供文件树和面板内编辑（行号、语法高亮、⌘S）、全文搜索，以及 git（分支、未暂存 ",
+  "oneLinerEn": "a VS Code-like workspace side-panel plugin for the DeepSeek Harness (dsh) client, with a f",
+  "score": 2,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Dev Tools",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

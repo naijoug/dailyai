@@ -1,0 +1,18 @@
+{
+  "id": "aidou",
+  "name": "小豆（aidou.studio）",
+  "aliases": [],
+  "url": "https://aidou.studio/",
+  "category": "其他",
+  "region": "cn",
+  "oneLiner": "独立开发者做的全双工、可打断的实时语音面试陪练。",
+  "oneLinerEn": "an independent developer’s full-duplex, interruptible realtime voice interview coach.",
+  "score": 3,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Models",
+    "Chinese Community"
+  ],
+  "rankings": []
+}
