@@ -5,15 +5,25 @@
 
 ## 2026 年 11 月
 
+### 2026-11-15 · 星期日
+
+Claude Code 上线实验性 Code Mode，Obsidian Skills 加入 Headless；Lovable 被曝数据泄露，声援黄仁勋请愿已超 12 万签名。
+
+🆕 今日新品：DeepSeek V3 in ~200 lines of JAX、AFK、小豆（aidou.studio） +2
+
+AI Hot 8 · Tech 8 · ⭐ 11 条高分
+
+[→ 查看当天详情](2026/11/2026-11-15.md)
+
 ### 2026-11-14 · 星期六
 
 Claude Code 协调器更主动，DeepSeek 开放 App API，llama.cpp 发布 1.0；T3 Code 可现场改界面，Cursor 查清恶意扩展。
 
 🆕 今日新品：Composio、FanBox、GR00T 2 (NVIDIA Research / GEAR) +9
 
-🎙 访谈与播客：The Growth Podcast
+🎙 访谈与播客：42章经、The Growth Podcast
 
-AI Hot 16 · Tech 21 · 访谈/播客 1 · ⭐ 20 条高分
+AI Hot 16 · Tech 21 · 访谈/播客 2 · ⭐ 20 条高分
 
 [→ 查看当天详情](2026/11/2026-11-14.md)
 
@@ -453,6 +463,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [42章经：复盘 2C 和 2B Agent 发展脉络｜对谈 Afk.surf 创始人嘉琛](2026/11/2026-11-14.md#interviews) — 播客 · 2026-11-14 · [原文](https://www.xiaoyuzhoufm.com/episode/6af6678d14d01a26f8a916f6)
 - [The Growth Podcast：如何用 Claude Code 做一个 AI 客户调研 Agent](2026/11/2026-11-14.md#interviews) — 访谈 · 2026-11-14 · [原文](https://www.news.aakashg.com/p/ai-customer-research)
 - [The a16z Show：每天都是零日：Wiz CTO Ami Luttwak 谈 AI 时代的攻防](2026/11/2026-11-13.md#interviews) — 播客 · 2026-11-13 · [原文](https://podcasts.apple.com/us/podcast/every-day-is-zero-day-wiz-cto-ami-luttwak/id842818711?i=1000801711272)
 - [晚点聊 LateTalk：187: 对话LiberAI刘松铭：Astra来袭，00后物理AI创始人看到的胜率](2026/11/2026-11-13.md#interviews) — 播客 · 2026-11-13 · [原文](https://podcast.latepost.com/187)
