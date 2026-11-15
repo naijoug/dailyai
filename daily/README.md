@@ -9,9 +9,9 @@
 
 Claude Code 上线实验性 Code Mode，Lovable 被曝数据泄露；OpenAI 征求 Daybreak 反馈，开源视频 Agent OpenFilm 受关注。
 
-🆕 今日新品：agentes.chat、DeepSeek V3 in ~200 lines of JAX、OpenFilm +4
+🆕 今日新品：agentes.chat、DeepSeek V3 in ~200 lines of JAX、OpenFilm +9
 
-AI Hot 17 · Tech 8 · ⭐ 16 条高分
+AI Hot 17 · Tech 20 · ⭐ 18 条高分
 
 [→ 查看当天详情](2026/11/2026-11-15.md)
 
