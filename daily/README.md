@@ -9,9 +9,11 @@
 
 Claude Code 上线实验性 Code Mode，Lovable 被曝数据泄露；OpenAI 征求 Daybreak 反馈，开源视频 Agent OpenFilm 受关注。
 
-🆕 今日新品：agentes.chat、DeepSeek V3 in ~200 lines of JAX、OpenFilm +9
+🆕 今日新品：agentes.chat、DeepSeek V3 in ~200 lines of JAX、LingBot +10
 
-AI Hot 17 · Tech 20 · ⭐ 18 条高分
+🎙 访谈与播客：Founder Park
+
+AI Hot 17 · Tech 20 · 访谈/播客 1 · ⭐ 18 条高分
 
 [→ 查看当天详情](2026/11/2026-11-15.md)
 
@@ -463,6 +465,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Founder Park：对话蚂蚁灵波沈宇军：Fable 5.2 都能拧瓶盖了，机器人为什么还需要自己的模型？](2026/11/2026-11-15.md#interviews) — 访谈 · 2026-11-15 · [原文](https://www.163.com/dy/article/LBPS7RQK05566TJ2.html)
 - [42章经：复盘 2C 和 2B Agent 发展脉络｜对谈 Afk.surf 创始人嘉琛](2026/11/2026-11-14.md#interviews) — 播客 · 2026-11-14 · [原文](https://www.xiaoyuzhoufm.com/episode/6af6678d14d01a26f8a916f6)
 - [The Growth Podcast：如何用 Claude Code 做一个 AI 客户调研 Agent](2026/11/2026-11-14.md#interviews) — 访谈 · 2026-11-14 · [原文](https://www.news.aakashg.com/p/ai-customer-research)
 - [The a16z Show：每天都是零日：Wiz CTO Ami Luttwak 谈 AI 时代的攻防](2026/11/2026-11-13.md#interviews) — 播客 · 2026-11-13 · [原文](https://podcasts.apple.com/us/podcast/every-day-is-zero-day-wiz-cto-ami-luttwak/id842818711?i=1000801711272)
