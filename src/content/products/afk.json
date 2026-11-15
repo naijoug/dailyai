@@ -1,0 +1,25 @@
+{
+  "id": "afk",
+  "name": "AFK",
+  "aliases": [
+    "AFK",
+    "Afk.surf",
+    "AFK AI",
+    "Away From Keyboard"
+  ],
+  "url": "https://afk.surf/",
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "AFK AI（贺嘉琛）",
+  "oneLiner": "贺嘉琛创办的 Agentic AI 公司，产品包括开源 24/7 个人助手 Comma、可自托管的企业版 Comma for Teams，以及面向日常工作的 lead agent Bridge",
+  "oneLinerEn": "Jiachen He's company for agentic AI that keeps humans away from the keyboard: open-source 24/7 assistant Comma, self-hostable Comma for Teams, and Bridge, a lead agent for everyday work.",
+  "score": 3,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Agents",
+    "Products",
+    "Open Source"
+  ],
+  "rankings": []
+}

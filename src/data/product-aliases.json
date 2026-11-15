@@ -282,5 +282,11 @@
   ],
   "fanbox": [
     "FanBox"
+  ],
+  "afk": [
+    "AFK",
+    "Afk.surf",
+    "AFK AI",
+    "Away From Keyboard"
   ]
 }
