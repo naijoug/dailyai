@@ -1,0 +1,22 @@
+{
+  "id": "agentes-chat",
+  "name": "agentes.chat",
+  "aliases": [
+    "agentes.chat",
+    "agentes-chat"
+  ],
+  "url": "https://agentes.chat",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "可自建的开源团队聊天工具，人和 Agent 在同一频道、线程和私信里协作，敏感操作会在聊天里弹出批准卡片",
+  "oneLinerEn": "A self-hostable open-source team chat where people and agents share channels, threads and DMs, with in-chat approval cards for sensitive actions.",
+  "score": 4,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

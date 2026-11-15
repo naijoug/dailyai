@@ -1,0 +1,22 @@
+{
+  "id": "openfilm",
+  "name": "OpenFilm",
+  "aliases": [
+    "OpenFilm",
+    "openfilm.dev"
+  ],
+  "url": "https://openfilm.dev/",
+  "category": "视频",
+  "region": "global",
+  "oneLiner": "开源视频 Agent：由 Agent 把每个镜头写成网页，再用 film.html 时间线拼接，可在本地制作、剪辑和导出",
+  "oneLinerEn": "An open-source video agent that writes each shot as a web page and assembles them with a film.html timeline; make, edit and export locally.",
+  "score": 4,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}
