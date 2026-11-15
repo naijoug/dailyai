@@ -1,0 +1,20 @@
+{
+  "id": "diffcode",
+  "name": "DiffCode",
+  "aliases": [
+    "DiffCode"
+  ],
+  "url": "https://ihou.github.io/DiffCode/",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "给 Mac 用的轻量原生 Git diff 查看器和客户端，用来审自己、同事或编程 Agent 改过的代码，并按行选择要提交的内容",
+  "oneLinerEn": "A lightweight native Git diff viewer and client for Mac, for reviewing changes by you, teammates, or a coding agent, and committing only the lines you choose.",
+  "score": 3,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Dev Tools",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

@@ -7,14 +7,62 @@
  "metric": "Feed 顺序（不是排名）",
  "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
  "period": "2026-11-15",
- "fetched": "2026-11-15T03:26:59.677Z",
+ "fetched": "2026-11-15T12:32:20.079Z",
  "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
  "rows": [
   {
-   "name": "MAP & GO!",
-   "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920",
-   "value": "See your day on the map Discussion | Link",
-   "date": "2026-10-21"
+   "name": "Pixel Office",
+   "url": "https://www.producthunt.com/products/pixel-office-3",
+   "value": "Run a team of AI agents from a pixel-art office Discussion | Link",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "Rakazo",
+   "url": "https://www.producthunt.com/products/rakazo",
+   "value": "The open source Grok Bot alternative you actually own Discussion | Link",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "Tulvo",
+   "url": "https://www.producthunt.com/products/tulvo",
+   "value": "Smart & adaptive workspace to manage all your work Discussion | Link",
+   "date": "2026-11-07"
+  },
+  {
+   "name": "Spiik",
+   "url": "https://www.producthunt.com/products/spiik",
+   "value": "AI note taker for meetings & lectures. No bot on your calls. Discussion | Link",
+   "date": "2026-11-07"
+  },
+  {
+   "name": "Frevana Multiplayer",
+   "url": "https://www.producthunt.com/products/frevana-2",
+   "value": "AI that grows your business alongside your team Discussion | Link",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "Canvas by AgentGrid.io",
+   "url": "https://www.producthunt.com/products/agentgrid-io",
+   "value": "Agentic Design Canvas - A visual way to collaborate with AI Discussion | Link",
+   "date": "2026-11-14"
+  },
+  {
+   "name": "Perit Marketplace",
+   "url": "https://www.producthunt.com/products/perit-marketplace",
+   "value": "Sell your data and RL tasks to frontier AI labs Discussion | Link",
+   "date": "2026-11-14"
+  },
+  {
+   "name": "Polylane for Security",
+   "url": "https://www.producthunt.com/products/polylane",
+   "value": "Catch exploitable vulnerabilities before they ship Discussion | Link",
+   "date": "2026-11-11"
+  },
+  {
+   "name": "ByteAsk Cloud Agents",
+   "url": "https://www.producthunt.com/products/byteask-cloud-agents",
+   "value": "Find the fix in big codebases. Ship it from Slack. Discussion | Link",
+   "date": "2026-11-13"
   },
   {
    "name": "HiringNow",
@@ -23,10 +71,10 @@
    "date": "2026-11-02"
   },
   {
-   "name": "Tabletop by Google Labs",
-   "url": "https://www.producthunt.com/products/google-labs",
-   "value": "Build interactive group experiences with AI. Discussion | Link",
-   "date": "2026-11-13"
+   "name": "Gemini Robotics 2.5",
+   "url": "https://www.producthunt.com/products/gemini-robotics-2-5",
+   "value": "Gemini Robotics 2.5: Google’s most capable robot model Discussion | Link",
+   "date": "2026-11-12"
   },
   {
    "name": "Thunder",
@@ -35,16 +83,10 @@
    "date": "2026-11-13"
   },
   {
-   "name": "Gemini Robotics 2.5",
-   "url": "https://www.producthunt.com/products/gemini-robotics-2-5",
-   "value": "Gemini Robotics 2.5: Google’s most capable robot model Discussion | Link",
-   "date": "2026-11-12"
-  },
-  {
-   "name": "Kokonut UI",
-   "url": "https://www.producthunt.com/products/kokonutui",
-   "value": "Open-source UI components for your AI agent Discussion | Link",
-   "date": "2026-11-01"
+   "name": "FreeFlow Dictation",
+   "url": "https://www.producthunt.com/products/freeflow-dictation",
+   "value": "On-device Mac dictation with a Claude Code voice hook Discussion | Link",
+   "date": "2026-11-10"
   },
   {
    "name": "Businesses in ChatGPT",
@@ -59,10 +101,22 @@
    "date": "2026-11-09"
   },
   {
-   "name": "FreeFlow Dictation",
-   "url": "https://www.producthunt.com/products/freeflow-dictation",
-   "value": "On-device Mac dictation with a Claude Code voice hook Discussion | Link",
-   "date": "2026-11-10"
+   "name": "Tabletop by Google Labs",
+   "url": "https://www.producthunt.com/products/google-labs",
+   "value": "Build interactive group experiences with AI. Discussion | Link",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "Kokonut UI",
+   "url": "https://www.producthunt.com/products/kokonutui",
+   "value": "Open-source UI components for your AI agent Discussion | Link",
+   "date": "2026-11-01"
+  },
+  {
+   "name": "MAP & GO!",
+   "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920",
+   "value": "See your day on the map Discussion | Link",
+   "date": "2026-10-21"
   },
   {
    "name": "Paxper",
@@ -75,6 +129,12 @@
    "url": "https://www.producthunt.com/products/gemini-6",
    "value": "Fast agentic development for coders Discussion | Link",
    "date": "2026-11-12"
+  },
+  {
+   "name": "Trainn MCP",
+   "url": "https://www.producthunt.com/products/trainn",
+   "value": "Create product videos and courses from any AI chat Discussion | Link",
+   "date": "2026-11-11"
   },
   {
    "name": "GAtrends",
@@ -95,22 +155,10 @@
    "date": "2026-11-11"
   },
   {
-   "name": "Trainn MCP",
-   "url": "https://www.producthunt.com/products/trainn",
-   "value": "Create product videos and courses from any AI chat Discussion | Link",
-   "date": "2026-11-11"
-  },
-  {
    "name": "Claude Meetings",
    "url": "https://www.producthunt.com/products/claude",
    "value": "Add Claude to your call and get work started as you talk Discussion | Link",
    "date": "2026-11-12"
-  },
-  {
-   "name": "Adobe AI Assistant",
-   "url": "https://www.producthunt.com/products/adobe-ai-assistant",
-   "value": "Create and edit faster with AI across Adobe apps Discussion | Link",
-   "date": "2026-11-10"
   },
   {
    "name": "Klang",
@@ -131,58 +179,10 @@
    "date": "2026-11-11"
   },
   {
-   "name": "Sendr V4: Lovable for GTM",
-   "url": "https://www.producthunt.com/products/sendr",
-   "value": "Your AI GTM engineer to build signal based go-to-market Discussion | Link",
-   "date": "2026-10-01"
-  },
-  {
    "name": "Customer.io Fall Release",
    "url": "https://www.producthunt.com/products/customer-io",
    "value": "Smarter marketing through Agent-recommended experiments Discussion | Link",
    "date": "2026-11-03"
-  },
-  {
-   "name": "Gnista",
-   "url": "https://www.producthunt.com/products/gnista",
-   "value": "Run more coding agents, watch none of them Discussion | Link",
-   "date": "2026-11-09"
-  },
-  {
-   "name": "Grok Bot 1.0",
-   "url": "https://www.producthunt.com/products/grok",
-   "value": "Bots work together alongside your team Discussion | Link",
-   "date": "2026-11-11"
-  },
-  {
-   "name": "Foxpit",
-   "url": "https://www.producthunt.com/products/foxpit",
-   "value": "Run Claude Code, Codex & OpenCode as one AI team Discussion | Link",
-   "date": "2026-11-11"
-  },
-  {
-   "name": "Plurai Simulation",
-   "url": "https://www.producthunt.com/products/plurai",
-   "value": "A simulated world that makes your agent improve on every run Discussion | Link",
-   "date": "2026-11-05"
-  },
-  {
-   "name": "Marqly 7.0",
-   "url": "https://www.producthunt.com/products/marqly",
-   "value": "Bookmarks you can query to find the things you saved Discussion | Link",
-   "date": "2026-11-11"
-  },
-  {
-   "name": "Harness Memory",
-   "url": "https://www.producthunt.com/products/epsilla",
-   "value": "Long-term memory for agents, across every harness Discussion | Link",
-   "date": "2026-11-11"
-  },
-  {
-   "name": "Spacefast by Automattic",
-   "url": "https://www.producthunt.com/products/spacefast-by-automattic",
-   "value": "Give your AI agents a place to build, run, and ship Discussion | Link",
-   "date": "2026-11-09"
   },
   {
    "name": "Insight7 Voice AI Agents",

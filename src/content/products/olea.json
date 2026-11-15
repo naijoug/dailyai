@@ -1,0 +1,22 @@
+{
+  "id": "olea",
+  "name": "Olea",
+  "aliases": [
+    "Olea"
+  ],
+  "url": "https://github.com/nekoium/Olea",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "跑在 Android 手机本地的 Agent 脚手架，让 Pi、Codex 和 Claude Code 在手机上运行，并能读取文件、操作屏幕和执行命令，无需电脑中继",
+  "oneLinerEn": "An on-device Android agent scaffold that runs Pi, Codex and Claude Code on the phone, with file access, screen control and Unix commands, and no desktop relay.",
+  "score": 3,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

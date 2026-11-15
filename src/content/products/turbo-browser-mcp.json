@@ -1,0 +1,22 @@
+{
+  "id": "turbo-browser-mcp",
+  "name": "Turbo-Browser-MCP",
+  "aliases": [
+    "Turbo-Browser-MCP",
+    "turbo-browser-mcp"
+  ],
+  "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "把浏览器操作打成批次的 Playwright MCP 服务器，减少 Agent 每次点击或按键都单独调用的开销，并默认关闭误提交",
+  "oneLinerEn": "A Playwright MCP server that batches browser actions so agents do not need one MCP call per click or keystroke, with submit protection off by default.",
+  "score": 4,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

@@ -288,5 +288,30 @@
     "Afk.surf",
     "AFK AI",
     "Away From Keyboard"
+  ],
+  "openfilm": [
+    "OpenFilm",
+    "openfilm.dev"
+  ],
+  "agentes-chat": [
+    "agentes.chat",
+    "agentes-chat"
+  ],
+  "turbo-browser-mcp": [
+    "Turbo-Browser-MCP",
+    "turbo-browser-mcp"
+  ],
+  "diffcode": [
+    "DiffCode"
+  ],
+  "olea": [
+    "Olea"
+  ],
+  "libriox": [
+    "LibrioX"
+  ],
+  "nexus-local": [
+    "Nexus",
+    "Nexus Local"
   ]
 }

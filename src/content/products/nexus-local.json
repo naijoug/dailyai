@@ -1,0 +1,22 @@
+{
+  "id": "nexus-local",
+  "name": "Nexus",
+  "aliases": [
+    "Nexus",
+    "Nexus Local"
+  ],
+  "url": "https://github.com/ysunyang4/Nexus",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "把 ChatGPT、DeepSeek 等网页 AI 接到本地电脑，做成可操作文件和工作流的控制平面",
+  "oneLinerEn": "A local control plane that connects web AIs such as ChatGPT and DeepSeek to your computer so they can operate files and workflows.",
+  "score": 3,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}
