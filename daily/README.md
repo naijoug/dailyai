@@ -7,11 +7,11 @@
 
 ### 2026-11-15 · 星期日
 
-Claude Code 上线实验性 Code Mode，Obsidian Skills 加入 Headless；Lovable 被曝数据泄露，声援黄仁勋请愿已超 12 万签名。
+Claude Code 上线实验性 Code Mode，Lovable 被曝数据泄露；OpenAI 征求 Daybreak 反馈，开源视频 Agent OpenFilm 受关注。
 
-🆕 今日新品：DeepSeek V3 in ~200 lines of JAX、AFK、小豆（aidou.studio） +2
+🆕 今日新品：agentes.chat、DeepSeek V3 in ~200 lines of JAX、OpenFilm +4
 
-AI Hot 8 · Tech 8 · ⭐ 11 条高分
+AI Hot 17 · Tech 8 · ⭐ 16 条高分
 
 [→ 查看当天详情](2026/11/2026-11-15.md)
 
