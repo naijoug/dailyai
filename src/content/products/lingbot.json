@@ -1,0 +1,29 @@
+{
+  "id": "lingbot",
+  "name": "LingBot",
+  "aliases": [
+    "LingBot",
+    "蚂蚁灵波",
+    "灵波",
+    "Robbyant",
+    "蚂蚁灵波科技",
+    "LingBot-Depth",
+    "LingBot-Touch",
+    "LingBot-VLA"
+  ],
+  "url": "https://www.robbyant.com/",
+  "category": "研究",
+  "region": "cn",
+  "maker": "蚂蚁灵波科技（Robbyant / 蚂蚁集团）",
+  "oneLiner": "蚂蚁集团旗下具身智能公司，打造机器人的通用大脑，开源 LingBot 系列模型（Depth、Touch、VLA、VA、World 等）",
+  "oneLinerEn": "Ant Group's embodied-AI company, building a general-purpose brain for robots and open-sourcing the LingBot model family (Depth, Touch, VLA, VA, World, and others).",
+  "score": 4,
+  "firstSeen": "2026-11-15",
+  "updated": "2026-11-15",
+  "tags": [
+    "Research",
+    "Open Source",
+    "Industry"
+  ],
+  "rankings": []
+}

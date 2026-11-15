@@ -313,5 +313,15 @@
   "nexus-local": [
     "Nexus",
     "Nexus Local"
+  ],
+  "lingbot": [
+    "LingBot",
+    "蚂蚁灵波",
+    "灵波",
+    "Robbyant",
+    "蚂蚁灵波科技",
+    "LingBot-Depth",
+    "LingBot-Touch",
+    "LingBot-VLA"
   ]
 }
