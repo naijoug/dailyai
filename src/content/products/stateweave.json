@@ -1,0 +1,17 @@
+{
+  "id": "stateweave",
+  "name": "StateWeave",
+  "aliases": [],
+  "url": "https://stateweave.net/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "让 AI Agent 在它要操作的应用的「有状态克隆」里跑测试（Slack、Gmail、Salesforce、Shopify、Zendesk、Google 日历、Sheets、Dr",
+  "oneLinerEn": "runs your AI agent against stateful clones of the apps it works in (Slack, Gmail, Salesfor",
+  "score": 3,
+  "firstSeen": "2026-11-16",
+  "updated": "2026-11-16",
+  "tags": [
+    "Products"
+  ],
+  "rankings": []
+}

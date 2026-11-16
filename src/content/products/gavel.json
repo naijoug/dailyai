@@ -1,0 +1,18 @@
+{
+  "id": "gavel",
+  "name": "gavel",
+  "aliases": [],
+  "url": "https://photostructure.com/coding/gavel/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "PhotoStructure 出品的免费 MIT 开源工具，在浏览器里配合 Claude Code 或 Codex 对本地 Git 改动做「引导式代码审查」。",
+  "oneLinerEn": "a free, MIT-licensed tool from PhotoStructure for guided code review of local Git changes ",
+  "score": 3,
+  "firstSeen": "2026-11-16",
+  "updated": "2026-11-16",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

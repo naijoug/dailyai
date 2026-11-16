@@ -1,0 +1,19 @@
+{
+  "id": "puffin",
+  "name": "Puffin",
+  "aliases": [],
+  "url": "https://justpuffin.tech/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "给每个 AI Agent 配一个独立邮箱、Discord/Slack/Telegram 里的席位和一份日历；",
+  "oneLinerEn": "gives each AI agent its own email address, a seat in Discord, Slack and Telegram, and a ca",
+  "score": 3,
+  "firstSeen": "2026-11-16",
+  "updated": "2026-11-16",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Products"
+  ],
+  "rankings": []
+}

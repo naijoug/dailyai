@@ -1,0 +1,18 @@
+{
+  "id": "digitalocean-managed-agents",
+  "name": "DigitalOcean Managed Agents",
+  "aliases": [],
+  "url": "https://www.digitalocean.com/blog/managed-agents-public-preview",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "InfoQ 中文本时段报道，DigitalOcean 推出 Managed Agents 公开预览版，为 AI Agent 提供托管云基础设施，由两部分组成：Harness Run",
+  "oneLinerEn": "InfoQ China reported in this window that DigitalOcean has a public preview of Managed Agen",
+  "score": 3,
+  "firstSeen": "2026-11-16",
+  "updated": "2026-11-16",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}
