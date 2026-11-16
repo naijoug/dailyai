@@ -5,6 +5,16 @@
 
 ## 2026 年 11 月
 
+### 2026-11-16 · 星期一
+
+阿里 Qwen4-Max 正式发布，任务成本降六成；OpenAI 开科学博客，讲 GPT-6 Astra 协助构造标准模型格点定义；No AI Slop 宣言引发讨论。
+
+🆕 今日新品：Mount Thor、Claude-BugHunter、db-branch +1
+
+AI Hot 8 · Tech 11 · ⭐ 6 条高分
+
+[→ 查看当天详情](2026/11/2026-11-16.md)
+
 ### 2026-11-15 · 星期日
 
 Claude Code 上线实验性 Code Mode，Lovable 被曝数据泄露；OpenAI 征求 Daybreak 反馈，开源视频 Agent OpenFilm 受关注。
