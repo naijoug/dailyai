@@ -11,7 +11,9 @@
 
 🆕 今日新品：Mount Thor、Claude-BugHunter、db-branch +1
 
-AI Hot 8 · Tech 11 · ⭐ 6 条高分
+🎙 访谈与播客：十字路口Crossing
+
+AI Hot 8 · Tech 11 · 访谈/播客 1 · ⭐ 6 条高分
 
 [→ 查看当天详情](2026/11/2026-11-16.md)
 
@@ -21,9 +23,9 @@ Claude Code 上线实验性 Code Mode，Lovable 被曝数据泄露；OpenAI 征�
 
 🆕 今日新品：agentes.chat、DeepSeek V3 in ~200 lines of JAX、LingBot +10
 
-🎙 访谈与播客：Founder Park
+🎙 访谈与播客：Lenny's Podcast、Founder Park
 
-AI Hot 17 · Tech 20 · 访谈/播客 1 · ⭐ 18 条高分
+AI Hot 17 · Tech 20 · 访谈/播客 2 · ⭐ 18 条高分
 
 [→ 查看当天详情](2026/11/2026-11-15.md)
 
@@ -475,6 +477,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [十字路口Crossing：【年终复盘③】用 Kimi 加速 Kimi：RSI前夜，一个AI infra人的10个Aha Moments｜对话赵晨阳](2026/11/2026-11-16.md#interviews) — 播客 · 2026-11-16 · [原文](https://www.xiaoyuzhoufm.com/episode/6af936ea14d01a26f8a9fd94)
+- [Lenny's Podcast：Meta 的 Muse：我们如何推出今年最成功的消费级产品｜Mona Sarantakos](2026/11/2026-11-15.md#interviews) — 播客 · 2026-11-15 · [原文](https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most)
 - [Founder Park：对话蚂蚁灵波沈宇军：Fable 5.2 都能拧瓶盖了，机器人为什么还需要自己的模型？](2026/11/2026-11-15.md#interviews) — 访谈 · 2026-11-15 · [原文](https://www.163.com/dy/article/LBPS7RQK05566TJ2.html)
 - [42章经：复盘 2C 和 2B Agent 发展脉络｜对谈 Afk.surf 创始人嘉琛](2026/11/2026-11-14.md#interviews) — 播客 · 2026-11-14 · [原文](https://www.xiaoyuzhoufm.com/episode/6af6678d14d01a26f8a916f6)
 - [The Growth Podcast：如何用 Claude Code 做一个 AI 客户调研 Agent](2026/11/2026-11-14.md#interviews) — 访谈 · 2026-11-14 · [原文](https://www.news.aakashg.com/p/ai-customer-research)
