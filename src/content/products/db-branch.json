@@ -2,7 +2,7 @@
   "id": "db-branch",
   "name": "db-branch",
   "aliases": [],
-  "url": "https://demo.db-branch.com/",
+  "url": "https://github.com/db-branch/db-branch",
   "category": "编程/Agent",
   "region": "global",
   "oneLiner": "自托管、Apache-2.0 许可的工具，基于 ZFS 克隆在几秒内给 MySQL 和 PostgreSQL 数据库建写时复制分支，创建时不拷贝数据，可用来试迁移、给每个 PR 一",
