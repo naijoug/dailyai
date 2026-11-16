@@ -7,13 +7,13 @@
 
 ### 2026-11-16 · 星期一
 
-阿里 Qwen4-Max 正式发布，任务成本降六成；OpenAI 开科学博客，讲 GPT-6 Astra 协助构造标准模型格点定义；No AI Slop 宣言引发讨论。
+Qwen4-Max 正式发布并陆续公布评测；腾讯混元推出低价 Hy4 flash；OpenAI 开科学博客谈 GPT-6 Astra；卡兹克十条 Agent 提示词走红。
 
 🆕 今日新品：Mount Thor、Claude-BugHunter、db-branch +1
 
 🎙 访谈与播客：十字路口Crossing
 
-AI Hot 8 · Tech 11 · 访谈/播客 1 · ⭐ 6 条高分
+AI Hot 14 · Tech 11 · 访谈/播客 1 · ⭐ 8 条高分
 
 [→ 查看当天详情](2026/11/2026-11-16.md)
 
