@@ -1,0 +1,15 @@
+{
+  "id": "db-branch",
+  "name": "db-branch",
+  "aliases": [],
+  "url": "https://demo.db-branch.com/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "自托管、Apache-2.0 许可的工具，基于 ZFS 克隆在几秒内给 MySQL 和 PostgreSQL 数据库建写时复制分支，创建时不拷贝数据，可用来试迁移、给每个 PR 一",
+  "oneLinerEn": "self-hosted, Apache-2.0 tool that creates copy-on-write branches of MySQL and PostgreSQL d",
+  "score": 3,
+  "firstSeen": "2026-11-16",
+  "updated": "2026-11-16",
+  "tags": [],
+  "rankings": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mount-thor",
+  "name": "Mount Thor",
+  "aliases": [],
+  "url": "https://mountthor.com/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "把苹果芯片上的 macOS 当作弹性算力出租给 AI Agent 的云服务，既有裸金属 Mac（SSH 或虚拟桌面、物理隔离），也有基于自研苹果原生虚拟化、几秒开好的虚拟机，一次 ",
+  "oneLinerEn": "a cloud provider that rents macOS on Apple silicon as elastic compute for AI agents, from ",
+  "score": 4,
+  "firstSeen": "2026-11-16",
+  "updated": "2026-11-16",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}

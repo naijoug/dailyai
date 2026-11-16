@@ -1,0 +1,18 @@
+{
+  "id": "nvidia-skillevaluator",
+  "name": "NVIDIA SkillEvaluator",
+  "aliases": [],
+  "url": "https://docs.nvidia.com/skills/skillevaluator/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "英伟达开源（Apache-2.0）的 Agent Skill 评测框架，用来检查遵循 Agent Skills 规范的技能包，并衡量它们到底有没有改变任务结果：先做不需要 API ",
+  "oneLinerEn": "an Apache-2.0 framework from NVIDIA for checking agent skills (folders defined by the Agen",
+  "score": 3,
+  "firstSeen": "2026-11-16",
+  "updated": "2026-11-16",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

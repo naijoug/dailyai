@@ -1,0 +1,19 @@
+{
+  "id": "claude-bughunter",
+  "name": "Claude-BugHunter",
+  "aliases": [],
+  "url": "https://elementalsouls.github.io/Claude-BugHunter",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "MIT 许可的 Claude Code 技能包，面向经授权的漏洞挖掘和外部红队工作：83 个技能、15 个斜杠命令，其中 58 个 hunt- 技能整理自 681 份公开 Hack",
+  "oneLinerEn": "an MIT-licensed Claude Code skill bundle for authorized bug hunting and external red-team ",
+  "score": 3,
+  "firstSeen": "2026-11-16",
+  "updated": "2026-11-16",
+  "tags": [
+    "Models",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}
