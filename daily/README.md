@@ -9,11 +9,11 @@
 
 Claude Code 团队公开验证方法论；Isomorphic Labs 完成 50 亿美元 C 轮；微软 MAI-Code-2 在 Ignite 前现身 Copilot 模型目录；Matt Pocock 分享技术选型评估提示词。
 
-🆕 今日新品：Coral、FLUX、AG-UI +2
+🆕 今日新品：Coral、FLUX、AG-UI +4
 
 🎙 访谈与播客：Latent Space
 
-AI Hot 17 · Tech 13 · 访谈/播客 1 · ⭐ 18 条高分
+AI Hot 17 · Tech 24 · 访谈/播客 1 · ⭐ 22 条高分
 
 [→ 查看当天详情](2026/11/2026-11-17.md)
 
