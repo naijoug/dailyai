@@ -1,0 +1,18 @@
+{
+  "id": "olala",
+  "name": "OVHcloud 发布首个模型家族 Olala，首款 Olala mini 7A",
+  "aliases": [],
+  "url": "https://corporate.ovhcloud.com/en/newsroom/news/ovh-olala-mini/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "据 IT之家，该模型采用 Differential-TPA 与 Mamba-3 结合的混合注意力，总参数 70 亿、激活 10 亿，BF16 格式，将以 Apache 2.0 许可",
+  "oneLinerEn": "per IT Home, it uses hybrid attention combining Differential-TPA and Mamba-3, with 7B tota",
+  "score": 3,
+  "firstSeen": "2026-11-17",
+  "updated": "2026-11-17",
+  "tags": [
+    "Models",
+    "Open Source"
+  ],
+  "rankings": []
+}
