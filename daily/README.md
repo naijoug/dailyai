@@ -23,9 +23,9 @@ Qwen4-Max 正式发布并陆续公布评测；腾讯混元推出低价 Hy4 flash
 
 🆕 今日新品：Mount Thor、ChatPRD、Claude-BugHunter +6
 
-🎙 访谈与播客：How I AI、十字路口Crossing
+🎙 访谈与播客：The Pragmatic Engineer、How I AI、十字路口Crossing
 
-AI Hot 14 · Tech 22 · 访谈/播客 2 · ⭐ 9 条高分
+AI Hot 14 · Tech 22 · 访谈/播客 3 · ⭐ 9 条高分
 
 [→ 查看当天详情](2026/11/2026-11-16.md)
 
@@ -490,6 +490,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 ## 访谈与播客
 
 - [Latent Space：构建视觉智能——Black Forest Labs 的 Andreas Blattmann 与 Dustin Podell](2026/11/2026-11-17.md#interviews) — 播客 · 2026-11-17 · [原文](https://latent.space/p/bfl)
+- [The Pragmatic Engineer：Satya Nadella：代码变便宜之后的软件工程](2026/11/2026-11-16.md#interviews) — 播客 · 2026-11-16 · [原文](https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes)
 - [How I AI：我作为独立创始人如何对抗 token 欺诈](2026/11/2026-11-16.md#interviews) — 播客 · 2026-11-16 · [原文](https://podcasts.apple.com/us/podcast/how-i-fight-token-fraud-as-a-solo-founder/id1809663079?i=1000802264251)
 - [十字路口Crossing：【年终复盘③】用 Kimi 加速 Kimi：RSI前夜，一个AI infra人的10个Aha Moments｜对话赵晨阳](2026/11/2026-11-16.md#interviews) — 播客 · 2026-11-16 · [原文](https://www.xiaoyuzhoufm.com/episode/6af936ea14d01a26f8a9fd94)
 - [Lenny's Podcast：Meta 的 Muse：我们如何推出今年最成功的消费级产品｜Mona Sarantakos](2026/11/2026-11-15.md#interviews) — 播客 · 2026-11-15 · [原文](https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most)
