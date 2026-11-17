@@ -5,15 +5,27 @@
 
 ## 2026 年 11 月
 
+### 2026-11-17 · 星期二
+
+Claude Code 团队公开验证方法论，桌面版支持 iPhone Duo 模拟器；OpenAI 引入外部机构嵌入式安全评估；Hugging Face 推理改由 OpenRouter 路由。
+
+🆕 今日新品：Coral、FLUX、AG-UI +2
+
+🎙 访谈与播客：Latent Space
+
+AI Hot 10 · Tech 13 · 访谈/播客 1 · ⭐ 15 条高分
+
+[→ 查看当天详情](2026/11/2026-11-17.md)
+
 ### 2026-11-16 · 星期一
 
 Qwen4-Max 正式发布并陆续公布评测；腾讯混元推出低价 Hy4 flash；OpenAI 开科学博客谈 GPT-6 Astra；卡兹克十条 Agent 提示词走红。
 
-🆕 今日新品：Mount Thor、Claude-BugHunter、db-branch +5
+🆕 今日新品：Mount Thor、ChatPRD、Claude-BugHunter +6
 
-🎙 访谈与播客：十字路口Crossing
+🎙 访谈与播客：How I AI、十字路口Crossing
 
-AI Hot 14 · Tech 22 · 访谈/播客 1 · ⭐ 9 条高分
+AI Hot 14 · Tech 22 · 访谈/播客 2 · ⭐ 9 条高分
 
 [→ 查看当天详情](2026/11/2026-11-16.md)
 
@@ -477,6 +489,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Latent Space：构建视觉智能——Black Forest Labs 的 Andreas Blattmann 与 Dustin Podell](2026/11/2026-11-17.md#interviews) — 播客 · 2026-11-17 · [原文](https://latent.space/p/bfl)
+- [How I AI：我作为独立创始人如何对抗 token 欺诈](2026/11/2026-11-16.md#interviews) — 播客 · 2026-11-16 · [原文](https://podcasts.apple.com/us/podcast/how-i-fight-token-fraud-as-a-solo-founder/id1809663079?i=1000802264251)
 - [十字路口Crossing：【年终复盘③】用 Kimi 加速 Kimi：RSI前夜，一个AI infra人的10个Aha Moments｜对话赵晨阳](2026/11/2026-11-16.md#interviews) — 播客 · 2026-11-16 · [原文](https://www.xiaoyuzhoufm.com/episode/6af936ea14d01a26f8a9fd94)
 - [Lenny's Podcast：Meta 的 Muse：我们如何推出今年最成功的消费级产品｜Mona Sarantakos](2026/11/2026-11-15.md#interviews) — 播客 · 2026-11-15 · [原文](https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most)
 - [Founder Park：对话蚂蚁灵波沈宇军：Fable 5.2 都能拧瓶盖了，机器人为什么还需要自己的模型？](2026/11/2026-11-15.md#interviews) — 访谈 · 2026-11-15 · [原文](https://www.163.com/dy/article/LBPS7RQK05566TJ2.html)
@@ -543,6 +557,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 全文文章
 
+- [How the Claude Code team thinks about verification](articles/claude-code-team-verification.md) — Addy Osmani · 2026-11-17
 - [How I Built the Most AI-Pilled Company in the World](articles/jacob-sansbury-most-ai-pilled-company.md) — jacob (Jacob Sansbury) · 2026-10-30
 - [You're probably overprompting Claude](articles/addy-osmani-overprompting-claude.md) — Addy Osmani · 2026-10-29
 - [How the Claude Code team does code review](articles/addy-osmani-claude-code-code-review.md) — Addy Osmani · 2026-10-26
