@@ -1,0 +1,18 @@
+{
+  "id": "floorplan",
+  "name": "Floorplan",
+  "aliases": [],
+  "url": "https://haydenschmitty.github.io/floorplan-demo/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Claude Code 和 Codex 插件，让 Agent 读完整个代码库，画出一张可缩放、可点开的应用地图：每个模块、文件和网络请求都配一句大白话名称，前端每个请求打到哪段服务",
+  "oneLinerEn": "a Claude Code and Codex plugin that reads your codebase and draws an interactive, zoomable",
+  "score": 3,
+  "firstSeen": "2026-11-17",
+  "updated": "2026-11-17",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}
