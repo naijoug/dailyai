@@ -323,5 +323,15 @@
     "LingBot-Depth",
     "LingBot-Touch",
     "LingBot-VLA"
+  ],
+  "flux": [
+    "FLUX",
+    "Black Forest Labs",
+    "BFL",
+    "FLUX 3",
+    "FLUX Kontext"
+  ],
+  "chatprd": [
+    "ChatPRD"
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "chatprd",
+  "name": "ChatPRD",
+  "aliases": [
+    "ChatPRD"
+  ],
+  "url": "https://www.chatprd.ai/",
+  "category": "办公",
+  "region": "global",
+  "maker": "Claire Vo",
+  "oneLiner": "面向产品经理的 AI 平台，由 Claire Vo 独立创办、自筹资金运营",
+  "oneLinerEn": "An AI platform for product managers, bootstrapped by solo founder Claire Vo.",
+  "score": 3,
+  "firstSeen": "2026-11-16",
+  "updated": "2026-11-16",
+  "tags": [
+    "Products"
+  ],
+  "rankings": []
+}

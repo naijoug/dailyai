@@ -1,0 +1,25 @@
+{
+  "id": "flux",
+  "name": "FLUX",
+  "aliases": [
+    "FLUX",
+    "Black Forest Labs",
+    "BFL",
+    "FLUX 3",
+    "FLUX Kontext"
+  ],
+  "url": "https://bfl.ai/",
+  "category": "图像",
+  "region": "global",
+  "maker": "Black Forest Labs",
+  "oneLiner": "Black Forest Labs 的图像与视频生成模型系列，FLUX 3 把图像、视频和声音放在一起训练，FLUX Kontext 做保持主体的图像编辑",
+  "oneLinerEn": "Black Forest Labs' image and video generation model family; FLUX 3 trains on stills, video and sound together, and FLUX Kontext handles identity-preserving image edits.",
+  "score": 4,
+  "firstSeen": "2026-11-17",
+  "updated": "2026-11-17",
+  "tags": [
+    "Models",
+    "Research"
+  ],
+  "rankings": []
+}
