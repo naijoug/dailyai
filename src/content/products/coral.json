@@ -1,0 +1,15 @@
+{
+  "id": "coral",
+  "name": "Coral",
+  "aliases": [],
+  "url": "https://withcoral.com/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "开源、可自托管的 Agent 网关：Agent 写 TypeScript 调工具并把跑通的代码存成自定义工具，每次调用都按策略检查后再注入凭据",
+  "oneLinerEn": "An open-source, self-hosted gateway for agents: they call tools by writing TypeScript, save working code as custom tools, and every call is policy-checked before credentials are added.",
+  "score": 4,
+  "firstSeen": "2026-11-17",
+  "updated": "2026-11-17",
+  "tags": [],
+  "rankings": []
+}

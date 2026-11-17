@@ -1,0 +1,19 @@
+{
+  "id": "okara",
+  "name": "Okara",
+  "aliases": [
+    "Okara MCP"
+  ],
+  "url": "https://okara.ai/",
+  "category": "办公",
+  "region": "global",
+  "oneLiner": "面向初创公司和营销团队的「AI CMO」，用多个营销 Agent 覆盖 SEO、广告、Reddit、写作、GEO 和社媒发布，并提供 MCP 服务器",
+  "oneLinerEn": "An \"AI CMO\" for startups and marketing teams, with marketing agents for SEO, ads, Reddit, writing, GEO and social posting, plus an MCP server.",
+  "score": 3,
+  "firstSeen": "2026-11-17",
+  "updated": "2026-11-17",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

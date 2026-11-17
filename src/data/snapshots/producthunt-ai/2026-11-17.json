@@ -1,0 +1,194 @@
+{
+ "source": "producthunt",
+ "sourceName": "Product Hunt",
+ "kind": "feed",
+ "badge": "Product Hunt",
+ "list": "Artificial Intelligence 分类 RSS",
+ "metric": "Feed 顺序（不是排名）",
+ "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
+ "period": "2026-11-17",
+ "fetched": "2026-11-17T03:26:22.089Z",
+ "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
+ "rows": [
+  {
+   "name": "Kafkador",
+   "url": "https://www.producthunt.com/products/kafkador",
+   "value": "A console for to manage, observe & play Apache Kafka Discussion | Link",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "OpenFrame",
+   "url": "https://www.producthunt.com/products/openframe-3",
+   "value": "AI agents that run your IT. You approve every fix. Discussion | Link",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "Newsology",
+   "url": "https://www.producthunt.com/products/newsology",
+   "value": "Follow news as it develops and see how every side tells it. Discussion | Link",
+   "date": "2026-10-31"
+  },
+  {
+   "name": "Papyras",
+   "url": "https://www.producthunt.com/products/papyras",
+   "value": "For people who still read the last page Discussion | Link",
+   "date": "2026-11-15"
+  },
+  {
+   "name": "Laurence",
+   "url": "https://www.producthunt.com/products/laurence",
+   "value": "Build a frontier e-commerce growth system Discussion | Link",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "AgentWatch",
+   "url": "https://www.producthunt.com/products/agentwatch-ai-traffic-tracker",
+   "value": "Monitor AI shopping agent sales and visibility on Shopify Discussion | Link",
+   "date": "2026-11-11"
+  },
+  {
+   "name": "Intelligent Eyewear",
+   "url": "https://www.producthunt.com/products/sumsung",
+   "value": "Samsung and Google bring Gemini AI to smart eyewear Discussion | Link",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "Nexus",
+   "url": "https://www.producthunt.com/products/nexus-11",
+   "value": "Make agents deploy your AI products faster for customers Discussion | Link",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "Glifa",
+   "url": "https://www.producthunt.com/products/glifa",
+   "value": "The Markdown editor for Mac you can ask for anything Discussion | Link",
+   "date": "2026-11-15"
+  },
+  {
+   "name": "Fluid",
+   "url": "https://www.producthunt.com/products/kugelaudio",
+   "value": "speech-to-speech built to solve problems Discussion | Link",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "Punchcutter",
+   "url": "https://www.producthunt.com/products/punchcutter",
+   "value": "Turn a sentence or your handwriting into a real font family Discussion | Link",
+   "date": "2026-11-15"
+  },
+  {
+   "name": "Pharen Hub",
+   "url": "https://www.producthunt.com/products/pharen-hub",
+   "value": "One AI workspace for your whole company Discussion | Link",
+   "date": "2026-11-11"
+  },
+  {
+   "name": "UI SDK by Vercel",
+   "url": "https://www.producthunt.com/products/ui-sdk",
+   "value": "Give AI agents the building blocks to create UI Discussion | Link",
+   "date": "2026-11-15"
+  },
+  {
+   "name": "Blomma for Organizations",
+   "url": "https://www.producthunt.com/products/blomma",
+   "value": "Scale your people at the speed of your business Discussion | Link",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "ByteVoice",
+   "url": "https://www.producthunt.com/products/bytevoice",
+   "value": "Talk to your coding agents and hear them back Discussion | Link",
+   "date": "2026-11-15"
+  },
+  {
+   "name": "StateWeave",
+   "url": "https://www.producthunt.com/products/stateweave",
+   "value": "Test your AI agent on working clones of the apps it uses Discussion | Link",
+   "date": "2026-11-15"
+  },
+  {
+   "name": "ChatGPT Wallet",
+   "url": "https://www.producthunt.com/products/chatgpt",
+   "value": "Let ChatGPT agents buy things without seeing your card Discussion | Link",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "OpenBot",
+   "url": "https://www.producthunt.com/products/copilotkit",
+   "value": "Grok Bot alternative: self-host, fully customize, any stack Discussion | Link",
+   "date": "2026-08-25"
+  },
+  {
+   "name": "readywhen",
+   "url": "https://www.producthunt.com/products/readywhen",
+   "value": "Your personal assistant that lives in email around the clock Discussion | Link",
+   "date": "2026-11-08"
+  },
+  {
+   "name": "Zoom Slides",
+   "url": "https://www.producthunt.com/products/zoom",
+   "value": "Turn your Zoom meetings into ready-to-present slides Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "OffiAI",
+   "url": "https://www.producthunt.com/products/offiai",
+   "value": "Office, with its last two letters swapped for AI. Discussion | Link",
+   "date": "2026-10-31"
+  },
+  {
+   "name": "LexiCAD",
+   "url": "https://www.producthunt.com/products/lexicad",
+   "value": "Describe a part in plain language to get a CAD design Discussion | Link",
+   "date": "2026-11-15"
+  },
+  {
+   "name": "Cal.com v7",
+   "url": "https://www.producthunt.com/products/cal",
+   "value": "Cal.com now has events, discover, an assistant + more Discussion | Link",
+   "date": "2026-11-15"
+  },
+  {
+   "name": "Boost.space AgentOS",
+   "url": "https://www.producthunt.com/products/boost-space",
+   "value": "One operating system for all your AI agents Discussion | Link",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "Pixel Office",
+   "url": "https://www.producthunt.com/products/pixel-office-3",
+   "value": "Run a team of AI agents from a pixel-art office Discussion | Link",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "Tulvo",
+   "url": "https://www.producthunt.com/products/tulvo",
+   "value": "Smart & adaptive workspace to manage all your work Discussion | Link",
+   "date": "2026-11-07"
+  },
+  {
+   "name": "Agentic Canvas",
+   "url": "https://www.producthunt.com/products/agentgrid-io",
+   "value": "Free Agentic Design Canvas - A visual way to work with AI Discussion | Link",
+   "date": "2026-11-14"
+  },
+  {
+   "name": "Rakazo",
+   "url": "https://www.producthunt.com/products/rakazo",
+   "value": "The open source Grok Bot alternative you actually own Discussion | Link",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "Spiik",
+   "url": "https://www.producthunt.com/products/spiik",
+   "value": "AI note taker for meetings & lectures. No bot on your calls. Discussion | Link",
+   "date": "2026-11-07"
+  },
+  {
+   "name": "Frevana Multiplayer",
+   "url": "https://www.producthunt.com/products/frevana-2",
+   "value": "AI that grows your business alongside your team Discussion | Link",
+   "date": "2026-11-09"
+  }
+ ]
+}

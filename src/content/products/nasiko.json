@@ -1,0 +1,17 @@
+{
+  "id": "nasiko",
+  "name": "Nasiko",
+  "aliases": [
+    "Nasiko Open Runtime"
+  ],
+  "url": "https://nasiko.ai/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "装在现有 Agent 下面的开源中间层，通过裁剪长文件、按 Agent 选模型、压缩上下文和缓存降低每个任务的 token 开销",
+  "oneLinerEn": "An open-source layer under existing agents that cuts per-task token spend by trimming long files, picking a model per agent, compressing context and caching.",
+  "score": 3,
+  "firstSeen": "2026-11-17",
+  "updated": "2026-11-17",
+  "tags": [],
+  "rankings": []
+}
