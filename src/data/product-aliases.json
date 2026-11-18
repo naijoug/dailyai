@@ -333,5 +333,10 @@
   ],
   "chatprd": [
     "ChatPRD"
+  ],
+  "photon": [
+    "Photon",
+    "Photon Spectrum",
+    "photon.codes"
   ]
 }

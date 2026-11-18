@@ -1,0 +1,22 @@
+{
+  "id": "photon",
+  "name": "Photon",
+  "aliases": [
+    "Photon",
+    "Photon Spectrum"
+  ],
+  "url": "https://photon.codes",
+  "category": "开发者平台",
+  "region": "global",
+  "maker": "Photon",
+  "oneLiner": "Agent 消息基础设施：一个 API 让 Agent 拿到手机号和邮箱，在 iMessage、WhatsApp、短信、邮件和电话里与人对话",
+  "oneLinerEn": "Messaging infrastructure for agents: one API gives an agent a phone number and email so it can talk to people over iMessage, WhatsApp, SMS, email and voice.",
+  "score": 4,
+  "firstSeen": "2026-11-18",
+  "updated": "2026-11-18",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}
