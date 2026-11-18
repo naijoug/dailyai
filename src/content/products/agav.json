@@ -1,0 +1,18 @@
+{
+  "id": "agav",
+  "name": "Agav",
+  "aliases": [],
+  "url": "https://agav.dev",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Apache 2.0 开源的终端编程 Agent，主打少浪费 token（Show HN）：复用缓存上下文、减少重复劳动、打断无效的修复循环、限制重试次数和预算，子 Agent 探",
+  "oneLinerEn": "an Apache-2.0 terminal coding agent built to waste fewer tokens (Show HN): it reuses cache",
+  "score": 3,
+  "firstSeen": "2026-11-18",
+  "updated": "2026-11-18",
+  "tags": [
+    "Models",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

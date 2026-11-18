@@ -1,0 +1,19 @@
+{
+  "id": "starsling",
+  "name": "StarSling",
+  "aliases": [],
+  "url": "https://starsling.dev",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "自带 Agent 的高速 GitHub Actions 运行器，Agent 会主动提 PR 给你的 CI 提速（Launch HN，YC P25）。",
+  "oneLinerEn": "fast GitHub Actions runners with agents that open PRs to speed up your CI (Launch HN, YC P",
+  "score": 3,
+  "firstSeen": "2026-11-18",
+  "updated": "2026-11-18",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}
