@@ -9,7 +9,9 @@
 
 OpenAI 发布 GPT-6.2 Astra 与 Sol，API 降价但口碑两极；微软 Ignite 推 MAI Code 2 与 Autopilot；Java4Shell 曝 OpenJDK 高危 RCE，英伟达 Q3 营收翻倍。
 
-AI Hot 10 · ⭐ 4 条高分
+🆕 今日新品：MAI Code 2、Agav、Cerebras Inference +1
+
+AI Hot 10 · Tech 13 · ⭐ 8 条高分
 
 [→ 查看当天详情](2026/11/2026-11-18.md)
 
