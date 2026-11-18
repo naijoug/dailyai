@@ -1,15 +1,22 @@
 {
   "id": "cerebras",
-  "name": "Cerebras Disaggregated Inference",
-  "aliases": [],
-  "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+  "name": "Cerebras Inference",
+  "aliases": [
+    "Cerebras",
+    "Cerebras Inference Cloud"
+  ],
+  "url": "https://www.cerebras.ai",
   "category": "开发者平台",
   "region": "global",
-  "oneLiner": "Cerebras 已在生产环境中让 GPU 负责预填充、自家晶圆级系统负责解码，称在保持超快速度的同时，每兆瓦产出的 token 提高到 5 倍；",
-  "oneLinerEn": "Cerebras now runs prefill on GPUs and decode on its wafer-scale systems in production, cla",
+  "oneLiner": "Cerebras 的晶圆级芯片推理云，主打超快 token 生成；已上线 GPU 预填充 + Cerebras 解码的分离式推理",
+  "oneLinerEn": "Cerebras's wafer-scale inference cloud built for ultrafast token generation, now with disaggregated inference (GPU prefill, Cerebras decode).",
   "score": 3,
   "firstSeen": "2026-11-18",
   "updated": "2026-11-18",
-  "tags": [],
-  "rankings": []
+  "tags": [
+    "Dev Tools",
+    "Industry"
+  ],
+  "rankings": [],
+  "maker": "Cerebras"
 }
