@@ -9,9 +9,9 @@
 
 GPT-6.2 口碑两极，OpenAI 解释测评版本过旧；Gemini 4 Neon 定价已进谷歌云目录；微软 Agent Framework 的 PyPI 包被投毒；腾讯 WorkBuddy 日活破千万。
 
-🆕 今日新品：MAI Code 2、Photon、Agav +2
+🆕 今日新品：MAI Code 2、Photon、Second +5
 
-AI Hot 18 · Tech 13 · ⭐ 11 条高分
+AI Hot 18 · Tech 25 · ⭐ 13 条高分
 
 [→ 查看当天详情](2026/11/2026-11-18.md)
 
