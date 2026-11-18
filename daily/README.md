@@ -7,11 +7,11 @@
 
 ### 2026-11-18 · 星期三
 
-OpenAI 发布 GPT-6.2 Astra 与 Sol，API 降价但口碑两极；微软 Ignite 推 MAI Code 2 与 Autopilot；Java4Shell 曝 OpenJDK 高危 RCE，英伟达 Q3 营收翻倍。
+GPT-6.2 口碑两极，OpenAI 解释测评版本过旧；Gemini 4 Neon 定价已进谷歌云目录；微软 Agent Framework 的 PyPI 包被投毒；腾讯 WorkBuddy 日活破千万。
 
 🆕 今日新品：MAI Code 2、Photon、Agav +2
 
-AI Hot 10 · Tech 13 · ⭐ 8 条高分
+AI Hot 18 · Tech 13 · ⭐ 11 条高分
 
 [→ 查看当天详情](2026/11/2026-11-18.md)
 
