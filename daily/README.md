@@ -9,7 +9,7 @@
 
 OpenAI 发布 GPT-6.2 Astra 与 Sol，API 降价但口碑两极；微软 Ignite 推 MAI Code 2 与 Autopilot；Java4Shell 曝 OpenJDK 高危 RCE，英伟达 Q3 营收翻倍。
 
-🆕 今日新品：MAI Code 2、Agav、Cerebras Inference +1
+🆕 今日新品：MAI Code 2、Photon、Agav +2
 
 AI Hot 10 · Tech 13 · ⭐ 8 条高分
 
@@ -21,9 +21,9 @@ Claude Code 团队公开验证方法论；Isomorphic Labs 完成 50 亿美元 C 
 
 🆕 今日新品：Coral、FLUX、AG-UI +4
 
-🎙 访谈与播客：Latent Space
+🎙 访谈与播客：Founder Park、Latent Space
 
-AI Hot 17 · Tech 24 · 访谈/播客 1 · ⭐ 22 条高分
+AI Hot 17 · Tech 24 · 访谈/播客 2 · ⭐ 22 条高分
 
 [→ 查看当天详情](2026/11/2026-11-17.md)
 
@@ -499,6 +499,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Founder Park：Photon：帮硅谷最火的 PA 接入 iMessage，450 万美元融资、4 个月收入涨 10 倍](2026/11/2026-11-17.md#interviews) — 访谈 · 2026-11-17 · [原文](https://www.163.com/dy/article/LBVD8LIA05566TJ2.html)
 - [Latent Space：构建视觉智能——Black Forest Labs 的 Andreas Blattmann 与 Dustin Podell](2026/11/2026-11-17.md#interviews) — 播客 · 2026-11-17 · [原文](https://latent.space/p/bfl)
 - [The Pragmatic Engineer：Satya Nadella：代码变便宜之后的软件工程](2026/11/2026-11-16.md#interviews) — 播客 · 2026-11-16 · [原文](https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes)
 - [How I AI：我作为独立创始人如何对抗 token 欺诈](2026/11/2026-11-16.md#interviews) — 播客 · 2026-11-16 · [原文](https://podcasts.apple.com/us/podcast/how-i-fight-token-fraud-as-a-solo-founder/id1809663079?i=1000802264251)
