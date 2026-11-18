@@ -5,6 +5,14 @@
 
 ## 2026 年 11 月
 
+### 2026-11-18 · 星期三
+
+OpenAI 发布 GPT-6.2 Astra 与 Sol，API 降价但口碑两极；微软 Ignite 推 MAI Code 2 与 Autopilot；Java4Shell 曝 OpenJDK 高危 RCE，英伟达 Q3 营收翻倍。
+
+AI Hot 10 · ⭐ 4 条高分
+
+[→ 查看当天详情](2026/11/2026-11-18.md)
+
 ### 2026-11-17 · 星期二
 
 Claude Code 团队公开验证方法论；Isomorphic Labs 完成 50 亿美元 C 轮；微软 MAI-Code-2 在 Ignite 前现身 Copilot 模型目录；Matt Pocock 分享技术选型评估提示词。
