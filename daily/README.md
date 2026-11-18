@@ -11,7 +11,9 @@ GPT-6.2 口碑两极，OpenAI 解释测评版本过旧；Gemini 4 Neon 定价已
 
 🆕 今日新品：MAI Code 2、Photon、Second +5
 
-AI Hot 18 · Tech 25 · ⭐ 13 条高分
+🎙 访谈与播客：The a16z Show
+
+AI Hot 18 · Tech 25 · 访谈/播客 1 · ⭐ 13 条高分
 
 [→ 查看当天详情](2026/11/2026-11-18.md)
 
@@ -499,6 +501,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [The a16z Show：个人 AI 缺失的一层：First Person Labs 的 Ken Liu 谈 Second](2026/11/2026-11-18.md#interviews) — 播客 · 2026-11-18 · [原文](https://a16z.simplecast.com/episodes/the-missing-layer-for-personal-ai-first-person-labs-ken-liu-wu4i8Q00)
 - [Founder Park：Photon：帮硅谷最火的 PA 接入 iMessage，450 万美元融资、4 个月收入涨 10 倍](2026/11/2026-11-17.md#interviews) — 访谈 · 2026-11-17 · [原文](https://www.163.com/dy/article/LBVD8LIA05566TJ2.html)
 - [Latent Space：构建视觉智能——Black Forest Labs 的 Andreas Blattmann 与 Dustin Podell](2026/11/2026-11-17.md#interviews) — 播客 · 2026-11-17 · [原文](https://latent.space/p/bfl)
 - [The Pragmatic Engineer：Satya Nadella：代码变便宜之后的软件工程](2026/11/2026-11-16.md#interviews) — 播客 · 2026-11-16 · [原文](https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes)
