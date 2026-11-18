@@ -8,6 +8,7 @@
   "url": "https://www.cerebras.ai",
   "category": "开发者平台",
   "region": "global",
+  "maker": "Cerebras",
   "oneLiner": "Cerebras 的晶圆级芯片推理云，主打超快 token 生成；已上线 GPU 预填充 + Cerebras 解码的分离式推理",
   "oneLinerEn": "Cerebras's wafer-scale inference cloud built for ultrafast token generation, now with disaggregated inference (GPU prefill, Cerebras decode).",
   "score": 3,
@@ -17,6 +18,5 @@
     "Dev Tools",
     "Industry"
   ],
-  "rankings": [],
-  "maker": "Cerebras"
+  "rankings": []
 }

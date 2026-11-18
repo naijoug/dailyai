@@ -1,0 +1,15 @@
+{
+  "id": "unsiloed-ai",
+  "name": "Unsiloed AI",
+  "aliases": [],
+  "url": "https://www.unsiloed.ai/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "把表格、图表和复杂版式的企业文档转成 AI Agent 能用的结构化数据，并标出每个抽取值在原文中的出处，方便企业核对；",
+  "oneLinerEn": "turns complex enterprise documents (tables, charts, tricky layouts) into structured data A",
+  "score": 3,
+  "firstSeen": "2026-11-18",
+  "updated": "2026-11-18",
+  "tags": [],
+  "rankings": []
+}

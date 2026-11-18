@@ -1,0 +1,18 @@
+{
+  "id": "fastframes",
+  "name": "FastFrames",
+  "aliases": [],
+  "url": "https://apple-aiml-research.github.io/ml-fastframes/",
+  "category": "视频",
+  "region": "global",
+  "oneLiner": "苹果研究人员发布一组自回归视频扩散模型，能以交互级延迟生成 480p 视频，并公开代码和权重。",
+  "oneLinerEn": "Apple researchers released autoregressive video diffusion models that generate 480p video ",
+  "score": 3,
+  "firstSeen": "2026-11-18",
+  "updated": "2026-11-18",
+  "tags": [
+    "Dev Tools",
+    "Products"
+  ],
+  "rankings": []
+}

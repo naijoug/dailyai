@@ -1,0 +1,23 @@
+{
+  "id": "second",
+  "name": "Second",
+  "aliases": [
+    "Second",
+    "First Person Labs Second",
+    "2.computer"
+  ],
+  "url": "https://2.computer",
+  "category": "对话助手",
+  "region": "global",
+  "maker": "First Person Labs",
+  "oneLiner": "个人上下文层：在设备上持续构建一个属于你的「个人模型」（偏好、关系、目标和数字活动），按你的授权提供给 GrokBot、Codex 等 Agent 使用",
+  "oneLinerEn": "A personal context layer that continuously builds a model of you on your device (preferences, relationships, goals and digital activity) and serves it to the agents you choose, such as GrokBot or Codex.",
+  "score": 4,
+  "firstSeen": "2026-11-18",
+  "updated": "2026-11-18",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}
