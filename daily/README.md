@@ -5,6 +5,14 @@
 
 ## 2026 年 11 月
 
+### 2026-11-19 · 星期四
+
+谷歌发布 Gemini 4 Neon，智能指数第三、价格约为旗舰四成；Anthropic IPO 定价 83 美元今晚上市；OpenAI 披露研究员日均 Agent 花费 2400 美元；Nginx 爆两个 9.2 分远程代码执行漏洞。
+
+AI Hot 9 · ⭐ 6 条高分
+
+[→ 查看当天详情](2026/11/2026-11-19.md)
+
 ### 2026-11-18 · 星期三
 
 GPT-6.2 口碑两极，OpenAI 解释测评版本过旧；Gemini 4 Neon 定价已进谷歌云目录；微软 Agent Framework 的 PyPI 包被投毒；腾讯 WorkBuddy 日活破千万。
@@ -572,6 +580,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 全文文章
 
+- [Automate Anything with Grok Bot](articles/lauren-tan-automate-anything-with-grok-bot.md) — lauren · 2026-11-19
 - [How the Claude Code team thinks about verification](articles/claude-code-team-verification.md) — Addy Osmani · 2026-11-17
 - [How I Built the Most AI-Pilled Company in the World](articles/jacob-sansbury-most-ai-pilled-company.md) — jacob (Jacob Sansbury) · 2026-10-30
 - [You're probably overprompting Claude](articles/addy-osmani-overprompting-claude.md) — Addy Osmani · 2026-10-29
