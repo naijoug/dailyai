@@ -9,7 +9,11 @@
 
 谷歌发布 Gemini 4 Neon，智能指数第三、价格约为旗舰四成；Anthropic IPO 定价 83 美元今晚上市；OpenAI 披露研究员日均 Agent 花费 2400 美元；Nginx 爆两个 9.2 分远程代码执行漏洞。
 
-AI Hot 9 · ⭐ 6 条高分
+🆕 今日新品：CodeRabbit、Maritime、Mastra Factory +4
+
+🎙 访谈与播客：The Pragmatic Engineer
+
+AI Hot 9 · Tech 14 · 访谈/播客 1 · ⭐ 10 条高分
 
 [→ 查看当天详情](2026/11/2026-11-19.md)
 
@@ -17,11 +21,11 @@ AI Hot 9 · ⭐ 6 条高分
 
 GPT-6.2 口碑两极，OpenAI 解释测评版本过旧；Gemini 4 Neon 定价已进谷歌云目录；微软 Agent Framework 的 PyPI 包被投毒；腾讯 WorkBuddy 日活破千万。
 
-🆕 今日新品：MAI Code 2、Photon、Second +5
+🆕 今日新品：Hellyeah、MAI Code 2、Photon +6
 
-🎙 访谈与播客：The a16z Show
+🎙 访谈与播客：AI炼金术、The a16z Show
 
-AI Hot 18 · Tech 25 · 访谈/播客 1 · ⭐ 13 条高分
+AI Hot 18 · Tech 25 · 访谈/播客 2 · ⭐ 13 条高分
 
 [→ 查看当天详情](2026/11/2026-11-18.md)
 
@@ -509,6 +513,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [The Pragmatic Engineer：Harjot Gill：软件工厂与代码审查](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews)
+- [AI炼金术：从 AI 面试助手到蒸馏广告投手，他是怎么找到下一门生意的？｜对谈 Michael Guan（Hellyeah）](2026/11/2026-11-18.md#interviews) — 播客 · 2026-11-18 · [原文](https://www.ximalaya.com/sound/1033824004)
 - [The a16z Show：个人 AI 缺失的一层：First Person Labs 的 Ken Liu 谈 Second](2026/11/2026-11-18.md#interviews) — 播客 · 2026-11-18 · [原文](https://a16z.simplecast.com/episodes/the-missing-layer-for-personal-ai-first-person-labs-ken-liu-wu4i8Q00)
 - [Founder Park：Photon：帮硅谷最火的 PA 接入 iMessage，450 万美元融资、4 个月收入涨 10 倍](2026/11/2026-11-17.md#interviews) — 访谈 · 2026-11-17 · [原文](https://www.163.com/dy/article/LBVD8LIA05566TJ2.html)
 - [Latent Space：构建视觉智能——Black Forest Labs 的 Andreas Blattmann 与 Dustin Podell](2026/11/2026-11-17.md#interviews) — 播客 · 2026-11-17 · [原文](https://latent.space/p/bfl)
