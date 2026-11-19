@@ -1,0 +1,22 @@
+{
+  "id": "fireflies",
+  "name": "Fireflies.ai",
+  "aliases": [
+    "Fireflies",
+    "Fireflies.ai"
+  ],
+  "url": "https://fireflies.ai",
+  "category": "办公",
+  "region": "global",
+  "maker": "Fireflies.ai",
+  "oneLiner": "AI 会议记录起家，转录、总结和分析会议，现扩展为能整理收件箱、听写和跨工作应用搜索的 AI 队友",
+  "oneLinerEn": "AI meeting note taker that transcribes, summarizes and analyzes meetings, now expanding into an AI teammate for inbox triage, dictation and search across work apps.",
+  "score": 3,
+  "firstSeen": "2026-11-19",
+  "updated": "2026-11-19",
+  "tags": [
+    "Products",
+    "Agents"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "arda",
+  "name": "Arda",
+  "aliases": [
+    "Arda",
+    "Arda Industries"
+  ],
+  "url": "https://arda.ai",
+  "category": "其他",
+  "region": "global",
+  "maker": "Arda Industries",
+  "oneLiner": "用 AI 把产品设计变成可落地的工厂制造方案和可调整的生产流程，自称在做「制造工程师的 Cursor」",
+  "oneLinerEn": "Uses AI to turn product designs into factory-ready manufacturing plans and adaptable production processes, pitched as “Cursor for manufacturing engineers.”",
+  "score": 4,
+  "firstSeen": "2026-11-19",
+  "updated": "2026-11-19",
+  "tags": [
+    "Agents",
+    "Industry"
+  ],
+  "rankings": []
+}
