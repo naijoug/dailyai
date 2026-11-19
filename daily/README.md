@@ -9,11 +9,11 @@
 
 谷歌发布 Gemini 4 Neon 并预告 Helium，Anthropic 以 83 美元定价今晚上市；Ruby 曝 Rails 默认配置可远程利用的堆溢出，亚利桑那对 OpenAI 等失控 Agent 立案调查。
 
-🆕 今日新品：CodeRabbit、Firecrawl、Maritime +7
+🆕 今日新品：Arda、CodeRabbit、Firecrawl +9
 
-🎙 访谈与播客：The Pragmatic Engineer
+🎙 访谈与播客：No Priors、The Pragmatic Engineer、The Neon Show
 
-AI Hot 18 · Tech 26 · 访谈/播客 1 · ⭐ 18 条高分
+AI Hot 18 · Tech 26 · 访谈/播客 3 · ⭐ 18 条高分
 
 [→ 查看当天详情](2026/11/2026-11-19.md)
 
@@ -513,7 +513,9 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [No Priors：超级智能离不开物理世界｜Arda 联合创始人兼 CEO Bob McGrew](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://podcasts.apple.com/us/podcast/superintelligence-needs-the-physical-world-with-ceo/id1668002688?i=1000802917059)
 - [The Pragmatic Engineer：Harjot Gill：软件工厂与代码审查](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews)
+- [The Neon Show：Fireflies 为什么 A 轮后不再融资仍做到 10 亿美元估值｜Krish Ramineni](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://theneonshow.buzzsprout.com/1601695/episodes/20144023-why-fireflies-stopped-raising-after-series-a-and-still-hit-a-1b-valuation-krish-ramineni)
 - [AI炼金术：从 AI 面试助手到蒸馏广告投手，他是怎么找到下一门生意的？｜对谈 Michael Guan（Hellyeah）](2026/11/2026-11-18.md#interviews) — 播客 · 2026-11-18 · [原文](https://www.ximalaya.com/sound/1033824004)
 - [The a16z Show：个人 AI 缺失的一层：First Person Labs 的 Ken Liu 谈 Second](2026/11/2026-11-18.md#interviews) — 播客 · 2026-11-18 · [原文](https://a16z.simplecast.com/episodes/the-missing-layer-for-personal-ai-first-person-labs-ken-liu-wu4i8Q00)
 - [Founder Park：Photon：帮硅谷最火的 PA 接入 iMessage，450 万美元融资、4 个月收入涨 10 倍](2026/11/2026-11-17.md#interviews) — 访谈 · 2026-11-17 · [原文](https://www.163.com/dy/article/LBVD8LIA05566TJ2.html)
