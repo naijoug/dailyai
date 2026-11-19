@@ -1,0 +1,22 @@
+{
+  "id": "coderabbit",
+  "name": "CodeRabbit",
+  "aliases": [
+    "CodeRabbit",
+    "CodeRabbit AI"
+  ],
+  "url": "https://www.coderabbit.ai",
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "CodeRabbit",
+  "oneLiner": "AI 代码审查平台，在 PR 上自动给出审查意见，团队内部用大量 Agent 搭建「软件工厂」",
+  "oneLinerEn": "AI code review platform that reviews pull requests automatically; the team itself runs a large agent-driven software factory.",
+  "score": 4,
+  "firstSeen": "2026-11-19",
+  "updated": "2026-11-19",
+  "tags": [
+    "Dev Tools",
+    "Agents"
+  ],
+  "rankings": []
+}

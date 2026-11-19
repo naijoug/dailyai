@@ -1,0 +1,22 @@
+{
+  "id": "hellyeah",
+  "name": "Hellyeah",
+  "aliases": [
+    "Hellyeah",
+    "Hellyeah AI"
+  ],
+  "url": "https://www.hellyeahai.com",
+  "category": "办公",
+  "region": "global",
+  "maker": "Hellyeah（Final Round AI 团队）",
+  "oneLiner": "AI 广告投放平台：读取网站后自动生成策略、素材和广告系列，上线后持续调预算、改广告，大账户有资深投手把关",
+  "oneLinerEn": "AI paid-advertising platform that reads your site, builds strategy, creative and campaigns, then keeps moving budget and rewriting ads, with senior operators for larger accounts.",
+  "score": 4,
+  "firstSeen": "2026-11-18",
+  "updated": "2026-11-18",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}
