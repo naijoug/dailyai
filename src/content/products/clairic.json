@@ -1,0 +1,19 @@
+{
+  "id": "clairic",
+  "name": "Clairic",
+  "aliases": [
+    "Clairic",
+    "Clairic-flash"
+  ],
+  "url": "https://blog.cloudflare.com/open-clairic/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "Cloudflare 把前沿研究团队改称 Workers AI 超级智能团队，发布了更新版的 Clairic 信息抽取模型：相比预览版重新设计了架构，改用并行槽位自回归生成，并为估",
+  "oneLinerEn": "Cloudflare, now calling its frontier research group the Workers AI superintelligence team,",
+  "score": 3,
+  "firstSeen": "2026-11-19",
+  "updated": "2026-11-19",
+  "tags": [],
+  "rankings": [],
+  "maker": "Cloudflare"
+}

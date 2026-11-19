@@ -1,0 +1,19 @@
+{
+  "id": "rockdesk",
+  "name": "RockDesk",
+  "aliases": [],
+  "url": "https://rockdesk.io",
+  "category": "开发者平台",
+  "region": "cn",
+  "oneLiner": "面向开发者和 AI Agent 的 P2P 远程设备工具：一个 ID 管所有机器，远程桌面、终端、文件、端口转发和 VPN 一体，自带 rds 命令行和 Agent Skill/MCP",
+  "oneLinerEn": "A P2P remote-device tool for developers and AI agents: one ID for every machine, combining remote desktop, terminal, files, port forwarding and VPN, with an rds CLI and an Agent Skill/MCP server.",
+  "score": 3,
+  "firstSeen": "2026-11-19",
+  "updated": "2026-11-19",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

@@ -1,0 +1,133 @@
+{
+ "source": "aa",
+ "sourceName": "Artificial Analysis",
+ "kind": "models",
+ "badge": "AA Index",
+ "list": "Intelligence Index（前 20）",
+ "metric": "Artificial Analysis Intelligence Index（综合多项评测）",
+ "url": "https://artificialanalysis.ai/leaderboards/models",
+ "period": "2026-11-19",
+ "fetched": "2026-11-19T03:32:04.620Z",
+ "rows": [
+  {
+   "rank": 1,
+   "name": "Claude Fable 5.2 (Max, Default Fallback)",
+   "org": "Anthropic",
+   "value": "64.6"
+  },
+  {
+   "rank": 2,
+   "name": "Claude Fable 5.2 (Xhigh, Default Fallback)",
+   "org": "Anthropic",
+   "value": "62.2"
+  },
+  {
+   "rank": 3,
+   "name": "GPT-6.2 Astra (Max)",
+   "org": "OpenAI",
+   "value": "62.1"
+  },
+  {
+   "rank": 4,
+   "name": "Claude Fable 5.2 (High, Default Fallback)",
+   "org": "Anthropic",
+   "value": "61.8"
+  },
+  {
+   "rank": 5,
+   "name": "GPT-6.2 Astra (Xhigh)",
+   "org": "OpenAI",
+   "value": "61.6"
+  },
+  {
+   "rank": 6,
+   "name": "Gemini 4 Neon (Xhigh)",
+   "org": "Google",
+   "value": "61.4"
+  },
+  {
+   "rank": 7,
+   "name": "GPT-6.2 Astra (High)",
+   "org": "OpenAI",
+   "value": "60.1"
+  },
+  {
+   "rank": 8,
+   "name": "Gemini 4 Carbon (High)",
+   "org": "Google",
+   "value": "60.0"
+  },
+  {
+   "rank": 9,
+   "name": "Gemini 4 Neon (High)",
+   "org": "Google",
+   "value": "59.6"
+  },
+  {
+   "rank": 10,
+   "name": "Claude Opus 5.5 (Max, Default Fallback)",
+   "org": "Anthropic",
+   "value": "59.1"
+  },
+  {
+   "rank": 11,
+   "name": "Gemini 4 Carbon (Medium)",
+   "org": "Google",
+   "value": "58.3"
+  },
+  {
+   "rank": 12,
+   "name": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+   "org": "Anthropic",
+   "value": "57.4"
+  },
+  {
+   "rank": 13,
+   "name": "GPT-6.2 Sol (Max)",
+   "org": "OpenAI",
+   "value": "57.3"
+  },
+  {
+   "rank": 14,
+   "name": "GPT-6.2 Astra (Medium)",
+   "org": "OpenAI",
+   "value": "57.0"
+  },
+  {
+   "rank": 15,
+   "name": "Claude Fable 5.2 (Medium, Default Fallback)",
+   "org": "Anthropic",
+   "value": "56.4"
+  },
+  {
+   "rank": 16,
+   "name": "GPT-6.2 Sol (Xhigh)",
+   "org": "OpenAI",
+   "value": "55.7"
+  },
+  {
+   "rank": 17,
+   "name": "GPT-6.2 Sol (High)",
+   "org": "OpenAI",
+   "value": "54.9"
+  },
+  {
+   "rank": 18,
+   "name": "Gemini 4 Neon (Medium)",
+   "org": "Google",
+   "value": "54.9"
+  },
+  {
+   "rank": 19,
+   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+   "org": "Anthropic",
+   "value": "54.5"
+  },
+  {
+   "rank": 20,
+   "name": "Gemini 4 Carbon (Low)",
+   "org": "Google",
+   "value": "54.2"
+  }
+ ]
+}

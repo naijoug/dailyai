@@ -1,0 +1,17 @@
+{
+  "id": "maritime",
+  "name": "Maritime",
+  "aliases": [],
+  "url": "https://maritime.sh",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "YC F26 的「Agent 原生云」，给每个 Agent 分配独立、持久的 microVM 和可配置环境（Windows、安卓、保持登录态的浏览器、自定义镜像），并提供开通、休眠",
+  "oneLinerEn": "a YC F26 “agent-native cloud” that gives each agent its own isolated, persistent microVM a",
+  "score": 4,
+  "firstSeen": "2026-11-19",
+  "updated": "2026-11-19",
+  "tags": [
+    "Agents"
+  ],
+  "rankings": []
+}

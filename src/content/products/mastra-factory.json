@@ -1,0 +1,17 @@
+{
+  "id": "mastra-factory",
+  "name": "Mastra Factory",
+  "aliases": [],
+  "url": "https://factory.mastra.ai",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Mastra 用来维护自家 TypeScript Agent 框架的开源「软件工厂」：一个可配置的 Agent 看板，能在 Slack 里 @ 它，把 issue 变成计划、实现和",
+  "oneLinerEn": "the open-source “software factory” Mastra uses to maintain its own TypeScript agent framew",
+  "score": 4,
+  "firstSeen": "2026-11-19",
+  "updated": "2026-11-19",
+  "tags": [
+    "Agents"
+  ],
+  "rankings": []
+}

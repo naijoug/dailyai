@@ -1,0 +1,17 @@
+{
+  "id": "mistral-vibe",
+  "name": "Mistral Vibe Desktop",
+  "aliases": [],
+  "url": "https://mistral.ai/products/vibe/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Mistral 的 Agent Vibe（原 Le Chat）推出 macOS 和 Windows 桌面应用（Linux 版在计划中），可以一次交给它多个任务并看着它们并行执行。",
+  "oneLinerEn": "Mistral’s agent Vibe (formerly Le Chat) gets a desktop app for macOS and Windows (Linux pl",
+  "score": 3,
+  "firstSeen": "2026-11-19",
+  "updated": "2026-11-19",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}

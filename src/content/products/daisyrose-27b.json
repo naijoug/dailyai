@@ -1,0 +1,15 @@
+{
+  "id": "daisyrose-27b",
+  "name": "DaisyRose-27B",
+  "aliases": [],
+  "url": "https://www.radixark.com/blog/daisyrose-27b",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "RadixArk 的首个模型，在 Qwen3.8-27B 基础上用自家开源框架 Miles 做强化学习后训练，只用了约 1200 个精选长程 Agent 任务（单次会话最长 100",
+  "oneLinerEn": "RadixArk’s first model, Qwen3.8-27B post-trained with RL on its open-source Miles framewor",
+  "score": 3,
+  "firstSeen": "2026-11-19",
+  "updated": "2026-11-19",
+  "tags": [],
+  "rankings": []
+}
