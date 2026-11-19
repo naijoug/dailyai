@@ -7,13 +7,13 @@
 
 ### 2026-11-19 · 星期四
 
-谷歌发布 Gemini 4 Neon，智能指数第三、价格约为旗舰四成；Anthropic IPO 定价 83 美元今晚上市；OpenAI 披露研究员日均 Agent 花费 2400 美元；Nginx 爆两个 9.2 分远程代码执行漏洞。
+谷歌发布 Gemini 4 Neon 并预告 Helium，Anthropic 以 83 美元定价今晚上市；Ruby 曝 Rails 默认配置可远程利用的堆溢出，亚利桑那对 OpenAI 等失控 Agent 立案调查。
 
 🆕 今日新品：CodeRabbit、Maritime、Mastra Factory +4
 
 🎙 访谈与播客：The Pragmatic Engineer
 
-AI Hot 9 · Tech 14 · 访谈/播客 1 · ⭐ 10 条高分
+AI Hot 18 · Tech 14 · 访谈/播客 1 · ⭐ 14 条高分
 
 [→ 查看当天详情](2026/11/2026-11-19.md)
 
