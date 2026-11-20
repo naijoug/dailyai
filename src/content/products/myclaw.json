@@ -1,0 +1,20 @@
+{
+  "id": "myclaw",
+  "name": "MyClaw",
+  "aliases": [
+    "MyClaw",
+    "MyClaw 3.0"
+  ],
+  "url": "https://myclaw.ai",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "云端 AI 队友平台：Agent 可跑在 Claude Code、Codex、Hermes、Pi、OpenClaw 等 Harness 上并共享记忆，自带云电脑和数据源",
+  "oneLinerEn": "A cloud platform for AI teammates: agents run on harnesses such as Claude Code, Codex, Hermes, Pi or OpenClaw with shared memory, plus a cloud computer and live data sources.",
+  "score": 3,
+  "firstSeen": "2026-11-20",
+  "updated": "2026-11-20",
+  "tags": [
+    "Agents"
+  ],
+  "rankings": []
+}

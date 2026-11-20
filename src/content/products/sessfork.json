@@ -1,0 +1,21 @@
+{
+  "id": "sessfork",
+  "name": "sessfork",
+  "aliases": [
+    "sessfork"
+  ],
+  "url": "https://wasabihu.github.io/sessfork/",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "把本机 Chrome 登录态无锁分叉给后台无头 Playwright MCP 的零依赖 Python 工具，Agent 带登录态查网页而不抢前台",
+  "oneLinerEn": "A zero-dependency Python tool that forks your local Chrome login state, lock-free, into a background headless Playwright MCP so agents can browse logged-in sites without stealing focus.",
+  "score": 3,
+  "firstSeen": "2026-11-20",
+  "updated": "2026-11-20",
+  "tags": [
+    "Dev Tools",
+    "Open Source",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

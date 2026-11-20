@@ -368,5 +368,32 @@
     "千问 App",
     "Qwen App",
     "通义千问"
+  ],
+  "seko": [
+    "Seko",
+    "商汤 Seko",
+    "seko.sensetime.com"
+  ],
+  "sensetime-raccoon": [
+    "商汤小浣熊",
+    "小浣熊",
+    "SenseTime Raccoon",
+    "xiaohuanxiong.com"
+  ],
+  "dreamcoder": [
+    "DreamCoder",
+    "dreamcoder.ai"
+  ],
+  "aion-instruct": [
+    "Aion Instruct",
+    "Aion 1.0 Instruct"
+  ],
+  "myclaw": [
+    "MyClaw",
+    "MyClaw 3.0",
+    "myclaw.ai"
+  ],
+  "sessfork": [
+    "sessfork"
   ]
 }

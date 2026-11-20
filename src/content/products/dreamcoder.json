@@ -1,0 +1,19 @@
+{
+  "id": "dreamcoder",
+  "name": "DreamCoder",
+  "aliases": [],
+  "url": "https://www.dreamcoder.ai",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "《Mastering Emacs》作者做的 AI 编程 Harness，浏览器里运行、以平铺窗口管理多 Agent 与终端",
+  "oneLinerEn": "An AI coding harness from the author of Mastering Emacs that runs in the browser and manages many agents and terminals in a tiling window layout.",
+  "score": 4,
+  "firstSeen": "2026-11-20",
+  "updated": "2026-11-20",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": [],
+  "maker": "Mickey Petersen (Mastering Emacs)"
+}
