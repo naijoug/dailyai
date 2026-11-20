@@ -9,11 +9,11 @@
 
 Anthropic 首日收涨 17%；Logan 称 12 月 2 日迈出 Gemini 订阅进第三方 Harness 的第一步；Signal 默认禁截屏防系统级 AI Agent；DeepSeek 新一轮融资约千亿元。
 
-🆕 今日新品：Linear、Onlook、千问 +4
+🆕 今日新品：Aion Instruct、DreamCoder、Linear +8
 
 🎙 访谈与播客：Latent Space
 
-AI Hot 18 · Tech 12 · 访谈/播客 1 · ⭐ 16 条高分
+AI Hot 18 · Tech 25 · 访谈/播客 1 · ⭐ 22 条高分
 
 [→ 查看当天详情](2026/11/2026-11-20.md)
 
@@ -21,11 +21,11 @@ AI Hot 18 · Tech 12 · 访谈/播客 1 · ⭐ 16 条高分
 
 谷歌发布 Gemini 4 Neon 并预告 Helium，Anthropic 以 83 美元定价今晚上市；Ruby 曝 Rails 默认配置可远程利用的堆溢出，亚利桑那对 OpenAI 等失控 Agent 立案调查。
 
-🆕 今日新品：Arda、CodeRabbit、Firecrawl +9
+🆕 今日新品：Arda、CodeRabbit、Firecrawl +11
 
-🎙 访谈与播客：AI炼金术、No Priors、The Pragmatic Engineer、The Neon Show
+🎙 访谈与播客：Founder Park、AI炼金术、No Priors、The Pragmatic Engineer、The Neon Show
 
-AI Hot 18 · Tech 26 · 访谈/播客 4 · ⭐ 18 条高分
+AI Hot 18 · Tech 26 · 访谈/播客 5 · ⭐ 18 条高分
 
 [→ 查看当天详情](2026/11/2026-11-19.md)
 
@@ -526,6 +526,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 ## 访谈与播客
 
 - [Latent Space：Linear 如何把市场化做到 1 亿美元 ARR｜COO Cristina Cordova](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo)
+- [Founder Park：商汤林达华：拿 20% 资源做没有产品的研究，商汤如何押注模型竞争？](2026/11/2026-11-19.md#interviews) — 访谈 · 2026-11-19 · [原文](https://www.163.com/dy/article/LC4M5BRL05566TJ2.html)
 - [AI炼金术：Personal Agent 怎么从尝鲜变成常用？｜对谈千问蒋冠军](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://www.ximalaya.com/sound/1034046447)
 - [No Priors：超级智能离不开物理世界｜Arda 联合创始人兼 CEO Bob McGrew](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://podcasts.apple.com/us/podcast/superintelligence-needs-the-physical-world-with-ceo/id1668002688?i=1000802917059)
 - [The Pragmatic Engineer：Harjot Gill：软件工厂与代码审查](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews)
