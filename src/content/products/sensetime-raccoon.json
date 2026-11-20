@@ -1,0 +1,40 @@
+{
+  "id": "sensetime-raccoon",
+  "name": "商汤小浣熊",
+  "aliases": [
+    "商汤小浣熊",
+    "小浣熊",
+    "SenseTime Raccoon"
+  ],
+  "url": "https://www.xiaohuanxiong.com",
+  "category": "办公",
+  "region": "cn",
+  "maker": "商汤科技",
+  "oneLiner": "商汤以办公为主的 AI 助手，官网定位为「能搞定工作的 AI 助手」",
+  "oneLinerEn": "SenseTime's office-focused AI assistant, billed on its site as 'an AI assistant that gets work done'.",
+  "score": 3,
+  "growth": 14.02,
+  "growthNote": "AICPB PC 2026-09 环比",
+  "firstSeen": "2026-11-19",
+  "updated": "2026-11-19",
+  "tags": [
+    "Products",
+    "Agents",
+    "Chinese Community"
+  ],
+  "rankings": [
+    {
+      "source": "aicpb",
+      "list": "AI办公智能体榜 TOP20 · 桌面(PC) 第3期",
+      "badge": "AICPB PC",
+      "rank": 13,
+      "metric": "PC 客户端 MAU（万）",
+      "value": "46.79万",
+      "mom": "14.02%",
+      "date": "2026-09",
+      "url": "https://mp.weixin.qq.com/s/UQ3EV2WutqJrH8MoTM0lFw",
+      "snap": "aicpb-pc-office/2026-09"
+    }
+  ],
+  "growthDate": "2026-09"
+}

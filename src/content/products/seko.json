@@ -1,0 +1,22 @@
+{
+  "id": "seko",
+  "name": "Seko",
+  "aliases": [
+    "Seko",
+    "商汤 Seko"
+  ],
+  "url": "https://seko.sensetime.com",
+  "category": "视频",
+  "region": "cn",
+  "maker": "商汤科技",
+  "oneLiner": "商汤的一站式 AI 视频创作平台，覆盖剧本、分镜、人物一致性到成片，可调用 Seedance 等视频模型渲染",
+  "oneLinerEn": "SenseTime's one-stop AI video creation platform covering scripts, storyboards and consistent characters through to finished episodes, rendering with video models such as Seedance.",
+  "score": 4,
+  "firstSeen": "2026-11-19",
+  "updated": "2026-11-19",
+  "tags": [
+    "Products",
+    "Chinese Community"
+  ],
+  "rankings": []
+}
