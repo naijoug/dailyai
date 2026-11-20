@@ -7,13 +7,13 @@
 
 ### 2026-11-20 · 星期五
 
-Anthropic 纳斯达克首日收涨 17%；ChatGPT dots 扩到 Plus，Genie 4 开放 API，Hermes 进驻 Teams；苹果被曝自研能操作电脑的 Agent，Claude 解出两道黑洞物理难题。
+Anthropic 首日收涨 17%；Logan 称 12 月 2 日迈出 Gemini 订阅进第三方 Harness 的第一步；Signal 默认禁截屏防系统级 AI Agent；DeepSeek 新一轮融资约千亿元。
 
 🆕 今日新品：Linear、Onlook、千问 +4
 
 🎙 访谈与播客：Latent Space
 
-AI Hot 10 · Tech 12 · 访谈/播客 1 · ⭐ 13 条高分
+AI Hot 18 · Tech 12 · 访谈/播客 1 · ⭐ 16 条高分
 
 [→ 查看当天详情](2026/11/2026-11-20.md)
 
