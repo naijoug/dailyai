@@ -1,0 +1,19 @@
+{
+  "id": "langchain-design-agent",
+  "name": "LangChain Design Agent (Content Studio)",
+  "aliases": [],
+  "url": "https://www.langchain.com/blog/design-agent",
+  "category": "图像",
+  "region": "global",
+  "oneLiner": "LangChain 开源了公司内部在用的设计 Agent：基于 Deep Agents，用 Managed Deep Agents 部署到团队 Slack（负责沙箱、记忆、定时任务",
+  "oneLinerEn": "LangChain open-sourced the design agent it runs internally: built on Deep Agents and deplo",
+  "score": 3,
+  "firstSeen": "2026-11-20",
+  "updated": "2026-11-20",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

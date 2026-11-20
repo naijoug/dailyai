@@ -5,6 +5,7 @@
   "url": "https://stitch.google.com/loop/waitlist",
   "category": "编程/Agent",
   "region": "global",
+  "maker": "Google Labs",
   "oneLiner": "Google Labs 的长期运行产品 Agent，接入代码库和线上指标，持续找问题、在沙盒写修复并开 PR 待批",
   "oneLinerEn": "Google Labs’ long-running product agent that connects to your codebase and live metrics, finds issues, writes fixes in a sandbox and opens PRs for approval.",
   "score": 4,
@@ -13,6 +14,5 @@
   "tags": [
     "Dev Tools"
   ],
-  "rankings": [],
-  "maker": "Google Labs"
+  "rankings": []
 }

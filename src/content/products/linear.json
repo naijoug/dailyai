@@ -1,0 +1,22 @@
+{
+  "id": "linear",
+  "name": "Linear",
+  "aliases": [
+    "Linear",
+    "Linear Agent"
+  ],
+  "url": "https://linear.app",
+  "category": "办公",
+  "region": "global",
+  "maker": "Linear",
+  "oneLiner": "产品开发协作系统，从 issue 追踪转向 Agent 编排：提供 MCP 服务器、Agent 平台 API、内置 Linear Agent，并可接入 Codex、Cursor、GitHub Copilot",
+  "oneLinerEn": "Product development system moving from issue tracking to agent orchestration, with an MCP server, an agents platform API, the built-in Linear Agent and integrations with Codex, Cursor and GitHub Copilot.",
+  "score": 4,
+  "firstSeen": "2026-11-20",
+  "updated": "2026-11-20",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}

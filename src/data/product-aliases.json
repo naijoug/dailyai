@@ -358,5 +358,15 @@
   "fireflies": [
     "Fireflies",
     "Fireflies.ai"
+  ],
+  "linear": [
+    "Linear",
+    "Linear Agent"
+  ],
+  "qianwen": [
+    "千问",
+    "千问 App",
+    "Qwen App",
+    "通义千问"
   ]
 }

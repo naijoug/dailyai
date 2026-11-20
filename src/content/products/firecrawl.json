@@ -8,6 +8,7 @@
   "url": "https://www.firecrawl.dev",
   "category": "开发者平台",
   "region": "global",
+  "maker": "Firecrawl",
   "oneLiner": "网页数据 API，把网页转成 Agent 可用的 markdown；新出的 Firecrawl Local 是开源 Rust 单文件，可在本机抓取并作为 MCP 接入",
   "oneLinerEn": "Web data API that turns pages into agent-ready markdown; the new open-source Firecrawl Local is a single Rust binary that scrapes locally and plugs in as an MCP server.",
   "score": 4,
@@ -17,6 +18,5 @@
     "Dev Tools",
     "Open Source"
   ],
-  "rankings": [],
-  "maker": "Firecrawl"
+  "rankings": []
 }

@@ -1,0 +1,18 @@
+{
+  "id": "volcano",
+  "name": "Volcano",
+  "aliases": [],
+  "url": "https://volcano.dev",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "一个「从底层就为编程 Agent 驾驶而设计」的后端平台：Agent 运行的 CLI 加上它读取的 skills，提供持久化多步工作流（每步打检查点、可中断后续跑，最长一年）、等人",
+  "oneLinerEn": "a backend platform “designed from the ground up for coding agents to drive”: a CLI the age",
+  "score": 4,
+  "firstSeen": "2026-11-20",
+  "updated": "2026-11-20",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

@@ -5,7 +5,8 @@
     "OpenAI Codex",
     "Codex CLI",
     "Codex App",
-    "OpenAI"
+    "OpenAI",
+    "OpenAI’s Performance Factory"
   ],
   "url": "https://openai.com/codex/",
   "domains": [
@@ -19,7 +20,7 @@
   "oneLinerEn": "OpenAI's coding agent across CLI, IDE extension, desktop app and cloud, writing code, fixing bugs and opening PRs in parallel.",
   "score": 5,
   "firstSeen": "2026-10-04",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "tags": [
     "Agents",
     "Dev Tools"
@@ -310,6 +311,17 @@
       "date": "2026-11-19",
       "url": "https://openrouter.ai/rankings#apps",
       "snap": "openrouter-apps-week/2026-11-19"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 8,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "2.86T tokens",
+      "date": "2026-11-20",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-11-20"
     }
   ]
 }

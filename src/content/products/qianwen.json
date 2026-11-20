@@ -1,0 +1,53 @@
+{
+  "id": "qianwen",
+  "name": "千问",
+  "aliases": [
+    "千问",
+    "千问 App",
+    "Qwen App",
+    "通义千问"
+  ],
+  "url": "https://www.qianwen.com",
+  "category": "对话助手",
+  "region": "cn",
+  "maker": "阿里巴巴",
+  "oneLiner": "阿里的 AI 助手，正在做能代用户办事的 Personal Agent，如替用户打电话争取航班延误赔偿",
+  "oneLinerEn": "Alibaba’s AI assistant, now building a personal agent that runs errands for users, such as phoning to claim flight-delay compensation.",
+  "score": 4,
+  "growth": 7.46,
+  "growthNote": "AICPB 全球App 2026-06 环比",
+  "firstSeen": "2026-11-20",
+  "updated": "2026-11-20",
+  "tags": [
+    "Agents",
+    "Products",
+    "Chinese Community"
+  ],
+  "rankings": [
+    {
+      "source": "aicpb",
+      "list": "中国 AI 榜 · App",
+      "badge": "AICPB 中国App",
+      "rank": 2,
+      "metric": "App MAU",
+      "value": "251.13M",
+      "mom": "7.46%",
+      "date": "2026-06",
+      "url": "https://www.aicpb.com/ai-rankings/products/china-ai-rankings",
+      "snap": "aicpb-china-ai-app/2026-06"
+    },
+    {
+      "source": "aicpb",
+      "list": "全球 AI 榜 · App",
+      "badge": "AICPB 全球App",
+      "rank": 3,
+      "metric": "App MAU",
+      "value": "251.13M",
+      "mom": "7.46%",
+      "date": "2026-06",
+      "url": "https://www.aicpb.com/ai-rankings/products/global-ai-rankings",
+      "snap": "aicpb-global-ai-app/2026-06"
+    }
+  ],
+  "growthDate": "2026-06"
+}

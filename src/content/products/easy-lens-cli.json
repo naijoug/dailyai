@@ -5,6 +5,7 @@
   "url": "https://easylens.snapchat.com/cli",
   "category": "编程/Agent",
   "region": "global",
+  "maker": "Snap",
   "oneLiner": "Snap 的命令行工具，让 Claude Code、Cursor、Codex 等编码助手直接制作、测试和发布 Snapchat AR 滤镜",
   "oneLinerEn": "Snap’s CLI that lets coding assistants like Claude Code, Cursor and Codex build, test and publish Snapchat AR Lenses.",
   "score": 3,
@@ -13,6 +14,5 @@
   "tags": [
     "Dev Tools"
   ],
-  "rankings": [],
-  "maker": "Snap"
+  "rankings": []
 }
