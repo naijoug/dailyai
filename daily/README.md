@@ -5,15 +5,27 @@
 
 ## 2026 年 11 月
 
+### 2026-11-20 · 星期五
+
+Anthropic 纳斯达克首日收涨 17%；ChatGPT dots 扩到 Plus，Genie 4 开放 API，Hermes 进驻 Teams；苹果被曝自研能操作电脑的 Agent，Claude 解出两道黑洞物理难题。
+
+🆕 今日新品：Linear、Onlook、千问 +4
+
+🎙 访谈与播客：Latent Space
+
+AI Hot 10 · Tech 12 · 访谈/播客 1 · ⭐ 13 条高分
+
+[→ 查看当天详情](2026/11/2026-11-20.md)
+
 ### 2026-11-19 · 星期四
 
 谷歌发布 Gemini 4 Neon 并预告 Helium，Anthropic 以 83 美元定价今晚上市；Ruby 曝 Rails 默认配置可远程利用的堆溢出，亚利桑那对 OpenAI 等失控 Agent 立案调查。
 
 🆕 今日新品：Arda、CodeRabbit、Firecrawl +9
 
-🎙 访谈与播客：No Priors、The Pragmatic Engineer、The Neon Show
+🎙 访谈与播客：AI炼金术、No Priors、The Pragmatic Engineer、The Neon Show
 
-AI Hot 18 · Tech 26 · 访谈/播客 3 · ⭐ 18 条高分
+AI Hot 18 · Tech 26 · 访谈/播客 4 · ⭐ 18 条高分
 
 [→ 查看当天详情](2026/11/2026-11-19.md)
 
@@ -513,6 +525,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Latent Space：Linear 如何把市场化做到 1 亿美元 ARR｜COO Cristina Cordova](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo)
+- [AI炼金术：Personal Agent 怎么从尝鲜变成常用？｜对谈千问蒋冠军](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://www.ximalaya.com/sound/1034046447)
 - [No Priors：超级智能离不开物理世界｜Arda 联合创始人兼 CEO Bob McGrew](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://podcasts.apple.com/us/podcast/superintelligence-needs-the-physical-world-with-ceo/id1668002688?i=1000802917059)
 - [The Pragmatic Engineer：Harjot Gill：软件工厂与代码审查](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews)
 - [The Neon Show：Fireflies 为什么 A 轮后不再融资仍做到 10 亿美元估值｜Krish Ramineni](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://theneonshow.buzzsprout.com/1601695/episodes/20144023-why-fireflies-stopped-raising-after-series-a-and-still-hit-a-1b-valuation-krish-ramineni)
