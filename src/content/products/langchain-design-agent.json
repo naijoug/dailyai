@@ -1,7 +1,9 @@
 {
   "id": "langchain-design-agent",
-  "name": "LangChain Design Agent (Content Studio)",
-  "aliases": [],
+  "name": "LangChain Design Agent",
+  "aliases": [
+    "Content Studio"
+  ],
   "url": "https://www.langchain.com/blog/design-agent",
   "category": "图像",
   "region": "global",
