@@ -9,7 +9,9 @@
 
 Anthropic 数学家称与 Claude 合作证明黎曼猜想，Lean 代码已获独立编译；Thinking Machines 开源 Inkling 2 Mini；ChatGPT Space 开放给 Plus；AI 路由链泄密研究引关注。
 
-AI Hot 9 · ⭐ 5 条高分
+🆕 今日新品：Inkling 2 Mini、Haru-4B、OpenComputer
+
+AI Hot 9 · Tech 12 · ⭐ 12 条高分
 
 [→ 查看当天详情](2026/11/2026-11-21.md)
 
