@@ -19,11 +19,11 @@ AI Hot 9 · Tech 12 · ⭐ 12 条高分
 
 Anthropic 首日收涨 17%；Logan 称 12 月 2 日迈出 Gemini 订阅进第三方 Harness 的第一步；Signal 默认禁截屏防系统级 AI Agent；DeepSeek 新一轮融资约千亿元。
 
-🆕 今日新品：Aion Instruct、DreamCoder、Linear +8
+🆕 今日新品：Aion Instruct、DreamCoder、Linear +9
 
-🎙 访谈与播客：Latent Space
+🎙 访谈与播客：The a16z Show、AI炼金术、Latent Space
 
-AI Hot 18 · Tech 25 · 访谈/播客 1 · ⭐ 22 条高分
+AI Hot 18 · Tech 25 · 访谈/播客 3 · ⭐ 22 条高分
 
 [→ 查看当天详情](2026/11/2026-11-20.md)
 
@@ -535,6 +535,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [The a16z Show：为什么 Agent 时代需要一个新操作系统｜DHH](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://podcasts.apple.com/us/podcast/why-the-agent-era-needs-a-new-operating-system-dhh/id842818711?i=1000803152201)
+- [AI炼金术：AI来了，这些公司快死了……吗？](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://www.ximalaya.com/sound/1034331062)
 - [Latent Space：Linear 如何把市场化做到 1 亿美元 ARR｜COO Cristina Cordova](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo)
 - [Founder Park：商汤林达华：拿 20% 资源做没有产品的研究，商汤如何押注模型竞争？](2026/11/2026-11-19.md#interviews) — 访谈 · 2026-11-19 · [原文](https://www.163.com/dy/article/LC4M5BRL05566TJ2.html)
 - [AI炼金术：Personal Agent 怎么从尝鲜变成常用？｜对谈千问蒋冠军](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://www.ximalaya.com/sound/1034046447)
