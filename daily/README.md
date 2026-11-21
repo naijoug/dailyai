@@ -5,6 +5,14 @@
 
 ## 2026 年 11 月
 
+### 2026-11-21 · 星期六
+
+Anthropic 数学家称与 Claude 合作证明黎曼猜想，Lean 代码已获独立编译；Thinking Machines 开源 Inkling 2 Mini；ChatGPT Space 开放给 Plus；AI 路由链泄密研究引关注。
+
+AI Hot 9 · ⭐ 5 条高分
+
+[→ 查看当天详情](2026/11/2026-11-21.md)
+
 ### 2026-11-20 · 星期五
 
 Anthropic 首日收涨 17%；Logan 称 12 月 2 日迈出 Gemini 订阅进第三方 Harness 的第一步；Signal 默认禁截屏防系统级 AI Agent；DeepSeek 新一轮融资约千亿元。
