@@ -7,11 +7,11 @@
 
 ### 2026-11-21 · 星期六
 
-Anthropic 数学家称与 Claude 合作证明黎曼猜想，Lean 代码已获独立编译；Thinking Machines 开源 Inkling 2 Mini；ChatGPT Space 开放给 Plus；AI 路由链泄密研究引关注。
+Claude 黎曼猜想证明之外，同一数学家又放出 AI 辅助的 Navier-Stokes 爆破证明；Anthropic 上市次日跌 8.5%，纳指创 2020 年来最差一周；Antigravity 重置额度；Linger 开源本地个人 Agent。
 
-🆕 今日新品：Inkling 2 Mini、Haru-4B、OpenComputer
+🆕 今日新品：Inkling 2 Mini、Browser Use、Haru-4B +6
 
-AI Hot 9 · Tech 12 · ⭐ 12 条高分
+AI Hot 17 · Tech 23 · ⭐ 16 条高分
 
 [→ 查看当天详情](2026/11/2026-11-21.md)
 
@@ -21,9 +21,9 @@ Anthropic 首日收涨 17%；Logan 称 12 月 2 日迈出 Gemini 订阅进第三
 
 🆕 今日新品：Aion Instruct、DreamCoder、Linear +9
 
-🎙 访谈与播客：The a16z Show、AI炼金术、Latent Space
+🎙 访谈与播客：The a16z Show、AI炼金术、Founder Park、Latent Space
 
-AI Hot 18 · Tech 25 · 访谈/播客 3 · ⭐ 22 条高分
+AI Hot 18 · Tech 25 · 访谈/播客 4 · ⭐ 22 条高分
 
 [→ 查看当天详情](2026/11/2026-11-20.md)
 
@@ -537,6 +537,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 - [The a16z Show：为什么 Agent 时代需要一个新操作系统｜DHH](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://podcasts.apple.com/us/podcast/why-the-agent-era-needs-a-new-operating-system-dhh/id842818711?i=1000803152201)
 - [AI炼金术：AI来了，这些公司快死了……吗？](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://www.ximalaya.com/sound/1034331062)
+- [Founder Park：Tabbit 万字复盘：做了一年半 Browser Use，我们学到的苦涩教训](2026/11/2026-11-20.md#interviews) — 访谈 · 2026-11-20 · [原文](https://www.163.com/dy/article/LC6KC2LB05566TJ2.html)
 - [Latent Space：Linear 如何把市场化做到 1 亿美元 ARR｜COO Cristina Cordova](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo)
 - [Founder Park：商汤林达华：拿 20% 资源做没有产品的研究，商汤如何押注模型竞争？](2026/11/2026-11-19.md#interviews) — 访谈 · 2026-11-19 · [原文](https://www.163.com/dy/article/LC4M5BRL05566TJ2.html)
 - [AI炼金术：Personal Agent 怎么从尝鲜变成常用？｜对谈千问蒋冠军](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://www.ximalaya.com/sound/1034046447)
