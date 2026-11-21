@@ -7,55 +7,55 @@
  "metric": "trendingScore 排序（API 顺序）",
  "url": "https://huggingface.co/spaces?sort=trending",
  "period": "2026-11-21",
- "fetched": "2026-11-21T03:28:08.635Z",
+ "fetched": "2026-11-21T12:28:00.027Z",
  "rows": [
   {
    "rank": 1,
    "name": "huggingface/moe-blogpost",
    "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
-   "value": "♥ 783",
+   "value": "♥ 790",
    "extra": "docker"
   },
   {
    "rank": 2,
    "name": "JCisHERE/wan2-2-i2v-v3",
    "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
-   "value": "♥ 533",
+   "value": "♥ 544",
    "extra": "gradio"
   },
   {
    "rank": 3,
    "name": "MiniMaxAI/minimax-h3-image",
    "url": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image",
-   "value": "♥ 225",
+   "value": "♥ 234",
    "extra": "gradio"
   },
   {
    "rank": 4,
    "name": "joelniklaus/harness-leaderboard",
    "url": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
-   "value": "♥ 483",
+   "value": "♥ 485",
    "extra": "docker"
   },
   {
    "rank": 5,
-   "name": "hugging-apps/bfs-best-face-swap",
-   "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
-   "value": "♥ 1011",
-   "extra": "gradio"
+   "name": "cfahlgren1/slack-moji",
+   "url": "https://huggingface.co/spaces/cfahlgren1/slack-moji",
+   "value": "♥ 71",
+   "extra": "static"
   },
   {
    "rank": 6,
-   "name": "cfahlgren1/slack-moji",
-   "url": "https://huggingface.co/spaces/cfahlgren1/slack-moji",
-   "value": "♥ 68",
-   "extra": "static"
+   "name": "hugging-apps/bfs-best-face-swap",
+   "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
+   "value": "♥ 1017",
+   "extra": "gradio"
   },
   {
    "rank": 7,
    "name": "waitinghere/Krea2T-Revamped",
    "url": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped",
-   "value": "♥ 97",
+   "value": "♥ 101",
    "extra": "gradio"
   },
   {
@@ -69,7 +69,7 @@
    "rank": 9,
    "name": "rdata92/LTX-2.3-10Eros",
    "url": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros",
-   "value": "♥ 217",
+   "value": "♥ 220",
    "extra": "gradio"
   },
   {
@@ -83,98 +83,98 @@
    "rank": 11,
    "name": "AST-1320/Qwen-2511-Plus-Flux.2-klein",
    "url": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein",
-   "value": "♥ 469",
+   "value": "♥ 470",
    "extra": "gradio"
   },
   {
    "rank": 12,
    "name": "Lakonik/pi-H3",
    "url": "https://huggingface.co/spaces/Lakonik/pi-H3",
-   "value": "♥ 53",
+   "value": "♥ 55",
    "extra": "gradio"
   },
   {
    "rank": 13,
    "name": "thejagstudio/tessera-pixel-studio",
    "url": "https://huggingface.co/spaces/thejagstudio/tessera-pixel-studio",
-   "value": "♥ 53",
+   "value": "♥ 55",
    "extra": "gradio"
   },
   {
    "rank": 14,
-   "name": "PrunaAI/P-Image-OSS",
-   "url": "https://huggingface.co/spaces/PrunaAI/P-Image-OSS",
-   "value": "♥ 193",
+   "name": "hugging-apps/clairic",
+   "url": "https://huggingface.co/spaces/hugging-apps/clairic",
+   "value": "♥ 38",
    "extra": "gradio"
   },
   {
    "rank": 15,
-   "name": "microsoft/TRELLIS.2",
-   "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
-   "value": "♥ 2432",
-   "extra": "gradio"
-  },
-  {
-   "rank": 16,
-   "name": "Zyphra/ZONOS3-Mini",
-   "url": "https://huggingface.co/spaces/Zyphra/ZONOS3-Mini",
-   "value": "♥ 47",
-   "extra": "gradio"
-  },
-  {
-   "rank": 17,
    "name": "HuggingFaceSwarms/PyBot",
    "url": "https://huggingface.co/spaces/HuggingFaceSwarms/PyBot",
    "value": "♥ 41",
    "extra": "docker"
   },
   {
+   "rank": 16,
+   "name": "Guaryn/qwen-image-2.1-uncensored-aio-loras",
+   "url": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras",
+   "value": "♥ 234",
+   "extra": "gradio"
+  },
+  {
+   "rank": 17,
+   "name": "microsoft/TRELLIS.2",
+   "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
+   "value": "♥ 2432",
+   "extra": "gradio"
+  },
+  {
    "rank": 18,
-   "name": "hugging-apps/clairic",
-   "url": "https://huggingface.co/spaces/hugging-apps/clairic",
-   "value": "♥ 36",
+   "name": "PrunaAI/P-Image-OSS",
+   "url": "https://huggingface.co/spaces/PrunaAI/P-Image-OSS",
+   "value": "♥ 193",
    "extra": "gradio"
   },
   {
    "rank": 19,
-   "name": "Guaryn/qwen-image-2.1-uncensored-aio-loras",
-   "url": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras",
-   "value": "♥ 229",
+   "name": "Zyphra/ZONOS3-Mini",
+   "url": "https://huggingface.co/spaces/Zyphra/ZONOS3-Mini",
+   "value": "♥ 47",
    "extra": "gradio"
   },
   {
    "rank": 20,
    "name": "selfit-camera/Omni-Image-Editor",
    "url": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor",
-   "value": "♥ 2973",
+   "value": "♥ 2974",
    "extra": "gradio"
   },
   {
    "rank": 21,
    "name": "linoyts/qwen-image-2-1-realtime",
    "url": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime",
-   "value": "♥ 278",
+   "value": "♥ 279",
    "extra": "gradio"
   },
   {
    "rank": 22,
    "name": "aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
    "url": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
-   "value": "♥ 602",
+   "value": "♥ 604",
    "extra": "gradio"
   },
   {
    "rank": 23,
    "name": "multimodalart/jev-decision-index",
    "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
-   "value": "♥ 951",
+   "value": "♥ 952",
    "extra": "static"
   },
   {
    "rank": 24,
    "name": "nvidia/PhysicalAI-Human-1M-Explorer",
    "url": "https://huggingface.co/spaces/nvidia/PhysicalAI-Human-1M-Explorer",
-   "value": "♥ 51",
+   "value": "♥ 52",
    "extra": "static"
   },
   {
@@ -188,14 +188,14 @@
    "rank": 26,
    "name": "kazufusa/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
    "url": "https://huggingface.co/spaces/kazufusa/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
-   "value": "♥ 53",
+   "value": "♥ 54",
    "extra": "gradio"
   },
   {
    "rank": 27,
    "name": "DontPlanToEnd/UGI-Leaderboard",
    "url": "https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard",
-   "value": "♥ 2226",
+   "value": "♥ 2227",
    "extra": "docker"
   },
   {
@@ -209,14 +209,14 @@
    "rank": 29,
    "name": "wank3r/minimax-h3",
    "url": "https://huggingface.co/spaces/wank3r/minimax-h3",
-   "value": "♥ 418",
+   "value": "♥ 419",
    "extra": "gradio"
   },
   {
    "rank": 30,
    "name": "kulkas2pintu/QWEN_EDIT_IMAGE",
    "url": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE",
-   "value": "♥ 817",
+   "value": "♥ 818",
    "extra": "gradio"
   }
  ]

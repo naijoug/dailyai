@@ -1,0 +1,19 @@
+{
+  "id": "phone-harness",
+  "name": "Phone Harness",
+  "aliases": [],
+  "url": "https://phone-harness.com",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "开源 CLI，让 Claude Code、Codex 等 Agent 直接用你的真手机——滑动、点击、输入、读屏，无需越狱和 Xcode：iPhone 通过 Mac 的 iPhon",
+  "oneLinerEn": "an open-source CLI that lets Claude Code, Codex or other agents use your real phone — scro",
+  "score": 3,
+  "firstSeen": "2026-11-21",
+  "updated": "2026-11-21",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

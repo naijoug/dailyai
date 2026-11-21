@@ -1,0 +1,26 @@
+{
+  "id": "browser-use",
+  "name": "Browser Use",
+  "aliases": [
+    "Browser-Use",
+    "browser-use"
+  ],
+  "url": "https://browser-use.com/",
+  "domains": [
+    "github.com/browser-use/browser-use"
+  ],
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "Browser Use",
+  "oneLiner": "开源浏览器 Agent 框架与云浏览器：让 AI Agent 操控网页，现已转向 Coding Agent + 原生 CDP 路线",
+  "oneLinerEn": "Open-source browser-agent framework and cloud browsers that let AI agents operate websites, now built around coding agents and raw CDP.",
+  "score": 4,
+  "firstSeen": "2026-11-21",
+  "updated": "2026-11-21",
+  "tags": [
+    "Agents",
+    "Open Source",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

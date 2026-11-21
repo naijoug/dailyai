@@ -1,0 +1,20 @@
+{
+  "id": "linger",
+  "name": "Linger",
+  "aliases": [],
+  "url": "https://heylinger.com/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "前 DeepSeek LLM V1 作者、DeepSeek-VL 项目负责人 Tony Zhang 创业公布的开源个人 Agent，主打跑在自己电脑上：核心 Agent「Anoth",
+  "oneLinerEn": "an open-source personal agent from Tony Zhang, an author of DeepSeek LLM V1 and former pro",
+  "score": 4,
+  "firstSeen": "2026-11-21",
+  "updated": "2026-11-21",
+  "tags": [
+    "Models",
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

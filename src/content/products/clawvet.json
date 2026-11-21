@@ -1,0 +1,17 @@
+{
+  "id": "clawvet",
+  "name": "ClawVet",
+  "aliases": [],
+  "url": "https://clawvet.vercel.app/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "在 Agent Skill 运行前告诉你它能做什么的扫描器。",
+  "oneLinerEn": "a scanner that tells you what an agent skill can do before it runs.",
+  "score": 3,
+  "firstSeen": "2026-11-21",
+  "updated": "2026-11-21",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

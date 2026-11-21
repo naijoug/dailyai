@@ -1,0 +1,17 @@
+{
+  "id": "clawdos",
+  "name": "ClawDOS",
+  "aliases": [],
+  "url": "http://ricapar.net/ClawDOS/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "一个跑在原版 IBM PC XT（8088 处理器 4.77 MHz、640K 内存、CGA 显卡）上的 AI 编程 Agent。",
+  "oneLinerEn": "an AI coding agent that runs on an original IBM PC XT — an 8088 at 4.77 MHz, 640K of RAM a",
+  "score": 3,
+  "firstSeen": "2026-11-21",
+  "updated": "2026-11-21",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}

@@ -399,5 +399,15 @@
   "omarchy": [
     "Omarchy",
     "Omarchy Linux"
+  ],
+  "tabbit": [
+    "Tabbit",
+    "Tabbit 浏览器",
+    "Tabbit CLI"
+  ],
+  "browser-use": [
+    "Browser Use",
+    "Browser-Use",
+    "browser-use"
   ]
 }
