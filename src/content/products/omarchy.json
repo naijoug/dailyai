@@ -1,0 +1,22 @@
+{
+  "id": "omarchy",
+  "name": "Omarchy",
+  "aliases": [
+    "Omarchy"
+  ],
+  "url": "https://omarchy.org",
+  "category": "其他",
+  "region": "global",
+  "maker": "DHH / 37signals",
+  "oneLiner": "DHH 主导的「Agent 优先」Linux 发行版：开箱即用的默认配置，用 Agent 排查问题，用户直接开口就能修改系统",
+  "oneLinerEn": "DHH’s agent-first Linux distribution: opinionated defaults out of the box, agents that debug issues, and a system users can modify simply by asking.",
+  "score": 4,
+  "firstSeen": "2026-11-20",
+  "updated": "2026-11-20",
+  "tags": [
+    "Agents",
+    "Open Source",
+    "Products"
+  ],
+  "rankings": []
+}
