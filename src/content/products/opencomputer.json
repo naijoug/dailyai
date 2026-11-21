@@ -1,0 +1,17 @@
+{
+  "id": "opencomputer",
+  "name": "OpenComputer",
+  "aliases": [],
+  "url": "https://opencomputer.dev",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "开源、可自托管的 Devin 替代品——在 Slack 线程里 @Computer 派活，它在自己的电脑上干活，团队可以旁观和随时纠偏，结果以 PR 交付。",
+  "oneLinerEn": "an open-source, self-hostable alternative to Devin—mention @Computer in a Slack thread wit",
+  "score": 4,
+  "firstSeen": "2026-11-21",
+  "updated": "2026-11-21",
+  "tags": [
+    "Open Source"
+  ],
+  "rankings": []
+}

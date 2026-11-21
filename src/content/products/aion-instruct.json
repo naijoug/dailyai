@@ -8,6 +8,7 @@
   "url": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/",
   "category": "开发者平台",
   "region": "global",
+  "maker": "Microsoft",
   "oneLiner": "微软 2.3B 端侧小模型，MIT 开放权重，已成为 Edge 内置模型并可通过 Prompt API 在网页本地调用",
   "oneLinerEn": "Microsoft’s 2.3B on-device model, MIT open weights, now Edge’s built-in model callable locally from web pages via the Prompt API.",
   "score": 4,
@@ -16,6 +17,5 @@
   "tags": [
     "Open Source"
   ],
-  "rankings": [],
-  "maker": "Microsoft"
+  "rankings": []
 }

@@ -1,0 +1,18 @@
+{
+  "id": "haru",
+  "name": "Haru-4B",
+  "aliases": [],
+  "url": "https://blog.higurashi.ai/melte/haru4b/",
+  "category": "音频",
+  "region": "global",
+  "oneLiner": "higurashi-ai 发布的低延迟多语种全双工语音对话基础模型（Apache 2.0），能边听边说：每 133 毫秒读入一帧用户音频，同时输出一帧自己的音频和文本，音频用连续的",
+  "oneLinerEn": "a low-latency, multilingual full-duplex spoken-dialogue foundation model from higurashi-ai",
+  "score": 4,
+  "firstSeen": "2026-11-21",
+  "updated": "2026-11-21",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

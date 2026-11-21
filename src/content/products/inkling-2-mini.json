@@ -1,0 +1,15 @@
+{
+  "id": "inkling-2-mini",
+  "name": "Inkling 2 Mini",
+  "aliases": [],
+  "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "Thinking Machines Lab 的新开放权重模型，采用循环（looped）混合专家 Transformer——总参数 26.4B、激活 3.4B，因中间层每个 toke",
+  "oneLinerEn": "Thinking Machines Lab’s new open-weights model is a looped Mixture-of-Experts transformer—",
+  "score": 5,
+  "firstSeen": "2026-11-21",
+  "updated": "2026-11-21",
+  "tags": [],
+  "rankings": []
+}

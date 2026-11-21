@@ -10,7 +10,7 @@
   "oneLinerEn": "Google Labs’ long-running product agent that connects to your codebase and live metrics, finds issues, writes fixes in a sandbox and opens PRs for approval.",
   "score": 4,
   "firstSeen": "2026-11-19",
-  "updated": "2026-11-19",
+  "updated": "2026-11-21",
   "tags": [
     "Dev Tools"
   ],
