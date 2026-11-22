@@ -5,6 +5,16 @@
 
 ## 2026 年 11 月
 
+### 2026-11-22 · 星期日
+
+Lean 与 Mathlib 社区联合认证 Claude 辅助的 1700 万行黎曼猜想证明；英伟达 CPU-ARC 把推理缓存成 CPU 代码，便宜 16–291 倍；LangChain 提出「知识工厂」；Ghostscript Upload2Shell 漏洞公开。
+
+🆕 今日新品：灵光、LookAtMyQuant、Mingle +2
+
+AI Hot 8 · Tech 11 · ⭐ 7 条高分
+
+[→ 查看当天详情](2026/11/2026-11-22.md)
+
 ### 2026-11-21 · 星期六
 
 Claude 黎曼猜想证明之外，同一数学家又放出 AI 辅助的 Navier-Stokes 爆破证明；Anthropic 上市次日跌 8.5%，纳指创 2020 年来最差一周；Antigravity 重置额度；Linger 开源本地个人 Agent。
@@ -45,9 +55,9 @@ GPT-6.2 口碑两极，OpenAI 解释测评版本过旧；Gemini 4 Neon 定价已
 
 🆕 今日新品：Hellyeah、MAI Code 2、Photon +6
 
-🎙 访谈与播客：AI炼金术、The a16z Show
+🎙 访谈与播客：AI炼金术、The a16z Show、张小珺Jùn｜商业访谈录
 
-AI Hot 18 · Tech 25 · 访谈/播客 2 · ⭐ 13 条高分
+AI Hot 18 · Tech 25 · 访谈/播客 3 · ⭐ 13 条高分
 
 [→ 查看当天详情](2026/11/2026-11-18.md)
 
@@ -546,6 +556,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 - [The Neon Show：Fireflies 为什么 A 轮后不再融资仍做到 10 亿美元估值｜Krish Ramineni](2026/11/2026-11-19.md#interviews) — 播客 · 2026-11-19 · [原文](https://theneonshow.buzzsprout.com/1601695/episodes/20144023-why-fireflies-stopped-raising-after-series-a-and-still-hit-a-1b-valuation-krish-ramineni)
 - [AI炼金术：从 AI 面试助手到蒸馏广告投手，他是怎么找到下一门生意的？｜对谈 Michael Guan（Hellyeah）](2026/11/2026-11-18.md#interviews) — 播客 · 2026-11-18 · [原文](https://www.ximalaya.com/sound/1033824004)
 - [The a16z Show：个人 AI 缺失的一层：First Person Labs 的 Ken Liu 谈 Second](2026/11/2026-11-18.md#interviews) — 播客 · 2026-11-18 · [原文](https://a16z.simplecast.com/episodes/the-missing-layer-for-personal-ai-first-person-labs-ken-liu-wu4i8Q00)
+- [张小珺Jùn｜商业访谈录：157. 复盘Personal Agent集体诞生背后：和蔡伟聊AI产品史、需求真伪、入口与未来想象](2026/11/2026-11-18.md#interviews) — 播客 · 2026-11-18 · [原文](https://www.xiaoyuzhoufm.com/episode/6afd12c6a4a79edf137afd61)
 - [Founder Park：Photon：帮硅谷最火的 PA 接入 iMessage，450 万美元融资、4 个月收入涨 10 倍](2026/11/2026-11-17.md#interviews) — 访谈 · 2026-11-17 · [原文](https://www.163.com/dy/article/LBVD8LIA05566TJ2.html)
 - [Latent Space：构建视觉智能——Black Forest Labs 的 Andreas Blattmann 与 Dustin Podell](2026/11/2026-11-17.md#interviews) — 播客 · 2026-11-17 · [原文](https://latent.space/p/bfl)
 - [The Pragmatic Engineer：Satya Nadella：代码变便宜之后的软件工程](2026/11/2026-11-16.md#interviews) — 播客 · 2026-11-16 · [原文](https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes)
@@ -616,6 +627,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 全文文章
 
+- [How to build a knowledge factory](articles/harrison-chase-knowledge-factory.md) — Harrison Chase · 2026-11-22
 - [Automate Anything with Grok Bot](articles/lauren-tan-automate-anything-with-grok-bot.md) — lauren · 2026-11-19
 - [How the Claude Code team thinks about verification](articles/claude-code-team-verification.md) — Addy Osmani · 2026-11-17
 - [How I Built the Most AI-Pilled Company in the World](articles/jacob-sansbury-most-ai-pilled-company.md) — jacob (Jacob Sansbury) · 2026-10-30
