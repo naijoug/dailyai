@@ -7,11 +7,11 @@
 
 ### 2026-11-22 · 星期日
 
-Lean 与 Mathlib 社区联合认证 Claude 辅助的 1700 万行黎曼猜想证明；英伟达 CPU-ARC 把推理缓存成 CPU 代码，便宜 16–291 倍；LangChain 提出「知识工厂」；Ghostscript Upload2Shell 漏洞公开。
+Lean 社区认证 Claude 辅助的黎曼猜想证明；Together AI 因编码 Agent 误提交凭据泄露提示词，OpenRouter 下架三家供应商；谷歌工程师称在 T3 Code 用 Antigravity 不会封号。
 
-🆕 今日新品：灵光、LookAtMyQuant、Mingle +2
+🆕 今日新品：AWS Quick、灵光、LookAtMyQuant +6
 
-AI Hot 8 · Tech 11 · ⭐ 7 条高分
+AI Hot 17 · Tech 23 · ⭐ 12 条高分
 
 [→ 查看当天详情](2026/11/2026-11-22.md)
 
