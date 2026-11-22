@@ -1,0 +1,17 @@
+{
+  "id": "lookatmyquant",
+  "name": "LookAtMyQuant",
+  "aliases": [],
+  "url": "https://lookatmyquant.pages.dev",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "一个量化编译器，先测量模型每一块参数被压缩后对输出的伤害，再为每块挑选编码，在给定体积内把损失降到最低（MIT 许可）。",
+  "oneLinerEn": "a quantization compiler that measures how much compressing each stored piece of a model hu",
+  "score": 4,
+  "firstSeen": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Open Source"
+  ],
+  "rankings": []
+}

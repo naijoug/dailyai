@@ -1,0 +1,24 @@
+{
+  "id": "lingguang",
+  "name": "灵光",
+  "aliases": [
+    "蚂蚁灵光",
+    "灵光AI",
+    "LingGuang"
+  ],
+  "url": "https://www.lingguang.com/",
+  "category": "对话助手",
+  "region": "cn",
+  "maker": "蚂蚁集团",
+  "oneLiner": "蚂蚁集团的全模态 AI 助手，提供快速研究、闪应用和多模态「开眼」，2.0 版本转向 Personal Agent，帮用户管事情、盯事情",
+  "oneLinerEn": "Ant Group's omni-modal AI assistant with fast research, instant mini-apps and multimodal vision; version 2.0 pivots to a personal agent that manages and keeps track of things for you.",
+  "score": 4,
+  "firstSeen": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Agents",
+    "Products",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

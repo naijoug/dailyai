@@ -1,0 +1,19 @@
+{
+  "id": "opensre",
+  "name": "OpenSRE",
+  "aliases": [],
+  "url": "https://opensre.com",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "开源的 CI/CD 可靠性 Agent（公开 Alpha），读取失败的流水线、追查原因并把修复推到 PR 分支等人审，可自托管、用自己的模型。",
+  "oneLinerEn": "an open-source CI/CD reliability agent (public alpha) that reads a failed run, traces the ",
+  "score": 3,
+  "firstSeen": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Models",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

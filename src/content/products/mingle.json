@@ -1,0 +1,20 @@
+{
+  "id": "mingle",
+  "name": "Mingle",
+  "aliases": [],
+  "url": "https://mingle.build/zh/",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "开源纯本地桌面工具，把 Claude Code、Codex、OpenCode、Kimi Code 等 AI Agent「请进」微信、企业微信、飞书、钉钉、QQ、Slack、Disc",
+  "oneLinerEn": "an open-source, fully local desktop tool that brings AI agents such as Claude Code, Codex,",
+  "score": 4,
+  "firstSeen": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

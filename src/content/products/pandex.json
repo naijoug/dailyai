@@ -1,0 +1,17 @@
+{
+  "id": "pandex",
+  "name": "Pandex",
+  "aliases": [],
+  "url": "https://www.pandex.io",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "「一个 API 覆盖欧洲法律」——直接从发布机构抓取欧盟及七个欧洲国家的立法和最高法院判决，共 280 万份官方文件、3700 万条引用关联到原文。",
+  "oneLinerEn": "“Europe’s law, in one API”—legislation and highest-court decisions of the EU and seven Eur",
+  "score": 3,
+  "firstSeen": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

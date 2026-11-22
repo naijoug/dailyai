@@ -1,0 +1,194 @@
+{
+ "source": "producthunt",
+ "sourceName": "Product Hunt",
+ "kind": "feed",
+ "badge": "Product Hunt",
+ "list": "Artificial Intelligence 分类 RSS",
+ "metric": "Feed 顺序（不是排名）",
+ "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
+ "period": "2026-11-22",
+ "fetched": "2026-11-22T03:24:15.342Z",
+ "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
+ "rows": [
+  {
+   "name": "Shipyard",
+   "url": "https://www.producthunt.com/products/shipyard",
+   "value": "MCP for Claude, Cursor and Codex to Automate Integrations Discussion | Link",
+   "date": "2026-11-16"
+  },
+  {
+   "name": "Glassmail",
+   "url": "https://www.producthunt.com/products/glassmail",
+   "value": "A fast Mac email app with AI that never leaves your Mac Discussion | Link",
+   "date": "2026-11-14"
+  },
+  {
+   "name": "AI Context Flow MCP",
+   "url": "https://www.producthunt.com/products/ai-context-flow",
+   "value": "Memory you control, synced to every agent, tool and team Discussion | Link",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "AlterContacts",
+   "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+   "value": "AI client relationship assistant that thinks and does ahead Discussion | Link",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "Prompt Puncher",
+   "url": "https://www.producthunt.com/products/prompt-puncher",
+   "value": "The AI CEO Fighting Game Discussion | Link",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "Stitch Loop",
+   "url": "https://www.producthunt.com/products/stitch-loop",
+   "value": "Google’s AI agent that ships fixes and watches the metric Discussion | Link",
+   "date": "2026-11-20"
+  },
+  {
+   "name": "LoudFlow",
+   "url": "https://www.producthunt.com/products/loudflow",
+   "value": "We taught text to speech to think Discussion | Link",
+   "date": "2026-11-06"
+  },
+  {
+   "name": "OpenVorld",
+   "url": "https://www.producthunt.com/products/openvorld",
+   "value": "Give your AI agents a home and a Vorld. Discussion | Link",
+   "date": "2026-11-16"
+  },
+  {
+   "name": "SuperMailbox",
+   "url": "https://www.producthunt.com/products/supermailbox",
+   "value": "Your email in one inbox, ready for AI Discussion | Link",
+   "date": "2026-11-14"
+  },
+  {
+   "name": "Exa Websets V2",
+   "url": "https://www.producthunt.com/products/exa-ai",
+   "value": "Build custom datasets from the live web, 4x faster Discussion | Link",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "CROON",
+   "url": "https://www.producthunt.com/products/croon",
+   "value": "Live dubbing for whatever's playing on your iPhone Discussion | Link",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "Baby's Day In",
+   "url": "https://www.producthunt.com/products/baby-s-day-in",
+   "value": "Turn two phones into a baby monitor Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "Tamekoshi",
+   "url": "https://www.producthunt.com/products/tamekoshi",
+   "value": "A Tamagotchi-style AI companion that does real work Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "Nova by Vybe",
+   "url": "https://www.producthunt.com/products/vybe-4",
+   "value": "Nova audits your website free, then fixes what it finds Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "Mailpipe",
+   "url": "https://www.producthunt.com/products/mailpipe-2",
+   "value": "Draft Apple Mail replies with your local AI agent CLI Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "tensorViz",
+   "url": "https://www.producthunt.com/products/tensorviz",
+   "value": "Let your coding agent see inside your PyTorch model Discussion | Link",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "Compass OS",
+   "url": "https://www.producthunt.com/products/compassos-dev",
+   "value": "Your career, ready before you need it Discussion | Link",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "UndoGuard",
+   "url": "https://www.producthunt.com/products/undoguard",
+   "value": "The Ctrl+Z button for autonomous AI agents Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "Volcano",
+   "url": "https://www.producthunt.com/products/volcano-3",
+   "value": "The self-healing agent cloud by Kong Discussion | Link",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "Fack’d",
+   "url": "https://www.producthunt.com/products/fack-d",
+   "value": "Fact checks right on YouTube as it plays, with sources Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "Zethos",
+   "url": "https://www.producthunt.com/products/zethos",
+   "value": "The ledger you and your AI work from Discussion | Link",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "Groundwork",
+   "url": "https://www.producthunt.com/products/groundwork-6",
+   "value": "Claude Code plans that re-runs never overwrite Discussion | Link",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "Storiara",
+   "url": "https://www.producthunt.com/products/storiara",
+   "value": "AI producers that find real savings in your film budget Discussion | Link",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "Badya",
+   "url": "https://www.producthunt.com/products/badya-ai-language-immersion",
+   "value": "Learn languages from real content with an agentic AI tutor Discussion | Link",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "ThreadLore",
+   "url": "https://www.producthunt.com/products/threadlore",
+   "value": "Turn fabric photos into editable loom drafts Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "tinytldr",
+   "url": "https://www.producthunt.com/products/tinytldr",
+   "value": "Templates for your agents Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Kuc-kuc",
+   "url": "https://www.producthunt.com/products/kuc-kuc",
+   "value": "A knock on the door when dangerous weather comes Discussion | Link",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "Stormi",
+   "url": "https://www.producthunt.com/products/stormi",
+   "value": "An AI team on your iPhone that does real work Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "Interview Coach",
+   "url": "https://www.producthunt.com/products/interview-coach-3",
+   "value": "Practice job interviews out loud Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "pickfit",
+   "url": "https://www.producthunt.com/products/pickfit",
+   "value": "Every tool tested in a sandbox before it's recommended Discussion | Link",
+   "date": "2026-11-17"
+  }
+ ]
+}
