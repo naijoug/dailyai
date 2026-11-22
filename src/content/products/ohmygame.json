@@ -1,0 +1,19 @@
+{
+  "id": "ohmygame",
+  "name": "OhMyGame",
+  "aliases": [],
+  "url": "https://www.ohmygame.ai/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "开源（Apache-2.0）的桌面游戏工作室，目前为 Beta，支持 Apple Silicon Mac 和 Windows：Agent 写设计文档，在同一块画布上生成美术、视频、",
+  "oneLinerEn": "an open-source (Apache-2.0) desktop studio, now in beta for Apple-silicon Macs and Windows",
+  "score": 3,
+  "firstSeen": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

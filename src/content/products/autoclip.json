@@ -1,0 +1,18 @@
+{
+  "id": "autoclip",
+  "name": "AutoClip",
+  "aliases": [],
+  "url": "https://zhouxiaoka.github.io/autoclip_intro/",
+  "category": "视频",
+  "region": "cn",
+  "oneLiner": "开源 AI 视频剪辑桌面工具，主打「一个链接，一键出片」：贴入播客、访谈、课程等长视频链接，选好平台，按各平台画幅和时长要求自动挑出至多 10 条合格片段，每条附封面、标题、简介、",
+  "oneLinerEn": "an open-source AI video-clipping desktop app built around “one link, one click”: paste a l",
+  "score": 3,
+  "firstSeen": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

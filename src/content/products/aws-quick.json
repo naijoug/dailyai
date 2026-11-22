@@ -1,0 +1,18 @@
+{
+  "id": "aws-quick",
+  "name": "AWS Quick",
+  "aliases": [],
+  "url": "https://aws.amazon.com/quick/",
+  "category": "办公",
+  "region": "global",
+  "oneLiner": "AWS 的 Agent 式 AI 工作台（11 月 9 日由 Amazon Quick 更名）本周末在中文 X 刷屏，因为有 0 元免费版——用邮箱、Google、Apple、Am",
+  "oneLinerEn": "AWS’s agentic AI workspace (renamed from Amazon Quick on November 9) went viral on Chinese",
+  "score": 4,
+  "firstSeen": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}

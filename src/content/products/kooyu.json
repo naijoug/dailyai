@@ -1,0 +1,20 @@
+{
+  "id": "kooyu",
+  "name": "Kooyu",
+  "aliases": [],
+  "url": "https://kooyu.app",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "作者在 V2EX 发布的本地优先个人 AI 助手 1.0，把 Claude Code、Codex、DeepSeek、Gemini CLI、OpenCode、Cursor、ZCode",
+  "oneLinerEn": "a local-first personal AI assistant whose author launched 1.0 on V2EX.",
+  "score": 3,
+  "firstSeen": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Models",
+    "Dev Tools",
+    "Open Source",
+    "Chinese Community"
+  ],
+  "rankings": []
+}
