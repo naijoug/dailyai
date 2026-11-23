@@ -1,0 +1,18 @@
+{
+  "id": "trix",
+  "name": "Trix",
+  "aliases": [],
+  "url": "https://trixapp.ai/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "围绕编程 Agent 设计的终端工作区（Show HN）。",
+  "oneLinerEn": "a terminal workspace built around coding agents (Show HN).",
+  "score": 3,
+  "firstSeen": "2026-11-23",
+  "updated": "2026-11-23",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

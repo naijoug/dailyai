@@ -1,0 +1,17 @@
+{
+  "id": "pequalnp",
+  "name": "pequalnp.com",
+  "aliases": [],
+  "url": "https://pequalnp.com/",
+  "category": "研究",
+  "region": "global",
+  "oneLiner": "一个协同的智能体集群公开攻关这道难题，每条引理都要过 Lean 检查器；",
+  "oneLinerEn": "a coordinated fleet works on the problem in public, with every lemma going through a Lean ",
+  "score": 3,
+  "firstSeen": "2026-11-23",
+  "updated": "2026-11-23",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

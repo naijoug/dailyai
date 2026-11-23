@@ -1,0 +1,17 @@
+{
+  "id": "taskless",
+  "name": "Taskless",
+  "aliases": [],
+  "url": "https://www.taskless.io/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "「给 Agent 的规则」（Show HN）——你说一条约定，比如 PR 评论里的「导出类型不许用 any」，它就编译成一条带通过/失败用例的确定性检查，在每次提交、PR 和 ID",
+  "oneLinerEn": "“Rules for Agents” (Show HN)—you tell it a convention, for example from a PR comment like ",
+  "score": 3,
+  "firstSeen": "2026-11-23",
+  "updated": "2026-11-23",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

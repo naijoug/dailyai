@@ -1,0 +1,18 @@
+{
+  "id": "worker-755",
+  "name": "Worker 755",
+  "aliases": [],
+  "url": "https://worker755.com/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "一款浏览器游戏（Show HN，280 多分），你的经理是真正的 LLM 编排者——Claude、GPT、Gemini、DeepSeek、GLM 或 Kimi——它有任务队列、对机",
+  "oneLinerEn": "a browser game (Show HN, 280+ points) where your manager is a real LLM orchestrator—Claude",
+  "score": 3,
+  "firstSeen": "2026-11-23",
+  "updated": "2026-11-23",
+  "tags": [
+    "Models",
+    "Agents"
+  ],
+  "rankings": []
+}

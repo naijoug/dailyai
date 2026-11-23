@@ -1,0 +1,223 @@
+{
+ "source": "hf",
+ "sourceName": "Hugging Face",
+ "kind": "feed",
+ "badge": "HF Spaces",
+ "list": "Trending Spaces",
+ "metric": "trendingScore 排序（API 顺序）",
+ "url": "https://huggingface.co/spaces?sort=trending",
+ "period": "2026-11-23",
+ "fetched": "2026-11-23T03:33:36.702Z",
+ "rows": [
+  {
+   "rank": 1,
+   "name": "huggingface/moe-blogpost",
+   "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
+   "value": "♥ 826",
+   "extra": "docker"
+  },
+  {
+   "rank": 2,
+   "name": "JCisHERE/wan2-2-i2v-v3",
+   "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
+   "value": "♥ 616",
+   "extra": "gradio"
+  },
+  {
+   "rank": 3,
+   "name": "MiniMaxAI/minimax-h3-image",
+   "url": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image",
+   "value": "♥ 282",
+   "extra": "gradio"
+  },
+  {
+   "rank": 4,
+   "name": "joelniklaus/harness-leaderboard",
+   "url": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
+   "value": "♥ 524",
+   "extra": "docker"
+  },
+  {
+   "rank": 5,
+   "name": "Lakonik/pi-H3",
+   "url": "https://huggingface.co/spaces/Lakonik/pi-H3",
+   "value": "♥ 120",
+   "extra": "gradio"
+  },
+  {
+   "rank": 6,
+   "name": "waitinghere/Krea2T-Revamped",
+   "url": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped",
+   "value": "♥ 135",
+   "extra": "gradio"
+  },
+  {
+   "rank": 7,
+   "name": "cfahlgren1/slack-moji",
+   "url": "https://huggingface.co/spaces/cfahlgren1/slack-moji",
+   "value": "♥ 93",
+   "extra": "static"
+  },
+  {
+   "rank": 8,
+   "name": "hugging-apps/bfs-best-face-swap",
+   "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
+   "value": "♥ 1042",
+   "extra": "gradio"
+  },
+  {
+   "rank": 9,
+   "name": "amisima/Qwen-2.1-Turbo-Qwen-Face-Swap-MOSS-Image-Edit-Outpaint-Qwen-Detail-Enhancer",
+   "url": "https://huggingface.co/spaces/amisima/Qwen-2.1-Turbo-Qwen-Face-Swap-MOSS-Image-Edit-Outpaint-Qwen-Detail-Enhancer",
+   "value": "♥ 124",
+   "extra": "gradio"
+  },
+  {
+   "rank": 10,
+   "name": "thejagstudio/tessera-pixel-studio",
+   "url": "https://huggingface.co/spaces/thejagstudio/tessera-pixel-studio",
+   "value": "♥ 78",
+   "extra": "gradio"
+  },
+  {
+   "rank": 11,
+   "name": "AST-1320/Qwen-2511-Plus-Flux.2-klein",
+   "url": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein",
+   "value": "♥ 490",
+   "extra": "gradio"
+  },
+  {
+   "rank": 12,
+   "name": "agent-memory-leaderboard/leaderboard",
+   "url": "https://huggingface.co/spaces/agent-memory-leaderboard/leaderboard",
+   "value": "♥ 943",
+   "extra": "static"
+  },
+  {
+   "rank": 13,
+   "name": "rdata92/LTX-2.3-10Eros",
+   "url": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros",
+   "value": "♥ 238",
+   "extra": "gradio"
+  },
+  {
+   "rank": 14,
+   "name": "hugging-apps/clairic",
+   "url": "https://huggingface.co/spaces/hugging-apps/clairic",
+   "value": "♥ 54",
+   "extra": "gradio"
+  },
+  {
+   "rank": 15,
+   "name": "xyzanonimous5/Qwen-Image-2.1-Studio",
+   "url": "https://huggingface.co/spaces/xyzanonimous5/Qwen-Image-2.1-Studio",
+   "value": "♥ 57",
+   "extra": "gradio"
+  },
+  {
+   "rank": 16,
+   "name": "HuggingFaceSwarms/PyBot",
+   "url": "https://huggingface.co/spaces/HuggingFaceSwarms/PyBot",
+   "value": "♥ 55",
+   "extra": "docker"
+  },
+  {
+   "rank": 17,
+   "name": "Guaryn/qwen-image-2.1-uncensored-aio-loras",
+   "url": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras",
+   "value": "♥ 244",
+   "extra": "gradio"
+  },
+  {
+   "rank": 18,
+   "name": "microsoft/TRELLIS.2",
+   "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
+   "value": "♥ 2449",
+   "extra": "gradio"
+  },
+  {
+   "rank": 19,
+   "name": "aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
+   "url": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
+   "value": "♥ 619",
+   "extra": "gradio"
+  },
+  {
+   "rank": 20,
+   "name": "selfit-camera/Omni-Image-Editor",
+   "url": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor",
+   "value": "♥ 2987",
+   "extra": "gradio"
+  },
+  {
+   "rank": 21,
+   "name": "Zyphra/ZONOS3-Mini",
+   "url": "https://huggingface.co/spaces/Zyphra/ZONOS3-Mini",
+   "value": "♥ 54",
+   "extra": "gradio"
+  },
+  {
+   "rank": 22,
+   "name": "multimodalart/jev-decision-index",
+   "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
+   "value": "♥ 967",
+   "extra": "static"
+  },
+  {
+   "rank": 23,
+   "name": "nvidia/PhysicalAI-Human-1M-Explorer",
+   "url": "https://huggingface.co/spaces/nvidia/PhysicalAI-Human-1M-Explorer",
+   "value": "♥ 65",
+   "extra": "static"
+  },
+  {
+   "rank": 24,
+   "name": "kazufusa/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+   "url": "https://huggingface.co/spaces/kazufusa/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+   "value": "♥ 71",
+   "extra": "gradio"
+  },
+  {
+   "rank": 25,
+   "name": "PrunaAI/P-Image-OSS",
+   "url": "https://huggingface.co/spaces/PrunaAI/P-Image-OSS",
+   "value": "♥ 206",
+   "extra": "gradio"
+  },
+  {
+   "rank": 26,
+   "name": "johnnysnowblind/wan2-2-fp8da-aoti-preview-2c-finishing",
+   "url": "https://huggingface.co/spaces/johnnysnowblind/wan2-2-fp8da-aoti-preview-2c-finishing",
+   "value": "♥ 34",
+   "extra": "gradio"
+  },
+  {
+   "rank": 27,
+   "name": "software-mansion/Reverb-TTS-runntime",
+   "url": "https://huggingface.co/spaces/software-mansion/Reverb-TTS-runntime",
+   "value": "♥ 24",
+   "extra": "static"
+  },
+  {
+   "rank": 28,
+   "name": "observantdistressed/minimax-h3-turbo",
+   "url": "https://huggingface.co/spaces/observantdistressed/minimax-h3-turbo",
+   "value": "♥ 111",
+   "extra": "gradio"
+  },
+  {
+   "rank": 29,
+   "name": "ServiceNow-AI/enterpriseops-gym-v1.1",
+   "url": "https://huggingface.co/spaces/ServiceNow-AI/enterpriseops-gym-v1.1",
+   "value": "♥ 22",
+   "extra": "static"
+  },
+  {
+   "rank": 30,
+   "name": "hf-audio/open_tts_leaderboard",
+   "url": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard",
+   "value": "♥ 112",
+   "extra": "gradio"
+  }
+ ]
+}

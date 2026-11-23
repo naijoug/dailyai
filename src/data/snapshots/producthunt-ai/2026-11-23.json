@@ -1,0 +1,194 @@
+{
+ "source": "producthunt",
+ "sourceName": "Product Hunt",
+ "kind": "feed",
+ "badge": "Product Hunt",
+ "list": "Artificial Intelligence 分类 RSS",
+ "metric": "Feed 顺序（不是排名）",
+ "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
+ "period": "2026-11-23",
+ "fetched": "2026-11-23T03:33:36.702Z",
+ "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
+ "rows": [
+  {
+   "name": "Yoroll",
+   "url": "https://www.producthunt.com/products/yoroll",
+   "value": "Build playable stories without a game engine Discussion | Link",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "TeaserKit",
+   "url": "https://www.producthunt.com/products/teaserkit",
+   "value": "your coding agent directs your launch video Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "Ulika",
+   "url": "https://www.producthunt.com/products/ulika",
+   "value": "Visual editor for sites built with Claude, Cursor, or Codex Discussion | Link",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "Omi CLI",
+   "url": "https://www.producthunt.com/products/omi-cli",
+   "value": "AI coding agents that work while you're away. Discussion | Link",
+   "date": "2026-11-21"
+  },
+  {
+   "name": "Webless Agents",
+   "url": "https://www.producthunt.com/products/webless",
+   "value": "Agents you want to put in front of customers Discussion | Link",
+   "date": "2026-11-06"
+  },
+  {
+   "name": "Resurf",
+   "url": "https://www.producthunt.com/products/resurf-2",
+   "value": "Personal Knowledge Base & Bookmark Manager for Mac Discussion | Link",
+   "date": "2026-11-21"
+  },
+  {
+   "name": "oovi",
+   "url": "https://www.producthunt.com/products/oovi",
+   "value": "Your own team of AI on your desktop Discussion | Link",
+   "date": "2026-11-21"
+  },
+  {
+   "name": "Squint",
+   "url": "https://www.producthunt.com/products/squint",
+   "value": "Explains whatever you're looking at, now on Mac Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Zapyso",
+   "url": "https://www.producthunt.com/products/zapyso",
+   "value": "Free meeting notes and dictation that stay on your Mac Discussion | Link",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "Rankhog",
+   "url": "https://www.producthunt.com/products/rankhog",
+   "value": "Get customers from Reddit on autopilot Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "AlterContacts",
+   "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+   "value": "AI client relationship assistant that thinks and does ahead Discussion | Link",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "Prompt Puncher",
+   "url": "https://www.producthunt.com/products/prompt-puncher",
+   "value": "The AI CEO Fighting Game Discussion | Link",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "Exa Websets V2",
+   "url": "https://www.producthunt.com/products/exa-ai",
+   "value": "Build custom datasets from the live web, 4x faster Discussion | Link",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "Stitch Loop",
+   "url": "https://www.producthunt.com/products/stitch-loop",
+   "value": "Google’s AI agent that ships fixes and watches the metric Discussion | Link",
+   "date": "2026-11-20"
+  },
+  {
+   "name": "OpenVorld",
+   "url": "https://www.producthunt.com/products/openvorld",
+   "value": "Give your AI agents a home and a Vorld. Discussion | Link",
+   "date": "2026-11-16"
+  },
+  {
+   "name": "Shipyard",
+   "url": "https://www.producthunt.com/products/shipyard",
+   "value": "MCP for Claude, Cursor and Codex to Automate Integrations Discussion | Link",
+   "date": "2026-11-16"
+  },
+  {
+   "name": "Glassmail",
+   "url": "https://www.producthunt.com/products/glassmail",
+   "value": "A fast Mac email app with AI that never leaves your Mac Discussion | Link",
+   "date": "2026-11-14"
+  },
+  {
+   "name": "AI Context Flow MCP",
+   "url": "https://www.producthunt.com/products/ai-context-flow",
+   "value": "Memory you control, synced to every agent, tool and team Discussion | Link",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "LoudFlow",
+   "url": "https://www.producthunt.com/products/loudflow",
+   "value": "We taught text to speech to think Discussion | Link",
+   "date": "2026-11-06"
+  },
+  {
+   "name": "SuperMailbox",
+   "url": "https://www.producthunt.com/products/supermailbox",
+   "value": "Your email in one inbox, ready for AI Discussion | Link",
+   "date": "2026-11-14"
+  },
+  {
+   "name": "CROON",
+   "url": "https://www.producthunt.com/products/croon",
+   "value": "Live dubbing for whatever's playing on your iPhone Discussion | Link",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "Volcano",
+   "url": "https://www.producthunt.com/products/volcano-3",
+   "value": "The self-healing agent cloud by Kong Discussion | Link",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "Tamekoshi",
+   "url": "https://www.producthunt.com/products/tamekoshi",
+   "value": "A Tamagotchi-style AI companion that does real work Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "tensorViz",
+   "url": "https://www.producthunt.com/products/tensorviz",
+   "value": "Let your coding agent see inside your PyTorch model Discussion | Link",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "Memanto Cloud",
+   "url": "https://www.producthunt.com/products/memanto-by-moorcheh",
+   "value": "A companion memory for agents to improve as you work Discussion | Link",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "Storiara",
+   "url": "https://www.producthunt.com/products/storiara",
+   "value": "AI producers that find real savings in your film budget Discussion | Link",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "Interview Coach",
+   "url": "https://www.producthunt.com/products/interview-coach-3",
+   "value": "Practice job interviews out loud Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "Baby's Day In",
+   "url": "https://www.producthunt.com/products/baby-s-day-in",
+   "value": "Turn two phones into a baby monitor Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "greatai Review",
+   "url": "https://www.producthunt.com/products/greatai-review",
+   "value": "Free AI + human code review for open source & nonprofits Discussion | Link",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "Nova by Vybe",
+   "url": "https://www.producthunt.com/products/vybe-4",
+   "value": "Nova audits your website free, then fixes what it finds Discussion | Link",
+   "date": "2026-11-19"
+  }
+ ]
+}
