@@ -1,0 +1,18 @@
+{
+  "id": "marlowe",
+  "name": "Marlowe",
+  "aliases": [],
+  "url": "https://www.marlowe.ai/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "围绕非英伟达芯片设计、建造和运营推理基础设施的「多芯片 AI 工厂」。",
+  "oneLinerEn": "A multi-silicon AI factory that designs, builds and operates inference infrastructure around non-Nvidia chips.",
+  "score": 3,
+  "firstSeen": "2026-11-23",
+  "updated": "2026-11-23",
+  "tags": [
+    "Industry"
+  ],
+  "rankings": [],
+  "maker": "Marlowe"
+}

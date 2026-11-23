@@ -1,0 +1,28 @@
+{
+  "id": "glm-5-4",
+  "name": "GLM-5.4",
+  "aliases": [
+    "GLM 5.4",
+    "智谱 GLM-5.4",
+    "Z.ai GLM-5.4"
+  ],
+  "url": "https://z.ai/",
+  "category": "对话助手",
+  "region": "cn",
+  "oneLiner": "智谱 / Z.ai 的首个 Loop Transformer 旗舰模型（7500 亿参数），定位泛 Coding，可用于对话和编程 Agent。",
+  "oneLinerEn": "Z.ai's first Loop Transformer flagship (750B parameters) for generalized coding, chat and coding agents.",
+  "score": 5,
+  "firstSeen": "2026-11-23",
+  "updated": "2026-11-23",
+  "tags": [
+    "Models",
+    "Agents"
+  ],
+  "rankings": [],
+  "maker": "智谱 AI / Z.ai",
+  "domains": [
+    "z.ai",
+    "chat.z.ai",
+    "zcode.z.ai"
+  ]
+}

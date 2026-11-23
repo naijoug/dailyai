@@ -415,5 +415,23 @@
     "蚂蚁灵光",
     "灵光AI",
     "LingGuang"
+  ],
+  "glm-5-4": [
+    "GLM-5.4",
+    "GLM 5.4",
+    "智谱 GLM-5.4",
+    "Z.ai GLM-5.4"
+  ],
+  "sierra": [
+    "Sierra",
+    "Sierra AI"
+  ],
+  "cli-anything": [
+    "CLI-Anything",
+    "CLI-Hub",
+    "CLI Anything"
+  ],
+  "marlowe": [
+    "Marlowe"
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "id": "cli-anything",
+  "name": "CLI-Anything",
+  "aliases": [
+    "CLI-Hub",
+    "CLI Anything"
+  ],
+  "url": "https://clianything.cc",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "面向 Agent 的命令行中枢：把桌面软件、开发工具和 SaaS API 变成带 JSON 输出的命令行外壳，并用注册表检索安装。",
+  "oneLinerEn": "An agent-native CLI hub that turns desktop apps, dev tools and SaaS APIs into JSON-friendly command-line harnesses, with a registry to search and install them.",
+  "score": 3,
+  "firstSeen": "2026-11-23",
+  "updated": "2026-11-23",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": [],
+  "maker": "HKUDS",
+  "domains": [
+    "clianything.cc",
+    "github.com/HKUDS/CLI-Anything"
+  ]
+}
