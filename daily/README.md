@@ -7,13 +7,13 @@
 
 ### 2026-11-23 · 星期一
 
-OpenAI 首席科学家公开内部困惑度曲线，提议以此设定行业共同上限；宝玉、卡兹克分享 Agent 验收与多模型分工；黎曼手稿的 Lean 形式化与攻 P vs NP 的智能体集群公开推进。
+智谱发布旗舰 GLM-5.4；Astra 独立完成一项 Lean 证明；Sierra 以 300 亿美元估值再融资。早间 OpenAI 公开困惑度曲线并提议行业上限。
 
-🆕 今日新品：pequalnp.com（P vs NP 智能体集群）、Taskless、Trix +1
+🆕 今日新品：GLM-5.4、Sierra、CLI-Anything +5
 
-🎙 访谈与播客：晚点聊 LateTalk
+🎙 访谈与播客：How I AI、晚点聊 LateTalk
 
-AI Hot 9 · Tech 13 · 访谈/播客 1 · ⭐ 7 条高分
+AI Hot 15 · Tech 22 · 访谈/播客 2 · ⭐ 13 条高分
 
 [→ 查看当天详情](2026/11/2026-11-23.md)
 
@@ -557,6 +557,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [How I AI：给管理者的 OpenClaw：把每一个 1% 的烦心事都自动化](2026/11/2026-11-23.md#interviews) — 播客 · 2026-11-23 · [原文](https://podcasts.apple.com/us/podcast/openclaw-for-executives-automate-every-1-annoyance/id1809663079?i=1000803587278)
 - [晚点聊 LateTalk：190: 对话蚂蚁灵光蔡伟：大厂首个「个人 Agent」，验证了什么](2026/11/2026-11-23.md#interviews) — 播客 · 2026-11-23 · [原文](https://podcast.latepost.com/190)
 - [The a16z Show：为什么 Agent 时代需要一个新操作系统｜DHH](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://podcasts.apple.com/us/podcast/why-the-agent-era-needs-a-new-operating-system-dhh/id842818711?i=1000803152201)
 - [AI炼金术：AI来了，这些公司快死了……吗？](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://www.ximalaya.com/sound/1034331062)
