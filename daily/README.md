@@ -9,9 +9,11 @@
 
 OpenAI 首席科学家公开内部困惑度曲线，提议以此设定行业共同上限；宝玉、卡兹克分享 Agent 验收与多模型分工；黎曼手稿的 Lean 形式化与攻 P vs NP 的智能体集群公开推进。
 
-🆕 今日新品：pequalnp.com、Taskless、Trix +1
+🆕 今日新品：pequalnp.com（P vs NP 智能体集群）、Taskless、Trix +1
 
-AI Hot 9 · Tech 13 · ⭐ 7 条高分
+🎙 访谈与播客：晚点聊 LateTalk
+
+AI Hot 9 · Tech 13 · 访谈/播客 1 · ⭐ 7 条高分
 
 [→ 查看当天详情](2026/11/2026-11-23.md)
 
@@ -555,6 +557,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [晚点聊 LateTalk：190: 对话蚂蚁灵光蔡伟：大厂首个「个人 Agent」，验证了什么](2026/11/2026-11-23.md#interviews) — 播客 · 2026-11-23 · [原文](https://podcast.latepost.com/190)
 - [The a16z Show：为什么 Agent 时代需要一个新操作系统｜DHH](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://podcasts.apple.com/us/podcast/why-the-agent-era-needs-a-new-operating-system-dhh/id842818711?i=1000803152201)
 - [AI炼金术：AI来了，这些公司快死了……吗？](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://www.ximalaya.com/sound/1034331062)
 - [Founder Park：Tabbit 万字复盘：做了一年半 Browser Use，我们学到的苦涩教训](2026/11/2026-11-20.md#interviews) — 访谈 · 2026-11-20 · [原文](https://www.163.com/dy/article/LC6KC2LB05566TJ2.html)
