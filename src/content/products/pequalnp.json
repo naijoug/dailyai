@@ -1,17 +1,20 @@
 {
   "id": "pequalnp",
-  "name": "pequalnp.com",
-  "aliases": [],
+  "name": "pequalnp.com（P vs NP 智能体集群）",
+  "aliases": [
+    "P vs NP agent fleet"
+  ],
   "url": "https://pequalnp.com/",
   "category": "研究",
   "region": "global",
-  "oneLiner": "一个协同的智能体集群公开攻关这道难题，每条引理都要过 Lean 检查器；",
-  "oneLinerEn": "a coordinated fleet works on the problem in public, with every lemma going through a Lean ",
+  "oneLiner": "公开直播的 AI 智能体集群攻关 P vs NP，每条引理都经 Lean 检查器验证",
+  "oneLinerEn": "A live, public AI agent fleet attacking P vs NP, with every lemma checked in Lean",
   "score": 3,
   "firstSeen": "2026-11-23",
   "updated": "2026-11-23",
   "tags": [
-    "Dev Tools"
+    "Agents",
+    "Research"
   ],
   "rankings": []
 }
