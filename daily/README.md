@@ -9,7 +9,9 @@
 
 英伟达董事会恢复黄仁勋 CEO 职务；Anthropic 推出 Claude Ship，并公开 Claude 写出的 VP≠VNP 证明；ChatGPT 换上 GPT-6.2 Sol 聊天版；豆包「小豆」公测。
 
-AI Hot 9 · ⭐ 4 条高分
+🆕 今日新品：Claude Ship、Shirudo、Kagi Mail +2
+
+AI Hot 9 · Tech 12 · ⭐ 10 条高分
 
 [→ 查看当天详情](2026/11/2026-11-24.md)
 
