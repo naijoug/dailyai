@@ -1,0 +1,18 @@
+{
+  "id": "kagi-mail",
+  "name": "Kagi Mail",
+  "aliases": [],
+  "url": "https://blog.kagi.com/kagi-mail-public-beta",
+  "category": "办公",
+  "region": "global",
+  "maker": "Kagi",
+  "oneLiner": "Kagi 的隐私邮箱与日历，基于 Stalwart 与开放协议，可选 AI 分类、问答和 MCP 读取",
+  "oneLinerEn": "Kagi's private email and calendar on open standards, with optional AI rules, inbox Q&A and an MCP server.",
+  "score": 3,
+  "firstSeen": "2026-11-24",
+  "updated": "2026-11-24",
+  "tags": [
+    "Products"
+  ],
+  "rankings": []
+}

@@ -7,6 +7,7 @@
   "url": "https://sierra.ai/",
   "category": "办公",
   "region": "global",
+  "maker": "Sierra",
   "oneLiner": "面向企业客服的 AI Agent 平台：按办理结果收费，并提供 Ghostwriter 帮助团队构建、测试和改进 Agent。",
   "oneLinerEn": "An enterprise customer-service agent platform that charges for outcomes and uses Ghostwriter to help teams build, test and improve agents.",
   "score": 4,
@@ -16,6 +17,5 @@
     "Agents",
     "Industry"
   ],
-  "rankings": [],
-  "maker": "Sierra"
+  "rankings": []
 }

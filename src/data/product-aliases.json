@@ -433,5 +433,10 @@
   ],
   "marlowe": [
     "Marlowe"
+  ],
+  "microsoft-foundry": [
+    "Microsoft Foundry",
+    "Azure AI Foundry",
+    "ai.azure.com"
   ]
 }

@@ -1,7 +1,9 @@
 {
   "id": "strands-decider",
   "name": "Strands Decider",
-  "aliases": [],
+  "aliases": [
+    "Strands Decider v2"
+  ],
   "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
   "category": "开发者平台",
   "region": "global",
@@ -9,7 +11,7 @@
   "oneLinerEn": "a decision model takes a state plus a question with options and returns a probability per ",
   "score": 4,
   "firstSeen": "2026-11-10",
-  "updated": "2026-11-10",
+  "updated": "2026-11-24",
   "tags": [
     "Models",
     "Dev Tools"

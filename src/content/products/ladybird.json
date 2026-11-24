@@ -1,0 +1,19 @@
+{
+  "id": "ladybird",
+  "name": "Ladybird",
+  "aliases": [],
+  "url": "https://ladybird.org/",
+  "category": "其他",
+  "region": "global",
+  "maker": "Ladybird Browser Initiative",
+  "oneLiner": "从零自研引擎（非分支）的独立浏览器，2026-11 进入 alpha，提供 macOS 和 Linux 版",
+  "oneLinerEn": "An independent browser with its own from-scratch engine (not a fork); alpha for macOS and Linux.",
+  "score": 3,
+  "firstSeen": "2026-11-24",
+  "updated": "2026-11-24",
+  "tags": [
+    "Open Source",
+    "Products"
+  ],
+  "rankings": []
+}

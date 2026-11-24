@@ -1,0 +1,25 @@
+{
+  "id": "microsoft-foundry",
+  "name": "Microsoft Foundry",
+  "aliases": [
+    "Azure AI Foundry",
+    "Foundry"
+  ],
+  "url": "https://ai.azure.com/",
+  "domains": [
+    "https://azure.microsoft.com/en-us/products/ai-foundry"
+  ],
+  "category": "开发者平台",
+  "region": "global",
+  "maker": "Microsoft",
+  "oneLiner": "微软的 AI 应用与 Agent 开发平台，提供模型目录、Agent 构建、评测与监控",
+  "oneLinerEn": "Microsoft's platform for building AI apps and agents, with a model catalog, agent tooling, evaluations and monitoring.",
+  "score": 3,
+  "firstSeen": "2026-11-24",
+  "updated": "2026-11-24",
+  "tags": [
+    "Dev Tools",
+    "Agents"
+  ],
+  "rankings": []
+}

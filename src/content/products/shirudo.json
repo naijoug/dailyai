@@ -1,0 +1,20 @@
+{
+  "id": "shirudo",
+  "name": "Shirudo",
+  "aliases": [],
+  "url": "https://shirudo.dev/",
+  "category": "开发者平台",
+  "region": "global",
+  "maker": "OpenAI × Cisco",
+  "oneLiner": "OpenAI 与思科的开源 Linux 运行时，用签名的 eBPF 护盾在打补丁前不停机拦截漏洞利用",
+  "oneLinerEn": "Open-source Linux runtime from OpenAI and Cisco that blocks exploits with signed eBPF shields before patching.",
+  "score": 4,
+  "firstSeen": "2026-11-24",
+  "updated": "2026-11-24",
+  "tags": [
+    "Security",
+    "Open Source",
+    "Agents"
+  ],
+  "rankings": []
+}

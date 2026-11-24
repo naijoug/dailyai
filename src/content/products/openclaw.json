@@ -365,6 +365,17 @@
       "date": "2026-11-23",
       "url": "https://openrouter.ai/rankings#apps",
       "snap": "openrouter-apps-week/2026-11-23"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 13,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "1.77T tokens",
+      "date": "2026-11-24",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-11-24"
     }
   ],
   "growthDate": "2026-06"

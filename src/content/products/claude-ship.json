@@ -1,0 +1,20 @@
+{
+  "id": "claude-ship",
+  "name": "Claude Ship",
+  "aliases": [],
+  "url": "https://claude.com/resources/articles/introducing-claude-ship",
+  "category": "编程/Agent",
+  "region": "global",
+  "maker": "Anthropic",
+  "oneLiner": "Anthropic 的 PR 后流程 Agent：代码评审、PR Steward 自动修复、按团队策略自动审批",
+  "oneLinerEn": "Anthropic's post-PR system: Code Review, PR Steward fixes, and policy-based Claude Approvals.",
+  "score": 5,
+  "firstSeen": "2026-11-24",
+  "updated": "2026-11-24",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Products"
+  ],
+  "rankings": []
+}

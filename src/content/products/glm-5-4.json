@@ -7,8 +7,14 @@
     "Z.ai GLM-5.4"
   ],
   "url": "https://z.ai/",
+  "domains": [
+    "z.ai",
+    "chat.z.ai",
+    "zcode.z.ai"
+  ],
   "category": "对话助手",
   "region": "cn",
+  "maker": "智谱 AI / Z.ai",
   "oneLiner": "智谱 / Z.ai 的首个 Loop Transformer 旗舰模型（7500 亿参数），定位泛 Coding，可用于对话和编程 Agent。",
   "oneLinerEn": "Z.ai's first Loop Transformer flagship (750B parameters) for generalized coding, chat and coding agents.",
   "score": 5,
@@ -18,11 +24,83 @@
     "Models",
     "Agents"
   ],
-  "rankings": [],
-  "maker": "智谱 AI / Z.ai",
-  "domains": [
-    "z.ai",
-    "chat.z.ai",
-    "zcode.z.ai"
+  "rankings": [
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 20,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "582.5B tokens",
+      "date": "2026-10-22",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-22"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 20,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "614.0B tokens",
+      "date": "2026-10-23",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-23"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 20,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "607.7B tokens",
+      "date": "2026-10-24",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-24"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 20,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "613.3B tokens",
+      "date": "2026-10-25",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-25"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 20,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "622.3B tokens",
+      "date": "2026-10-26",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-26"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 20,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "636.9B tokens",
+      "date": "2026-10-27",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-27"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 22,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "503.7B tokens",
+      "date": "2026-10-28",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-10-28"
+    }
   ]
 }
