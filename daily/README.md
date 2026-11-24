@@ -7,13 +7,13 @@
 
 ### 2026-11-24 · 星期二
 
-英伟达董事会恢复黄仁勋 CEO 职务；Anthropic 推出 Claude Ship，并公开 Claude 写出的 VP≠VNP 证明；ChatGPT 换上 GPT-6.2 Sol 聊天版；豆包「小豆」公测。
+英伟达恢复黄仁勋 CEO 职务；Anthropic 推出 Claude Ship；OpenRouter 下架三家泄露提示词的供应商；文心 5.5 Flash、微信 WePM 开源。
 
 🆕 今日新品：Claude Ship、Shirudo、Kagi Mail +2
 
 🎙 访谈与播客：The Growth Podcast
 
-AI Hot 9 · Tech 12 · 访谈/播客 1 · ⭐ 10 条高分
+AI Hot 18 · Tech 12 · 访谈/播客 1 · ⭐ 14 条高分
 
 [→ 查看当天详情](2026/11/2026-11-24.md)
 
