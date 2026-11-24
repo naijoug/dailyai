@@ -11,9 +11,9 @@
 
 🆕 今日新品：Claude Ship、Shirudo、Event Horizon 浏览器 MCP +6
 
-🎙 访谈与播客：The Growth Podcast
+🎙 访谈与播客：Training Data (Sequoia)、The Growth Podcast
 
-AI Hot 18 · Tech 24 · 访谈/播客 1 · ⭐ 17 条高分
+AI Hot 18 · Tech 24 · 访谈/播客 2 · ⭐ 17 条高分
 
 [→ 查看当天详情](2026/11/2026-11-24.md)
 
@@ -569,6 +569,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Training Data (Sequoia)：OpenAI 的 Noam Brown：为什么博弈论没有通向通用智能（No Limit 决赛现场）](2026/11/2026-11-24.md#interviews) — 播客 · 2026-11-24 · [原文](https://podcasts.apple.com/us/podcast/openais-noam-brown-why-game-theory-didnt-lead-to-general/id1750736528?i=1000803758654)
 - [The Growth Podcast：前 FAANG 产品经理的 AI 评测实操指南](2026/11/2026-11-24.md#interviews) — 播客 · 2026-11-24 · [原文](https://www.news.aakashg.com/p/practical-ai-evals)
 - [How I AI：给管理者的 OpenClaw：把每一个 1% 的烦心事都自动化](2026/11/2026-11-23.md#interviews) — 播客 · 2026-11-23 · [原文](https://podcasts.apple.com/us/podcast/openclaw-for-executives-automate-every-1-annoyance/id1809663079?i=1000803587278)
 - [晚点聊 LateTalk：190: 对话蚂蚁灵光蔡伟：大厂首个「个人 Agent」，验证了什么](2026/11/2026-11-23.md#interviews) — 播客 · 2026-11-23 · [原文](https://podcast.latepost.com/190)
