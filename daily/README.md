@@ -11,7 +11,9 @@
 
 🆕 今日新品：Claude Ship、Shirudo、Kagi Mail +2
 
-AI Hot 9 · Tech 12 · ⭐ 10 条高分
+🎙 访谈与播客：The Growth Podcast
+
+AI Hot 9 · Tech 12 · 访谈/播客 1 · ⭐ 10 条高分
 
 [→ 查看当天详情](2026/11/2026-11-24.md)
 
@@ -567,6 +569,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [The Growth Podcast：前 FAANG 产品经理的 AI 评测实操指南](2026/11/2026-11-24.md#interviews) — 播客 · 2026-11-24 · [原文](https://www.news.aakashg.com/p/practical-ai-evals)
 - [How I AI：给管理者的 OpenClaw：把每一个 1% 的烦心事都自动化](2026/11/2026-11-23.md#interviews) — 播客 · 2026-11-23 · [原文](https://podcasts.apple.com/us/podcast/openclaw-for-executives-automate-every-1-annoyance/id1809663079?i=1000803587278)
 - [晚点聊 LateTalk：190: 对话蚂蚁灵光蔡伟：大厂首个「个人 Agent」，验证了什么](2026/11/2026-11-23.md#interviews) — 播客 · 2026-11-23 · [原文](https://podcast.latepost.com/190)
 - [The a16z Show：为什么 Agent 时代需要一个新操作系统｜DHH](2026/11/2026-11-20.md#interviews) — 播客 · 2026-11-20 · [原文](https://podcasts.apple.com/us/podcast/why-the-agent-era-needs-a-new-operating-system-dhh/id842818711?i=1000803152201)
