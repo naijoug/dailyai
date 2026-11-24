@@ -1,0 +1,19 @@
+{
+  "id": "event-horizon-mcp",
+  "name": "Event Horizon 浏览器 MCP",
+  "aliases": [],
+  "url": "https://ehbrowser.com/",
+  "category": "开发者平台",
+  "region": "cn",
+  "oneLiner": "V2EX 上的独立开发者作品，思路是不把裸 DOM 喂给 LLM，而是把整个可见页面「编译」成一套结构化契约再交给模型，作者实测比 Playwright MCP、browser-u",
+  "oneLinerEn": "an indie project on V2EX that, instead of feeding raw DOM to the LLM, “compiles” the whole",
+  "score": 3,
+  "firstSeen": "2026-11-24",
+  "updated": "2026-11-24",
+  "tags": [
+    "Dev Tools",
+    "Open Source",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

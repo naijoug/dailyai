@@ -1,0 +1,19 @@
+{
+  "id": "vetta",
+  "name": "Vetta",
+  "aliases": [],
+  "url": "https://www.openvetta.com",
+  "category": "编程/Agent",
+  "region": "cn",
+  "oneLiner": "一个开源、本地优先的桌面 AI Agent，面向编程和日常工作，支持自带模型密钥（BYOK）、MCP、技能、插件、工作流和私有知识库。",
+  "oneLinerEn": "an open-source, local-first desktop AI agent for coding and everyday work, with bring-your",
+  "score": 3,
+  "firstSeen": "2026-11-24",
+  "updated": "2026-11-24",
+  "tags": [
+    "Dev Tools",
+    "Open Source",
+    "Chinese Community"
+  ],
+  "rankings": []
+}

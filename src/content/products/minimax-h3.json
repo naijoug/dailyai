@@ -1,0 +1,18 @@
+{
+  "id": "minimax-h3",
+  "name": "MiniMax H3 全家桶",
+  "aliases": [],
+  "url": "https://www.minimax.cn/h3-family",
+  "category": "视频",
+  "region": "cn",
+  "oneLiner": "MiniMax 上线 H3 系列页面，把视频模型分成三档按秒计费：旗舰 H3 画质优先，2K/768P，¥0.50/秒起；",
+  "oneLinerEn": "MiniMax launched an H3 family page that splits its video model into three per-second tiers",
+  "score": 3,
+  "firstSeen": "2026-11-24",
+  "updated": "2026-11-24",
+  "tags": [
+    "Models",
+    "Open Source"
+  ],
+  "rankings": []
+}
