@@ -1,0 +1,223 @@
+{
+ "source": "hf",
+ "sourceName": "Hugging Face",
+ "kind": "feed",
+ "badge": "HF Spaces",
+ "list": "Trending Spaces",
+ "metric": "trendingScore 排序（API 顺序）",
+ "url": "https://huggingface.co/spaces?sort=trending",
+ "period": "2026-11-25",
+ "fetched": "2026-11-25T03:30:48.909Z",
+ "rows": [
+  {
+   "rank": 1,
+   "name": "JCisHERE/wan2-2-i2v-v3",
+   "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
+   "value": "♥ 724",
+   "extra": "gradio"
+  },
+  {
+   "rank": 2,
+   "name": "MiniMaxAI/minimax-h3-image",
+   "url": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image",
+   "value": "♥ 327",
+   "extra": "gradio"
+  },
+  {
+   "rank": 3,
+   "name": "huggingface/moe-blogpost",
+   "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
+   "value": "♥ 846",
+   "extra": "docker"
+  },
+  {
+   "rank": 4,
+   "name": "Lakonik/pi-H3",
+   "url": "https://huggingface.co/spaces/Lakonik/pi-H3",
+   "value": "♥ 161",
+   "extra": "gradio"
+  },
+  {
+   "rank": 5,
+   "name": "joelniklaus/harness-leaderboard",
+   "url": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
+   "value": "♥ 549",
+   "extra": "docker"
+  },
+  {
+   "rank": 6,
+   "name": "waitinghere/Krea2T-Revamped",
+   "url": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped",
+   "value": "♥ 170",
+   "extra": "gradio"
+  },
+  {
+   "rank": 7,
+   "name": "hugging-apps/bfs-best-face-swap",
+   "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
+   "value": "♥ 1072",
+   "extra": "gradio"
+  },
+  {
+   "rank": 8,
+   "name": "cfahlgren1/slack-moji",
+   "url": "https://huggingface.co/spaces/cfahlgren1/slack-moji",
+   "value": "♥ 111",
+   "extra": "static"
+  },
+  {
+   "rank": 9,
+   "name": "amisima/Qwen-2.1-Turbo-Qwen-Face-Swap-MOSS-Image-Edit-Outpaint-Qwen-Detail-Enhancer",
+   "url": "https://huggingface.co/spaces/amisima/Qwen-2.1-Turbo-Qwen-Face-Swap-MOSS-Image-Edit-Outpaint-Qwen-Detail-Enhancer",
+   "value": "♥ 150",
+   "extra": "gradio"
+  },
+  {
+   "rank": 10,
+   "name": "rdata92/LTX-2.3-10Eros",
+   "url": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros",
+   "value": "♥ 268",
+   "extra": "gradio"
+  },
+  {
+   "rank": 11,
+   "name": "hugging-apps/clairic",
+   "url": "https://huggingface.co/spaces/hugging-apps/clairic",
+   "value": "♥ 67",
+   "extra": "gradio"
+  },
+  {
+   "rank": 12,
+   "name": "aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
+   "url": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
+   "value": "♥ 638",
+   "extra": "gradio"
+  },
+  {
+   "rank": 13,
+   "name": "microsoft/TRELLIS.2",
+   "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
+   "value": "♥ 2470",
+   "extra": "gradio"
+  },
+  {
+   "rank": 14,
+   "name": "johnnysnowblind/wan2-2-fp8da-aoti-preview-2c-finishing",
+   "url": "https://huggingface.co/spaces/johnnysnowblind/wan2-2-fp8da-aoti-preview-2c-finishing",
+   "value": "♥ 54",
+   "extra": "gradio"
+  },
+  {
+   "rank": 15,
+   "name": "thejagstudio/tessera-pixel-studio",
+   "url": "https://huggingface.co/spaces/thejagstudio/tessera-pixel-studio",
+   "value": "♥ 89",
+   "extra": "gradio"
+  },
+  {
+   "rank": 16,
+   "name": "observantdistressed/minimax-h3-turbo",
+   "url": "https://huggingface.co/spaces/observantdistressed/minimax-h3-turbo",
+   "value": "♥ 137",
+   "extra": "gradio"
+  },
+  {
+   "rank": 17,
+   "name": "wank3r/minimax-h3",
+   "url": "https://huggingface.co/spaces/wank3r/minimax-h3",
+   "value": "♥ 439",
+   "extra": "gradio"
+  },
+  {
+   "rank": 18,
+   "name": "waitinghere/MINIMAX-H3-Ref2VA-Revamped",
+   "url": "https://huggingface.co/spaces/waitinghere/MINIMAX-H3-Ref2VA-Revamped",
+   "value": "♥ 40",
+   "extra": "gradio"
+  },
+  {
+   "rank": 19,
+   "name": "Guaryn/qwen-image-2.1-uncensored-aio-loras",
+   "url": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras",
+   "value": "♥ 261",
+   "extra": "gradio"
+  },
+  {
+   "rank": 20,
+   "name": "kulkas2pintu/wan222",
+   "url": "https://huggingface.co/spaces/kulkas2pintu/wan222",
+   "value": "♥ 297",
+   "extra": "gradio"
+  },
+  {
+   "rank": 21,
+   "name": "software-mansion/Reverb-TTS-runntime",
+   "url": "https://huggingface.co/spaces/software-mansion/Reverb-TTS-runntime",
+   "value": "♥ 32",
+   "extra": "static"
+  },
+  {
+   "rank": 22,
+   "name": "lewtun/from-llms-to-swarms",
+   "url": "https://huggingface.co/spaces/lewtun/from-llms-to-swarms",
+   "value": "♥ 33",
+   "extra": "static"
+  },
+  {
+   "rank": 23,
+   "name": "agent-memory-leaderboard/leaderboard",
+   "url": "https://huggingface.co/spaces/agent-memory-leaderboard/leaderboard",
+   "value": "♥ 946",
+   "extra": "static"
+  },
+  {
+   "rank": 24,
+   "name": "mrfakename/voice-isolator",
+   "url": "https://huggingface.co/spaces/mrfakename/voice-isolator",
+   "value": "♥ 30",
+   "extra": "gradio"
+  },
+  {
+   "rank": 25,
+   "name": "Zyphra/ZONOS3-Mini",
+   "url": "https://huggingface.co/spaces/Zyphra/ZONOS3-Mini",
+   "value": "♥ 62",
+   "extra": "gradio"
+  },
+  {
+   "rank": 26,
+   "name": "linlinlinlinsdada/Jeveration",
+   "url": "https://huggingface.co/spaces/linlinlinlinsdada/Jeveration",
+   "value": "♥ 27",
+   "extra": "gradio"
+  },
+  {
+   "rank": 27,
+   "name": "nvidia/PhysicalAI-Human-1M-Explorer",
+   "url": "https://huggingface.co/spaces/nvidia/PhysicalAI-Human-1M-Explorer",
+   "value": "♥ 67",
+   "extra": "static"
+  },
+  {
+   "rank": 28,
+   "name": "ServiceNow-AI/enterpriseops-gym-v1.1",
+   "url": "https://huggingface.co/spaces/ServiceNow-AI/enterpriseops-gym-v1.1",
+   "value": "♥ 24",
+   "extra": "static"
+  },
+  {
+   "rank": 29,
+   "name": "akhaliq/DepthPro2",
+   "url": "https://huggingface.co/spaces/akhaliq/DepthPro2",
+   "value": "♥ 22",
+   "extra": "gradio"
+  },
+  {
+   "rank": 30,
+   "name": "hf-audio/open_tts_leaderboard",
+   "url": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard",
+   "value": "♥ 118",
+   "extra": "gradio"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "skillsync",
+  "name": "Skillsync",
+  "aliases": [],
+  "url": "https://skillsync.com",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "YC 投资的 Agent Skill 公共平台，Skill 就是教 Claude 或 ChatGPT 做某件具体事的说明文件；",
+  "oneLinerEn": "a YC-backed public home for agent skills, the instruction files that teach Claude or ChatG",
+  "score": 3,
+  "firstSeen": "2026-11-25",
+  "updated": "2026-11-25",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

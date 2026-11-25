@@ -1,0 +1,15 @@
+{
+  "id": "versine",
+  "name": "Versine",
+  "aliases": [],
+  "url": "https://versine.com",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "YC F26 创业公司做的 MCP，前面接一个有余额的钱包，让你的 Agent 能在你批准后转账（在其 App 里用通行密钥确认），一次向最多 100 人收付款，给没有账户的人付款",
+  "oneLinerEn": "a YC F26 startup’s MCP that sits in front of a wallet with a balance, so your agent can se",
+  "score": 3,
+  "firstSeen": "2026-11-25",
+  "updated": "2026-11-25",
+  "tags": [],
+  "rankings": []
+}

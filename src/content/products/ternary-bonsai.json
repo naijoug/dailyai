@@ -1,0 +1,15 @@
+{
+  "id": "ternary-bonsai",
+  "name": "Ternary Bonsai 2.5 27B",
+  "aliases": [],
+  "url": "https://prismml.com/news/bonsai-2-5-27b",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "PrismML 的三值量化模型升级版，基于 Qwen3.8 27B，仍只占 5.9 GB，但 Agent 编程和多轮工具调用大幅提升：SWE-bench Verified 从 60",
+  "oneLinerEn": "PrismML’s update to its ternary model, based on Qwen3.8 27B, keeps the 5.9 GB footprint wh",
+  "score": 4,
+  "firstSeen": "2026-11-25",
+  "updated": "2026-11-25",
+  "tags": [],
+  "rankings": []
+}
