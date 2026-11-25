@@ -1,0 +1,17 @@
+{
+  "id": "lightscale-ai",
+  "name": "Lightscale AI",
+  "aliases": [],
+  "url": "https://lightscale.ai/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "一家瑞士初创公司（Show HN），重做了 LLM 底下的整套技术栈：一门从零为 AI 编写而非为人设计的编程语言及其编译器和运行时，部分错误类型因为 AI 根本不写那层代码而被抽",
+  "oneLinerEn": "a Swiss startup (Show HN) that rebuilt the stack under the LLM, a programming language, co",
+  "score": 2,
+  "firstSeen": "2026-11-25",
+  "updated": "2026-11-25",
+  "tags": [
+    "Products"
+  ],
+  "rankings": []
+}

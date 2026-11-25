@@ -18,7 +18,7 @@
   "growth": -39.27,
   "growthNote": "AICPB Agent 2026-06 环比",
   "firstSeen": "2026-10-25",
-  "updated": "2026-11-13",
+  "updated": "2026-11-25",
   "tags": [
     "Agents",
     "Open Source"
@@ -383,7 +383,7 @@
       "badge": "OpenRouter",
       "rank": 13,
       "metric": "经 OpenRouter 的 token 总量（本周）",
-      "value": "1.76T tokens",
+      "value": "1.85T tokens",
       "date": "2026-11-25",
       "url": "https://openrouter.ai/rankings#apps",
       "snap": "openrouter-apps-week/2026-11-25"

@@ -1,0 +1,17 @@
+{
+  "id": "yab",
+  "name": "Yab",
+  "aliases": [],
+  "url": "https://yetanotherbrowser.com/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "少数派介绍的开源浏览器，界面几乎照搬即将在 12 月 22 日关停的 Arc（侧边栏、Spaces、Peek、Split View），主打「Keep Arc. Add hands.",
+  "oneLinerEn": "an open-source browser covered by SSPAI whose interface closely mirrors Arc, which shuts d",
+  "score": 3,
+  "firstSeen": "2026-11-25",
+  "updated": "2026-11-25",
+  "tags": [
+    "Agents"
+  ],
+  "rankings": []
+}

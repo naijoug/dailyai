@@ -1,0 +1,17 @@
+{
+  "id": "magi-2",
+  "name": "MAGI-2",
+  "aliases": [],
+  "url": "https://sand.ai/",
+  "category": "视频",
+  "region": "cn",
+  "oneLiner": "Sand.ai 新一代视频模型，1080P 视频每秒约 5 毛钱，官方称约为 Seedance 2.5 同规格价格的 1/10；",
+  "oneLinerEn": "Sand.ai’s next-generation video model costs about ¥0.5 per second of 1080P video, which th",
+  "score": 4,
+  "firstSeen": "2026-11-25",
+  "updated": "2026-11-25",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}
