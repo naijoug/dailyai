@@ -5,6 +5,16 @@
 
 ## 2026 年 11 月
 
+### 2026-11-25 · 星期三
+
+OpenAI 内部模型证明矩阵乘法指数恰为 9/4；Claude 工件可装成桌面应用，MCP 两周年加入 Skills 与 Tasks；Anthropic 股价跌破发行价。
+
+🆕 今日新品：Ternary Bonsai 2.5 27B、Epochal Time Portal、Skillsync +2
+
+AI Hot 10 · Tech 13 · ⭐ 10 条高分
+
+[→ 查看当天详情](2026/11/2026-11-25.md)
+
 ### 2026-11-24 · 星期二
 
 英伟达恢复黄仁勋 CEO 职务；Anthropic 推出 Claude Ship；OpenRouter 下架三家泄露提示词的供应商；文心 5.5 Flash、微信 WePM 开源。
