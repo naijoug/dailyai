@@ -11,9 +11,9 @@ OpenAI 内部模型证明矩阵乘法指数为 9/4，Claude 工件可装成桌�
 
 🆕 今日新品：MAGI-2、OCRia-1、Ternary Bonsai 2.5 27B +6
 
-🎙 访谈与播客：张小珺Jùn｜商业访谈录、十字路口Crossing
+🎙 访谈与播客：The Startup Podcast、张小珺Jùn｜商业访谈录、十字路口Crossing
 
-AI Hot 20 · Tech 24 · 访谈/播客 2 · ⭐ 16 条高分
+AI Hot 20 · Tech 24 · 访谈/播客 3 · ⭐ 16 条高分
 
 [→ 查看当天详情](2026/11/2026-11-25.md)
 
@@ -581,6 +581,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [The Startup Podcast：Gary Lo：以「干掉 SaaS」为业，先从自己的开刀](2026/11/2026-11-25.md#interviews) — 播客 · 2026-11-25 · [原文](https://podcasters.spotify.com/pod/show/the-startup-pod/episodes/Gary-Lo-on-killing-SaaS-for-a-living--starting-with-his-own-e3svk55)
 - [张小珺Jùn｜商业访谈录：158.【2026年复盘】和沈驿康聊，黄仁勋、xAI内幕、RSI、持续学习、去中心化、预训练白盒、硅谷创业地图](2026/11/2026-11-25.md#interviews) — 播客 · 2026-11-25 · [原文](https://www.xiaoyuzhoufm.com/episode/6b05746801b0ab432eddab62)
 - [十字路口Crossing：端侧AI正在迎来历史性拐点？｜对话曾晓东：无界方舟创始人/CEO](2026/11/2026-11-25.md#interviews) — 播客 · 2026-11-25 · [原文](https://www.xiaoyuzhoufm.com/episode/6b05b60544e24a385c034004)
 - [The New Stack：OpenClaw 一周年：首席架构师谈爆发式增长的一年、进军企业市场，以及成为 Meta 的灵感来源](2026/11/2026-11-24.md#interviews) — 访谈 · 2026-11-24 · [原文](https://thenewstack.io/openclaw-vincent-koc-interview/)
