@@ -9,11 +9,11 @@
 
 OpenAI 内部模型证明矩阵乘法指数为 9/4，Claude 工件可装成桌面应用；晚间 ShellBench 实测 Agent 干日常活，MAGI-2 发布，Drupal 高危漏洞遭利用。
 
-🆕 今日新品：Ternary Bonsai 2.5 27B、Epochal Time Portal、Skillsync +2
+🆕 今日新品：MAGI-2、OCRia-1、Ternary Bonsai 2.5 27B +6
 
 🎙 访谈与播客：张小珺Jùn｜商业访谈录、十字路口Crossing
 
-AI Hot 20 · Tech 13 · 访谈/播客 2 · ⭐ 13 条高分
+AI Hot 20 · Tech 24 · 访谈/播客 2 · ⭐ 16 条高分
 
 [→ 查看当天详情](2026/11/2026-11-25.md)
 
