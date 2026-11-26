@@ -1,0 +1,22 @@
+{
+  "id": "arcfront",
+  "name": "Arcfront",
+  "aliases": [
+    "Arcfront AI",
+    "arcfront.ai"
+  ],
+  "url": "https://arcfront.ai/",
+  "category": "研究",
+  "region": "global",
+  "maker": "Arcfront",
+  "oneLiner": "为前沿模型实验室提供真实世界数据与 RL 环境的数据与研究公司",
+  "oneLinerEn": "A data and research company supplying real-world data and RL environments to frontier model labs.",
+  "score": 4,
+  "firstSeen": "2026-11-26",
+  "updated": "2026-11-26",
+  "tags": [
+    "Industry",
+    "Research"
+  ],
+  "rankings": []
+}

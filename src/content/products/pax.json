@@ -1,0 +1,19 @@
+{
+  "id": "pax",
+  "name": "Pax",
+  "aliases": [],
+  "url": "https://pydantic.dev/docs/ai/pax/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Pydantic 发布终端编程 Agent Pax（pydantic-ai-pax），同时推出 Pydantic AI Harness 测试版，计划约一个月后定为 1.0。",
+  "oneLinerEn": "Pydantic released Pax (pydantic-ai-pax), the official Pydantic AI coding agent for the ter",
+  "score": 4,
+  "firstSeen": "2026-11-26",
+  "updated": "2026-11-26",
+  "tags": [
+    "Models",
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

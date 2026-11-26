@@ -1,0 +1,17 @@
+{
+  "id": "torno",
+  "name": "torno",
+  "aliases": [],
+  "url": "https://torno.luisg.me",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "一个还很早期的桌面工作台，让 AI 编程 Agent 帮你做 CAD 零件：Claude Code 在实时 3D 视图旁边写 build123d（基于 OpenCascade 的 ",
+  "oneLinerEn": "an early desktop workbench for making CAD parts with an AI coding agent: Claude Code write",
+  "score": 3,
+  "firstSeen": "2026-11-26",
+  "updated": "2026-11-26",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

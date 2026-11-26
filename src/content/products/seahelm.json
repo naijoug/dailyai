@@ -1,0 +1,19 @@
+{
+  "id": "seahelm",
+  "name": "Seahelm",
+  "aliases": [],
+  "url": "https://www.seahelm.dev",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "原生 macOS 编程 Agent 工作台，每个 git worktree 是名单上的一行，每个 Agent 占一个分屏，基于 Ghostty 构建，几乎全部代码由 Claude ",
+  "oneLinerEn": "a native macOS workspace for coding agents where every git worktree is a row on one roster",
+  "score": 3,
+  "firstSeen": "2026-11-26",
+  "updated": "2026-11-26",
+  "tags": [
+    "Models",
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}
