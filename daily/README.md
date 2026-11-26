@@ -7,13 +7,13 @@
 
 ### 2026-11-26 · 星期四
 
-Opus 5.6 演示刷屏，Anthropic 称 API 迁 Rust 省约 70% CPU；OpenAI 修正 GPT-6.2 计费、试点 Private Inference。
+Opus 5.6 演示刷屏，OpenAI 修正计费并上线额度重置；晚间英伟达暂停向东南亚四国发货，微软披露国家级黑客用 ARTEX 自动化攻击。
 
 🆕 今日新品：Search for Agents (Cloudflare)、Carry、Diagram Design +1
 
 🎙 访谈与播客：Latent Space、The Pragmatic Engineer
 
-AI Hot 10 · Tech 11 · 访谈/播客 2 · ⭐ 12 条高分
+AI Hot 18 · Tech 11 · 访谈/播客 2 · ⭐ 15 条高分
 
 [→ 查看当天详情](2026/11/2026-11-26.md)
 
