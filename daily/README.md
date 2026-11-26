@@ -9,7 +9,11 @@
 
 Opus 5.6 演示刷屏，Anthropic 称 API 迁 Rust 省约 70% CPU；OpenAI 修正 GPT-6.2 计费、试点 Private Inference。
 
-AI Hot 10 · ⭐ 8 条高分
+🆕 今日新品：Search for Agents (Cloudflare)、Carry、Diagram Design +1
+
+🎙 访谈与播客：Latent Space、The Pragmatic Engineer
+
+AI Hot 10 · Tech 11 · 访谈/播客 2 · ⭐ 12 条高分
 
 [→ 查看当天详情](2026/11/2026-11-26.md)
 
@@ -589,6 +593,8 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Latent Space：革命与文艺复兴 — OpenAI 的 Thariq Shihipar](2026/11/2026-11-26.md#interviews) — 播客 · 2026-11-26 · [原文](https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/the_revolution_vs_the_renaissance_thariq_shihipar_openai)
+- [The Pragmatic Engineer：Katelyn Lesse：2026 年 Anthropic 如何做软件](2026/11/2026-11-26.md#interviews) — 播客 · 2026-11-26 · [原文](https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in)
 - [The Startup Podcast：Gary Lo：以「干掉 SaaS」为业，先从自己的开刀](2026/11/2026-11-25.md#interviews) — 播客 · 2026-11-25 · [原文](https://podcasters.spotify.com/pod/show/the-startup-pod/episodes/Gary-Lo-on-killing-SaaS-for-a-living--starting-with-his-own-e3svk55)
 - [张小珺Jùn｜商业访谈录：158.【2026年复盘】和沈驿康聊，黄仁勋、xAI内幕、RSI、持续学习、去中心化、预训练白盒、硅谷创业地图](2026/11/2026-11-25.md#interviews) — 播客 · 2026-11-25 · [原文](https://www.xiaoyuzhoufm.com/episode/6b05746801b0ab432eddab62)
 - [十字路口Crossing：端侧AI正在迎来历史性拐点？｜对话曾晓东：无界方舟创始人/CEO](2026/11/2026-11-25.md#interviews) — 播客 · 2026-11-25 · [原文](https://www.xiaoyuzhoufm.com/episode/6b05b60544e24a385c034004)
