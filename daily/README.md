@@ -9,11 +9,11 @@
 
 Opus 5.6 演示刷屏，OpenAI 修正计费并上线额度重置；晚间英伟达暂停向东南亚四国发货，微软披露国家级黑客用 ARTEX 自动化攻击。
 
-🆕 今日新品：Search for Agents (Cloudflare)、Carry、Diagram Design +1
+🆕 今日新品：Arcfront、Search for Agents (Cloudflare)、Pax +6
 
-🎙 访谈与播客：Latent Space、The Pragmatic Engineer
+🎙 访谈与播客：The Neon Show、Latent Space、The Pragmatic Engineer
 
-AI Hot 18 · Tech 11 · 访谈/播客 2 · ⭐ 15 条高分
+AI Hot 18 · Tech 23 · 访谈/播客 3 · ⭐ 19 条高分
 
 [→ 查看当天详情](2026/11/2026-11-26.md)
 
@@ -593,6 +593,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [The Neon Show：这是 AI 里最被低估的生意吗？｜Arcfront、Scaler 联合创始人 Anshuman Singh](2026/11/2026-11-26.md#interviews) — 播客 · 2026-11-26 · [原文](https://theneonshow.buzzsprout.com/1601695/episodes/20173400-is-this-the-most-underrated-business-in-ai-anshuman-singh-arcfront-scaler)
 - [Latent Space：革命与文艺复兴 — OpenAI 的 Thariq Shihipar](2026/11/2026-11-26.md#interviews) — 播客 · 2026-11-26 · [原文](https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/the_revolution_vs_the_renaissance_thariq_shihipar_openai)
 - [The Pragmatic Engineer：Katelyn Lesse：2026 年 Anthropic 如何做软件](2026/11/2026-11-26.md#interviews) — 播客 · 2026-11-26 · [原文](https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in)
 - [The Startup Podcast：Gary Lo：以「干掉 SaaS」为业，先从自己的开刀](2026/11/2026-11-25.md#interviews) — 播客 · 2026-11-25 · [原文](https://podcasters.spotify.com/pod/show/the-startup-pod/episodes/Gary-Lo-on-killing-SaaS-for-a-living--starting-with-his-own-e3svk55)
