@@ -5,6 +5,14 @@
 
 ## 2026 年 11 月
 
+### 2026-11-26 · 星期四
+
+Opus 5.6 演示刷屏，Anthropic 称 API 迁 Rust 省约 70% CPU；OpenAI 修正 GPT-6.2 计费、试点 Private Inference。
+
+AI Hot 10 · ⭐ 8 条高分
+
+[→ 查看当天详情](2026/11/2026-11-26.md)
+
 ### 2026-11-25 · 星期三
 
 OpenAI 内部模型证明矩阵乘法指数为 9/4，Claude 工件可装成桌面应用；晚间 ShellBench 实测 Agent 干日常活，MAGI-2 发布，Drupal 高危漏洞遭利用。
