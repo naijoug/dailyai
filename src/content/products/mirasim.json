@@ -1,0 +1,19 @@
+{
+  "id": "mirasim",
+  "name": "Mirasim",
+  "aliases": [],
+  "url": "https://mirasim.ai/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "主打「Build anything with anyone」的多人协作编程 Agent 工作区：多人可以一起指挥同一个 Agent 会话，每条消息都标明发送者，团队能共享空间、AP",
+  "oneLinerEn": "a multiplayer coding-agent workspace whose pitch is “Build anything with anyone”: several ",
+  "score": 3,
+  "firstSeen": "2026-11-26",
+  "updated": "2026-11-26",
+  "tags": [
+    "Models",
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

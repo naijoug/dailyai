@@ -1,0 +1,17 @@
+{
+  "id": "carry",
+  "name": "Carry",
+  "aliases": [],
+  "url": "https://carry.md/",
+  "category": "其他",
+  "region": "global",
+  "oneLiner": "一个 Chrome 扩展，把你在 ChatGPT、Claude、Gemini 和 Grok 里的对话、项目和文件自动存成 Markdown，放进你选的本地文件夹（可直接用 Obsi",
+  "oneLinerEn": "a Chrome extension that automatically saves your ChatGPT, Claude, Gemini and Grok conversa",
+  "score": 3,
+  "firstSeen": "2026-11-26",
+  "updated": "2026-11-26",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}

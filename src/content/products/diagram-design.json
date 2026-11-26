@@ -1,0 +1,18 @@
+{
+  "id": "diagram-design",
+  "name": "Diagram Design",
+  "aliases": [],
+  "url": "https://diagramdesign.dev",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "Cathryn Lavery 的开源 skill，让你的编程 Agent 画 52 种图（架构图、桑基图、热力图、爆炸轴测图、数据库结构等），输出成一个能离线打开的单文件 HTML",
+  "oneLinerEn": "an open-source skill from Cathryn Lavery that has your coding agent draw 52 types of diagr",
+  "score": 3,
+  "firstSeen": "2026-11-26",
+  "updated": "2026-11-26",
+  "tags": [
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}

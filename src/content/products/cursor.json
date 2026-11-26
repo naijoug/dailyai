@@ -42,6 +42,17 @@
       "date": "2026-06",
       "url": "https://www.aicpb.com/ai-rankings/products/vibe-coding-rankings",
       "snap": "aicpb-vibe-coding-web/2026-06"
+    },
+    {
+      "source": "openrouter",
+      "list": "Apps · 本周 token 用量",
+      "badge": "OpenRouter",
+      "rank": 29,
+      "metric": "经 OpenRouter 的 token 总量（本周）",
+      "value": "296.4B tokens",
+      "date": "2026-11-26",
+      "url": "https://openrouter.ai/rankings#apps",
+      "snap": "openrouter-apps-week/2026-11-26"
     }
   ],
   "growthDate": "2026-06"

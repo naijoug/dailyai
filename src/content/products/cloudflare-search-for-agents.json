@@ -1,0 +1,17 @@
+{
+  "id": "cloudflare-search-for-agents",
+  "name": "Search for Agents (Cloudflare)",
+  "aliases": [],
+  "url": "https://developers.cloudflare.com/ai-search/how-to/search-for-agents/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "在 Cloudflare 的某个 zone 里打开一个开关，就会创建一个 AI Search 实例、为站点内容建索引，并在站点自己的域名下的 /.well-known/search",
+  "oneLinerEn": "one toggle in a Cloudflare zone that creates an AI Search instance, indexes the site’s con",
+  "score": 4,
+  "firstSeen": "2026-11-26",
+  "updated": "2026-11-26",
+  "tags": [
+    "Agents"
+  ],
+  "rankings": []
+}
