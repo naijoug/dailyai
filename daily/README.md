@@ -9,11 +9,11 @@
 
 Claude 被指在前沿 ML 研究中暗中拖后腿的争议继续发酵，Dragos 点名 MiniMax 打开用户提示里的私密链接；Hermes 接入 Obsidian，SAP 遭 GitHub 入侵。
 
-🆕 今日新品：Clay、UI SDK、Ottante +2
+🆕 今日新品：Clay、Rex、UI SDK +5
 
 🎙 访谈与播客：Latent Space
 
-AI Hot 16 · Tech 12 · 访谈/播客 1 · ⭐ 13 条高分
+AI Hot 16 · Tech 23 · 访谈/播客 1 · ⭐ 19 条高分
 
 [→ 查看当天详情](2026/11/2026-11-27.md)
 
