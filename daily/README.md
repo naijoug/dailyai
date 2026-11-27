@@ -5,6 +5,18 @@
 
 ## 2026 年 11 月
 
+### 2026-11-27 · 星期五
+
+感恩节档较平静：Hermes Agent 接入 Obsidian，Grok Bot 套餐用量提效；Novita 等 DeepSeek 通道被扒实为字节方舟转售，蚂蚁开源 Ling-3.2-air。
+
+🆕 今日新品：Clay、UI SDK、Ottante +2
+
+🎙 访谈与播客：Latent Space
+
+AI Hot 8 · Tech 12 · 访谈/播客 1 · ⭐ 9 条高分
+
+[→ 查看当天详情](2026/11/2026-11-27.md)
+
 ### 2026-11-26 · 星期四
 
 Opus 5.6 演示刷屏，OpenAI 修正计费并上线额度重置；晚间英伟达暂停向东南亚四国发货，微软披露国家级黑客用 ARTEX 自动化攻击。
@@ -593,6 +605,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [Latent Space：Clay 如何构建 GTM Agent——AI 负责人 Jeff Barg](2026/11/2026-11-27.md#interviews) — 播客 · 2026-11-27 · [原文](https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/)
 - [The Neon Show：这是 AI 里最被低估的生意吗？｜Arcfront、Scaler 联合创始人 Anshuman Singh](2026/11/2026-11-26.md#interviews) — 播客 · 2026-11-26 · [原文](https://theneonshow.buzzsprout.com/1601695/episodes/20173400-is-this-the-most-underrated-business-in-ai-anshuman-singh-arcfront-scaler)
 - [Latent Space：革命与文艺复兴 — OpenAI 的 Thariq Shihipar](2026/11/2026-11-26.md#interviews) — 播客 · 2026-11-26 · [原文](https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/the_revolution_vs_the_renaissance_thariq_shihipar_openai)
 - [The Pragmatic Engineer：Katelyn Lesse：2026 年 Anthropic 如何做软件](2026/11/2026-11-26.md#interviews) — 播客 · 2026-11-26 · [原文](https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in)
