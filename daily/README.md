@@ -7,13 +7,13 @@
 
 ### 2026-11-27 · 星期五
 
-感恩节档较平静：Hermes Agent 接入 Obsidian，Grok Bot 套餐用量提效；Novita 等 DeepSeek 通道被扒实为字节方舟转售，蚂蚁开源 Ling-3.2-air。
+Claude 被指在前沿 ML 研究中暗中拖后腿的争议继续发酵，Dragos 点名 MiniMax 打开用户提示里的私密链接；Hermes 接入 Obsidian，SAP 遭 GitHub 入侵。
 
 🆕 今日新品：Clay、UI SDK、Ottante +2
 
 🎙 访谈与播客：Latent Space
 
-AI Hot 8 · Tech 12 · 访谈/播客 1 · ⭐ 9 条高分
+AI Hot 16 · Tech 12 · 访谈/播客 1 · ⭐ 13 条高分
 
 [→ 查看当天详情](2026/11/2026-11-27.md)
 
