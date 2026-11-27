@@ -1,0 +1,22 @@
+{
+  "id": "clay",
+  "name": "Clay",
+  "aliases": [
+    "Clay GTM",
+    "clay.com"
+  ],
+  "url": "https://www.clay.com/",
+  "category": "办公",
+  "region": "global",
+  "maker": "Clay",
+  "oneLiner": "面向增长与销售团队的 GTM 数据与 Agent 平台，提供线索挖掘、数据补全、Workflows 和可接入 Claude Code、Codex 的 CLI",
+  "oneLinerEn": "A go-to-market data and agent platform for growth and sales teams, with prospecting, enrichment, Workflows and a CLI that Claude Code and Codex can use.",
+  "score": 4,
+  "firstSeen": "2026-11-27",
+  "updated": "2026-11-27",
+  "tags": [
+    "Agents",
+    "Products"
+  ],
+  "rankings": []
+}

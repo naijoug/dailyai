@@ -1,0 +1,17 @@
+{
+  "id": "session-vault",
+  "name": "Session Vault",
+  "aliases": [],
+  "url": "https://session-vault.dev/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "一个 Claude Code 插件，用来备份你想保留的会话——Claude Code 只把对话记录存在单台机器的 ~/.claude 里，默认 30 天后删除。",
+  "oneLinerEn": "a Claude Code plugin that backs up the sessions you want to keep, since Claude Code stores",
+  "score": 3,
+  "firstSeen": "2026-11-27",
+  "updated": "2026-11-27",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}

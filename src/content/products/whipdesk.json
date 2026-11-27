@@ -1,0 +1,17 @@
+{
+  "id": "whipdesk",
+  "name": "WhipDesk",
+  "aliases": [],
+  "url": "https://whipdesk.com",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "一个免费开源、专为在手机浏览器上「看管」编程 agent 设计的远程桌面，无需装 App：智能缩放只推送你正在看的区域，蜂窝网络下代码也清晰；",
+  "oneLinerEn": "a free, open-source remote desktop built for babysitting coding agents from a phone browse",
+  "score": 3,
+  "firstSeen": "2026-11-27",
+  "updated": "2026-11-27",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

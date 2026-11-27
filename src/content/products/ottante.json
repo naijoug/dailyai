@@ -1,0 +1,17 @@
+{
+  "id": "ottante",
+  "name": "Ottante",
+  "aliases": [],
+  "url": "https://glplabs.eu/en/ottante",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "GLP Labs 的 Mac 应用，在 Claude Code、Codex、Cursor 或 Gemini 说「做完了」之后核对它们实际做了什么：把每个项目和它所基于的参考模板对比",
+  "oneLinerEn": "a Mac app from GLP Labs that checks what your agents actually did when Claude Code, Codex,",
+  "score": 3,
+  "firstSeen": "2026-11-27",
+  "updated": "2026-11-27",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}

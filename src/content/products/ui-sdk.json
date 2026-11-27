@@ -1,0 +1,19 @@
+{
+  "id": "ui-sdk",
+  "name": "UI SDK",
+  "aliases": [],
+  "url": "https://ui-sdk.dev/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "shadcn/ui 团队的新库，不给 agent 成品组件，而是把界面拆成 50 多个可组合的「行为」——createPopup、createSelection、createTyp",
+  "oneLinerEn": "the shadcn/ui team’s new library breaks interfaces into 50+ “behaviors” agents can compose",
+  "score": 4,
+  "firstSeen": "2026-11-27",
+  "updated": "2026-11-27",
+  "tags": [
+    "Agents",
+    "Dev Tools",
+    "Chinese Community"
+  ],
+  "rankings": []
+}
