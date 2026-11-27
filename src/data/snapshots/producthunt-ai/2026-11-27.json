@@ -7,19 +7,91 @@
  "metric": "Feed 顺序（不是排名）",
  "url": "https://www.producthunt.com/feed?category=artificial-intelligence",
  "period": "2026-11-27",
- "fetched": "2026-11-27T03:29:28.102Z",
+ "fetched": "2026-11-27T12:24:42.551Z",
  "note": "Product Hunt AI 分类的 Atom feed 原样记录，不含票数，顺序不代表排名。",
  "rows": [
   {
-   "name": "Kagi Mail",
-   "url": "https://www.producthunt.com/products/kagi",
-   "value": "Private email that puts people who need you first Discussion | Link",
+   "name": "Woomool",
+   "url": "https://www.producthunt.com/products/woomool",
+   "value": "AI Canvas where thinking becomes tangible Discussion | Link",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "Depost AI",
+   "url": "https://www.producthunt.com/products/depost-ai",
+   "value": "The LinkedIn AI agent that learns what works for your brand Discussion | Link",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "Wizstar R1",
+   "url": "https://www.producthunt.com/products/wizstar",
+   "value": "Seedance 2.0-level product videos at a lower cost Discussion | Link",
    "date": "2026-11-24"
   },
   {
-   "name": "DeskFleet",
-   "url": "https://www.producthunt.com/products/deskfleet",
-   "value": "Run coding agents together across your team’s machines Discussion | Link",
+   "name": "Form Action Store",
+   "url": "https://www.producthunt.com/products/form-action-store",
+   "value": "Discover, create and grow with powerful digital tools. Discussion | Link",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "Onset",
+   "url": "https://www.producthunt.com/products/onset",
+   "value": "AI reviews, titles and thumbnails for YouTube creators Discussion | Link",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "Spark AI",
+   "url": "https://www.producthunt.com/products/spark-ai-7",
+   "value": "AI-native permitting & diligence services for data centers Discussion | Link",
+   "date": "2026-11-24"
+  },
+  {
+   "name": "slay",
+   "url": "https://www.producthunt.com/products/slay-3",
+   "value": "AI composition guide camera app for iPhone Discussion | Link",
+   "date": "2026-11-25"
+  },
+  {
+   "name": "gpyou",
+   "url": "https://www.producthunt.com/products/gpyou",
+   "value": "The OpenRouter for compute for the cheapest GPU in stock Discussion | Link",
+   "date": "2026-11-24"
+  },
+  {
+   "name": "snibl",
+   "url": "https://www.producthunt.com/products/snibl",
+   "value": "Save highlighted text from any app, then ask AI about it Discussion | Link",
+   "date": "2026-11-22"
+  },
+  {
+   "name": "Ploid",
+   "url": "https://www.producthunt.com/products/ploid",
+   "value": "People search for AI agents, across 2B+ profiles Discussion | Link",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "Periscope",
+   "url": "https://www.producthunt.com/products/periscope-4",
+   "value": "Turn any work into an API Discussion | Link",
+   "date": "2026-11-25"
+  },
+  {
+   "name": "Contral",
+   "url": "https://www.producthunt.com/products/contral",
+   "value": "The AI coding agent that checks its work and teaches you Discussion | Link",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "Pushary Calls",
+   "url": "https://www.producthunt.com/products/pushary",
+   "value": "Miss your AI agent’s ping? Pushary calls you. Discussion | Link",
+   "date": "2026-11-22"
+  },
+  {
+   "name": "Pax by Pydantic",
+   "url": "https://www.producthunt.com/products/pydantic",
+   "value": "A coding agent where even coding is a plugin Discussion | Link",
    "date": "2026-11-25"
   },
   {
@@ -29,15 +101,9 @@
    "date": "2026-11-25"
   },
   {
-   "name": "Claude-Mem Cloud Sync",
-   "url": "https://www.producthunt.com/products/claude-mem",
-   "value": "Switch devices. Keep your AI agents' memory. Discussion | Link",
-   "date": "2026-11-25"
-  },
-  {
-   "name": "Doodle",
-   "url": "https://www.producthunt.com/products/doodle-5",
-   "value": "The stick figure on your taskbar that answers questions Discussion | Link",
+   "name": "DeskFleet",
+   "url": "https://www.producthunt.com/products/deskfleet",
+   "value": "Run coding agents together across your team’s machines Discussion | Link",
    "date": "2026-11-25"
   },
   {
@@ -47,15 +113,21 @@
    "date": "2026-11-25"
   },
   {
-   "name": "Superframes",
-   "url": "https://www.producthunt.com/products/superframes-ai-video-editor",
-   "value": "Brief an AI Director to edit the whole video Discussion | Link",
+   "name": "Remora",
+   "url": "https://www.producthunt.com/products/remora-6",
+   "value": "The long-term memory layer for AI agents Discussion | Link",
    "date": "2026-11-25"
   },
   {
-   "name": "WhipDesk",
-   "url": "https://www.producthunt.com/products/whipdesk",
-   "value": "Control AI coding agents from your phone Discussion | Link",
+   "name": "Doodle",
+   "url": "https://www.producthunt.com/products/doodle-5",
+   "value": "The stick figure on your taskbar that answers questions Discussion | Link",
+   "date": "2026-11-25"
+  },
+  {
+   "name": "Superframes",
+   "url": "https://www.producthunt.com/products/superframes-ai-video-editor",
+   "value": "Brief an AI Director to edit the whole video Discussion | Link",
    "date": "2026-11-25"
   },
   {
@@ -65,9 +137,21 @@
    "date": "2026-11-25"
   },
   {
-   "name": "Upsolve Harness 2.0",
-   "url": "https://www.producthunt.com/products/upsolve-ai",
-   "value": "A data agent that's 2x faster and learns every user Discussion | Link",
+   "name": "Watch Reader",
+   "url": "https://www.producthunt.com/products/watch-reader",
+   "value": "Books and articles, read aloud on your Apple Watch Discussion | Link",
+   "date": "2026-11-22"
+  },
+  {
+   "name": "Kagi Mail",
+   "url": "https://www.producthunt.com/products/kagi",
+   "value": "Private email that puts people who need you first Discussion | Link",
+   "date": "2026-11-24"
+  },
+  {
+   "name": "Claude-Mem Cloud Sync",
+   "url": "https://www.producthunt.com/products/claude-mem",
+   "value": "Switch devices. Keep your AI agents' memory. Discussion | Link",
    "date": "2026-11-25"
   },
   {
@@ -77,28 +161,22 @@
    "date": "2026-11-25"
   },
   {
-   "name": "Pax by Pydantic",
-   "url": "https://www.producthunt.com/products/pydantic",
-   "value": "A coding agent where even coding is a plugin Discussion | Link",
-   "date": "2026-11-25"
-  },
-  {
-   "name": "Mime",
-   "url": "https://www.producthunt.com/products/mime",
-   "value": "Silent dictation: mouth the words and it types them Discussion | Link",
-   "date": "2026-11-24"
-  },
-  {
    "name": "Bifura",
    "url": "https://www.producthunt.com/products/bifura",
    "value": "See your website the way AI agents do Discussion | Link",
    "date": "2026-11-24"
   },
   {
-   "name": "Hub",
-   "url": "https://www.producthunt.com/products/hub-20",
-   "value": "Run 100 Claude Code or Codex sessions like 5 Discussion | Link",
-   "date": "2026-11-24"
+   "name": "WhipDesk",
+   "url": "https://www.producthunt.com/products/whipdesk",
+   "value": "Control AI coding agents from your phone Discussion | Link",
+   "date": "2026-11-25"
+  },
+  {
+   "name": "Upsolve Harness 2.0",
+   "url": "https://www.producthunt.com/products/upsolve-ai",
+   "value": "A data agent that's 2x faster and learns every user Discussion | Link",
+   "date": "2026-11-25"
   },
   {
    "name": "Ottante",
@@ -107,88 +185,10 @@
    "date": "2026-11-25"
   },
   {
-   "name": "Remora",
-   "url": "https://www.producthunt.com/products/remora-6",
-   "value": "The long-term memory layer for AI agents Discussion | Link",
-   "date": "2026-11-25"
-  },
-  {
-   "name": "Watch Reader",
-   "url": "https://www.producthunt.com/products/watch-reader",
-   "value": "Books and articles, read aloud on your Apple Watch Discussion | Link",
-   "date": "2026-11-22"
-  },
-  {
-   "name": "Monton",
-   "url": "https://www.producthunt.com/products/monton",
-   "value": "AI agents that do your agency's busywork Discussion | Link",
-   "date": "2026-11-25"
-  },
-  {
-   "name": "Clary",
-   "url": "https://www.producthunt.com/products/clary-2",
-   "value": "iOS notifications in sender's own voice from WhatsApp & more Discussion | Link",
+   "name": "Hub",
+   "url": "https://www.producthunt.com/products/hub-20",
+   "value": "Run 100 Claude Code or Codex sessions like 5 Discussion | Link",
    "date": "2026-11-24"
-  },
-  {
-   "name": "QA.tech MCP",
-   "url": "https://www.producthunt.com/products/qa-tech",
-   "value": "Verify every change from your IDE with QA agents Discussion | Link",
-   "date": "2026-11-24"
-  },
-  {
-   "name": "MeetFolks",
-   "url": "https://www.producthunt.com/products/meetfolks",
-   "value": "AI Notetaker for In-Person Meetings Discussion | Link",
-   "date": "2026-11-25"
-  },
-  {
-   "name": "MusicProductionAI",
-   "url": "https://www.producthunt.com/products/musicproductionai",
-   "value": "Make music from a prompt or a hum, right in your browser Discussion | Link",
-   "date": "2026-11-25"
-  },
-  {
-   "name": "Ground",
-   "url": "https://www.producthunt.com/products/ground-2",
-   "value": "Generate high quality synthetic data for testing or training Discussion | Link",
-   "date": "2026-11-25"
-  },
-  {
-   "name": "Antipode",
-   "url": "https://www.producthunt.com/products/antipode",
-   "value": "Share your unused Claude Code limits without breaking ToS Discussion | Link",
-   "date": "2026-11-25"
-  },
-  {
-   "name": "MyClaw 3.0",
-   "url": "https://www.producthunt.com/products/myclaw-3-0",
-   "value": "Build an always-on AI team with shared memory Discussion | Link",
-   "date": "2026-11-24"
-  },
-  {
-   "name": "VibeCode.surf",
-   "url": "https://www.producthunt.com/products/vibecode-surf",
-   "value": "AI code editor where agents build, run and test your app Discussion | Link",
-   "date": "2026-11-21"
-  },
-  {
-   "name": "eluna",
-   "url": "https://www.producthunt.com/products/eluna",
-   "value": "Period tracker for couples that explains WHY, not just WHEN Discussion | Link",
-   "date": "2026-11-22"
-  },
-  {
-   "name": "Qube",
-   "url": "https://www.producthunt.com/products/qube-6",
-   "value": "An AI agent for anyone Discussion | Link",
-   "date": "2026-11-24"
-  },
-  {
-   "name": "SteerLatch",
-   "url": "https://www.producthunt.com/products/steerlatch",
-   "value": "Connect MCP-compatible AIs to your computer Discussion | Link",
-   "date": "2026-11-14"
   }
  ]
 }

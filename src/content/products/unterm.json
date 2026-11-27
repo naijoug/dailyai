@@ -1,0 +1,19 @@
+{
+  "id": "unterm",
+  "name": "Unterm",
+  "aliases": [
+    "Unterm v0.73"
+  ],
+  "url": "https://unterm.app/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "为 Claude Code、Codex、Antigravity 命令行打造的开源纯 Rust GPU 终端，带 worktree 并行、token 费用面板和跨分屏一键批准。",
+  "oneLinerEn": "An open-source pure-Rust GPU terminal built for Claude Code, Codex and the Antigravity CLI, with parallel worktree fleets, a token/cost HUD and one-click cross-pane approvals.",
+  "score": 3,
+  "firstSeen": "2026-11-27",
+  "updated": "2026-11-27",
+  "tags": [
+    "Dev Tools"
+  ],
+  "rankings": []
+}
