@@ -5,6 +5,7 @@
   "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
   "category": "开发者平台",
   "region": "global",
+  "maker": "AWS",
   "oneLiner": "基于 Nitro 虚拟机管理程序的轻量虚拟机，为共享 EC2 实例里的每个 Pod、任务或 AI Agent 提供独立硬件隔离。",
   "oneLinerEn": "Lightweight Nitro-hypervisor VMs that give each EKS pod, ECS task or AI agent its own hardware isolation on a shared EC2 instance.",
   "score": 3,
@@ -14,6 +15,5 @@
     "Agents",
     "Dev Tools"
   ],
-  "rankings": [],
-  "maker": "AWS"
+  "rankings": []
 }

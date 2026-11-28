@@ -1,0 +1,15 @@
+{
+  "id": "unkernel",
+  "name": "Unkernel",
+  "aliases": [],
+  "url": "https://unkernel.dev",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "把真正的 Linux 7.x 内核编译成单个 WebAssembly 模块、带真实 MMU，作者是 UnJS 作者 Pooya Parsa；",
+  "oneLinerEn": "a real Linux 7.x kernel compiled into a single WebAssembly module with a real MMU, from Un",
+  "score": 4,
+  "firstSeen": "2026-11-28",
+  "updated": "2026-11-28",
+  "tags": [],
+  "rankings": []
+}

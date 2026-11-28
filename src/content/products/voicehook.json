@@ -1,0 +1,18 @@
+{
+  "id": "voicehook",
+  "name": "Voicehook",
+  "aliases": [],
+  "url": "https://voicehook.ai/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "一边让编程 Agent 干活一边和它语音对话的「语音房间」：开口给 Claude Code 布置任务、口述 bug 修复并看着它改好，Agent 需要拍板时直接用语音回答而它不中断",
+  "oneLinerEn": "a voice room for talking to your coding agent while it builds: you brief Claude Code by sp",
+  "score": 2,
+  "firstSeen": "2026-11-28",
+  "updated": "2026-11-28",
+  "tags": [
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

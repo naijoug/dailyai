@@ -1,0 +1,19 @@
+{
+  "id": "fleetlayer",
+  "name": "Fleetlayer",
+  "aliases": [],
+  "url": "https://fleetlayer.ai/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "源码可见的控制面加节点程序，把你笔记本、家用服务器和 VPS 上、不同账号下的 Claude Code 与 Codex 会话连成一张网。",
+  "oneLinerEn": "a source-available control plane plus node binary that links the Claude Code and Codex ses",
+  "score": 3,
+  "firstSeen": "2026-11-28",
+  "updated": "2026-11-28",
+  "tags": [
+    "Models",
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

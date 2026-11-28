@@ -1,0 +1,20 @@
+{
+  "id": "google-trends-for-agent",
+  "name": "google-trends-for-agent",
+  "aliases": [],
+  "url": "https://meka.im/google-trends-for-agent",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "V2EX 楼主开源（MIT）的 pytrends 替代品，可当 CLI 用，也做成了 MCP 和 DeepSeek Harness 桌面插件，Claude Code、Cursor、",
+  "oneLinerEn": "an MIT-licensed pytrends replacement released on V2EX that runs as a CLI, an MCP server or",
+  "score": 3,
+  "firstSeen": "2026-11-28",
+  "updated": "2026-11-28",
+  "tags": [
+    "Models",
+    "Agents",
+    "Dev Tools",
+    "Open Source"
+  ],
+  "rankings": []
+}
