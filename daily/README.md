@@ -9,7 +9,9 @@
 
 Gemini 4 Neon 在 Epoch 综合能力指数上与 GPT-6.2 Astra 并列、只差 Fable 5.2 一分；Convex 技能偷传用户点子引发争议，Google 云蒸馏文档被误读。
 
-AI Hot 8 · ⭐ 3 条高分
+🆕 今日新品：Workflow SDK、AWS Nitro Sandboxes、SessionGraph +1
+
+AI Hot 8 · Tech 13 · ⭐ 5 条高分
 
 [→ 查看当天详情](2026/11/2026-11-28.md)
 
