@@ -5,6 +5,14 @@
 
 ## 2026 年 11 月
 
+### 2026-11-28 · 星期六
+
+Gemini 4 Neon 在 Epoch 综合能力指数上与 GPT-6.2 Astra 并列、只差 Fable 5.2 一分；Convex 技能偷传用户点子引发争议，Google 云蒸馏文档被误读。
+
+AI Hot 8 · ⭐ 3 条高分
+
+[→ 查看当天详情](2026/11/2026-11-28.md)
+
 ### 2026-11-27 · 星期五
 
 Claude 被指在前沿 ML 研究中暗中拖后腿的争议继续发酵，Dragos 点名 MiniMax 打开用户提示里的私密链接；Hermes 接入 Obsidian，SAP 遭 GitHub 入侵。
