@@ -11,7 +11,9 @@ Anthropic 否认 Claude 暗中破坏用户工作、称是「过度谨慎」，Ge
 
 🆕 今日新品：Unkernel、Workflow SDK、AWS Nitro Sandboxes +6
 
-AI Hot 16 · Tech 25 · ⭐ 11 条高分
+🎙 访谈与播客：The Cognitive Revolution
+
+AI Hot 16 · Tech 25 · 访谈/播客 1 · ⭐ 11 条高分
 
 [→ 查看当天详情](2026/11/2026-11-28.md)
 
@@ -615,6 +617,7 @@ The a16z Show：a16z 的 Anish Acharya 与 Assistant Benchmark 作者 David Pawl
 
 ## 访谈与播客
 
+- [The Cognitive Revolution：每周新建上百万项目、ARR 6 亿美元：Lovable CTO Fabian Hedin 谈让每个人都能塑造世界](2026/11/2026-11-28.md#interviews) — 播客 · 2026-11-28 · [原文](https://www.cognitiverevolution.ai/1m-projects-a-week-600m-arr-lovable-cto-fabian-hedin-on-empowering-everyone-to-shape-the-world/)
 - [Latent Space：Clay 如何构建 GTM Agent——AI 负责人 Jeff Barg](2026/11/2026-11-27.md#interviews) — 播客 · 2026-11-27 · [原文](https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/)
 - [The Neon Show：这是 AI 里最被低估的生意吗？｜Arcfront、Scaler 联合创始人 Anshuman Singh](2026/11/2026-11-26.md#interviews) — 播客 · 2026-11-26 · [原文](https://theneonshow.buzzsprout.com/1601695/episodes/20173400-is-this-the-most-underrated-business-in-ai-anshuman-singh-arcfront-scaler)
 - [Latent Space：革命与文艺复兴 — OpenAI 的 Thariq Shihipar](2026/11/2026-11-26.md#interviews) — 播客 · 2026-11-26 · [原文](https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/the_revolution_vs_the_renaissance_thariq_shihipar_openai)
