@@ -1,0 +1,114 @@
+{
+ "source": "openrouter",
+ "sourceName": "OpenRouter",
+ "kind": "models",
+ "badge": "OpenRouter 模型",
+ "list": "Models · 本周 token 用量（页面前 20）",
+ "metric": "prompt + completion tokens（本周）",
+ "url": "https://openrouter.ai/rankings",
+ "period": "2026-11-28",
+ "fetched": "2026-11-28T03:29:52.503Z",
+ "note": "按页面给出的本周 token 总量排序。",
+ "rows": [
+  {
+   "rank": 1,
+   "name": "deepseek/deepseek-v4.1-flash-20261017",
+   "value": "83.05T tokens"
+  },
+  {
+   "rank": 2,
+   "name": "tencent/hy4-flash-20261116",
+   "value": "38.69T tokens"
+  },
+  {
+   "rank": 3,
+   "name": "deepseek/deepseek-v4.1-flash-20260910",
+   "value": "13.94T tokens"
+  },
+  {
+   "rank": 4,
+   "name": "z-ai/glm-5.3-flash-20260826",
+   "value": "13.20T tokens"
+  },
+  {
+   "rank": 5,
+   "name": "openai/gpt-6-luna-20260922",
+   "value": "7.42T tokens"
+  },
+  {
+   "rank": 6,
+   "name": "anthropic/claude-opus-5.5-20260921",
+   "value": "6.36T tokens"
+  },
+  {
+   "rank": 7,
+   "name": "moonshotai/kimi-k3.1-pro-20261023",
+   "value": "4.85T tokens"
+  },
+  {
+   "rank": 8,
+   "name": "minimax/minimax-m3.1-flash-20261019",
+   "value": "4.73T tokens"
+  },
+  {
+   "rank": 9,
+   "name": "nvidia/nemotron-3-ultra-550b-a55b-20260604 (free)",
+   "value": "4.27T tokens"
+  },
+  {
+   "rank": 10,
+   "name": "z-ai/glm-5.3-20260816",
+   "value": "4.16T tokens"
+  },
+  {
+   "rank": 11,
+   "name": "typesafe/jev-1.13-20260917",
+   "value": "3.48T tokens"
+  },
+  {
+   "rank": 12,
+   "name": "meta/muse-spark-1.3-contributor-20260902",
+   "value": "3.43T tokens"
+  },
+  {
+   "rank": 13,
+   "name": "baidu/ernie-5.5-flash-preview-20261110 (free)",
+   "value": "3.14T tokens"
+  },
+  {
+   "rank": 14,
+   "name": "anthropic/claude-haiku-5.5-20261007",
+   "value": "3.09T tokens"
+  },
+  {
+   "rank": 15,
+   "name": "nvidia/nemotron-3.5-super-vl-20261015 (free)",
+   "value": "2.73T tokens"
+  },
+  {
+   "rank": 16,
+   "name": "deepseek/deepseek-v4-flash-20260731",
+   "value": "2.72T tokens"
+  },
+  {
+   "rank": 17,
+   "name": "anthropic/claude-sonnet-5.5-20260928",
+   "value": "2.59T tokens"
+  },
+  {
+   "rank": 18,
+   "name": "typesafe/jev-1.14-20261014",
+   "value": "2.57T tokens"
+  },
+  {
+   "rank": 19,
+   "name": "deepseek/deepseek-v4-flash-20260423",
+   "value": "1.89T tokens"
+  },
+  {
+   "rank": 20,
+   "name": "openai/gpt-6.1-sol-20260929",
+   "value": "1.85T tokens"
+  }
+ ]
+}

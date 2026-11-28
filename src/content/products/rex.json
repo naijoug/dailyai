@@ -8,6 +8,7 @@
   "url": "https://www.superlogical.com/rex",
   "category": "编程/Agent",
   "region": "global",
+  "maker": "Superlogical",
   "oneLiner": "Ghostty 作者 Mitchell Hashimoto 的 Superlogical 做的终端复用器，会话常驻在电脑上，可从 Mac、iPhone/iPad 远程查看编程 Agent、批准命令、接着用 shell。",
   "oneLinerEn": "A terminal multiplexer from Mitchell Hashimoto’s Superlogical that keeps sessions running on your machines and lets you check coding agents, approve commands and pick up any shell from your Mac, iPhone or iPad.",
   "score": 4,
@@ -17,6 +18,5 @@
     "Dev Tools",
     "Products"
   ],
-  "rankings": [],
-  "maker": "Superlogical"
+  "rankings": []
 }

@@ -10,6 +10,7 @@
   "url": "https://3d.hunyuan.tencent.com/",
   "category": "图像",
   "region": "cn",
+  "maker": "腾讯混元",
   "oneLiner": "腾讯混元的原生 3D 生成模型，3.6 版提升几何与 PBR 材质质量，已通过腾讯云 Token Hub 提供 API。",
   "oneLinerEn": "Tencent Hunyuan’s native 3D generation model; version 3.6 improves geometry and PBR materials and is available via API on Tencent Cloud Token Hub.",
   "score": 3,
@@ -18,6 +19,5 @@
   "tags": [
     "Models"
   ],
-  "rankings": [],
-  "maker": "腾讯混元"
+  "rankings": []
 }

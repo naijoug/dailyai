@@ -1,0 +1,20 @@
+{
+  "id": "workflow-sdk",
+  "name": "Workflow SDK",
+  "aliases": [
+    "Workflow SDK 5.8"
+  ],
+  "url": "https://workflow-sdk.dev",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "Vercel 围绕「可重试步骤的推测执行」重写了持久化工作流 SDK 的执行引擎。",
+  "oneLinerEn": "Vercel rebuilt its durable-workflow SDK's execution engine around speculative execution of retryable steps.",
+  "score": 4,
+  "firstSeen": "2026-11-28",
+  "updated": "2026-11-28",
+  "tags": [
+    "Agents"
+  ],
+  "rankings": [],
+  "maker": "Vercel"
+}

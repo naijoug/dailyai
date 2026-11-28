@@ -1,0 +1,19 @@
+{
+  "id": "sessiongraph",
+  "name": "SessionGraph",
+  "aliases": [],
+  "url": "https://sessiongraph.ai/",
+  "category": "编程/Agent",
+  "region": "global",
+  "oneLiner": "本地索引约 60 种编程 Agent 的会话记录，以 3D 图展示，并通过 MCP 和 REST API 供检索。",
+  "oneLinerEn": "Locally indexes session history from about 60 coding-agent harnesses, shows it as a 3D graph, and exposes it over MCP and REST.",
+  "score": 3,
+  "firstSeen": "2026-11-28",
+  "updated": "2026-11-28",
+  "tags": [
+    "Models",
+    "Agents",
+    "Dev Tools"
+  ],
+  "rankings": []
+}

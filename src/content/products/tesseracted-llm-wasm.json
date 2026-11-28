@@ -1,0 +1,17 @@
+{
+  "id": "tesseracted-llm-wasm",
+  "name": "Tesseracted LLM-in-Wasm",
+  "aliases": [],
+  "url": "https://tesseracted.com/experiments-llm-os/",
+  "category": "开发者平台",
+  "region": "global",
+  "oneLiner": "52 KB 的 WebAssembly 推理引擎，在浏览器标签页里只用 CPU 运行 Qwen3.5 等小模型。",
+  "oneLinerEn": "A 52 KB WebAssembly engine that runs small models like Qwen3.5 on the CPU inside a browser tab.",
+  "score": 3,
+  "firstSeen": "2026-11-28",
+  "updated": "2026-11-28",
+  "tags": [
+    "Models"
+  ],
+  "rankings": []
+}
