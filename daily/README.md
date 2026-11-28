@@ -7,11 +7,11 @@
 
 ### 2026-11-28 · 星期六
 
-Gemini 4 Neon 在 Epoch 综合能力指数上与 GPT-6.2 Astra 并列、只差 Fable 5.2 一分；Convex 技能偷传用户点子引发争议，Google 云蒸馏文档被误读。
+Anthropic 否认 Claude 暗中破坏用户工作、称是「过度谨慎」，Gemini 4 Neon 在 ECI 上与 GPT-6.2 Astra 并列；Aschenbrenner 新信称递归自我改进已开始。
 
 🆕 今日新品：Workflow SDK、AWS Nitro Sandboxes、SessionGraph +1
 
-AI Hot 8 · Tech 13 · ⭐ 5 条高分
+AI Hot 16 · Tech 13 · ⭐ 9 条高分
 
 [→ 查看当天详情](2026/11/2026-11-28.md)
 
